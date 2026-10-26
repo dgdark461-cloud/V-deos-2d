@@ -1,0 +1,24 @@
+# frames e renderização temporária
+render_tmp/
+frames/
+*.jpg
+!docs/**/*.jpg
+
+# áudio e vídeo (grandes; entregues fora do git)
+*.wav
+*.mp3
+*.m4a
+*.ogg
+*.flac
+*.aac
+*.mp4
+*.mov
+*.webm
+out/
+
+# python / node / sistema
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+.DS_Store

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>cena</title>
+<!--
+  MODELO DE CENA (neutro, sem legendas).
+  Copie para videos/<nome>/scene.html e substitua o conteúdo das cenas de exemplo.
+  Contrato com tools/render.py:
+    window.setT(t)   desenha o quadro do instante t (s), de forma síncrona e PURA (mesmo t -> mesmo quadro)
+    window.READY     false até carregar words.json; true depois
+    window.DURATION  duração total em s (usada se não houver --audio/--duration)
+  Regras:
+    - Sem legendas nem texto falado na tela (texto só se fizer parte do desenho: placa, contador, tela).
+    - Todo id de gradiente/recorte/filtro usa o prefixo da cena (s1_, s2_...): na transição (~0,25 s)
+      duas cenas aparecem juntas e ids repetidos quebram o desenho.
+    - Marque rostos com data-face="" para o --check avisar se algo os tapar.
+-->
+<style>
+  html, body { margin: 0; padding: 0; background: #000; overflow: hidden; }
+  #stage { display: block; width: 1080px; height: 1920px; }
+</style>
+</head>
+<body>
+<svg id="stage" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920"></svg>
+
+<script src="../../lib/helpers.js"></script>
+<script>
+(function () {
+  const W = 1080, HT = 1920, FADE = 0.25;
+  const svg = document.getElementById('stage');
+  window.READY = false;
+  window.DURATION = 6;                       // <- troque pela duração do áudio
+
+  let WORDS = [], SEGS = [];
+  const scenes = [];                         // {start, end, root, update(t, lt)}
+
+  /* Cada cena: build(root, P) cria o SVG UMA vez; update(t, lt) só move/colore (t = global, lt = local).
+     P é o prefixo de ids da cena. */
+  function addScene(start, end, build) {
+    const P = 's' + (scenes.length + 1) + '_';
+    const root = H.g({ id: P + 'root', display: 'none' }, svg);
+    const update = build(root, P);
+    scenes.push({ start, end, root, update });
+  }
+
+  function buildAll() {
+    /* ---- Cena 1 (exemplo mínimo: fundo em degradê + forma que entra na palavra-gatilho) ---- */
+    addScene(0, 3, (root, P) => {
+      const defs = H.defs(root);
+      const bg = H.linearGradient(defs, P + 'bg', [[0, '#556'], [1, '#223']]);
+      H.rect(0, 0, W, HT, { fill: bg }, root);
+      const dot = H.circle(0, 0, 90, { fill: '#ddd' }, root);
+      const trig = H.timeOf(WORDS, 'primeira', 0.5);   // dispare animações por palavra de words.json
+      return (t, lt) => {
+        const k = H.prog(t, trig, trig + 0.5, H.ease.outBack);
+        H.setTf(dot, W / 2, HT / 2 + 80 * (1 - k), 0, k);
+      };
+    });
+
+    /* ---- Cena 2 (exemplo): outro degradê com id próprio; nada fica parado ---- */
+    addScene(3, 6, (root, P) => {
+      const defs = H.defs(root);
+      const bg = H.linearGradient(defs, P + 'bg', [[0, '#322'], [1, '#645']]);
+      H.rect(0, 0, W, HT, { fill: bg }, root);
+      const sq = H.rrect(-80, -80, 160, 160, 24, { fill: '#ddd' }, root);
+      return (t, lt) => H.setTf(sq, W / 2 + 200 * Math.sin(lt * 2), HT / 2, lt * 40);
+    });
+  }
+
+  window.setT = function (t) {
+    scenes.forEach((s, i) => {
+      const a = H.sceneAlpha(t, s.start, s.end, FADE, i === 0, i === scenes.length - 1);
+      const on = a > 0.001 && t >= s.start - FADE / 2 && t <= s.end + FADE / 2 + 1e-6;
+      H.show(s.root, on);
+      if (!on) return;
+      H.opacity(s.root, a);
+      s.update(t, t - s.start);
+    });
+  };
+
+  fetch('words.json').then(r => r.ok ? r.json() : { words: [], segments: [] }).catch(() => ({ words: [], segments: [] }))
+    .then(j => { WORDS = j.words || []; SEGS = j.segments || []; buildAll(); window.READY = true; });
+})();
+</script>
+</body>
+</html>

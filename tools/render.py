@@ -172,6 +172,7 @@ def main():
     ap.add_argument("--frames-dir", default=None)
     ap.add_argument("--quality", type=int, default=92, help="qualidade JPEG dos quadros")
     ap.add_argument("--crf", type=int, default=18)
+    ap.add_argument("--resume", action="store_true", help="pula quadros JPEG que já existem")
     a = ap.parse_args()
 
     html = os.path.abspath(a.html)
@@ -236,8 +237,11 @@ def main():
         f1 = int(round(end * a.fps))
         print(f"renderizando quadros {f0}..{f1 - 1} ({int(a.width * a.scale)}x{int(a.height * a.scale)} @ {a.fps} fps)")
         for fr in range(f0, f1):
+            fpath = os.path.join(frames, f"f{fr:06d}.jpg")
+            if a.resume and os.path.exists(fpath) and os.path.getsize(fpath) > 1000:
+                continue
             page.evaluate("t => window.setT(t)", fr / a.fps)
-            page.screenshot(path=os.path.join(frames, f"f{fr:06d}.jpg"), type="jpeg", quality=a.quality)
+            page.screenshot(path=fpath, type="jpeg", quality=a.quality)
             if (fr - f0) % 90 == 0:
                 print(f"  quadro {fr}/{f1 - 1}", flush=True)
         browser.close(); srv.shutdown()

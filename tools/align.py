@@ -53,12 +53,12 @@ def smooth(a, k=3):
     return np.convolve(a, np.ones(k) / k, mode="same")
 
 
-def find_speech_and_pauses(db, min_pause=0.12):
+def find_speech_and_pauses(db, min_pause=0.12, drop=22.0):
     """Retorna (i_ini, i_fim, limiar_dB, pausas); índices em quadros de 10 ms."""
     s = smooth(db, 3)
     floor = np.percentile(s, 5)
     peak = np.percentile(s, 95)
-    thr = max(peak - 22.0, floor + 6.0)           # "queda forte de volume"
+    thr = max(peak - drop, floor + 6.0)           # "queda forte de volume"
     voiced = s > thr
     idx = np.where(voiced)[0]
     if len(idx) == 0:
@@ -137,7 +137,8 @@ def place_boundaries(segs, t0, t1, pauses):
         best, best_score = None, 1e9
         for j in range(used + 1, len(pauses)):
             p = pauses[j]
-            if p["mid"] < cur_start + 0.15:
+            # um trecho não pode ser bem mais curto que o previsto pelas sílabas
+            if p["mid"] < cur_start + max(0.15, 0.55 * (pred - cur_start)):
                 continue
             d = abs(p["mid"] - pred)
             if d > tol * (1.4 if strong else 1.0):
@@ -196,11 +197,11 @@ def align_segment(words, a, b, db):
     return [(bounds[i], bounds[i + 1]) for i in range(len(words))]
 
 
-def run(audio, script_text, min_pause=0.12):
+def run(audio, script_text, min_pause=0.12, drop=22.0):
     x = load_audio(audio)
     dur = len(x) / SR
     db = energy_db(x)
-    i0, i1, thr, pauses = find_speech_and_pauses(db, min_pause)
+    i0, i1, thr, pauses = find_speech_and_pauses(db, min_pause, drop)
     t0, t1 = i0 * 0.01, i1 * 0.01
     segs = split_segments(script_text)
     if not segs:
@@ -232,10 +233,12 @@ def main():
     ap.add_argument("--out", default="words.json")
     ap.add_argument("--min-pause", type=float, default=0.12,
                     help="pausa mínima em segundos (padrão 0.12)")
+    ap.add_argument("--drop-db", type=float, default=22.0,
+                    help="queda (dB abaixo do pico) que conta como pausa; use 14-18 em narração muito comprimida")
     a = ap.parse_args()
     with open(a.script, encoding="utf-8") as f:
         text = f.read()
-    res = run(a.audio, text, a.min_pause)
+    res = run(a.audio, text, a.min_pause, a.drop_db)
     with open(a.out, "w", encoding="utf-8") as f:
         json.dump(res, f, ensure_ascii=False, indent=1)
     anch = sum(1 for s in res["segments"] if s["anchored_on_pause"])

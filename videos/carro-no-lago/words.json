@@ -1,0 +1,2514 @@
+{
+ "method": "estimated: pauses + syllables (no speech recognition)",
+ "duration": 95.612,
+ "speech_start": 0.0,
+ "speech_end": 95.52,
+ "silence_threshold_db": -33.8,
+ "pauses": [
+  {
+   "start": 7.18,
+   "end": 7.3
+  },
+  {
+   "start": 11.27,
+   "end": 11.41
+  },
+  {
+   "start": 12.91,
+   "end": 13.05
+  },
+  {
+   "start": 16.54,
+   "end": 16.68
+  },
+  {
+   "start": 22.56,
+   "end": 22.72
+  },
+  {
+   "start": 24.48,
+   "end": 24.62
+  },
+  {
+   "start": 31.08,
+   "end": 31.24
+  },
+  {
+   "start": 37.03,
+   "end": 37.22
+  },
+  {
+   "start": 40.9,
+   "end": 41.06
+  },
+  {
+   "start": 41.65,
+   "end": 41.77
+  },
+  {
+   "start": 45.19,
+   "end": 45.33
+  },
+  {
+   "start": 45.93,
+   "end": 46.08
+  },
+  {
+   "start": 55.59,
+   "end": 55.75
+  },
+  {
+   "start": 56.39,
+   "end": 56.52
+  },
+  {
+   "start": 62.15,
+   "end": 62.28
+  },
+  {
+   "start": 69.32,
+   "end": 69.47
+  },
+  {
+   "start": 76.71,
+   "end": 76.86
+  },
+  {
+   "start": 84.87,
+   "end": 85.0
+  }
+ ],
+ "segments": [
+  {
+   "i": 0,
+   "text": "E se você perdesse o controle do carro em uma curva no escuro,",
+   "start": 0.0,
+   "end": 3.011,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 1,
+   "text": "despencasse de um penhasco e abrisse os olhos afundando no breu de um lago congelante?",
+   "start": 3.011,
+   "end": 7.18,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 2,
+   "text": "Com a água escura subindo rapidamente pelos seus pés e a porta travada,",
+   "start": 7.3,
+   "end": 11.27,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 3,
+   "text": "não entre em pânico:",
+   "start": 11.41,
+   "end": 12.91,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 4,
+   "text": "tentar forçá-la agora é inútil,",
+   "start": 13.05,
+   "end": 14.626,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 5,
+   "text": "pois a pressão da água do lado de fora prende você como uma prensa de aço.",
+   "start": 14.626,
+   "end": 16.54,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 6,
+   "text": "Foi exatamente essa armadilha mortal que atingiu Alex após o impacto do acidente,",
+   "start": 16.68,
+   "end": 22.56,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 7,
+   "text": "quando ele despertou tonto no banco do motorista,",
+   "start": 22.72,
+   "end": 24.48,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 8,
+   "text": "vendo o carro afundar no meio da madrugada.",
+   "start": 24.62,
+   "end": 26.561,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 9,
+   "text": "Com a água já na altura do peito e o painel elétrico soltando faíscas antes de pifar,",
+   "start": 26.561,
+   "end": 31.08,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 10,
+   "text": "o primeiro instinto é esmurrar os vidros e gritar por socorro.",
+   "start": 31.24,
+   "end": 33.897,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 11,
+   "text": "Erro fatal.",
+   "start": 33.897,
+   "end": 34.463,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 12,
+   "text": "O desespero faz você gastar o dobro do oxigênio e a água abafará completamente qualquer som na superfície.",
+   "start": 34.463,
+   "end": 40.9,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 13,
+   "text": "Para sair vivo dessa tumba líquida,",
+   "start": 41.06,
+   "end": 42.562,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 14,
+   "text": "existe um protocolo de sobrevivência implacável.",
+   "start": 42.562,
+   "end": 45.19,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 15,
+   "text": "Primeira regra:",
+   "start": 45.33,
+   "end": 45.93,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 16,
+   "text": "esqueça as portas e foque nos vidros laterais antes que a água cubra o teto.",
+   "start": 46.08,
+   "end": 49.211,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 17,
+   "text": "Segunda regra:",
+   "start": 49.211,
+   "end": 49.87,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 18,
+   "text": "se os vidros elétricos pifarem,",
+   "start": 49.87,
+   "end": 51.236,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 19,
+   "text": "não tente quebrar o para-brisa,",
+   "start": 51.236,
+   "end": 52.601,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 20,
+   "text": "pois ele é feito de vidro laminado ultrarresistente;",
+   "start": 52.601,
+   "end": 55.59,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 21,
+   "text": "use as hastes de ferro do encosto de cabeça para alavancar e estilhaçar a janela lateral.",
+   "start": 55.75,
+   "end": 62.15,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 22,
+   "text": "Terceira regra:",
+   "start": 62.28,
+   "end": 62.88,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 23,
+   "text": "se a água já cobriu tudo,",
+   "start": 62.88,
+   "end": 63.908,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 24,
+   "text": "você terá que esperar a cabine lotar completamente para igualar a pressão interna e externa só então a porta abrirá.",
+   "start": 63.908,
+   "end": 69.32,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 25,
+   "text": "Com a água já atingindo o seu queixo e o frio congelando seus músculos,",
+   "start": 69.47,
+   "end": 72.037,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 26,
+   "text": "Alex consegue arrancar o encosto do banco no último segundo.",
+   "start": 72.037,
+   "end": 74.396,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 27,
+   "text": "O ar acaba.",
+   "start": 74.396,
+   "end": 74.981,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 28,
+   "text": "O carro toca o fundo do lago levantando lama.",
+   "start": 74.981,
+   "end": 76.71,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 29,
+   "text": "No breu absoluto,",
+   "start": 76.86,
+   "end": 77.547,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 30,
+   "text": "ele finca o metal no canto do vidro,",
+   "start": 77.547,
+   "end": 78.963,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 31,
+   "text": "que se estilhaça com um estrondo abafado.",
+   "start": 78.963,
+   "end": 80.588,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 32,
+   "text": "A água invade com violência,",
+   "start": 80.588,
+   "end": 81.692,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 33,
+   "text": "empurrando-o para trás.",
+   "start": 81.692,
+   "end": 82.587,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 34,
+   "text": "Lutando contra a correnteza e sem enxergar nada,",
+   "start": 82.587,
+   "end": 84.87,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 35,
+   "text": "ele nada desesperadamente em direção à luz fraca da lua na superfície.",
+   "start": 85.0,
+   "end": 87.724,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 36,
+   "text": "Alex emerge à tona,",
+   "start": 87.724,
+   "end": 88.572,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 37,
+   "text": "tossindo e sugando o ar nos pulmões,",
+   "start": 88.572,
+   "end": 89.915,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 38,
+   "text": "apenas para perceber com horror que nadou para debaixo de uma espessa camada de gelo,",
+   "start": 89.915,
+   "end": 93.033,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 39,
+   "text": "ficando preso do lado de fora do carro,",
+   "start": 93.033,
+   "end": 94.474,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 40,
+   "text": "mas ainda sem conseguir respirar.",
+   "start": 94.474,
+   "end": 95.52,
+   "anchored_on_pause": null
+  }
+ ],
+ "words": [
+  {
+   "w": "E",
+   "start": 0.0,
+   "end": 0.145,
+   "seg": 0
+  },
+  {
+   "w": "se",
+   "start": 0.145,
+   "end": 0.285,
+   "seg": 0
+  },
+  {
+   "w": "você",
+   "start": 0.285,
+   "end": 0.565,
+   "seg": 0
+  },
+  {
+   "w": "perdesse",
+   "start": 0.565,
+   "end": 0.915,
+   "seg": 0
+  },
+  {
+   "w": "o",
+   "start": 0.915,
+   "end": 1.035,
+   "seg": 0
+  },
+  {
+   "w": "controle",
+   "start": 1.035,
+   "end": 1.455,
+   "seg": 0
+  },
+  {
+   "w": "do",
+   "start": 1.455,
+   "end": 1.615,
+   "seg": 0
+  },
+  {
+   "w": "carro",
+   "start": 1.615,
+   "end": 1.835,
+   "seg": 0
+  },
+  {
+   "w": "em",
+   "start": 1.835,
+   "end": 2.015,
+   "seg": 0
+  },
+  {
+   "w": "uma",
+   "start": 2.015,
+   "end": 2.205,
+   "seg": 0
+  },
+  {
+   "w": "curva",
+   "start": 2.205,
+   "end": 2.525,
+   "seg": 0
+  },
+  {
+   "w": "no",
+   "start": 2.525,
+   "end": 2.655,
+   "seg": 0
+  },
+  {
+   "w": "escuro,",
+   "start": 2.655,
+   "end": 3.011,
+   "seg": 0
+  },
+  {
+   "w": "despencasse",
+   "start": 3.011,
+   "end": 3.565,
+   "seg": 1
+  },
+  {
+   "w": "de",
+   "start": 3.565,
+   "end": 3.765,
+   "seg": 1
+  },
+  {
+   "w": "um",
+   "start": 3.765,
+   "end": 3.885,
+   "seg": 1
+  },
+  {
+   "w": "penhasco",
+   "start": 3.885,
+   "end": 4.255,
+   "seg": 1
+  },
+  {
+   "w": "e",
+   "start": 4.255,
+   "end": 4.435,
+   "seg": 1
+  },
+  {
+   "w": "abrisse",
+   "start": 4.435,
+   "end": 4.845,
+   "seg": 1
+  },
+  {
+   "w": "os",
+   "start": 4.845,
+   "end": 4.945,
+   "seg": 1
+  },
+  {
+   "w": "olhos",
+   "start": 4.945,
+   "end": 5.215,
+   "seg": 1
+  },
+  {
+   "w": "afundando",
+   "start": 5.215,
+   "end": 5.755,
+   "seg": 1
+  },
+  {
+   "w": "no",
+   "start": 5.755,
+   "end": 5.975,
+   "seg": 1
+  },
+  {
+   "w": "breu",
+   "start": 5.975,
+   "end": 6.095,
+   "seg": 1
+  },
+  {
+   "w": "de",
+   "start": 6.095,
+   "end": 6.185,
+   "seg": 1
+  },
+  {
+   "w": "um",
+   "start": 6.185,
+   "end": 6.375,
+   "seg": 1
+  },
+  {
+   "w": "lago",
+   "start": 6.375,
+   "end": 6.615,
+   "seg": 1
+  },
+  {
+   "w": "congelante?",
+   "start": 6.615,
+   "end": 7.18,
+   "seg": 1
+  },
+  {
+   "w": "Com",
+   "start": 7.3,
+   "end": 7.425,
+   "seg": 2
+  },
+  {
+   "w": "a",
+   "start": 7.425,
+   "end": 7.585,
+   "seg": 2
+  },
+  {
+   "w": "água",
+   "start": 7.585,
+   "end": 7.895,
+   "seg": 2
+  },
+  {
+   "w": "escura",
+   "start": 7.895,
+   "end": 8.415,
+   "seg": 2
+  },
+  {
+   "w": "subindo",
+   "start": 8.415,
+   "end": 8.815,
+   "seg": 2
+  },
+  {
+   "w": "rapidamente",
+   "start": 8.815,
+   "end": 9.595,
+   "seg": 2
+  },
+  {
+   "w": "pelos",
+   "start": 9.595,
+   "end": 9.945,
+   "seg": 2
+  },
+  {
+   "w": "seus",
+   "start": 9.945,
+   "end": 10.065,
+   "seg": 2
+  },
+  {
+   "w": "pés",
+   "start": 10.065,
+   "end": 10.215,
+   "seg": 2
+  },
+  {
+   "w": "e",
+   "start": 10.215,
+   "end": 10.405,
+   "seg": 2
+  },
+  {
+   "w": "a",
+   "start": 10.405,
+   "end": 10.505,
+   "seg": 2
+  },
+  {
+   "w": "porta",
+   "start": 10.505,
+   "end": 10.845,
+   "seg": 2
+  },
+  {
+   "w": "travada,",
+   "start": 10.845,
+   "end": 11.27,
+   "seg": 2
+  },
+  {
+   "w": "não",
+   "start": 11.41,
+   "end": 11.755,
+   "seg": 3
+  },
+  {
+   "w": "entre",
+   "start": 11.755,
+   "end": 12.215,
+   "seg": 3
+  },
+  {
+   "w": "em",
+   "start": 12.215,
+   "end": 12.375,
+   "seg": 3
+  },
+  {
+   "w": "pânico:",
+   "start": 12.375,
+   "end": 12.91,
+   "seg": 3
+  },
+  {
+   "w": "tentar",
+   "start": 13.05,
+   "end": 13.405,
+   "seg": 4
+  },
+  {
+   "w": "forçá-la",
+   "start": 13.405,
+   "end": 13.775,
+   "seg": 4
+  },
+  {
+   "w": "agora",
+   "start": 13.775,
+   "end": 14.155,
+   "seg": 4
+  },
+  {
+   "w": "é",
+   "start": 14.155,
+   "end": 14.265,
+   "seg": 4
+  },
+  {
+   "w": "inútil,",
+   "start": 14.265,
+   "end": 14.626,
+   "seg": 4
+  },
+  {
+   "w": "pois",
+   "start": 14.626,
+   "end": 14.716,
+   "seg": 5
+  },
+  {
+   "w": "a",
+   "start": 14.716,
+   "end": 14.806,
+   "seg": 5
+  },
+  {
+   "w": "pressão",
+   "start": 14.806,
+   "end": 14.989,
+   "seg": 5
+  },
+  {
+   "w": "da",
+   "start": 14.989,
+   "end": 15.079,
+   "seg": 5
+  },
+  {
+   "w": "água",
+   "start": 15.079,
+   "end": 15.199,
+   "seg": 5
+  },
+  {
+   "w": "do",
+   "start": 15.199,
+   "end": 15.289,
+   "seg": 5
+  },
+  {
+   "w": "lado",
+   "start": 15.289,
+   "end": 15.408,
+   "seg": 5
+  },
+  {
+   "w": "de",
+   "start": 15.408,
+   "end": 15.498,
+   "seg": 5
+  },
+  {
+   "w": "fora",
+   "start": 15.498,
+   "end": 15.655,
+   "seg": 5
+  },
+  {
+   "w": "prende",
+   "start": 15.655,
+   "end": 15.765,
+   "seg": 5
+  },
+  {
+   "w": "você",
+   "start": 15.765,
+   "end": 15.935,
+   "seg": 5
+  },
+  {
+   "w": "como",
+   "start": 15.935,
+   "end": 16.095,
+   "seg": 5
+  },
+  {
+   "w": "uma",
+   "start": 16.095,
+   "end": 16.205,
+   "seg": 5
+  },
+  {
+   "w": "prensa",
+   "start": 16.205,
+   "end": 16.337,
+   "seg": 5
+  },
+  {
+   "w": "de",
+   "start": 16.337,
+   "end": 16.427,
+   "seg": 5
+  },
+  {
+   "w": "aço.",
+   "start": 16.427,
+   "end": 16.54,
+   "seg": 5
+  },
+  {
+   "w": "Foi",
+   "start": 16.68,
+   "end": 16.885,
+   "seg": 6
+  },
+  {
+   "w": "exatamente",
+   "start": 16.885,
+   "end": 17.765,
+   "seg": 6
+  },
+  {
+   "w": "essa",
+   "start": 17.765,
+   "end": 18.155,
+   "seg": 6
+  },
+  {
+   "w": "armadilha",
+   "start": 18.155,
+   "end": 18.945,
+   "seg": 6
+  },
+  {
+   "w": "mortal",
+   "start": 18.945,
+   "end": 19.365,
+   "seg": 6
+  },
+  {
+   "w": "que",
+   "start": 19.365,
+   "end": 19.535,
+   "seg": 6
+  },
+  {
+   "w": "atingiu",
+   "start": 19.535,
+   "end": 20.115,
+   "seg": 6
+  },
+  {
+   "w": "Alex",
+   "start": 20.115,
+   "end": 20.525,
+   "seg": 6
+  },
+  {
+   "w": "após",
+   "start": 20.525,
+   "end": 20.935,
+   "seg": 6
+  },
+  {
+   "w": "o",
+   "start": 20.935,
+   "end": 21.095,
+   "seg": 6
+  },
+  {
+   "w": "impacto",
+   "start": 21.095,
+   "end": 21.665,
+   "seg": 6
+  },
+  {
+   "w": "do",
+   "start": 21.665,
+   "end": 21.835,
+   "seg": 6
+  },
+  {
+   "w": "acidente,",
+   "start": 21.835,
+   "end": 22.56,
+   "seg": 6
+  },
+  {
+   "w": "quando",
+   "start": 22.72,
+   "end": 22.985,
+   "seg": 7
+  },
+  {
+   "w": "ele",
+   "start": 22.985,
+   "end": 23.115,
+   "seg": 7
+  },
+  {
+   "w": "despertou",
+   "start": 23.115,
+   "end": 23.405,
+   "seg": 7
+  },
+  {
+   "w": "tonto",
+   "start": 23.405,
+   "end": 23.635,
+   "seg": 7
+  },
+  {
+   "w": "no",
+   "start": 23.635,
+   "end": 23.805,
+   "seg": 7
+  },
+  {
+   "w": "banco",
+   "start": 23.805,
+   "end": 23.985,
+   "seg": 7
+  },
+  {
+   "w": "do",
+   "start": 23.985,
+   "end": 24.105,
+   "seg": 7
+  },
+  {
+   "w": "motorista,",
+   "start": 24.105,
+   "end": 24.48,
+   "seg": 7
+  },
+  {
+   "w": "vendo",
+   "start": 24.62,
+   "end": 24.895,
+   "seg": 8
+  },
+  {
+   "w": "o",
+   "start": 24.895,
+   "end": 25.025,
+   "seg": 8
+  },
+  {
+   "w": "carro",
+   "start": 25.025,
+   "end": 25.215,
+   "seg": 8
+  },
+  {
+   "w": "afundar",
+   "start": 25.215,
+   "end": 25.685,
+   "seg": 8
+  },
+  {
+   "w": "no",
+   "start": 25.685,
+   "end": 25.805,
+   "seg": 8
+  },
+  {
+   "w": "meio",
+   "start": 25.805,
+   "end": 25.965,
+   "seg": 8
+  },
+  {
+   "w": "da",
+   "start": 25.965,
+   "end": 26.065,
+   "seg": 8
+  },
+  {
+   "w": "madrugada.",
+   "start": 26.065,
+   "end": 26.561,
+   "seg": 8
+  },
+  {
+   "w": "Com",
+   "start": 26.561,
+   "end": 26.765,
+   "seg": 9
+  },
+  {
+   "w": "a",
+   "start": 26.765,
+   "end": 26.875,
+   "seg": 9
+  },
+  {
+   "w": "água",
+   "start": 26.875,
+   "end": 27.185,
+   "seg": 9
+  },
+  {
+   "w": "já",
+   "start": 27.185,
+   "end": 27.285,
+   "seg": 9
+  },
+  {
+   "w": "na",
+   "start": 27.285,
+   "end": 27.395,
+   "seg": 9
+  },
+  {
+   "w": "altura",
+   "start": 27.395,
+   "end": 27.875,
+   "seg": 9
+  },
+  {
+   "w": "do",
+   "start": 27.875,
+   "end": 27.985,
+   "seg": 9
+  },
+  {
+   "w": "peito",
+   "start": 27.985,
+   "end": 28.285,
+   "seg": 9
+  },
+  {
+   "w": "e",
+   "start": 28.285,
+   "end": 28.465,
+   "seg": 9
+  },
+  {
+   "w": "o",
+   "start": 28.465,
+   "end": 28.565,
+   "seg": 9
+  },
+  {
+   "w": "painel",
+   "start": 28.565,
+   "end": 28.895,
+   "seg": 9
+  },
+  {
+   "w": "elétrico",
+   "start": 28.895,
+   "end": 29.385,
+   "seg": 9
+  },
+  {
+   "w": "soltando",
+   "start": 29.385,
+   "end": 29.875,
+   "seg": 9
+  },
+  {
+   "w": "faíscas",
+   "start": 29.875,
+   "end": 30.405,
+   "seg": 9
+  },
+  {
+   "w": "antes",
+   "start": 30.405,
+   "end": 30.605,
+   "seg": 9
+  },
+  {
+   "w": "de",
+   "start": 30.605,
+   "end": 30.775,
+   "seg": 9
+  },
+  {
+   "w": "pifar,",
+   "start": 30.775,
+   "end": 31.08,
+   "seg": 9
+  },
+  {
+   "w": "o",
+   "start": 31.24,
+   "end": 31.365,
+   "seg": 10
+  },
+  {
+   "w": "primeiro",
+   "start": 31.365,
+   "end": 31.805,
+   "seg": 10
+  },
+  {
+   "w": "instinto",
+   "start": 31.805,
+   "end": 32.105,
+   "seg": 10
+  },
+  {
+   "w": "é",
+   "start": 32.105,
+   "end": 32.275,
+   "seg": 10
+  },
+  {
+   "w": "esmurrar",
+   "start": 32.275,
+   "end": 32.635,
+   "seg": 10
+  },
+  {
+   "w": "os",
+   "start": 32.635,
+   "end": 32.735,
+   "seg": 10
+  },
+  {
+   "w": "vidros",
+   "start": 32.735,
+   "end": 33.025,
+   "seg": 10
+  },
+  {
+   "w": "e",
+   "start": 33.025,
+   "end": 33.145,
+   "seg": 10
+  },
+  {
+   "w": "gritar",
+   "start": 33.145,
+   "end": 33.355,
+   "seg": 10
+  },
+  {
+   "w": "por",
+   "start": 33.355,
+   "end": 33.515,
+   "seg": 10
+  },
+  {
+   "w": "socorro.",
+   "start": 33.515,
+   "end": 33.897,
+   "seg": 10
+  },
+  {
+   "w": "Erro",
+   "start": 33.897,
+   "end": 34.145,
+   "seg": 11
+  },
+  {
+   "w": "fatal.",
+   "start": 34.145,
+   "end": 34.463,
+   "seg": 11
+  },
+  {
+   "w": "O",
+   "start": 34.463,
+   "end": 34.655,
+   "seg": 12
+  },
+  {
+   "w": "desespero",
+   "start": 34.655,
+   "end": 35.245,
+   "seg": 12
+  },
+  {
+   "w": "faz",
+   "start": 35.245,
+   "end": 35.395,
+   "seg": 12
+  },
+  {
+   "w": "você",
+   "start": 35.395,
+   "end": 35.755,
+   "seg": 12
+  },
+  {
+   "w": "gastar",
+   "start": 35.755,
+   "end": 36.165,
+   "seg": 12
+  },
+  {
+   "w": "o",
+   "start": 36.165,
+   "end": 36.285,
+   "seg": 12
+  },
+  {
+   "w": "dobro",
+   "start": 36.285,
+   "end": 36.605,
+   "seg": 12
+  },
+  {
+   "w": "do",
+   "start": 36.605,
+   "end": 36.725,
+   "seg": 12
+  },
+  {
+   "w": "oxigênio",
+   "start": 36.725,
+   "end": 37.435,
+   "seg": 12
+  },
+  {
+   "w": "e",
+   "start": 37.435,
+   "end": 37.575,
+   "seg": 12
+  },
+  {
+   "w": "a",
+   "start": 37.575,
+   "end": 37.675,
+   "seg": 12
+  },
+  {
+   "w": "água",
+   "start": 37.675,
+   "end": 38.065,
+   "seg": 12
+  },
+  {
+   "w": "abafará",
+   "start": 38.065,
+   "end": 38.595,
+   "seg": 12
+  },
+  {
+   "w": "completamente",
+   "start": 38.595,
+   "end": 39.455,
+   "seg": 12
+  },
+  {
+   "w": "qualquer",
+   "start": 39.455,
+   "end": 39.885,
+   "seg": 12
+  },
+  {
+   "w": "som",
+   "start": 39.885,
+   "end": 40.055,
+   "seg": 12
+  },
+  {
+   "w": "na",
+   "start": 40.055,
+   "end": 40.175,
+   "seg": 12
+  },
+  {
+   "w": "superfície.",
+   "start": 40.175,
+   "end": 40.9,
+   "seg": 12
+  },
+  {
+   "w": "Para",
+   "start": 41.06,
+   "end": 41.285,
+   "seg": 13
+  },
+  {
+   "w": "sair",
+   "start": 41.285,
+   "end": 41.405,
+   "seg": 13
+  },
+  {
+   "w": "vivo",
+   "start": 41.405,
+   "end": 41.745,
+   "seg": 13
+  },
+  {
+   "w": "dessa",
+   "start": 41.745,
+   "end": 41.905,
+   "seg": 13
+  },
+  {
+   "w": "tumba",
+   "start": 41.905,
+   "end": 42.255,
+   "seg": 13
+  },
+  {
+   "w": "líquida,",
+   "start": 42.255,
+   "end": 42.562,
+   "seg": 13
+  },
+  {
+   "w": "existe",
+   "start": 42.562,
+   "end": 43.005,
+   "seg": 14
+  },
+  {
+   "w": "um",
+   "start": 43.005,
+   "end": 43.105,
+   "seg": 14
+  },
+  {
+   "w": "protocolo",
+   "start": 43.105,
+   "end": 43.705,
+   "seg": 14
+  },
+  {
+   "w": "de",
+   "start": 43.705,
+   "end": 43.895,
+   "seg": 14
+  },
+  {
+   "w": "sobrevivência",
+   "start": 43.895,
+   "end": 44.615,
+   "seg": 14
+  },
+  {
+   "w": "implacável.",
+   "start": 44.615,
+   "end": 45.19,
+   "seg": 14
+  },
+  {
+   "w": "Primeira",
+   "start": 45.33,
+   "end": 45.715,
+   "seg": 15
+  },
+  {
+   "w": "regra:",
+   "start": 45.715,
+   "end": 45.93,
+   "seg": 15
+  },
+  {
+   "w": "esqueça",
+   "start": 46.08,
+   "end": 46.415,
+   "seg": 16
+  },
+  {
+   "w": "as",
+   "start": 46.415,
+   "end": 46.535,
+   "seg": 16
+  },
+  {
+   "w": "portas",
+   "start": 46.535,
+   "end": 46.785,
+   "seg": 16
+  },
+  {
+   "w": "e",
+   "start": 46.785,
+   "end": 46.905,
+   "seg": 16
+  },
+  {
+   "w": "foque",
+   "start": 46.905,
+   "end": 47.165,
+   "seg": 16
+  },
+  {
+   "w": "nos",
+   "start": 47.165,
+   "end": 47.285,
+   "seg": 16
+  },
+  {
+   "w": "vidros",
+   "start": 47.285,
+   "end": 47.595,
+   "seg": 16
+  },
+  {
+   "w": "laterais",
+   "start": 47.595,
+   "end": 47.985,
+   "seg": 16
+  },
+  {
+   "w": "antes",
+   "start": 47.985,
+   "end": 48.125,
+   "seg": 16
+  },
+  {
+   "w": "que",
+   "start": 48.125,
+   "end": 48.315,
+   "seg": 16
+  },
+  {
+   "w": "a",
+   "start": 48.315,
+   "end": 48.415,
+   "seg": 16
+  },
+  {
+   "w": "água",
+   "start": 48.415,
+   "end": 48.685,
+   "seg": 16
+  },
+  {
+   "w": "cubra",
+   "start": 48.685,
+   "end": 48.895,
+   "seg": 16
+  },
+  {
+   "w": "o",
+   "start": 48.895,
+   "end": 48.995,
+   "seg": 16
+  },
+  {
+   "w": "teto.",
+   "start": 48.995,
+   "end": 49.211,
+   "seg": 16
+  },
+  {
+   "w": "Segunda",
+   "start": 49.211,
+   "end": 49.565,
+   "seg": 17
+  },
+  {
+   "w": "regra:",
+   "start": 49.565,
+   "end": 49.87,
+   "seg": 17
+  },
+  {
+   "w": "se",
+   "start": 49.87,
+   "end": 49.985,
+   "seg": 18
+  },
+  {
+   "w": "os",
+   "start": 49.985,
+   "end": 50.095,
+   "seg": 18
+  },
+  {
+   "w": "vidros",
+   "start": 50.095,
+   "end": 50.365,
+   "seg": 18
+  },
+  {
+   "w": "elétricos",
+   "start": 50.365,
+   "end": 50.925,
+   "seg": 18
+  },
+  {
+   "w": "pifarem,",
+   "start": 50.925,
+   "end": 51.236,
+   "seg": 18
+  },
+  {
+   "w": "não",
+   "start": 51.236,
+   "end": 51.495,
+   "seg": 19
+  },
+  {
+   "w": "tente",
+   "start": 51.495,
+   "end": 51.675,
+   "seg": 19
+  },
+  {
+   "w": "quebrar",
+   "start": 51.675,
+   "end": 51.975,
+   "seg": 19
+  },
+  {
+   "w": "o",
+   "start": 51.975,
+   "end": 52.075,
+   "seg": 19
+  },
+  {
+   "w": "para-brisa,",
+   "start": 52.075,
+   "end": 52.601,
+   "seg": 19
+  },
+  {
+   "w": "pois",
+   "start": 52.601,
+   "end": 52.765,
+   "seg": 20
+  },
+  {
+   "w": "ele",
+   "start": 52.765,
+   "end": 53.065,
+   "seg": 20
+  },
+  {
+   "w": "é",
+   "start": 53.065,
+   "end": 53.205,
+   "seg": 20
+  },
+  {
+   "w": "feito",
+   "start": 53.205,
+   "end": 53.585,
+   "seg": 20
+  },
+  {
+   "w": "de",
+   "start": 53.585,
+   "end": 53.705,
+   "seg": 20
+  },
+  {
+   "w": "vidro",
+   "start": 53.705,
+   "end": 53.965,
+   "seg": 20
+  },
+  {
+   "w": "laminado",
+   "start": 53.965,
+   "end": 54.685,
+   "seg": 20
+  },
+  {
+   "w": "ultrarresistente;",
+   "start": 54.685,
+   "end": 55.59,
+   "seg": 20
+  },
+  {
+   "w": "use",
+   "start": 55.75,
+   "end": 56.115,
+   "seg": 21
+  },
+  {
+   "w": "as",
+   "start": 56.115,
+   "end": 56.345,
+   "seg": 21
+  },
+  {
+   "w": "hastes",
+   "start": 56.345,
+   "end": 56.745,
+   "seg": 21
+  },
+  {
+   "w": "de",
+   "start": 56.745,
+   "end": 56.875,
+   "seg": 21
+  },
+  {
+   "w": "ferro",
+   "start": 56.875,
+   "end": 57.245,
+   "seg": 21
+  },
+  {
+   "w": "do",
+   "start": 57.245,
+   "end": 57.455,
+   "seg": 21
+  },
+  {
+   "w": "encosto",
+   "start": 57.455,
+   "end": 58.065,
+   "seg": 21
+  },
+  {
+   "w": "de",
+   "start": 58.065,
+   "end": 58.255,
+   "seg": 21
+  },
+  {
+   "w": "cabeça",
+   "start": 58.255,
+   "end": 58.755,
+   "seg": 21
+  },
+  {
+   "w": "para",
+   "start": 58.755,
+   "end": 59.185,
+   "seg": 21
+  },
+  {
+   "w": "alavancar",
+   "start": 59.185,
+   "end": 59.855,
+   "seg": 21
+  },
+  {
+   "w": "e",
+   "start": 59.855,
+   "end": 60.105,
+   "seg": 21
+  },
+  {
+   "w": "estilhaçar",
+   "start": 60.105,
+   "end": 60.835,
+   "seg": 21
+  },
+  {
+   "w": "a",
+   "start": 60.835,
+   "end": 61.065,
+   "seg": 21
+  },
+  {
+   "w": "janela",
+   "start": 61.065,
+   "end": 61.535,
+   "seg": 21
+  },
+  {
+   "w": "lateral.",
+   "start": 61.535,
+   "end": 62.15,
+   "seg": 21
+  },
+  {
+   "w": "Terceira",
+   "start": 62.28,
+   "end": 62.585,
+   "seg": 22
+  },
+  {
+   "w": "regra:",
+   "start": 62.585,
+   "end": 62.88,
+   "seg": 22
+  },
+  {
+   "w": "se",
+   "start": 62.88,
+   "end": 62.985,
+   "seg": 23
+  },
+  {
+   "w": "a",
+   "start": 62.985,
+   "end": 63.115,
+   "seg": 23
+  },
+  {
+   "w": "água",
+   "start": 63.115,
+   "end": 63.345,
+   "seg": 23
+  },
+  {
+   "w": "já",
+   "start": 63.345,
+   "end": 63.465,
+   "seg": 23
+  },
+  {
+   "w": "cobriu",
+   "start": 63.465,
+   "end": 63.735,
+   "seg": 23
+  },
+  {
+   "w": "tudo,",
+   "start": 63.735,
+   "end": 63.908,
+   "seg": 23
+  },
+  {
+   "w": "você",
+   "start": 63.908,
+   "end": 64.215,
+   "seg": 24
+  },
+  {
+   "w": "terá",
+   "start": 64.215,
+   "end": 64.375,
+   "seg": 24
+  },
+  {
+   "w": "que",
+   "start": 64.375,
+   "end": 64.475,
+   "seg": 24
+  },
+  {
+   "w": "esperar",
+   "start": 64.475,
+   "end": 64.905,
+   "seg": 24
+  },
+  {
+   "w": "a",
+   "start": 64.905,
+   "end": 65.015,
+   "seg": 24
+  },
+  {
+   "w": "cabine",
+   "start": 65.015,
+   "end": 65.315,
+   "seg": 24
+  },
+  {
+   "w": "lotar",
+   "start": 65.315,
+   "end": 65.575,
+   "seg": 24
+  },
+  {
+   "w": "completamente",
+   "start": 65.575,
+   "end": 66.285,
+   "seg": 24
+  },
+  {
+   "w": "para",
+   "start": 66.285,
+   "end": 66.455,
+   "seg": 24
+  },
+  {
+   "w": "igualar",
+   "start": 66.455,
+   "end": 66.845,
+   "seg": 24
+  },
+  {
+   "w": "a",
+   "start": 66.845,
+   "end": 66.945,
+   "seg": 24
+  },
+  {
+   "w": "pressão",
+   "start": 66.945,
+   "end": 67.315,
+   "seg": 24
+  },
+  {
+   "w": "interna",
+   "start": 67.315,
+   "end": 67.685,
+   "seg": 24
+  },
+  {
+   "w": "e",
+   "start": 67.685,
+   "end": 67.805,
+   "seg": 24
+  },
+  {
+   "w": "externa",
+   "start": 67.805,
+   "end": 68.115,
+   "seg": 24
+  },
+  {
+   "w": "só",
+   "start": 68.115,
+   "end": 68.245,
+   "seg": 24
+  },
+  {
+   "w": "então",
+   "start": 68.245,
+   "end": 68.615,
+   "seg": 24
+  },
+  {
+   "w": "a",
+   "start": 68.615,
+   "end": 68.705,
+   "seg": 24
+  },
+  {
+   "w": "porta",
+   "start": 68.705,
+   "end": 68.985,
+   "seg": 24
+  },
+  {
+   "w": "abrirá.",
+   "start": 68.985,
+   "end": 69.32,
+   "seg": 24
+  },
+  {
+   "w": "Com",
+   "start": 69.47,
+   "end": 69.565,
+   "seg": 25
+  },
+  {
+   "w": "a",
+   "start": 69.565,
+   "end": 69.695,
+   "seg": 25
+  },
+  {
+   "w": "água",
+   "start": 69.695,
+   "end": 69.865,
+   "seg": 25
+  },
+  {
+   "w": "já",
+   "start": 69.865,
+   "end": 70.025,
+   "seg": 25
+  },
+  {
+   "w": "atingindo",
+   "start": 70.025,
+   "end": 70.385,
+   "seg": 25
+  },
+  {
+   "w": "o",
+   "start": 70.385,
+   "end": 70.535,
+   "seg": 25
+  },
+  {
+   "w": "seu",
+   "start": 70.535,
+   "end": 70.645,
+   "seg": 25
+  },
+  {
+   "w": "queixo",
+   "start": 70.645,
+   "end": 70.855,
+   "seg": 25
+  },
+  {
+   "w": "e",
+   "start": 70.855,
+   "end": 70.945,
+   "seg": 25
+  },
+  {
+   "w": "o",
+   "start": 70.945,
+   "end": 71.045,
+   "seg": 25
+  },
+  {
+   "w": "frio",
+   "start": 71.045,
+   "end": 71.185,
+   "seg": 25
+  },
+  {
+   "w": "congelando",
+   "start": 71.185,
+   "end": 71.605,
+   "seg": 25
+  },
+  {
+   "w": "seus",
+   "start": 71.605,
+   "end": 71.745,
+   "seg": 25
+  },
+  {
+   "w": "músculos,",
+   "start": 71.745,
+   "end": 72.037,
+   "seg": 25
+  },
+  {
+   "w": "Alex",
+   "start": 72.037,
+   "end": 72.195,
+   "seg": 26
+  },
+  {
+   "w": "consegue",
+   "start": 72.195,
+   "end": 72.555,
+   "seg": 26
+  },
+  {
+   "w": "arrancar",
+   "start": 72.555,
+   "end": 72.915,
+   "seg": 26
+  },
+  {
+   "w": "o",
+   "start": 72.915,
+   "end": 73.025,
+   "seg": 26
+  },
+  {
+   "w": "encosto",
+   "start": 73.025,
+   "end": 73.305,
+   "seg": 26
+  },
+  {
+   "w": "do",
+   "start": 73.305,
+   "end": 73.435,
+   "seg": 26
+  },
+  {
+   "w": "banco",
+   "start": 73.435,
+   "end": 73.625,
+   "seg": 26
+  },
+  {
+   "w": "no",
+   "start": 73.625,
+   "end": 73.735,
+   "seg": 26
+  },
+  {
+   "w": "último",
+   "start": 73.735,
+   "end": 74.065,
+   "seg": 26
+  },
+  {
+   "w": "segundo.",
+   "start": 74.065,
+   "end": 74.396,
+   "seg": 26
+  },
+  {
+   "w": "O",
+   "start": 74.396,
+   "end": 74.505,
+   "seg": 27
+  },
+  {
+   "w": "ar",
+   "start": 74.505,
+   "end": 74.625,
+   "seg": 27
+  },
+  {
+   "w": "acaba.",
+   "start": 74.625,
+   "end": 74.981,
+   "seg": 27
+  },
+  {
+   "w": "O",
+   "start": 74.981,
+   "end": 75.085,
+   "seg": 28
+  },
+  {
+   "w": "carro",
+   "start": 75.085,
+   "end": 75.345,
+   "seg": 28
+  },
+  {
+   "w": "toca",
+   "start": 75.345,
+   "end": 75.485,
+   "seg": 28
+  },
+  {
+   "w": "o",
+   "start": 75.485,
+   "end": 75.605,
+   "seg": 28
+  },
+  {
+   "w": "fundo",
+   "start": 75.605,
+   "end": 75.775,
+   "seg": 28
+  },
+  {
+   "w": "do",
+   "start": 75.775,
+   "end": 75.925,
+   "seg": 28
+  },
+  {
+   "w": "lago",
+   "start": 75.925,
+   "end": 76.065,
+   "seg": 28
+  },
+  {
+   "w": "levantando",
+   "start": 76.065,
+   "end": 76.575,
+   "seg": 28
+  },
+  {
+   "w": "lama.",
+   "start": 76.575,
+   "end": 76.71,
+   "seg": 28
+  },
+  {
+   "w": "No",
+   "start": 76.86,
+   "end": 76.985,
+   "seg": 29
+  },
+  {
+   "w": "breu",
+   "start": 76.985,
+   "end": 77.125,
+   "seg": 29
+  },
+  {
+   "w": "absoluto,",
+   "start": 77.125,
+   "end": 77.547,
+   "seg": 29
+  },
+  {
+   "w": "ele",
+   "start": 77.547,
+   "end": 77.795,
+   "seg": 30
+  },
+  {
+   "w": "finca",
+   "start": 77.795,
+   "end": 77.975,
+   "seg": 30
+  },
+  {
+   "w": "o",
+   "start": 77.975,
+   "end": 78.105,
+   "seg": 30
+  },
+  {
+   "w": "metal",
+   "start": 78.105,
+   "end": 78.305,
+   "seg": 30
+  },
+  {
+   "w": "no",
+   "start": 78.305,
+   "end": 78.425,
+   "seg": 30
+  },
+  {
+   "w": "canto",
+   "start": 78.425,
+   "end": 78.625,
+   "seg": 30
+  },
+  {
+   "w": "do",
+   "start": 78.625,
+   "end": 78.755,
+   "seg": 30
+  },
+  {
+   "w": "vidro,",
+   "start": 78.755,
+   "end": 78.963,
+   "seg": 30
+  },
+  {
+   "w": "que",
+   "start": 78.963,
+   "end": 79.095,
+   "seg": 31
+  },
+  {
+   "w": "se",
+   "start": 79.095,
+   "end": 79.185,
+   "seg": 31
+  },
+  {
+   "w": "estilhaça",
+   "start": 79.185,
+   "end": 79.585,
+   "seg": 31
+  },
+  {
+   "w": "com",
+   "start": 79.585,
+   "end": 79.745,
+   "seg": 31
+  },
+  {
+   "w": "um",
+   "start": 79.745,
+   "end": 79.835,
+   "seg": 31
+  },
+  {
+   "w": "estrondo",
+   "start": 79.835,
+   "end": 80.175,
+   "seg": 31
+  },
+  {
+   "w": "abafado.",
+   "start": 80.175,
+   "end": 80.588,
+   "seg": 31
+  },
+  {
+   "w": "A",
+   "start": 80.588,
+   "end": 80.715,
+   "seg": 32
+  },
+  {
+   "w": "água",
+   "start": 80.715,
+   "end": 80.905,
+   "seg": 32
+  },
+  {
+   "w": "invade",
+   "start": 80.905,
+   "end": 81.245,
+   "seg": 32
+  },
+  {
+   "w": "com",
+   "start": 81.245,
+   "end": 81.375,
+   "seg": 32
+  },
+  {
+   "w": "violência,",
+   "start": 81.375,
+   "end": 81.692,
+   "seg": 32
+  },
+  {
+   "w": "empurrando-o",
+   "start": 81.692,
+   "end": 82.185,
+   "seg": 33
+  },
+  {
+   "w": "para",
+   "start": 82.185,
+   "end": 82.435,
+   "seg": 33
+  },
+  {
+   "w": "trás.",
+   "start": 82.435,
+   "end": 82.587,
+   "seg": 33
+  },
+  {
+   "w": "Lutando",
+   "start": 82.587,
+   "end": 82.935,
+   "seg": 34
+  },
+  {
+   "w": "contra",
+   "start": 82.935,
+   "end": 83.275,
+   "seg": 34
+  },
+  {
+   "w": "a",
+   "start": 83.275,
+   "end": 83.425,
+   "seg": 34
+  },
+  {
+   "w": "correnteza",
+   "start": 83.425,
+   "end": 83.945,
+   "seg": 34
+  },
+  {
+   "w": "e",
+   "start": 83.945,
+   "end": 84.045,
+   "seg": 34
+  },
+  {
+   "w": "sem",
+   "start": 84.045,
+   "end": 84.195,
+   "seg": 34
+  },
+  {
+   "w": "enxergar",
+   "start": 84.195,
+   "end": 84.635,
+   "seg": 34
+  },
+  {
+   "w": "nada,",
+   "start": 84.635,
+   "end": 84.87,
+   "seg": 34
+  },
+  {
+   "w": "ele",
+   "start": 85.0,
+   "end": 85.235,
+   "seg": 35
+  },
+  {
+   "w": "nada",
+   "start": 85.235,
+   "end": 85.375,
+   "seg": 35
+  },
+  {
+   "w": "desesperadamente",
+   "start": 85.375,
+   "end": 86.115,
+   "seg": 35
+  },
+  {
+   "w": "em",
+   "start": 86.115,
+   "end": 86.205,
+   "seg": 35
+  },
+  {
+   "w": "direção",
+   "start": 86.205,
+   "end": 86.565,
+   "seg": 35
+  },
+  {
+   "w": "à",
+   "start": 86.565,
+   "end": 86.695,
+   "seg": 35
+  },
+  {
+   "w": "luz",
+   "start": 86.695,
+   "end": 86.825,
+   "seg": 35
+  },
+  {
+   "w": "fraca",
+   "start": 86.825,
+   "end": 87.005,
+   "seg": 35
+  },
+  {
+   "w": "da",
+   "start": 87.005,
+   "end": 87.125,
+   "seg": 35
+  },
+  {
+   "w": "lua",
+   "start": 87.125,
+   "end": 87.215,
+   "seg": 35
+  },
+  {
+   "w": "na",
+   "start": 87.215,
+   "end": 87.305,
+   "seg": 35
+  },
+  {
+   "w": "superfície.",
+   "start": 87.305,
+   "end": 87.724,
+   "seg": 35
+  },
+  {
+   "w": "Alex",
+   "start": 87.724,
+   "end": 88.005,
+   "seg": 36
+  },
+  {
+   "w": "emerge",
+   "start": 88.005,
+   "end": 88.275,
+   "seg": 36
+  },
+  {
+   "w": "à",
+   "start": 88.275,
+   "end": 88.385,
+   "seg": 36
+  },
+  {
+   "w": "tona,",
+   "start": 88.385,
+   "end": 88.572,
+   "seg": 36
+  },
+  {
+   "w": "tossindo",
+   "start": 88.572,
+   "end": 88.875,
+   "seg": 37
+  },
+  {
+   "w": "e",
+   "start": 88.875,
+   "end": 89.015,
+   "seg": 37
+  },
+  {
+   "w": "sugando",
+   "start": 89.015,
+   "end": 89.295,
+   "seg": 37
+  },
+  {
+   "w": "o",
+   "start": 89.295,
+   "end": 89.405,
+   "seg": 37
+  },
+  {
+   "w": "ar",
+   "start": 89.405,
+   "end": 89.515,
+   "seg": 37
+  },
+  {
+   "w": "nos",
+   "start": 89.515,
+   "end": 89.605,
+   "seg": 37
+  },
+  {
+   "w": "pulmões,",
+   "start": 89.605,
+   "end": 89.915,
+   "seg": 37
+  },
+  {
+   "w": "apenas",
+   "start": 89.915,
+   "end": 90.215,
+   "seg": 38
+  },
+  {
+   "w": "para",
+   "start": 90.215,
+   "end": 90.375,
+   "seg": 38
+  },
+  {
+   "w": "perceber",
+   "start": 90.375,
+   "end": 90.695,
+   "seg": 38
+  },
+  {
+   "w": "com",
+   "start": 90.695,
+   "end": 90.865,
+   "seg": 38
+  },
+  {
+   "w": "horror",
+   "start": 90.865,
+   "end": 91.015,
+   "seg": 38
+  },
+  {
+   "w": "que",
+   "start": 91.015,
+   "end": 91.125,
+   "seg": 38
+  },
+  {
+   "w": "nadou",
+   "start": 91.125,
+   "end": 91.395,
+   "seg": 38
+  },
+  {
+   "w": "para",
+   "start": 91.395,
+   "end": 91.535,
+   "seg": 38
+  },
+  {
+   "w": "debaixo",
+   "start": 91.535,
+   "end": 91.835,
+   "seg": 38
+  },
+  {
+   "w": "de",
+   "start": 91.835,
+   "end": 91.995,
+   "seg": 38
+  },
+  {
+   "w": "uma",
+   "start": 91.995,
+   "end": 92.185,
+   "seg": 38
+  },
+  {
+   "w": "espessa",
+   "start": 92.185,
+   "end": 92.465,
+   "seg": 38
+  },
+  {
+   "w": "camada",
+   "start": 92.465,
+   "end": 92.755,
+   "seg": 38
+  },
+  {
+   "w": "de",
+   "start": 92.755,
+   "end": 92.855,
+   "seg": 38
+  },
+  {
+   "w": "gelo,",
+   "start": 92.855,
+   "end": 93.033,
+   "seg": 38
+  },
+  {
+   "w": "ficando",
+   "start": 93.033,
+   "end": 93.295,
+   "seg": 39
+  },
+  {
+   "w": "preso",
+   "start": 93.295,
+   "end": 93.575,
+   "seg": 39
+  },
+  {
+   "w": "do",
+   "start": 93.575,
+   "end": 93.665,
+   "seg": 39
+  },
+  {
+   "w": "lado",
+   "start": 93.665,
+   "end": 93.845,
+   "seg": 39
+  },
+  {
+   "w": "de",
+   "start": 93.845,
+   "end": 93.995,
+   "seg": 39
+  },
+  {
+   "w": "fora",
+   "start": 93.995,
+   "end": 94.145,
+   "seg": 39
+  },
+  {
+   "w": "do",
+   "start": 94.145,
+   "end": 94.285,
+   "seg": 39
+  },
+  {
+   "w": "carro,",
+   "start": 94.285,
+   "end": 94.474,
+   "seg": 39
+  },
+  {
+   "w": "mas",
+   "start": 94.474,
+   "end": 94.595,
+   "seg": 40
+  },
+  {
+   "w": "ainda",
+   "start": 94.595,
+   "end": 94.755,
+   "seg": 40
+  },
+  {
+   "w": "sem",
+   "start": 94.755,
+   "end": 94.895,
+   "seg": 40
+  },
+  {
+   "w": "conseguir",
+   "start": 94.895,
+   "end": 95.255,
+   "seg": 40
+  },
+  {
+   "w": "respirar.",
+   "start": 95.255,
+   "end": 95.52,
+   "seg": 40
+  }
+ ]
+}

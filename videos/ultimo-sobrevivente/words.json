@@ -1,0 +1,3373 @@
+{
+ "method": "estimated: pauses + syllables (no speech recognition)",
+ "duration": 137.266,
+ "speech_start": 0.0,
+ "speech_end": 137.17,
+ "silence_threshold_db": -33.4,
+ "pauses": [
+  {
+   "start": 3.35,
+   "end": 3.47
+  },
+  {
+   "start": 5.18,
+   "end": 5.32
+  },
+  {
+   "start": 6.29,
+   "end": 6.43
+  },
+  {
+   "start": 13.97,
+   "end": 14.1
+  },
+  {
+   "start": 15.13,
+   "end": 15.28
+  },
+  {
+   "start": 15.9,
+   "end": 16.23
+  },
+  {
+   "start": 17.07,
+   "end": 17.2
+  },
+  {
+   "start": 17.77,
+   "end": 17.9
+  },
+  {
+   "start": 18.42,
+   "end": 18.59
+  },
+  {
+   "start": 23.0,
+   "end": 23.16
+  },
+  {
+   "start": 24.53,
+   "end": 24.94
+  },
+  {
+   "start": 26.79,
+   "end": 26.98
+  },
+  {
+   "start": 29.16,
+   "end": 29.39
+  },
+  {
+   "start": 30.86,
+   "end": 30.98
+  },
+  {
+   "start": 31.6,
+   "end": 31.72
+  },
+  {
+   "start": 32.67,
+   "end": 32.86
+  },
+  {
+   "start": 35.23,
+   "end": 35.37
+  },
+  {
+   "start": 37.7,
+   "end": 37.98
+  },
+  {
+   "start": 40.56,
+   "end": 40.72
+  },
+  {
+   "start": 44.01,
+   "end": 44.19
+  },
+  {
+   "start": 44.43,
+   "end": 44.56
+  },
+  {
+   "start": 46.02,
+   "end": 46.15
+  },
+  {
+   "start": 47.55,
+   "end": 47.96
+  },
+  {
+   "start": 51.39,
+   "end": 51.52
+  },
+  {
+   "start": 51.9,
+   "end": 52.02
+  },
+  {
+   "start": 52.9,
+   "end": 53.35
+  },
+  {
+   "start": 54.56,
+   "end": 54.74
+  },
+  {
+   "start": 55.22,
+   "end": 55.34
+  },
+  {
+   "start": 60.92,
+   "end": 61.06
+  },
+  {
+   "start": 63.41,
+   "end": 63.54
+  },
+  {
+   "start": 64.62,
+   "end": 64.78
+  },
+  {
+   "start": 67.7,
+   "end": 67.9
+  },
+  {
+   "start": 71.34,
+   "end": 71.56
+  },
+  {
+   "start": 72.11,
+   "end": 72.24
+  },
+  {
+   "start": 75.28,
+   "end": 75.41
+  },
+  {
+   "start": 75.67,
+   "end": 75.89
+  },
+  {
+   "start": 77.44,
+   "end": 77.56
+  },
+  {
+   "start": 78.18,
+   "end": 78.32
+  },
+  {
+   "start": 79.1,
+   "end": 79.28
+  },
+  {
+   "start": 81.85,
+   "end": 82.24
+  },
+  {
+   "start": 85.15,
+   "end": 85.33
+  },
+  {
+   "start": 86.29,
+   "end": 86.42
+  },
+  {
+   "start": 87.06,
+   "end": 87.45
+  },
+  {
+   "start": 89.58,
+   "end": 89.73
+  },
+  {
+   "start": 90.3,
+   "end": 90.44
+  },
+  {
+   "start": 93.99,
+   "end": 94.14
+  },
+  {
+   "start": 94.71,
+   "end": 94.83
+  },
+  {
+   "start": 95.93,
+   "end": 96.12
+  },
+  {
+   "start": 96.94,
+   "end": 97.09
+  },
+  {
+   "start": 99.39,
+   "end": 99.56
+  },
+  {
+   "start": 104.85,
+   "end": 105.01
+  },
+  {
+   "start": 107.12,
+   "end": 107.29
+  },
+  {
+   "start": 107.63,
+   "end": 107.76
+  },
+  {
+   "start": 109.25,
+   "end": 109.38
+  },
+  {
+   "start": 109.95,
+   "end": 110.11
+  },
+  {
+   "start": 110.19,
+   "end": 110.57
+  },
+  {
+   "start": 111.93,
+   "end": 112.11
+  },
+  {
+   "start": 117.74,
+   "end": 117.92
+  },
+  {
+   "start": 120.2,
+   "end": 120.35
+  },
+  {
+   "start": 120.96,
+   "end": 121.32
+  },
+  {
+   "start": 122.62,
+   "end": 122.74
+  },
+  {
+   "start": 127.0,
+   "end": 127.15
+  },
+  {
+   "start": 130.01,
+   "end": 130.25
+  },
+  {
+   "start": 131.04,
+   "end": 131.16
+  },
+  {
+   "start": 132.93,
+   "end": 133.06
+  }
+ ],
+ "segments": [
+  {
+   "i": 0,
+   "text": "Você acorda,",
+   "start": 0.0,
+   "end": 0.75,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 1,
+   "text": "pega o celular e descobre uma coisa impossível:",
+   "start": 0.75,
+   "end": 3.35,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 2,
+   "text": "oito bilhões de pessoas desapareceram.",
+   "start": 3.47,
+   "end": 5.18,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 3,
+   "text": "Só você ficou.",
+   "start": 5.32,
+   "end": 6.29,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 4,
+   "text": "Mas o verdadeiro pesadelo começa quando alguém bate à sua porta.",
+   "start": 6.43,
+   "end": 9.9,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 5,
+   "text": "Arthur ainda não sabia disso.",
+   "start": 9.9,
+   "end": 11.65,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 6,
+   "text": "Naquela segunda-feira,",
+   "start": 11.65,
+   "end": 12.9,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 7,
+   "text": "saiu atrasado,",
+   "start": 12.9,
+   "end": 13.97,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 8,
+   "text": "mordendo um sanduíche,",
+   "start": 14.1,
+   "end": 15.13,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 9,
+   "text": "rumo ao metrô.",
+   "start": 15.28,
+   "end": 15.9,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 10,
+   "text": "Até perceber o silêncio.",
+   "start": 16.23,
+   "end": 17.07,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 11,
+   "text": "Nenhum carro.",
+   "start": 17.2,
+   "end": 17.77,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 12,
+   "text": "Nenhuma conversa.",
+   "start": 17.9,
+   "end": 18.42,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 13,
+   "text": "Nem um único passo além dos seus.",
+   "start": 18.59,
+   "end": 20.363,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 14,
+   "text": "Ele ergueu os olhos.",
+   "start": 20.363,
+   "end": 21.366,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 15,
+   "text": "A cidade inteira estava vazia.",
+   "start": 21.366,
+   "end": 23.0,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 16,
+   "text": "Correu para a estação.",
+   "start": 23.16,
+   "end": 24.53,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 17,
+   "text": "Escadas rolantes funcionando.",
+   "start": 24.94,
+   "end": 26.018,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 18,
+   "text": "Trem parado,",
+   "start": 26.018,
+   "end": 26.79,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 19,
+   "text": "portas abertas.",
+   "start": 26.98,
+   "end": 27.805,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 20,
+   "text": "Nenhum passageiro.",
+   "start": 27.805,
+   "end": 29.16,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 21,
+   "text": "Nenhum corpo.",
+   "start": 29.39,
+   "end": 29.764,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 22,
+   "text": "Nenhuma explicação.",
+   "start": 29.764,
+   "end": 30.86,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 23,
+   "text": "Desesperado,",
+   "start": 30.98,
+   "end": 31.6,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 24,
+   "text": "ligou para a mãe,",
+   "start": 31.72,
+   "end": 32.67,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 25,
+   "text": "o pai,",
+   "start": 32.86,
+   "end": 33.416,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 26,
+   "text": "os amigos.",
+   "start": 33.416,
+   "end": 34.274,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 27,
+   "text": "Ninguém respondeu.",
+   "start": 34.274,
+   "end": 35.23,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 28,
+   "text": "Então viu algo perturbador:",
+   "start": 35.37,
+   "end": 37.053,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 29,
+   "text": "todos apareciam online pela última vez exatamente às 3h12.",
+   "start": 37.053,
+   "end": 40.56,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 30,
+   "text": "O que aconteceu naquele minuto?",
+   "start": 40.72,
+   "end": 42.141,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 31,
+   "text": "Arthur procurou sobreviventes durante dias.",
+   "start": 42.141,
+   "end": 44.01,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 32,
+   "text": "Nada.",
+   "start": 44.19,
+   "end": 44.43,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 33,
+   "text": "E logo descobriu que estar sozinho era apenas o primeiro perigo.",
+   "start": 44.56,
+   "end": 47.55,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 34,
+   "text": "Sem funcionários nas usinas,",
+   "start": 47.96,
+   "end": 49.029,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 35,
+   "text": "a eletricidade começou a falhar.",
+   "start": 49.029,
+   "end": 50.575,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 36,
+   "text": "Bairros apagaram.",
+   "start": 50.575,
+   "end": 51.39,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 37,
+   "text": "Depois,",
+   "start": 51.52,
+   "end": 51.9,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 38,
+   "text": "cidades inteiras.",
+   "start": 52.02,
+   "end": 52.9,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 39,
+   "text": "Ele correu para reunir água,",
+   "start": 53.35,
+   "end": 54.56,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 40,
+   "text": "comida,",
+   "start": 54.74,
+   "end": 55.22,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 41,
+   "text": "remédios e combustível antes que tudo estragasse.",
+   "start": 55.34,
+   "end": 57.861,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 42,
+   "text": "Mas havia um inimigo que nenhuma reserva conseguiria vencer:",
+   "start": 57.861,
+   "end": 60.92,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 43,
+   "text": "o silêncio.",
+   "start": 61.06,
+   "end": 61.711,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 44,
+   "text": "Arthur passou a conversar com fotografias.",
+   "start": 61.711,
+   "end": 63.41,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 45,
+   "text": "Depois,",
+   "start": 63.54,
+   "end": 63.98,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 46,
+   "text": "com um manequim.",
+   "start": 63.98,
+   "end": 64.62,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 47,
+   "text": "Até começar a responder às próprias perguntas.",
+   "start": 64.78,
+   "end": 66.44,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 48,
+   "text": "Para não enlouquecer,",
+   "start": 66.44,
+   "end": 67.7,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 49,
+   "text": "criou um ritual.",
+   "start": 67.9,
+   "end": 68.633,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 50,
+   "text": "Todo meio-dia,",
+   "start": 68.633,
+   "end": 69.24,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 51,
+   "text": "transmitia pelo rádio:",
+   "start": 69.24,
+   "end": 70.494,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 52,
+   "text": "\"Meu nome é Arthur.",
+   "start": 70.494,
+   "end": 71.34,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 53,
+   "text": "Estou vivo.",
+   "start": 71.56,
+   "end": 72.11,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 54,
+   "text": "Alguém consegue me ouvir?\"",
+   "start": 72.24,
+   "end": 73.209,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 55,
+   "text": "No terraço,",
+   "start": 73.209,
+   "end": 73.816,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 56,
+   "text": "pintou uma palavra gigantesca:",
+   "start": 73.816,
+   "end": 75.28,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 57,
+   "text": "VIVO.",
+   "start": 75.41,
+   "end": 75.67,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 58,
+   "text": "Passaram cem dias.",
+   "start": 75.89,
+   "end": 76.781,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 59,
+   "text": "Duzentos.",
+   "start": 76.781,
+   "end": 77.44,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 60,
+   "text": "Um ano inteiro.",
+   "start": 77.56,
+   "end": 78.18,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 61,
+   "text": "Nenhuma resposta.",
+   "start": 78.32,
+   "end": 79.1,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 62,
+   "text": "Na última noite,",
+   "start": 79.28,
+   "end": 80.061,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 63,
+   "text": "Arthur desligou o rádio definitivamente.",
+   "start": 80.061,
+   "end": 81.85,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 64,
+   "text": "Subiu ao terraço para olhar,",
+   "start": 82.24,
+   "end": 83.543,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 65,
+   "text": "uma última vez,",
+   "start": 83.543,
+   "end": 84.415,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 66,
+   "text": "a cidade morta.",
+   "start": 84.415,
+   "end": 85.15,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 67,
+   "text": "Foi quando enxergou algo impossível.",
+   "start": 85.33,
+   "end": 87.06,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 68,
+   "text": "Do outro lado do rio,",
+   "start": 87.45,
+   "end": 88.654,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 69,
+   "text": "uma janela se iluminou.",
+   "start": 88.654,
+   "end": 90.3,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 70,
+   "text": "A luz piscou três vezes rapidamente.",
+   "start": 90.44,
+   "end": 92.507,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 71,
+   "text": "Depois,",
+   "start": 92.507,
+   "end": 92.851,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 72,
+   "text": "três vezes devagar.",
+   "start": 92.851,
+   "end": 93.99,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 73,
+   "text": "E mais três rápidas.",
+   "start": 94.14,
+   "end": 94.71,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 74,
+   "text": "SOS.",
+   "start": 94.83,
+   "end": 95.075,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 75,
+   "text": "Alguém estava pedindo socorro.",
+   "start": 95.075,
+   "end": 95.93,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 76,
+   "text": "Arthur quase chorou.",
+   "start": 96.12,
+   "end": 96.94,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 77,
+   "text": "Pela primeira vez em um ano,",
+   "start": 97.09,
+   "end": 98.218,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 78,
+   "text": "não estava sozinho.",
+   "start": 98.218,
+   "end": 99.39,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 79,
+   "text": "Mas por que aquela pessoa nunca respondeu ao rádio?",
+   "start": 99.56,
+   "end": 102.23,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 80,
+   "text": "E por que apareceu justamente naquela noite?",
+   "start": 102.23,
+   "end": 104.85,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 81,
+   "text": "Ele decidiu atravessar o rio ao amanhecer.",
+   "start": 105.01,
+   "end": 107.12,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 82,
+   "text": "Só que,",
+   "start": 107.29,
+   "end": 107.63,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 83,
+   "text": "quando voltou ao terraço,",
+   "start": 107.76,
+   "end": 109.25,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 84,
+   "text": "parou imediatamente.",
+   "start": 109.38,
+   "end": 110.19,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 85,
+   "text": "Ao lado da palavra VIVO,",
+   "start": 110.57,
+   "end": 111.93,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 86,
+   "text": "alguém havia escrito outra mensagem.",
+   "start": 112.11,
+   "end": 114.367,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 87,
+   "text": "A tinta ainda estava molhada.",
+   "start": 114.367,
+   "end": 116.149,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 88,
+   "text": "Duas palavras:",
+   "start": 116.149,
+   "end": 117.007,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 89,
+   "text": "EU TAMBÉM.",
+   "start": 117.007,
+   "end": 117.74,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 90,
+   "text": "Ele correu até a porta do terraço.",
+   "start": 117.92,
+   "end": 119.458,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 91,
+   "text": "Estava entreaberta.",
+   "start": 119.458,
+   "end": 120.2,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 92,
+   "text": "Na maçaneta,",
+   "start": 120.35,
+   "end": 120.96,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 93,
+   "text": "uma marca recente de mão que não era sua.",
+   "start": 121.32,
+   "end": 123.655,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 94,
+   "text": "Arthur olhou para o prédio distante.",
+   "start": 123.655,
+   "end": 125.319,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 95,
+   "text": "A janela continuava acesa.",
+   "start": 125.319,
+   "end": 127.0,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 96,
+   "text": "Então percebeu o detalhe mais aterrorizante de todos:",
+   "start": 127.15,
+   "end": 130.01,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 97,
+   "text": "aquela mensagem tinha sido escrita enquanto ele dormia.",
+   "start": 130.25,
+   "end": 132.93,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 98,
+   "text": "Se o sobrevivente estava do outro lado do rio...",
+   "start": 133.06,
+   "end": 135.506,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 99,
+   "text": "quem passou a noite no prédio com Arthur?",
+   "start": 135.506,
+   "end": 137.17,
+   "anchored_on_pause": null
+  }
+ ],
+ "words": [
+  {
+   "w": "Você",
+   "start": 0.0,
+   "end": 0.345,
+   "seg": 0
+  },
+  {
+   "w": "acorda,",
+   "start": 0.345,
+   "end": 0.75,
+   "seg": 0
+  },
+  {
+   "w": "pega",
+   "start": 0.75,
+   "end": 1.055,
+   "seg": 1
+  },
+  {
+   "w": "o",
+   "start": 1.055,
+   "end": 1.155,
+   "seg": 1
+  },
+  {
+   "w": "celular",
+   "start": 1.155,
+   "end": 1.645,
+   "seg": 1
+  },
+  {
+   "w": "e",
+   "start": 1.645,
+   "end": 1.765,
+   "seg": 1
+  },
+  {
+   "w": "descobre",
+   "start": 1.765,
+   "end": 2.255,
+   "seg": 1
+  },
+  {
+   "w": "uma",
+   "start": 2.255,
+   "end": 2.515,
+   "seg": 1
+  },
+  {
+   "w": "coisa",
+   "start": 2.515,
+   "end": 2.815,
+   "seg": 1
+  },
+  {
+   "w": "impossível:",
+   "start": 2.815,
+   "end": 3.35,
+   "seg": 1
+  },
+  {
+   "w": "oito",
+   "start": 3.47,
+   "end": 3.725,
+   "seg": 2
+  },
+  {
+   "w": "bilhões",
+   "start": 3.725,
+   "end": 4.015,
+   "seg": 2
+  },
+  {
+   "w": "de",
+   "start": 4.015,
+   "end": 4.165,
+   "seg": 2
+  },
+  {
+   "w": "pessoas",
+   "start": 4.165,
+   "end": 4.515,
+   "seg": 2
+  },
+  {
+   "w": "desapareceram.",
+   "start": 4.515,
+   "end": 5.18,
+   "seg": 2
+  },
+  {
+   "w": "Só",
+   "start": 5.32,
+   "end": 5.505,
+   "seg": 3
+  },
+  {
+   "w": "você",
+   "start": 5.505,
+   "end": 5.895,
+   "seg": 3
+  },
+  {
+   "w": "ficou.",
+   "start": 5.895,
+   "end": 6.29,
+   "seg": 3
+  },
+  {
+   "w": "Mas",
+   "start": 6.43,
+   "end": 6.565,
+   "seg": 4
+  },
+  {
+   "w": "o",
+   "start": 6.565,
+   "end": 6.745,
+   "seg": 4
+  },
+  {
+   "w": "verdadeiro",
+   "start": 6.745,
+   "end": 7.405,
+   "seg": 4
+  },
+  {
+   "w": "pesadelo",
+   "start": 7.405,
+   "end": 7.955,
+   "seg": 4
+  },
+  {
+   "w": "começa",
+   "start": 7.955,
+   "end": 8.395,
+   "seg": 4
+  },
+  {
+   "w": "quando",
+   "start": 8.395,
+   "end": 8.705,
+   "seg": 4
+  },
+  {
+   "w": "alguém",
+   "start": 8.705,
+   "end": 9.025,
+   "seg": 4
+  },
+  {
+   "w": "bate",
+   "start": 9.025,
+   "end": 9.265,
+   "seg": 4
+  },
+  {
+   "w": "à",
+   "start": 9.265,
+   "end": 9.425,
+   "seg": 4
+  },
+  {
+   "w": "sua",
+   "start": 9.425,
+   "end": 9.635,
+   "seg": 4
+  },
+  {
+   "w": "porta.",
+   "start": 9.635,
+   "end": 9.9,
+   "seg": 4
+  },
+  {
+   "w": "Arthur",
+   "start": 9.9,
+   "end": 10.325,
+   "seg": 5
+  },
+  {
+   "w": "ainda",
+   "start": 10.325,
+   "end": 10.685,
+   "seg": 5
+  },
+  {
+   "w": "não",
+   "start": 10.685,
+   "end": 10.895,
+   "seg": 5
+  },
+  {
+   "w": "sabia",
+   "start": 10.895,
+   "end": 11.255,
+   "seg": 5
+  },
+  {
+   "w": "disso.",
+   "start": 11.255,
+   "end": 11.65,
+   "seg": 5
+  },
+  {
+   "w": "Naquela",
+   "start": 11.65,
+   "end": 12.185,
+   "seg": 6
+  },
+  {
+   "w": "segunda-feira,",
+   "start": 12.185,
+   "end": 12.9,
+   "seg": 6
+  },
+  {
+   "w": "saiu",
+   "start": 12.9,
+   "end": 13.165,
+   "seg": 7
+  },
+  {
+   "w": "atrasado,",
+   "start": 13.165,
+   "end": 13.97,
+   "seg": 7
+  },
+  {
+   "w": "mordendo",
+   "start": 14.1,
+   "end": 14.475,
+   "seg": 8
+  },
+  {
+   "w": "um",
+   "start": 14.475,
+   "end": 14.665,
+   "seg": 8
+  },
+  {
+   "w": "sanduíche,",
+   "start": 14.665,
+   "end": 15.13,
+   "seg": 8
+  },
+  {
+   "w": "rumo",
+   "start": 15.28,
+   "end": 15.525,
+   "seg": 9
+  },
+  {
+   "w": "ao",
+   "start": 15.525,
+   "end": 15.735,
+   "seg": 9
+  },
+  {
+   "w": "metrô.",
+   "start": 15.735,
+   "end": 15.9,
+   "seg": 9
+  },
+  {
+   "w": "Até",
+   "start": 16.23,
+   "end": 16.375,
+   "seg": 10
+  },
+  {
+   "w": "perceber",
+   "start": 16.375,
+   "end": 16.675,
+   "seg": 10
+  },
+  {
+   "w": "o",
+   "start": 16.675,
+   "end": 16.775,
+   "seg": 10
+  },
+  {
+   "w": "silêncio.",
+   "start": 16.775,
+   "end": 17.07,
+   "seg": 10
+  },
+  {
+   "w": "Nenhum",
+   "start": 17.2,
+   "end": 17.525,
+   "seg": 11
+  },
+  {
+   "w": "carro.",
+   "start": 17.525,
+   "end": 17.77,
+   "seg": 11
+  },
+  {
+   "w": "Nenhuma",
+   "start": 17.9,
+   "end": 18.155,
+   "seg": 12
+  },
+  {
+   "w": "conversa.",
+   "start": 18.155,
+   "end": 18.42,
+   "seg": 12
+  },
+  {
+   "w": "Nem",
+   "start": 18.59,
+   "end": 18.815,
+   "seg": 13
+  },
+  {
+   "w": "um",
+   "start": 18.815,
+   "end": 18.905,
+   "seg": 13
+  },
+  {
+   "w": "único",
+   "start": 18.905,
+   "end": 19.435,
+   "seg": 13
+  },
+  {
+   "w": "passo",
+   "start": 19.435,
+   "end": 19.715,
+   "seg": 13
+  },
+  {
+   "w": "além",
+   "start": 19.715,
+   "end": 20.065,
+   "seg": 13
+  },
+  {
+   "w": "dos",
+   "start": 20.065,
+   "end": 20.215,
+   "seg": 13
+  },
+  {
+   "w": "seus.",
+   "start": 20.215,
+   "end": 20.363,
+   "seg": 13
+  },
+  {
+   "w": "Ele",
+   "start": 20.363,
+   "end": 20.655,
+   "seg": 14
+  },
+  {
+   "w": "ergueu",
+   "start": 20.655,
+   "end": 20.965,
+   "seg": 14
+  },
+  {
+   "w": "os",
+   "start": 20.965,
+   "end": 21.075,
+   "seg": 14
+  },
+  {
+   "w": "olhos.",
+   "start": 21.075,
+   "end": 21.366,
+   "seg": 14
+  },
+  {
+   "w": "A",
+   "start": 21.366,
+   "end": 21.515,
+   "seg": 15
+  },
+  {
+   "w": "cidade",
+   "start": 21.515,
+   "end": 21.905,
+   "seg": 15
+  },
+  {
+   "w": "inteira",
+   "start": 21.905,
+   "end": 22.355,
+   "seg": 15
+  },
+  {
+   "w": "estava",
+   "start": 22.355,
+   "end": 22.735,
+   "seg": 15
+  },
+  {
+   "w": "vazia.",
+   "start": 22.735,
+   "end": 23.0,
+   "seg": 15
+  },
+  {
+   "w": "Correu",
+   "start": 23.16,
+   "end": 23.555,
+   "seg": 16
+  },
+  {
+   "w": "para",
+   "start": 23.555,
+   "end": 23.765,
+   "seg": 16
+  },
+  {
+   "w": "a",
+   "start": 23.765,
+   "end": 23.955,
+   "seg": 16
+  },
+  {
+   "w": "estação.",
+   "start": 23.955,
+   "end": 24.53,
+   "seg": 16
+  },
+  {
+   "w": "Escadas",
+   "start": 24.94,
+   "end": 25.325,
+   "seg": 17
+  },
+  {
+   "w": "rolantes",
+   "start": 25.325,
+   "end": 25.585,
+   "seg": 17
+  },
+  {
+   "w": "funcionando.",
+   "start": 25.585,
+   "end": 26.018,
+   "seg": 17
+  },
+  {
+   "w": "Trem",
+   "start": 26.018,
+   "end": 26.305,
+   "seg": 18
+  },
+  {
+   "w": "parado,",
+   "start": 26.305,
+   "end": 26.79,
+   "seg": 18
+  },
+  {
+   "w": "portas",
+   "start": 26.98,
+   "end": 27.375,
+   "seg": 19
+  },
+  {
+   "w": "abertas.",
+   "start": 27.375,
+   "end": 27.805,
+   "seg": 19
+  },
+  {
+   "w": "Nenhum",
+   "start": 27.805,
+   "end": 28.285,
+   "seg": 20
+  },
+  {
+   "w": "passageiro.",
+   "start": 28.285,
+   "end": 29.16,
+   "seg": 20
+  },
+  {
+   "w": "Nenhum",
+   "start": 29.39,
+   "end": 29.545,
+   "seg": 21
+  },
+  {
+   "w": "corpo.",
+   "start": 29.545,
+   "end": 29.764,
+   "seg": 21
+  },
+  {
+   "w": "Nenhuma",
+   "start": 29.764,
+   "end": 30.215,
+   "seg": 22
+  },
+  {
+   "w": "explicação.",
+   "start": 30.215,
+   "end": 30.86,
+   "seg": 22
+  },
+  {
+   "w": "Desesperado,",
+   "start": 30.98,
+   "end": 31.6,
+   "seg": 23
+  },
+  {
+   "w": "ligou",
+   "start": 31.72,
+   "end": 32.075,
+   "seg": 24
+  },
+  {
+   "w": "para",
+   "start": 32.075,
+   "end": 32.315,
+   "seg": 24
+  },
+  {
+   "w": "a",
+   "start": 32.315,
+   "end": 32.415,
+   "seg": 24
+  },
+  {
+   "w": "mãe,",
+   "start": 32.415,
+   "end": 32.67,
+   "seg": 24
+  },
+  {
+   "w": "o",
+   "start": 32.86,
+   "end": 33.075,
+   "seg": 25
+  },
+  {
+   "w": "pai,",
+   "start": 33.075,
+   "end": 33.416,
+   "seg": 25
+  },
+  {
+   "w": "os",
+   "start": 33.416,
+   "end": 33.695,
+   "seg": 26
+  },
+  {
+   "w": "amigos.",
+   "start": 33.695,
+   "end": 34.274,
+   "seg": 26
+  },
+  {
+   "w": "Ninguém",
+   "start": 34.274,
+   "end": 34.645,
+   "seg": 27
+  },
+  {
+   "w": "respondeu.",
+   "start": 34.645,
+   "end": 35.23,
+   "seg": 27
+  },
+  {
+   "w": "Então",
+   "start": 35.37,
+   "end": 35.845,
+   "seg": 28
+  },
+  {
+   "w": "viu",
+   "start": 35.845,
+   "end": 36.085,
+   "seg": 28
+  },
+  {
+   "w": "algo",
+   "start": 36.085,
+   "end": 36.325,
+   "seg": 28
+  },
+  {
+   "w": "perturbador:",
+   "start": 36.325,
+   "end": 37.053,
+   "seg": 28
+  },
+  {
+   "w": "todos",
+   "start": 37.053,
+   "end": 37.445,
+   "seg": 29
+  },
+  {
+   "w": "apareciam",
+   "start": 37.445,
+   "end": 37.965,
+   "seg": 29
+  },
+  {
+   "w": "online",
+   "start": 37.965,
+   "end": 38.435,
+   "seg": 29
+  },
+  {
+   "w": "pela",
+   "start": 38.435,
+   "end": 38.865,
+   "seg": 29
+  },
+  {
+   "w": "última",
+   "start": 38.865,
+   "end": 39.235,
+   "seg": 29
+  },
+  {
+   "w": "vez",
+   "start": 39.235,
+   "end": 39.475,
+   "seg": 29
+  },
+  {
+   "w": "exatamente",
+   "start": 39.475,
+   "end": 40.245,
+   "seg": 29
+  },
+  {
+   "w": "às",
+   "start": 40.245,
+   "end": 40.415,
+   "seg": 29
+  },
+  {
+   "w": "3h12.",
+   "start": 40.415,
+   "end": 40.56,
+   "seg": 29
+  },
+  {
+   "w": "O",
+   "start": 40.72,
+   "end": 40.865,
+   "seg": 30
+  },
+  {
+   "w": "que",
+   "start": 40.865,
+   "end": 40.985,
+   "seg": 30
+  },
+  {
+   "w": "aconteceu",
+   "start": 40.985,
+   "end": 41.405,
+   "seg": 30
+  },
+  {
+   "w": "naquele",
+   "start": 41.405,
+   "end": 41.825,
+   "seg": 30
+  },
+  {
+   "w": "minuto?",
+   "start": 41.825,
+   "end": 42.141,
+   "seg": 30
+  },
+  {
+   "w": "Arthur",
+   "start": 42.141,
+   "end": 42.465,
+   "seg": 31
+  },
+  {
+   "w": "procurou",
+   "start": 42.465,
+   "end": 42.755,
+   "seg": 31
+  },
+  {
+   "w": "sobreviventes",
+   "start": 42.755,
+   "end": 43.475,
+   "seg": 31
+  },
+  {
+   "w": "durante",
+   "start": 43.475,
+   "end": 43.865,
+   "seg": 31
+  },
+  {
+   "w": "dias.",
+   "start": 43.865,
+   "end": 44.01,
+   "seg": 31
+  },
+  {
+   "w": "Nada.",
+   "start": 44.19,
+   "end": 44.43,
+   "seg": 32
+  },
+  {
+   "w": "E",
+   "start": 44.56,
+   "end": 44.655,
+   "seg": 33
+  },
+  {
+   "w": "logo",
+   "start": 44.655,
+   "end": 44.975,
+   "seg": 33
+  },
+  {
+   "w": "descobriu",
+   "start": 44.975,
+   "end": 45.295,
+   "seg": 33
+  },
+  {
+   "w": "que",
+   "start": 45.295,
+   "end": 45.415,
+   "seg": 33
+  },
+  {
+   "w": "estar",
+   "start": 45.415,
+   "end": 45.725,
+   "seg": 33
+  },
+  {
+   "w": "sozinho",
+   "start": 45.725,
+   "end": 46.105,
+   "seg": 33
+  },
+  {
+   "w": "era",
+   "start": 46.105,
+   "end": 46.345,
+   "seg": 33
+  },
+  {
+   "w": "apenas",
+   "start": 46.345,
+   "end": 46.705,
+   "seg": 33
+  },
+  {
+   "w": "o",
+   "start": 46.705,
+   "end": 46.825,
+   "seg": 33
+  },
+  {
+   "w": "primeiro",
+   "start": 46.825,
+   "end": 47.245,
+   "seg": 33
+  },
+  {
+   "w": "perigo.",
+   "start": 47.245,
+   "end": 47.55,
+   "seg": 33
+  },
+  {
+   "w": "Sem",
+   "start": 47.96,
+   "end": 48.125,
+   "seg": 34
+  },
+  {
+   "w": "funcionários",
+   "start": 48.125,
+   "end": 48.575,
+   "seg": 34
+  },
+  {
+   "w": "nas",
+   "start": 48.575,
+   "end": 48.695,
+   "seg": 34
+  },
+  {
+   "w": "usinas,",
+   "start": 48.695,
+   "end": 49.029,
+   "seg": 34
+  },
+  {
+   "w": "a",
+   "start": 49.029,
+   "end": 49.125,
+   "seg": 35
+  },
+  {
+   "w": "eletricidade",
+   "start": 49.125,
+   "end": 49.885,
+   "seg": 35
+  },
+  {
+   "w": "começou",
+   "start": 49.885,
+   "end": 50.235,
+   "seg": 35
+  },
+  {
+   "w": "a",
+   "start": 50.235,
+   "end": 50.335,
+   "seg": 35
+  },
+  {
+   "w": "falhar.",
+   "start": 50.335,
+   "end": 50.575,
+   "seg": 35
+  },
+  {
+   "w": "Bairros",
+   "start": 50.575,
+   "end": 50.855,
+   "seg": 36
+  },
+  {
+   "w": "apagaram.",
+   "start": 50.855,
+   "end": 51.39,
+   "seg": 36
+  },
+  {
+   "w": "Depois,",
+   "start": 51.52,
+   "end": 51.9,
+   "seg": 37
+  },
+  {
+   "w": "cidades",
+   "start": 52.02,
+   "end": 52.435,
+   "seg": 38
+  },
+  {
+   "w": "inteiras.",
+   "start": 52.435,
+   "end": 52.9,
+   "seg": 38
+  },
+  {
+   "w": "Ele",
+   "start": 53.35,
+   "end": 53.515,
+   "seg": 39
+  },
+  {
+   "w": "correu",
+   "start": 53.515,
+   "end": 53.785,
+   "seg": 39
+  },
+  {
+   "w": "para",
+   "start": 53.785,
+   "end": 54.105,
+   "seg": 39
+  },
+  {
+   "w": "reunir",
+   "start": 54.105,
+   "end": 54.385,
+   "seg": 39
+  },
+  {
+   "w": "água,",
+   "start": 54.385,
+   "end": 54.56,
+   "seg": 39
+  },
+  {
+   "w": "comida,",
+   "start": 54.74,
+   "end": 55.22,
+   "seg": 40
+  },
+  {
+   "w": "remédios",
+   "start": 55.34,
+   "end": 55.755,
+   "seg": 41
+  },
+  {
+   "w": "e",
+   "start": 55.755,
+   "end": 55.875,
+   "seg": 41
+  },
+  {
+   "w": "combustível",
+   "start": 55.875,
+   "end": 56.595,
+   "seg": 41
+  },
+  {
+   "w": "antes",
+   "start": 56.595,
+   "end": 56.785,
+   "seg": 41
+  },
+  {
+   "w": "que",
+   "start": 56.785,
+   "end": 56.925,
+   "seg": 41
+  },
+  {
+   "w": "tudo",
+   "start": 56.925,
+   "end": 57.235,
+   "seg": 41
+  },
+  {
+   "w": "estragasse.",
+   "start": 57.235,
+   "end": 57.861,
+   "seg": 41
+  },
+  {
+   "w": "Mas",
+   "start": 57.861,
+   "end": 57.975,
+   "seg": 42
+  },
+  {
+   "w": "havia",
+   "start": 57.975,
+   "end": 58.315,
+   "seg": 42
+  },
+  {
+   "w": "um",
+   "start": 58.315,
+   "end": 58.425,
+   "seg": 42
+  },
+  {
+   "w": "inimigo",
+   "start": 58.425,
+   "end": 59.025,
+   "seg": 42
+  },
+  {
+   "w": "que",
+   "start": 59.025,
+   "end": 59.185,
+   "seg": 42
+  },
+  {
+   "w": "nenhuma",
+   "start": 59.185,
+   "end": 59.595,
+   "seg": 42
+  },
+  {
+   "w": "reserva",
+   "start": 59.595,
+   "end": 59.965,
+   "seg": 42
+  },
+  {
+   "w": "conseguiria",
+   "start": 59.965,
+   "end": 60.655,
+   "seg": 42
+  },
+  {
+   "w": "vencer:",
+   "start": 60.655,
+   "end": 60.92,
+   "seg": 42
+  },
+  {
+   "w": "o",
+   "start": 61.06,
+   "end": 61.205,
+   "seg": 43
+  },
+  {
+   "w": "silêncio.",
+   "start": 61.205,
+   "end": 61.711,
+   "seg": 43
+  },
+  {
+   "w": "Arthur",
+   "start": 61.711,
+   "end": 61.965,
+   "seg": 44
+  },
+  {
+   "w": "passou",
+   "start": 61.965,
+   "end": 62.245,
+   "seg": 44
+  },
+  {
+   "w": "a",
+   "start": 62.245,
+   "end": 62.365,
+   "seg": 44
+  },
+  {
+   "w": "conversar",
+   "start": 62.365,
+   "end": 62.775,
+   "seg": 44
+  },
+  {
+   "w": "com",
+   "start": 62.775,
+   "end": 62.875,
+   "seg": 44
+  },
+  {
+   "w": "fotografias.",
+   "start": 62.875,
+   "end": 63.41,
+   "seg": 44
+  },
+  {
+   "w": "Depois,",
+   "start": 63.54,
+   "end": 63.98,
+   "seg": 45
+  },
+  {
+   "w": "com",
+   "start": 63.98,
+   "end": 64.135,
+   "seg": 46
+  },
+  {
+   "w": "um",
+   "start": 64.135,
+   "end": 64.255,
+   "seg": 46
+  },
+  {
+   "w": "manequim.",
+   "start": 64.255,
+   "end": 64.62,
+   "seg": 46
+  },
+  {
+   "w": "Até",
+   "start": 64.78,
+   "end": 64.975,
+   "seg": 47
+  },
+  {
+   "w": "começar",
+   "start": 64.975,
+   "end": 65.315,
+   "seg": 47
+  },
+  {
+   "w": "a",
+   "start": 65.315,
+   "end": 65.425,
+   "seg": 47
+  },
+  {
+   "w": "responder",
+   "start": 65.425,
+   "end": 65.715,
+   "seg": 47
+  },
+  {
+   "w": "às",
+   "start": 65.715,
+   "end": 65.855,
+   "seg": 47
+  },
+  {
+   "w": "próprias",
+   "start": 65.855,
+   "end": 66.115,
+   "seg": 47
+  },
+  {
+   "w": "perguntas.",
+   "start": 66.115,
+   "end": 66.44,
+   "seg": 47
+  },
+  {
+   "w": "Para",
+   "start": 66.44,
+   "end": 66.805,
+   "seg": 48
+  },
+  {
+   "w": "não",
+   "start": 66.805,
+   "end": 66.995,
+   "seg": 48
+  },
+  {
+   "w": "enlouquecer,",
+   "start": 66.995,
+   "end": 67.7,
+   "seg": 48
+  },
+  {
+   "w": "criou",
+   "start": 67.9,
+   "end": 68.155,
+   "seg": 49
+  },
+  {
+   "w": "um",
+   "start": 68.155,
+   "end": 68.285,
+   "seg": 49
+  },
+  {
+   "w": "ritual.",
+   "start": 68.285,
+   "end": 68.633,
+   "seg": 49
+  },
+  {
+   "w": "Todo",
+   "start": 68.633,
+   "end": 68.865,
+   "seg": 50
+  },
+  {
+   "w": "meio-dia,",
+   "start": 68.865,
+   "end": 69.24,
+   "seg": 50
+  },
+  {
+   "w": "transmitia",
+   "start": 69.24,
+   "end": 69.825,
+   "seg": 51
+  },
+  {
+   "w": "pelo",
+   "start": 69.825,
+   "end": 70.185,
+   "seg": 51
+  },
+  {
+   "w": "rádio:",
+   "start": 70.185,
+   "end": 70.494,
+   "seg": 51
+  },
+  {
+   "w": "\"Meu",
+   "start": 70.494,
+   "end": 70.675,
+   "seg": 52
+  },
+  {
+   "w": "nome",
+   "start": 70.675,
+   "end": 70.885,
+   "seg": 52
+  },
+  {
+   "w": "é",
+   "start": 70.885,
+   "end": 71.095,
+   "seg": 52
+  },
+  {
+   "w": "Arthur.",
+   "start": 71.095,
+   "end": 71.34,
+   "seg": 52
+  },
+  {
+   "w": "Estou",
+   "start": 71.56,
+   "end": 71.815,
+   "seg": 53
+  },
+  {
+   "w": "vivo.",
+   "start": 71.815,
+   "end": 72.11,
+   "seg": 53
+  },
+  {
+   "w": "Alguém",
+   "start": 72.24,
+   "end": 72.485,
+   "seg": 54
+  },
+  {
+   "w": "consegue",
+   "start": 72.485,
+   "end": 72.855,
+   "seg": 54
+  },
+  {
+   "w": "me",
+   "start": 72.855,
+   "end": 72.955,
+   "seg": 54
+  },
+  {
+   "w": "ouvir?\"",
+   "start": 72.955,
+   "end": 73.209,
+   "seg": 54
+  },
+  {
+   "w": "No",
+   "start": 73.209,
+   "end": 73.355,
+   "seg": 55
+  },
+  {
+   "w": "terraço,",
+   "start": 73.355,
+   "end": 73.816,
+   "seg": 55
+  },
+  {
+   "w": "pintou",
+   "start": 73.816,
+   "end": 74.075,
+   "seg": 56
+  },
+  {
+   "w": "uma",
+   "start": 74.075,
+   "end": 74.285,
+   "seg": 56
+  },
+  {
+   "w": "palavra",
+   "start": 74.285,
+   "end": 74.685,
+   "seg": 56
+  },
+  {
+   "w": "gigantesca:",
+   "start": 74.685,
+   "end": 75.28,
+   "seg": 56
+  },
+  {
+   "w": "VIVO.",
+   "start": 75.41,
+   "end": 75.67,
+   "seg": 57
+  },
+  {
+   "w": "Passaram",
+   "start": 75.89,
+   "end": 76.465,
+   "seg": 58
+  },
+  {
+   "w": "cem",
+   "start": 76.465,
+   "end": 76.615,
+   "seg": 58
+  },
+  {
+   "w": "dias.",
+   "start": 76.615,
+   "end": 76.781,
+   "seg": 58
+  },
+  {
+   "w": "Duzentos.",
+   "start": 76.781,
+   "end": 77.44,
+   "seg": 59
+  },
+  {
+   "w": "Um",
+   "start": 77.56,
+   "end": 77.685,
+   "seg": 60
+  },
+  {
+   "w": "ano",
+   "start": 77.685,
+   "end": 77.815,
+   "seg": 60
+  },
+  {
+   "w": "inteiro.",
+   "start": 77.815,
+   "end": 78.18,
+   "seg": 60
+  },
+  {
+   "w": "Nenhuma",
+   "start": 78.32,
+   "end": 78.755,
+   "seg": 61
+  },
+  {
+   "w": "resposta.",
+   "start": 78.755,
+   "end": 79.1,
+   "seg": 61
+  },
+  {
+   "w": "Na",
+   "start": 79.28,
+   "end": 79.445,
+   "seg": 62
+  },
+  {
+   "w": "última",
+   "start": 79.445,
+   "end": 79.825,
+   "seg": 62
+  },
+  {
+   "w": "noite,",
+   "start": 79.825,
+   "end": 80.061,
+   "seg": 62
+  },
+  {
+   "w": "Arthur",
+   "start": 80.061,
+   "end": 80.335,
+   "seg": 63
+  },
+  {
+   "w": "desligou",
+   "start": 80.335,
+   "end": 80.685,
+   "seg": 63
+  },
+  {
+   "w": "o",
+   "start": 80.685,
+   "end": 80.815,
+   "seg": 63
+  },
+  {
+   "w": "rádio",
+   "start": 80.815,
+   "end": 81.065,
+   "seg": 63
+  },
+  {
+   "w": "definitivamente.",
+   "start": 81.065,
+   "end": 81.85,
+   "seg": 63
+  },
+  {
+   "w": "Subiu",
+   "start": 82.24,
+   "end": 82.515,
+   "seg": 64
+  },
+  {
+   "w": "ao",
+   "start": 82.515,
+   "end": 82.645,
+   "seg": 64
+  },
+  {
+   "w": "terraço",
+   "start": 82.645,
+   "end": 83.065,
+   "seg": 64
+  },
+  {
+   "w": "para",
+   "start": 83.065,
+   "end": 83.265,
+   "seg": 64
+  },
+  {
+   "w": "olhar,",
+   "start": 83.265,
+   "end": 83.543,
+   "seg": 64
+  },
+  {
+   "w": "uma",
+   "start": 83.543,
+   "end": 83.845,
+   "seg": 65
+  },
+  {
+   "w": "última",
+   "start": 83.845,
+   "end": 84.245,
+   "seg": 65
+  },
+  {
+   "w": "vez,",
+   "start": 84.245,
+   "end": 84.415,
+   "seg": 65
+  },
+  {
+   "w": "a",
+   "start": 84.415,
+   "end": 84.505,
+   "seg": 66
+  },
+  {
+   "w": "cidade",
+   "start": 84.505,
+   "end": 84.835,
+   "seg": 66
+  },
+  {
+   "w": "morta.",
+   "start": 84.835,
+   "end": 85.15,
+   "seg": 66
+  },
+  {
+   "w": "Foi",
+   "start": 85.33,
+   "end": 85.455,
+   "seg": 67
+  },
+  {
+   "w": "quando",
+   "start": 85.455,
+   "end": 85.835,
+   "seg": 67
+  },
+  {
+   "w": "enxergou",
+   "start": 85.835,
+   "end": 86.205,
+   "seg": 67
+  },
+  {
+   "w": "algo",
+   "start": 86.205,
+   "end": 86.555,
+   "seg": 67
+  },
+  {
+   "w": "impossível.",
+   "start": 86.555,
+   "end": 87.06,
+   "seg": 67
+  },
+  {
+   "w": "Do",
+   "start": 87.45,
+   "end": 87.575,
+   "seg": 68
+  },
+  {
+   "w": "outro",
+   "start": 87.575,
+   "end": 88.035,
+   "seg": 68
+  },
+  {
+   "w": "lado",
+   "start": 88.035,
+   "end": 88.255,
+   "seg": 68
+  },
+  {
+   "w": "do",
+   "start": 88.255,
+   "end": 88.515,
+   "seg": 68
+  },
+  {
+   "w": "rio,",
+   "start": 88.515,
+   "end": 88.654,
+   "seg": 68
+  },
+  {
+   "w": "uma",
+   "start": 88.654,
+   "end": 88.975,
+   "seg": 69
+  },
+  {
+   "w": "janela",
+   "start": 88.975,
+   "end": 89.475,
+   "seg": 69
+  },
+  {
+   "w": "se",
+   "start": 89.475,
+   "end": 89.675,
+   "seg": 69
+  },
+  {
+   "w": "iluminou.",
+   "start": 89.675,
+   "end": 90.3,
+   "seg": 69
+  },
+  {
+   "w": "A",
+   "start": 90.44,
+   "end": 90.625,
+   "seg": 70
+  },
+  {
+   "w": "luz",
+   "start": 90.625,
+   "end": 90.815,
+   "seg": 70
+  },
+  {
+   "w": "piscou",
+   "start": 90.815,
+   "end": 91.175,
+   "seg": 70
+  },
+  {
+   "w": "três",
+   "start": 91.175,
+   "end": 91.375,
+   "seg": 70
+  },
+  {
+   "w": "vezes",
+   "start": 91.375,
+   "end": 91.625,
+   "seg": 70
+  },
+  {
+   "w": "rapidamente.",
+   "start": 91.625,
+   "end": 92.507,
+   "seg": 70
+  },
+  {
+   "w": "Depois,",
+   "start": 92.507,
+   "end": 92.851,
+   "seg": 71
+  },
+  {
+   "w": "três",
+   "start": 92.851,
+   "end": 93.005,
+   "seg": 72
+  },
+  {
+   "w": "vezes",
+   "start": 93.005,
+   "end": 93.385,
+   "seg": 72
+  },
+  {
+   "w": "devagar.",
+   "start": 93.385,
+   "end": 93.99,
+   "seg": 72
+  },
+  {
+   "w": "E",
+   "start": 94.14,
+   "end": 94.235,
+   "seg": 73
+  },
+  {
+   "w": "mais",
+   "start": 94.235,
+   "end": 94.325,
+   "seg": 73
+  },
+  {
+   "w": "três",
+   "start": 94.325,
+   "end": 94.475,
+   "seg": 73
+  },
+  {
+   "w": "rápidas.",
+   "start": 94.475,
+   "end": 94.71,
+   "seg": 73
+  },
+  {
+   "w": "SOS.",
+   "start": 94.83,
+   "end": 95.075,
+   "seg": 74
+  },
+  {
+   "w": "Alguém",
+   "start": 95.075,
+   "end": 95.295,
+   "seg": 75
+  },
+  {
+   "w": "estava",
+   "start": 95.295,
+   "end": 95.415,
+   "seg": 75
+  },
+  {
+   "w": "pedindo",
+   "start": 95.415,
+   "end": 95.765,
+   "seg": 75
+  },
+  {
+   "w": "socorro.",
+   "start": 95.765,
+   "end": 95.93,
+   "seg": 75
+  },
+  {
+   "w": "Arthur",
+   "start": 96.12,
+   "end": 96.425,
+   "seg": 76
+  },
+  {
+   "w": "quase",
+   "start": 96.425,
+   "end": 96.605,
+   "seg": 76
+  },
+  {
+   "w": "chorou.",
+   "start": 96.605,
+   "end": 96.94,
+   "seg": 76
+  },
+  {
+   "w": "Pela",
+   "start": 97.09,
+   "end": 97.295,
+   "seg": 77
+  },
+  {
+   "w": "primeira",
+   "start": 97.295,
+   "end": 97.635,
+   "seg": 77
+  },
+  {
+   "w": "vez",
+   "start": 97.635,
+   "end": 97.775,
+   "seg": 77
+  },
+  {
+   "w": "em",
+   "start": 97.775,
+   "end": 97.925,
+   "seg": 77
+  },
+  {
+   "w": "um",
+   "start": 97.925,
+   "end": 98.035,
+   "seg": 77
+  },
+  {
+   "w": "ano,",
+   "start": 98.035,
+   "end": 98.218,
+   "seg": 77
+  },
+  {
+   "w": "não",
+   "start": 98.218,
+   "end": 98.565,
+   "seg": 78
+  },
+  {
+   "w": "estava",
+   "start": 98.565,
+   "end": 98.955,
+   "seg": 78
+  },
+  {
+   "w": "sozinho.",
+   "start": 98.955,
+   "end": 99.39,
+   "seg": 78
+  },
+  {
+   "w": "Mas",
+   "start": 99.56,
+   "end": 99.765,
+   "seg": 79
+  },
+  {
+   "w": "por",
+   "start": 99.765,
+   "end": 99.915,
+   "seg": 79
+  },
+  {
+   "w": "que",
+   "start": 99.915,
+   "end": 100.005,
+   "seg": 79
+  },
+  {
+   "w": "aquela",
+   "start": 100.005,
+   "end": 100.415,
+   "seg": 79
+  },
+  {
+   "w": "pessoa",
+   "start": 100.415,
+   "end": 100.895,
+   "seg": 79
+  },
+  {
+   "w": "nunca",
+   "start": 100.895,
+   "end": 101.145,
+   "seg": 79
+  },
+  {
+   "w": "respondeu",
+   "start": 101.145,
+   "end": 101.735,
+   "seg": 79
+  },
+  {
+   "w": "ao",
+   "start": 101.735,
+   "end": 101.985,
+   "seg": 79
+  },
+  {
+   "w": "rádio?",
+   "start": 101.985,
+   "end": 102.23,
+   "seg": 79
+  },
+  {
+   "w": "E",
+   "start": 102.23,
+   "end": 102.365,
+   "seg": 80
+  },
+  {
+   "w": "por",
+   "start": 102.365,
+   "end": 102.605,
+   "seg": 80
+  },
+  {
+   "w": "que",
+   "start": 102.605,
+   "end": 102.745,
+   "seg": 80
+  },
+  {
+   "w": "apareceu",
+   "start": 102.745,
+   "end": 103.375,
+   "seg": 80
+  },
+  {
+   "w": "justamente",
+   "start": 103.375,
+   "end": 104.035,
+   "seg": 80
+  },
+  {
+   "w": "naquela",
+   "start": 104.035,
+   "end": 104.465,
+   "seg": 80
+  },
+  {
+   "w": "noite?",
+   "start": 104.465,
+   "end": 104.85,
+   "seg": 80
+  },
+  {
+   "w": "Ele",
+   "start": 105.01,
+   "end": 105.275,
+   "seg": 81
+  },
+  {
+   "w": "decidiu",
+   "start": 105.275,
+   "end": 105.695,
+   "seg": 81
+  },
+  {
+   "w": "atravessar",
+   "start": 105.695,
+   "end": 106.145,
+   "seg": 81
+  },
+  {
+   "w": "o",
+   "start": 106.145,
+   "end": 106.295,
+   "seg": 81
+  },
+  {
+   "w": "rio",
+   "start": 106.295,
+   "end": 106.385,
+   "seg": 81
+  },
+  {
+   "w": "ao",
+   "start": 106.385,
+   "end": 106.675,
+   "seg": 81
+  },
+  {
+   "w": "amanhecer.",
+   "start": 106.675,
+   "end": 107.12,
+   "seg": 81
+  },
+  {
+   "w": "Só",
+   "start": 107.29,
+   "end": 107.505,
+   "seg": 82
+  },
+  {
+   "w": "que,",
+   "start": 107.505,
+   "end": 107.63,
+   "seg": 82
+  },
+  {
+   "w": "quando",
+   "start": 107.76,
+   "end": 108.165,
+   "seg": 83
+  },
+  {
+   "w": "voltou",
+   "start": 108.165,
+   "end": 108.435,
+   "seg": 83
+  },
+  {
+   "w": "ao",
+   "start": 108.435,
+   "end": 108.805,
+   "seg": 83
+  },
+  {
+   "w": "terraço,",
+   "start": 108.805,
+   "end": 109.25,
+   "seg": 83
+  },
+  {
+   "w": "parou",
+   "start": 109.38,
+   "end": 109.645,
+   "seg": 84
+  },
+  {
+   "w": "imediatamente.",
+   "start": 109.645,
+   "end": 110.19,
+   "seg": 84
+  },
+  {
+   "w": "Ao",
+   "start": 110.57,
+   "end": 110.845,
+   "seg": 85
+  },
+  {
+   "w": "lado",
+   "start": 110.845,
+   "end": 111.135,
+   "seg": 85
+  },
+  {
+   "w": "da",
+   "start": 111.135,
+   "end": 111.245,
+   "seg": 85
+  },
+  {
+   "w": "palavra",
+   "start": 111.245,
+   "end": 111.605,
+   "seg": 85
+  },
+  {
+   "w": "VIVO,",
+   "start": 111.605,
+   "end": 111.93,
+   "seg": 85
+  },
+  {
+   "w": "alguém",
+   "start": 112.11,
+   "end": 112.505,
+   "seg": 86
+  },
+  {
+   "w": "havia",
+   "start": 112.505,
+   "end": 112.865,
+   "seg": 86
+  },
+  {
+   "w": "escrito",
+   "start": 112.865,
+   "end": 113.495,
+   "seg": 86
+  },
+  {
+   "w": "outra",
+   "start": 113.495,
+   "end": 113.865,
+   "seg": 86
+  },
+  {
+   "w": "mensagem.",
+   "start": 113.865,
+   "end": 114.367,
+   "seg": 86
+  },
+  {
+   "w": "A",
+   "start": 114.367,
+   "end": 114.475,
+   "seg": 87
+  },
+  {
+   "w": "tinta",
+   "start": 114.475,
+   "end": 114.855,
+   "seg": 87
+  },
+  {
+   "w": "ainda",
+   "start": 114.855,
+   "end": 115.225,
+   "seg": 87
+  },
+  {
+   "w": "estava",
+   "start": 115.225,
+   "end": 115.725,
+   "seg": 87
+  },
+  {
+   "w": "molhada.",
+   "start": 115.725,
+   "end": 116.149,
+   "seg": 87
+  },
+  {
+   "w": "Duas",
+   "start": 116.149,
+   "end": 116.435,
+   "seg": 88
+  },
+  {
+   "w": "palavras:",
+   "start": 116.435,
+   "end": 117.007,
+   "seg": 88
+  },
+  {
+   "w": "EU",
+   "start": 117.007,
+   "end": 117.245,
+   "seg": 89
+  },
+  {
+   "w": "TAMBÉM.",
+   "start": 117.245,
+   "end": 117.74,
+   "seg": 89
+  },
+  {
+   "w": "Ele",
+   "start": 117.92,
+   "end": 118.085,
+   "seg": 90
+  },
+  {
+   "w": "correu",
+   "start": 118.085,
+   "end": 118.455,
+   "seg": 90
+  },
+  {
+   "w": "até",
+   "start": 118.455,
+   "end": 118.645,
+   "seg": 90
+  },
+  {
+   "w": "a",
+   "start": 118.645,
+   "end": 118.765,
+   "seg": 90
+  },
+  {
+   "w": "porta",
+   "start": 118.765,
+   "end": 119.005,
+   "seg": 90
+  },
+  {
+   "w": "do",
+   "start": 119.005,
+   "end": 119.105,
+   "seg": 90
+  },
+  {
+   "w": "terraço.",
+   "start": 119.105,
+   "end": 119.458,
+   "seg": 90
+  },
+  {
+   "w": "Estava",
+   "start": 119.458,
+   "end": 119.725,
+   "seg": 91
+  },
+  {
+   "w": "entreaberta.",
+   "start": 119.725,
+   "end": 120.2,
+   "seg": 91
+  },
+  {
+   "w": "Na",
+   "start": 120.35,
+   "end": 120.515,
+   "seg": 92
+  },
+  {
+   "w": "maçaneta,",
+   "start": 120.515,
+   "end": 120.96,
+   "seg": 92
+  },
+  {
+   "w": "uma",
+   "start": 121.32,
+   "end": 121.655,
+   "seg": 93
+  },
+  {
+   "w": "marca",
+   "start": 121.655,
+   "end": 121.875,
+   "seg": 93
+  },
+  {
+   "w": "recente",
+   "start": 121.875,
+   "end": 122.365,
+   "seg": 93
+  },
+  {
+   "w": "de",
+   "start": 122.365,
+   "end": 122.515,
+   "seg": 93
+  },
+  {
+   "w": "mão",
+   "start": 122.515,
+   "end": 122.735,
+   "seg": 93
+  },
+  {
+   "w": "que",
+   "start": 122.735,
+   "end": 122.905,
+   "seg": 93
+  },
+  {
+   "w": "não",
+   "start": 122.905,
+   "end": 123.245,
+   "seg": 93
+  },
+  {
+   "w": "era",
+   "start": 123.245,
+   "end": 123.455,
+   "seg": 93
+  },
+  {
+   "w": "sua.",
+   "start": 123.455,
+   "end": 123.655,
+   "seg": 93
+  },
+  {
+   "w": "Arthur",
+   "start": 123.655,
+   "end": 124.015,
+   "seg": 94
+  },
+  {
+   "w": "olhou",
+   "start": 124.015,
+   "end": 124.245,
+   "seg": 94
+  },
+  {
+   "w": "para",
+   "start": 124.245,
+   "end": 124.495,
+   "seg": 94
+  },
+  {
+   "w": "o",
+   "start": 124.495,
+   "end": 124.645,
+   "seg": 94
+  },
+  {
+   "w": "prédio",
+   "start": 124.645,
+   "end": 124.965,
+   "seg": 94
+  },
+  {
+   "w": "distante.",
+   "start": 124.965,
+   "end": 125.319,
+   "seg": 94
+  },
+  {
+   "w": "A",
+   "start": 125.319,
+   "end": 125.465,
+   "seg": 95
+  },
+  {
+   "w": "janela",
+   "start": 125.465,
+   "end": 125.985,
+   "seg": 95
+  },
+  {
+   "w": "continuava",
+   "start": 125.985,
+   "end": 126.525,
+   "seg": 95
+  },
+  {
+   "w": "acesa.",
+   "start": 126.525,
+   "end": 127.0,
+   "seg": 95
+  },
+  {
+   "w": "Então",
+   "start": 127.15,
+   "end": 127.575,
+   "seg": 96
+  },
+  {
+   "w": "percebeu",
+   "start": 127.575,
+   "end": 128.025,
+   "seg": 96
+  },
+  {
+   "w": "o",
+   "start": 128.025,
+   "end": 128.165,
+   "seg": 96
+  },
+  {
+   "w": "detalhe",
+   "start": 128.165,
+   "end": 128.535,
+   "seg": 96
+  },
+  {
+   "w": "mais",
+   "start": 128.535,
+   "end": 128.785,
+   "seg": 96
+  },
+  {
+   "w": "aterrorizante",
+   "start": 128.785,
+   "end": 129.625,
+   "seg": 96
+  },
+  {
+   "w": "de",
+   "start": 129.625,
+   "end": 129.725,
+   "seg": 96
+  },
+  {
+   "w": "todos:",
+   "start": 129.725,
+   "end": 130.01,
+   "seg": 96
+  },
+  {
+   "w": "aquela",
+   "start": 130.25,
+   "end": 130.675,
+   "seg": 97
+  },
+  {
+   "w": "mensagem",
+   "start": 130.675,
+   "end": 131.105,
+   "seg": 97
+  },
+  {
+   "w": "tinha",
+   "start": 131.105,
+   "end": 131.335,
+   "seg": 97
+  },
+  {
+   "w": "sido",
+   "start": 131.335,
+   "end": 131.535,
+   "seg": 97
+  },
+  {
+   "w": "escrita",
+   "start": 131.535,
+   "end": 132.045,
+   "seg": 97
+  },
+  {
+   "w": "enquanto",
+   "start": 132.045,
+   "end": 132.365,
+   "seg": 97
+  },
+  {
+   "w": "ele",
+   "start": 132.365,
+   "end": 132.595,
+   "seg": 97
+  },
+  {
+   "w": "dormia.",
+   "start": 132.595,
+   "end": 132.93,
+   "seg": 97
+  },
+  {
+   "w": "Se",
+   "start": 133.06,
+   "end": 133.235,
+   "seg": 98
+  },
+  {
+   "w": "o",
+   "start": 133.235,
+   "end": 133.365,
+   "seg": 98
+  },
+  {
+   "w": "sobrevivente",
+   "start": 133.365,
+   "end": 134.125,
+   "seg": 98
+  },
+  {
+   "w": "estava",
+   "start": 134.125,
+   "end": 134.455,
+   "seg": 98
+  },
+  {
+   "w": "do",
+   "start": 134.455,
+   "end": 134.685,
+   "seg": 98
+  },
+  {
+   "w": "outro",
+   "start": 134.685,
+   "end": 134.935,
+   "seg": 98
+  },
+  {
+   "w": "lado",
+   "start": 134.935,
+   "end": 135.215,
+   "seg": 98
+  },
+  {
+   "w": "do",
+   "start": 135.215,
+   "end": 135.395,
+   "seg": 98
+  },
+  {
+   "w": "rio...",
+   "start": 135.395,
+   "end": 135.506,
+   "seg": 98
+  },
+  {
+   "w": "quem",
+   "start": 135.506,
+   "end": 135.715,
+   "seg": 99
+  },
+  {
+   "w": "passou",
+   "start": 135.715,
+   "end": 135.945,
+   "seg": 99
+  },
+  {
+   "w": "a",
+   "start": 135.945,
+   "end": 136.105,
+   "seg": 99
+  },
+  {
+   "w": "noite",
+   "start": 136.105,
+   "end": 136.375,
+   "seg": 99
+  },
+  {
+   "w": "no",
+   "start": 136.375,
+   "end": 136.495,
+   "seg": 99
+  },
+  {
+   "w": "prédio",
+   "start": 136.495,
+   "end": 136.755,
+   "seg": 99
+  },
+  {
+   "w": "com",
+   "start": 136.755,
+   "end": 136.925,
+   "seg": 99
+  },
+  {
+   "w": "Arthur?",
+   "start": 136.925,
+   "end": 137.17,
+   "seg": 99
+  }
+ ]
+}

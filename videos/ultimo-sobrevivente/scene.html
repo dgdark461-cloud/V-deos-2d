@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>O último sobrevivente</title>
+<style>html,body{margin:0;padding:0;background:#000;overflow:hidden}#stage{display:block;width:1080px;height:1920px}</style>
+</head>
+<body>
+<svg id="stage" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920"></svg>
+<script src="../../lib/helpers.js"></script>
+<script src="art.js"></script>
+<script src="art2.js"></script>
+<script src="env.js"></script>
+<script src="scenes_a.js"></script>
+<script src="scenes_b.js"></script>
+<script src="scenes_c.js"></script>
+<script src="scenes.js"></script>
+<script>
+(function () {
+  const svg = document.getElementById('stage');
+  window.READY = false; window.DURATION = 137.3;
+  let M = null;
+  window.setT = function (t) {
+    if (!M) return;
+    const sc = M.scenes;
+    let html = '';
+    for (let i = 0; i < sc.length; i++) {
+      const s = sc[i], nxt = sc[i + 1];
+      if (t < s.start) continue;
+      if (nxt && t >= nxt.start + Math.max(nxt.fin, 0.001)) continue;
+      const a = i === 0 ? 1 : H.prog(t, s.start, s.start + Math.max(s.fin, 0.001));
+      html += `<g opacity="${a.toFixed(3)}">` + s.draw(t, t - s.start, 's' + (i + 1) + '_') + '</g>';
+    }
+    svg.innerHTML = html + R(0, 0, 1080, 1920, '#000', OP(H.prog(t, M.end - 0.25, M.end)));
+  };
+  fetch('words.json').then(r => r.json()).then(j => { M = makeScenes(j.words, j.segments); window.READY = true; });
+})();
+</script>
+</body>
+</html>

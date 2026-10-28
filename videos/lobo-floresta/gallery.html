@@ -1,0 +1,34 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>html,body{margin:0;background:#000}#stage{display:block;width:1080px;height:1920px}</style></head><body>
+<svg id="stage" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920"></svg>
+<script src="../../lib/helpers.js"></script><script src="art.js"></script><script src="env.js"></script>
+<script>
+window.READY=true;window.DURATION=10;
+window.setT=function(t){
+ const Pf='g_', svg=document.getElementById('stage'); let s=defsC(Pf);
+ const page=Math.floor(t);
+ s+=R(0,0,1080,1920,'#222');
+ if(page==0){
+  s+=G(X(Pf,womanFace({t,eye:1,worry:0.3,mouth:0})),'translate(270 380) scale(0.8)');
+  s+=G(X(Pf,womanFace({t,eye:0.9,worry:1,mouth:0.8,cold:0.4,sweat:1,tremble:2,mess:1})),'translate(810 380) scale(0.8)');
+  s+=G(X(Pf,womanFace({t,eye:0.2,anger:1,smile:0.8})),'translate(270 900) scale(0.8)');
+  s+=G(X(Pf,wolfHead({t,snarl:0,glow:1,uid:'a'})),'translate(810 900) scale(0.8)');
+  s+=G(X(Pf,wolfHead({t,snarl:1,ears:1,uid:'b'})),'translate(270 1400) scale(0.7)');
+  s+=G(X(Pf,shadowFace({smile:1})),'translate(810 1400) scale(0.8)');
+ } else if(page==1){
+  s+=G(wolfSide({phase:0.2,run:0,t}),'translate(300 500)')+G(wolfSide({phase:0.2,run:1,mouth:1,t}),'translate(800 500) scale(0.8)');
+  s+=G(womanFig({}),'translate(200 1000)')+G(womanFig({back:true,arms:[170,175,-170,-175]}),'translate(500 1000)')+G(womanFig({arms:[40,60,-40,-60],walk:0.25,scared:1}),'translate(800 1000)');
+  s+=G(X(Pf,manSil({eyes:1,rim:1})),'translate(300 1700) scale(0.6)')+G(womanFetal({}),'translate(800 1700)')+G(X(Pf,manSil({hat:true})),'translate(540 1700) scale(0.5)');
+ } else if(page==2){
+  s+=forest('f_',t,{k:0,px:0});
+  s+=G(X(Pf,wolfHead({t,uid:'c'})),'translate(540 1000) scale(0.5)');
+ } else if(page==3){
+  s+=forest('f_',t,{k:2,px:0,glowFire:1}); s+=fireFx(Pf,540,1300,1,t,1);
+ } else if(page==4){
+  s+=forest('f_',t,{k:1,px:0}); s+=G(carBack(Pf,{brake:1,t,dust:1}),'translate(540 1350)');
+ } else if(page==5){
+  s+=G(wolfEye(Pf,{t}),'translate(540 600) scale(0.9)')+G(phoneObj(Pf,{t}),'translate(300 1400)')+G(lighterObj({flame:1,t}),'translate(600 1350)')+G(clockObj(Pf,{h:0.3,m:0.6}),'translate(850 1450) scale(0.8)');
+  s+=G(sackShape({}),'translate(540 1100) scale(0.6)');
+ }
+ svg.innerHTML=s;
+};
+</script></body></html>

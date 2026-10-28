@@ -53,6 +53,19 @@ def smooth(a, k=3):
     return np.convolve(a, np.ones(k) / k, mode="same")
 
 
+def syllable_nuclei(x, thr_drop=24.0):
+    """Instantes (s) dos picos de energia em banda de fala (aprox. núcleos de sílaba)."""
+    from scipy import signal as sg
+    sos = sg.butter(3, [250, 2800], btype="band", fs=SR, output="sos")
+    y = sg.sosfilt(sos, x)
+    n = len(y) // HOP
+    fr = y[: n * HOP].reshape(n, HOP).astype(np.float64)
+    b = smooth(20 * np.log10(np.sqrt((fr ** 2).mean(axis=1)) + 1e-7), 5)
+    pk, _ = sg.find_peaks(b, prominence=2.5, distance=8)
+    thr = np.percentile(b, 95) - thr_drop
+    return np.array([p * 0.01 for p in pk if b[p] > thr])
+
+
 def find_speech_and_pauses(db, min_pause=0.12, drop=22.0):
     """Retorna (i_ini, i_fim, limiar_dB, pausas); índices em quadros de 10 ms."""
     s = smooth(db, 3)
@@ -163,6 +176,94 @@ def place_boundaries(segs, t0, t1, pauses):
     return spans, chosen
 
 
+def place_boundaries_dp(segs, t0, t1, pauses, nuclei=None):
+    """Posiciona os fins de trecho por programação dinâmica no TEMPO DE FALA (pausas descontadas).
+    Cada trecho deve durar aproximadamente (sílabas x ritmo médio); o ritmo local pode variar.
+    Pausas reais ganham bônus (mais se a pontuação for forte). Sem pausa, o fim é interpolado."""
+    n = len(segs)
+    weights = np.array([seg_weight(sg) for sg in segs], dtype=float)
+    ps_ = [(p["start"], p["end"]) for p in pauses]
+
+    def V(t):
+        return (t - t0) - sum(max(0.0, min(t, pe) - ps) for ps, pe in ps_ if ps < t)
+
+    def wall(v):
+        cur, rem = t0, v
+        for ps, pe in ps_:
+            ln = ps - cur
+            if rem <= ln:
+                return cur + rem
+            rem -= ln
+            cur = pe
+        return cur + rem
+
+    Vtot = V(t1)
+    if n == 1:
+        return [(t0, t1)], [None]
+    r = Vtot / weights.sum()
+    cum = np.cumsum(weights)
+    pv = np.array([V(ps) for ps, _ in ps_])
+    use_n = nuclei is not None and len(nuclei) > 0.4 * weights.sum()
+    if use_n:
+        rho = len(nuclei) / weights.sum()
+        Cn = lambda t: float(np.searchsorted(nuclei, t))
+        pcn = np.array([Cn(ps) for ps, _ in ps_])
+    pd = np.array([pe - ps for ps, pe in ps_])
+    WIN, STEP, VPEN = 12.0, 0.25, 0.5
+    cands = []
+    for k in range(n - 1):
+        Tk = r * cum[k]
+        lo, hi = max(0.0, Tk - WIN), min(Vtot, Tk + WIN)
+        strong = bool(STRONG_END.search(segs[k][-1]))
+        vs, un, idx, cn = [], [], [], []
+        for j in np.where((pv >= lo) & (pv <= hi))[0]:
+            vs.append(pv[j]); idx.append(int(j)); cn.append(pcn[j] if use_n else 0.0)
+            un.append(-(0.45 if strong else 0.15) * min(pd[j] / 0.5, 1.0))
+        for v in np.arange(lo, hi + 1e-9, STEP):
+            vs.append(float(v)); idx.append(-1); un.append(VPEN); cn.append(Cn(wall(float(v))) if use_n else 0.0)
+        cands.append((np.array(vs), np.array(un), idx, np.array(cn)))
+    mins = [MIN_WORD * len(sg) for sg in segs]
+
+    LAM = 0.25
+
+    def pair(dv, k, dn=None):
+        e = r * weights[k]
+        c = (dv - e) ** 2 / (e + 0.3)
+        if use_n and dn is not None:
+            en = rho * weights[k]
+            c = c + LAM * (dn - en) ** 2 / (en + 2.0)
+        return np.where(dv < mins[k], 1e9, c)
+
+    v0, u0, _, n0 = cands[0]
+    cost = pair(v0 - 0.0, 0, n0 - 0.0) + u0
+    back = []
+    for k in range(1, n - 1):
+        vk, uk, _, nk = cands[k]
+        vp, np_ = cands[k - 1][0], cands[k - 1][3]
+        M = cost[None, :] + pair(vk[:, None] - vp[None, :], k, nk[:, None] - np_[None, :])
+        b = np.argmin(M, axis=1)
+        cost = M[np.arange(len(vk)), b] + uk
+        back.append(b)
+    vl, nl = cands[n - 2][0], cands[n - 2][3]
+    cost = cost + pair(Vtot - vl, n - 1, (Cn(t1) - nl) if use_n else None)
+    c = int(np.argmin(cost))
+    pick = [c]
+    for b in reversed(back):
+        c = int(b[c]); pick.append(c)
+    pick = pick[::-1]
+    starts, ends, chosen = [t0], [], []
+    for k, c in enumerate(pick):
+        vs, _, idx, _ = cands[k]
+        j = idx[c]
+        if j >= 0:
+            ends.append(ps_[j][0]); starts.append(ps_[j][1]); chosen.append(True)
+        else:
+            w = wall(float(vs[c])); ends.append(w); starts.append(w); chosen.append(False)
+    ends.append(t1); chosen.append(None)
+    spans = [(starts[i], max(ends[i], starts[i] + MIN_WORD)) for i in range(n)]
+    return spans, chosen
+
+
 def local_min(db, t, radius, lo, hi):
     a = max(int(round(max(t - radius, lo) * 100)), 0)
     b = min(int(round(min(t + radius, hi) * 100)) + 1, len(db))
@@ -197,7 +298,7 @@ def align_segment(words, a, b, db):
     return [(bounds[i], bounds[i + 1]) for i in range(len(words))]
 
 
-def run(audio, script_text, min_pause=0.12, drop=22.0):
+def run(audio, script_text, min_pause=0.12, drop=22.0, mode="dp"):
     x = load_audio(audio)
     dur = len(x) / SR
     db = energy_db(x)
@@ -206,7 +307,12 @@ def run(audio, script_text, min_pause=0.12, drop=22.0):
     segs = split_segments(script_text)
     if not segs:
         sys.exit("roteiro vazio")
-    spans, chosen = place_boundaries(segs, t0, t1, pauses)
+    if mode == "dp":
+        spans, chosen = place_boundaries_dp(segs, t0, t1, pauses, syllable_nuclei(x))
+    elif mode == "dp-time":
+        spans, chosen = place_boundaries_dp(segs, t0, t1, pauses, None)
+    else:
+        spans, chosen = place_boundaries(segs, t0, t1, pauses)
     words, segments = [], []
     for si, (seg, (a, b)) in enumerate(zip(segs, spans)):
         times = align_segment(seg, a, b, db)
@@ -235,10 +341,12 @@ def main():
                     help="pausa mínima em segundos (padrão 0.12)")
     ap.add_argument("--drop-db", type=float, default=22.0,
                     help="queda (dB abaixo do pico) que conta como pausa; use 14-18 em narração muito comprimida")
+    ap.add_argument("--mode", choices=["dp", "dp-time", "greedy"], default="dp",
+                    help="dp (padrão): otimiza no tempo de fala + contagem de núcleos de sílaba; dp-time: só tempo de fala; greedy: método antigo")
     a = ap.parse_args()
     with open(a.script, encoding="utf-8") as f:
         text = f.read()
-    res = run(a.audio, text, a.min_pause, a.drop_db)
+    res = run(a.audio, text, a.min_pause, a.drop_db, a.mode)
     with open(a.out, "w", encoding="utf-8") as f:
         json.dump(res, f, ensure_ascii=False, indent=1)
     anch = sum(1 for s in res["segments"] if s["anchored_on_pause"])

@@ -1,0 +1,4485 @@
+{
+ "method": "estimated: pauses + syllables (no speech recognition)",
+ "duration": 173.62,
+ "speech_start": 0.0,
+ "speech_end": 173.37,
+ "silence_threshold_db": -35.1,
+ "pauses": [
+  {
+   "start": 1.91,
+   "end": 2.06
+  },
+  {
+   "start": 4.59,
+   "end": 4.74
+  },
+  {
+   "start": 7.59,
+   "end": 7.71
+  },
+  {
+   "start": 8.65,
+   "end": 8.82
+  },
+  {
+   "start": 13.41,
+   "end": 13.99
+  },
+  {
+   "start": 16.17,
+   "end": 16.31
+  },
+  {
+   "start": 16.98,
+   "end": 17.32
+  },
+  {
+   "start": 19.29,
+   "end": 19.43
+  },
+  {
+   "start": 21.94,
+   "end": 22.31
+  },
+  {
+   "start": 23.96,
+   "end": 24.1
+  },
+  {
+   "start": 26.06,
+   "end": 26.23
+  },
+  {
+   "start": 27.81,
+   "end": 28.28
+  },
+  {
+   "start": 32.14,
+   "end": 32.45
+  },
+  {
+   "start": 34.1,
+   "end": 34.32
+  },
+  {
+   "start": 35.37,
+   "end": 35.51
+  },
+  {
+   "start": 36.74,
+   "end": 37.11
+  },
+  {
+   "start": 38.58,
+   "end": 38.8
+  },
+  {
+   "start": 39.58,
+   "end": 39.7
+  },
+  {
+   "start": 40.51,
+   "end": 40.81
+  },
+  {
+   "start": 43.52,
+   "end": 43.75
+  },
+  {
+   "start": 46.85,
+   "end": 47.16
+  },
+  {
+   "start": 49.23,
+   "end": 49.4
+  },
+  {
+   "start": 50.86,
+   "end": 50.99
+  },
+  {
+   "start": 52.48,
+   "end": 52.67
+  },
+  {
+   "start": 53.46,
+   "end": 53.6
+  },
+  {
+   "start": 55.96,
+   "end": 56.26
+  },
+  {
+   "start": 60.01,
+   "end": 60.24
+  },
+  {
+   "start": 61.2,
+   "end": 61.52
+  },
+  {
+   "start": 63.35,
+   "end": 63.64
+  },
+  {
+   "start": 65.46,
+   "end": 65.68
+  },
+  {
+   "start": 67.59,
+   "end": 67.79
+  },
+  {
+   "start": 69.6,
+   "end": 70.03
+  },
+  {
+   "start": 73.33,
+   "end": 73.48
+  },
+  {
+   "start": 76.21,
+   "end": 76.51
+  },
+  {
+   "start": 77.41,
+   "end": 77.6
+  },
+  {
+   "start": 79.29,
+   "end": 79.45
+  },
+  {
+   "start": 80.77,
+   "end": 80.91
+  },
+  {
+   "start": 81.6,
+   "end": 82.03
+  },
+  {
+   "start": 83.79,
+   "end": 84.02
+  },
+  {
+   "start": 87.48,
+   "end": 87.64
+  },
+  {
+   "start": 89.24,
+   "end": 89.42
+  },
+  {
+   "start": 89.82,
+   "end": 90.26
+  },
+  {
+   "start": 92.0,
+   "end": 92.15
+  },
+  {
+   "start": 92.91,
+   "end": 93.26
+  },
+  {
+   "start": 94.8,
+   "end": 95.1
+  },
+  {
+   "start": 96.63,
+   "end": 96.82
+  },
+  {
+   "start": 100.61,
+   "end": 100.74
+  },
+  {
+   "start": 102.18,
+   "end": 102.59
+  },
+  {
+   "start": 103.66,
+   "end": 103.78
+  },
+  {
+   "start": 105.01,
+   "end": 105.18
+  },
+  {
+   "start": 107.42,
+   "end": 107.62
+  },
+  {
+   "start": 109.13,
+   "end": 109.26
+  },
+  {
+   "start": 110.03,
+   "end": 110.18
+  },
+  {
+   "start": 111.07,
+   "end": 111.21
+  },
+  {
+   "start": 114.02,
+   "end": 114.45
+  },
+  {
+   "start": 117.53,
+   "end": 117.68
+  },
+  {
+   "start": 121.25,
+   "end": 121.39
+  },
+  {
+   "start": 122.91,
+   "end": 123.08
+  },
+  {
+   "start": 123.15,
+   "end": 123.27
+  },
+  {
+   "start": 125.64,
+   "end": 125.86
+  },
+  {
+   "start": 126.35,
+   "end": 126.53
+  },
+  {
+   "start": 128.32,
+   "end": 128.44
+  },
+  {
+   "start": 130.49,
+   "end": 130.67
+  },
+  {
+   "start": 132.78,
+   "end": 132.9
+  },
+  {
+   "start": 133.29,
+   "end": 133.65
+  },
+  {
+   "start": 134.41,
+   "end": 134.54
+  },
+  {
+   "start": 135.9,
+   "end": 136.05
+  },
+  {
+   "start": 137.41,
+   "end": 137.53
+  },
+  {
+   "start": 139.67,
+   "end": 139.8
+  },
+  {
+   "start": 142.94,
+   "end": 143.26
+  },
+  {
+   "start": 143.57,
+   "end": 143.69
+  },
+  {
+   "start": 144.81,
+   "end": 144.93
+  },
+  {
+   "start": 148.1,
+   "end": 148.24
+  },
+  {
+   "start": 149.74,
+   "end": 149.92
+  },
+  {
+   "start": 151.96,
+   "end": 152.3
+  },
+  {
+   "start": 154.98,
+   "end": 155.32
+  },
+  {
+   "start": 155.99,
+   "end": 156.15
+  },
+  {
+   "start": 159.66,
+   "end": 159.78
+  },
+  {
+   "start": 160.66,
+   "end": 161.04
+  },
+  {
+   "start": 163.34,
+   "end": 163.52
+  },
+  {
+   "start": 164.64,
+   "end": 164.81
+  },
+  {
+   "start": 166.64,
+   "end": 166.79
+  },
+  {
+   "start": 168.75,
+   "end": 168.99
+  },
+  {
+   "start": 170.03,
+   "end": 170.15
+  },
+  {
+   "start": 172.02,
+   "end": 172.34
+  }
+ ],
+ "segments": [
+  {
+   "i": 0,
+   "text": "Se alguém te parar na rua e perguntar:",
+   "start": 0.0,
+   "end": 1.91,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 1,
+   "text": "\"Você preferia ficar sozinho com um homem ou com um lobo?\"...",
+   "start": 2.06,
+   "end": 5.55,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 2,
+   "text": "Pense muito bem antes de responder.",
+   "start": 5.55,
+   "end": 7.59,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 3,
+   "text": "E,",
+   "start": 7.71,
+   "end": 7.92,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 4,
+   "text": "principalmente...",
+   "start": 7.92,
+   "end": 8.65,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 5,
+   "text": "nunca escolha o lobo.",
+   "start": 8.82,
+   "end": 10.59,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 6,
+   "text": "Mas você respondeu sem pensar duas vezes:",
+   "start": 10.59,
+   "end": 12.34,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 7,
+   "text": "\"Prefiro o lobo.\"",
+   "start": 12.34,
+   "end": 13.41,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 8,
+   "text": "Os desconhecidos trocaram olhares e sorriram...",
+   "start": 13.99,
+   "end": 16.17,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 9,
+   "text": "e,",
+   "start": 16.31,
+   "end": 16.503,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 10,
+   "text": "de repente,",
+   "start": 16.503,
+   "end": 16.98,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 11,
+   "text": "um saco preto foi colocado sobre a sua cabeça.",
+   "start": 17.32,
+   "end": 19.29,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 12,
+   "text": "Você passou três horas presa no porta-malas de um carro...",
+   "start": 19.43,
+   "end": 21.94,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 13,
+   "text": "até que o veículo finalmente parou.",
+   "start": 22.31,
+   "end": 23.96,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 14,
+   "text": "Você ouviu um galho se quebrando...",
+   "start": 24.1,
+   "end": 26.06,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 15,
+   "text": "e sentiu um forte cheiro de mato e árvores.",
+   "start": 26.23,
+   "end": 27.81,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 16,
+   "text": "Alguém arrancou o saco da sua cabeça.",
+   "start": 28.28,
+   "end": 29.723,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 17,
+   "text": "Uma voz masculina sussurrou bem perto do seu ouvido:",
+   "start": 29.723,
+   "end": 32.14,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 18,
+   "text": "\"Você tem 24 horas...",
+   "start": 32.45,
+   "end": 33.522,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 19,
+   "text": "afinal,",
+   "start": 33.522,
+   "end": 34.1,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 20,
+   "text": "foi você mesma quem escolheu.\"",
+   "start": 34.32,
+   "end": 35.37,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 21,
+   "text": "O carro começou a se afastar...",
+   "start": 35.51,
+   "end": 36.74,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 22,
+   "text": "e a última coisa que você ouviu foi:",
+   "start": 37.11,
+   "end": 38.58,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 23,
+   "text": "\"Quando anoitecer...",
+   "start": 38.8,
+   "end": 39.58,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 24,
+   "text": "vamos trazer o homem.\"",
+   "start": 39.7,
+   "end": 40.51,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 25,
+   "text": "Agora,",
+   "start": 40.81,
+   "end": 41.101,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 26,
+   "text": "você está sozinha...",
+   "start": 41.101,
+   "end": 42.076,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 27,
+   "text": "no meio de uma floresta.",
+   "start": 42.076,
+   "end": 43.52,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 28,
+   "text": "A apenas trinta metros de distância,",
+   "start": 43.75,
+   "end": 45.276,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 29,
+   "text": "perto de uma árvore caída...",
+   "start": 45.276,
+   "end": 46.85,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 30,
+   "text": "um enorme lobo cinzento está parado,",
+   "start": 47.16,
+   "end": 49.23,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 31,
+   "text": "olhando diretamente pra você.",
+   "start": 49.4,
+   "end": 50.86,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 32,
+   "text": "Seu primeiro impulso é sair correndo...",
+   "start": 50.99,
+   "end": 52.48,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 33,
+   "text": "mas não faça isso.",
+   "start": 52.67,
+   "end": 53.46,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 34,
+   "text": "Um lobo pode alcançar até 60 quilômetros por hora.",
+   "start": 53.6,
+   "end": 55.96,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 35,
+   "text": "Você não conseguiria dar nem dez passos...",
+   "start": 56.26,
+   "end": 57.593,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 36,
+   "text": "antes que ele te alcançasse.",
+   "start": 57.593,
+   "end": 58.702,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 37,
+   "text": "Subir em uma árvore também não é uma boa ideia.",
+   "start": 58.702,
+   "end": 61.2,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 38,
+   "text": "Lobos não escalam tão bem quanto ursos...",
+   "start": 61.52,
+   "end": 63.35,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 39,
+   "text": "mas a matilha pode cercar o tronco e esperar.",
+   "start": 63.64,
+   "end": 65.46,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 40,
+   "text": "Primeira regra:",
+   "start": 65.68,
+   "end": 66.497,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 41,
+   "text": "tente parecer maior.",
+   "start": 66.497,
+   "end": 67.59,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 42,
+   "text": "Você levanta os braços acima da cabeça...",
+   "start": 67.79,
+   "end": 69.6,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 43,
+   "text": "e começa a falar com uma voz firme,",
+   "start": 70.03,
+   "end": 71.969,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 44,
+   "text": "grave e tranquila...",
+   "start": 71.969,
+   "end": 72.816,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 45,
+   "text": "sem gritar.",
+   "start": 72.816,
+   "end": 73.33,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 46,
+   "text": "O objetivo é fazer o animal perceber que você é uma ameaça perigosa,",
+   "start": 73.48,
+   "end": 76.21,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 47,
+   "text": "e não presa fácil.",
+   "start": 76.51,
+   "end": 77.41,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 48,
+   "text": "O lobo solta um rosnado grave...",
+   "start": 77.6,
+   "end": 79.29,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 49,
+   "text": "e dá um passo na sua direção.",
+   "start": 79.45,
+   "end": 80.77,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 50,
+   "text": "Segunda regra:",
+   "start": 80.91,
+   "end": 81.6,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 51,
+   "text": "evite encará-lo diretamente nos olhos.",
+   "start": 82.03,
+   "end": 83.79,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 52,
+   "text": "Um olhar fixo pode ser interpretado pela alcateia como um desafio de liderança.",
+   "start": 84.02,
+   "end": 87.48,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 53,
+   "text": "Você começa a recuar lentamente...",
+   "start": 87.64,
+   "end": 89.24,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 54,
+   "text": "de lado...",
+   "start": 89.42,
+   "end": 89.82,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 55,
+   "text": "sem virar as costas.",
+   "start": 90.26,
+   "end": 91.347,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 56,
+   "text": "Vinte metros...",
+   "start": 91.347,
+   "end": 92.0,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 57,
+   "text": "quarenta metros.",
+   "start": 92.15,
+   "end": 92.91,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 58,
+   "text": "Se ele atacar para se defender,",
+   "start": 93.26,
+   "end": 94.8,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 59,
+   "text": "enrole-se em posição fetal,",
+   "start": 95.1,
+   "end": 96.63,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 60,
+   "text": "proteja o pescoço com as mãos entrelaçadas e permaneça imóvel.",
+   "start": 96.82,
+   "end": 100.61,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 61,
+   "text": "Mas o lobo não ataca.",
+   "start": 100.74,
+   "end": 102.18,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 62,
+   "text": "Ele se aproxima do saco preto que estava na sua cabeça...",
+   "start": 102.59,
+   "end": 105.01,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 63,
+   "text": "cheira o tecido que ainda carrega o seu cheiro...",
+   "start": 105.18,
+   "end": 107.42,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 64,
+   "text": "e,",
+   "start": 107.62,
+   "end": 107.772,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 65,
+   "text": "depois de alguns segundos...",
+   "start": 107.772,
+   "end": 109.13,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 66,
+   "text": "desaparece no meio da escuridão.",
+   "start": 109.26,
+   "end": 111.07,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 67,
+   "text": "Você tenta manter a calma...",
+   "start": 111.21,
+   "end": 112.521,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 68,
+   "text": "e começa a conferir tudo o que tem:",
+   "start": 112.521,
+   "end": 114.02,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 69,
+   "text": "um celular sem sinal...",
+   "start": 114.45,
+   "end": 115.421,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 70,
+   "text": "apenas 12% de bateria...",
+   "start": 115.421,
+   "end": 116.78,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 71,
+   "text": "um isqueiro no bolso...",
+   "start": 116.78,
+   "end": 117.53,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 72,
+   "text": "e aproximadamente 20 horas até o amanhecer.",
+   "start": 117.68,
+   "end": 121.25,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 73,
+   "text": "Você consegue acender uma fogueira.",
+   "start": 121.39,
+   "end": 122.91,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 74,
+   "text": "O fogo pode ajudar a afastar alguns animais selvagens.",
+   "start": 123.08,
+   "end": 125.64,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 75,
+   "text": "Em teoria...",
+   "start": 125.86,
+   "end": 126.35,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 76,
+   "text": "basta sobreviver até o sol nascer.",
+   "start": 126.53,
+   "end": 128.32,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 77,
+   "text": "Mas a floresta começa a escurecer.",
+   "start": 128.44,
+   "end": 130.49,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 78,
+   "text": "Os sons dos animais ficam cada vez mais intensos...",
+   "start": 130.67,
+   "end": 132.78,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 79,
+   "text": "e você percebe que está completamente sozinha.",
+   "start": 132.9,
+   "end": 135.9,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 80,
+   "text": "Pelo menos...",
+   "start": 136.05,
+   "end": 136.625,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 81,
+   "text": "é o que parece.",
+   "start": 136.625,
+   "end": 137.41,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 82,
+   "text": "Por volta da meia-noite...",
+   "start": 137.53,
+   "end": 138.566,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 83,
+   "text": "o lobo retorna.",
+   "start": 138.566,
+   "end": 139.67,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 84,
+   "text": "Ele para a apenas dez metros da fogueira.",
+   "start": 139.8,
+   "end": 141.794,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 85,
+   "text": "Seu coração dispara...",
+   "start": 141.794,
+   "end": 142.94,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 86,
+   "text": "você fica completamente imóvel.",
+   "start": 143.26,
+   "end": 144.81,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 87,
+   "text": "Mas algo estranho acontece.",
+   "start": 144.93,
+   "end": 146.433,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 88,
+   "text": "O lobo não está olhando para você.",
+   "start": 146.433,
+   "end": 148.1,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 89,
+   "text": "Ele está olhando para alguma coisa...",
+   "start": 148.24,
+   "end": 149.74,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 90,
+   "text": "atrás das suas costas.",
+   "start": 149.92,
+   "end": 151.095,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 91,
+   "text": "Por um segundo...",
+   "start": 151.095,
+   "end": 151.96,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 92,
+   "text": "o animal permanece paralisado.",
+   "start": 152.3,
+   "end": 153.898,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 93,
+   "text": "Então,",
+   "start": 153.898,
+   "end": 154.36,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 94,
+   "text": "de repente...",
+   "start": 154.36,
+   "end": 154.98,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 95,
+   "text": "ele se vira e dispara floresta adentro,",
+   "start": 155.32,
+   "end": 157.201,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 96,
+   "text": "correndo o mais rápido que consegue.",
+   "start": 157.201,
+   "end": 158.818,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 97,
+   "text": "Você não entende o que aconteceu...",
+   "start": 158.818,
+   "end": 160.66,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 98,
+   "text": "até que escuta o barulho de um galho se quebrando...",
+   "start": 161.04,
+   "end": 163.34,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 99,
+   "text": "bem atrás de você.",
+   "start": 163.52,
+   "end": 164.64,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 100,
+   "text": "Seu corpo inteiro congela.",
+   "start": 164.81,
+   "end": 166.126,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 101,
+   "text": "E então...",
+   "start": 166.126,
+   "end": 166.64,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 102,
+   "text": "você se lembra da última frase que ouviu antes de o carro partir:",
+   "start": 166.79,
+   "end": 170.03,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 103,
+   "text": "\"Quando anoitecer...",
+   "start": 170.15,
+   "end": 170.972,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 104,
+   "text": "vamos trazer o homem.\"",
+   "start": 170.972,
+   "end": 172.02,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 105,
+   "text": "Eles trouxeram o homem.",
+   "start": 172.34,
+   "end": 173.37,
+   "anchored_on_pause": null
+  }
+ ],
+ "words": [
+  {
+   "w": "Se",
+   "start": 0.0,
+   "end": 0.135,
+   "seg": 0
+  },
+  {
+   "w": "alguém",
+   "start": 0.135,
+   "end": 0.485,
+   "seg": 0
+  },
+  {
+   "w": "te",
+   "start": 0.485,
+   "end": 0.645,
+   "seg": 0
+  },
+  {
+   "w": "parar",
+   "start": 0.645,
+   "end": 1.005,
+   "seg": 0
+  },
+  {
+   "w": "na",
+   "start": 1.005,
+   "end": 1.105,
+   "seg": 0
+  },
+  {
+   "w": "rua",
+   "start": 1.105,
+   "end": 1.295,
+   "seg": 0
+  },
+  {
+   "w": "e",
+   "start": 1.295,
+   "end": 1.395,
+   "seg": 0
+  },
+  {
+   "w": "perguntar:",
+   "start": 1.395,
+   "end": 1.91,
+   "seg": 0
+  },
+  {
+   "w": "\"Você",
+   "start": 2.06,
+   "end": 2.385,
+   "seg": 1
+  },
+  {
+   "w": "preferia",
+   "start": 2.385,
+   "end": 2.965,
+   "seg": 1
+  },
+  {
+   "w": "ficar",
+   "start": 2.965,
+   "end": 3.415,
+   "seg": 1
+  },
+  {
+   "w": "sozinho",
+   "start": 3.415,
+   "end": 3.945,
+   "seg": 1
+  },
+  {
+   "w": "com",
+   "start": 3.945,
+   "end": 4.115,
+   "seg": 1
+  },
+  {
+   "w": "um",
+   "start": 4.115,
+   "end": 4.245,
+   "seg": 1
+  },
+  {
+   "w": "homem",
+   "start": 4.245,
+   "end": 4.705,
+   "seg": 1
+  },
+  {
+   "w": "ou",
+   "start": 4.705,
+   "end": 4.865,
+   "seg": 1
+  },
+  {
+   "w": "com",
+   "start": 4.865,
+   "end": 5.035,
+   "seg": 1
+  },
+  {
+   "w": "um",
+   "start": 5.035,
+   "end": 5.245,
+   "seg": 1
+  },
+  {
+   "w": "lobo?\"...",
+   "start": 5.245,
+   "end": 5.55,
+   "seg": 1
+  },
+  {
+   "w": "Pense",
+   "start": 5.55,
+   "end": 5.925,
+   "seg": 2
+  },
+  {
+   "w": "muito",
+   "start": 5.925,
+   "end": 6.255,
+   "seg": 2
+  },
+  {
+   "w": "bem",
+   "start": 6.255,
+   "end": 6.465,
+   "seg": 2
+  },
+  {
+   "w": "antes",
+   "start": 6.465,
+   "end": 6.855,
+   "seg": 2
+  },
+  {
+   "w": "de",
+   "start": 6.855,
+   "end": 7.035,
+   "seg": 2
+  },
+  {
+   "w": "responder.",
+   "start": 7.035,
+   "end": 7.59,
+   "seg": 2
+  },
+  {
+   "w": "E,",
+   "start": 7.71,
+   "end": 7.92,
+   "seg": 3
+  },
+  {
+   "w": "principalmente...",
+   "start": 7.92,
+   "end": 8.65,
+   "seg": 4
+  },
+  {
+   "w": "nunca",
+   "start": 8.82,
+   "end": 9.285,
+   "seg": 5
+  },
+  {
+   "w": "escolha",
+   "start": 9.285,
+   "end": 9.985,
+   "seg": 5
+  },
+  {
+   "w": "o",
+   "start": 9.985,
+   "end": 10.125,
+   "seg": 5
+  },
+  {
+   "w": "lobo.",
+   "start": 10.125,
+   "end": 10.59,
+   "seg": 5
+  },
+  {
+   "w": "Mas",
+   "start": 10.59,
+   "end": 10.735,
+   "seg": 6
+  },
+  {
+   "w": "você",
+   "start": 10.735,
+   "end": 11.075,
+   "seg": 6
+  },
+  {
+   "w": "respondeu",
+   "start": 11.075,
+   "end": 11.485,
+   "seg": 6
+  },
+  {
+   "w": "sem",
+   "start": 11.485,
+   "end": 11.595,
+   "seg": 6
+  },
+  {
+   "w": "pensar",
+   "start": 11.595,
+   "end": 11.945,
+   "seg": 6
+  },
+  {
+   "w": "duas",
+   "start": 11.945,
+   "end": 12.045,
+   "seg": 6
+  },
+  {
+   "w": "vezes:",
+   "start": 12.045,
+   "end": 12.34,
+   "seg": 6
+  },
+  {
+   "w": "\"Prefiro",
+   "start": 12.34,
+   "end": 12.915,
+   "seg": 7
+  },
+  {
+   "w": "o",
+   "start": 12.915,
+   "end": 13.025,
+   "seg": 7
+  },
+  {
+   "w": "lobo.\"",
+   "start": 13.025,
+   "end": 13.41,
+   "seg": 7
+  },
+  {
+   "w": "Os",
+   "start": 13.99,
+   "end": 14.125,
+   "seg": 8
+  },
+  {
+   "w": "desconhecidos",
+   "start": 14.125,
+   "end": 14.845,
+   "seg": 8
+  },
+  {
+   "w": "trocaram",
+   "start": 14.845,
+   "end": 15.265,
+   "seg": 8
+  },
+  {
+   "w": "olhares",
+   "start": 15.265,
+   "end": 15.655,
+   "seg": 8
+  },
+  {
+   "w": "e",
+   "start": 15.655,
+   "end": 15.785,
+   "seg": 8
+  },
+  {
+   "w": "sorriram...",
+   "start": 15.785,
+   "end": 16.17,
+   "seg": 8
+  },
+  {
+   "w": "e,",
+   "start": 16.31,
+   "end": 16.503,
+   "seg": 9
+  },
+  {
+   "w": "de",
+   "start": 16.503,
+   "end": 16.655,
+   "seg": 10
+  },
+  {
+   "w": "repente,",
+   "start": 16.655,
+   "end": 16.98,
+   "seg": 10
+  },
+  {
+   "w": "um",
+   "start": 17.32,
+   "end": 17.415,
+   "seg": 11
+  },
+  {
+   "w": "saco",
+   "start": 17.415,
+   "end": 17.665,
+   "seg": 11
+  },
+  {
+   "w": "preto",
+   "start": 17.665,
+   "end": 17.945,
+   "seg": 11
+  },
+  {
+   "w": "foi",
+   "start": 17.945,
+   "end": 18.055,
+   "seg": 11
+  },
+  {
+   "w": "colocado",
+   "start": 18.055,
+   "end": 18.515,
+   "seg": 11
+  },
+  {
+   "w": "sobre",
+   "start": 18.515,
+   "end": 18.735,
+   "seg": 11
+  },
+  {
+   "w": "a",
+   "start": 18.735,
+   "end": 18.825,
+   "seg": 11
+  },
+  {
+   "w": "sua",
+   "start": 18.825,
+   "end": 18.925,
+   "seg": 11
+  },
+  {
+   "w": "cabeça.",
+   "start": 18.925,
+   "end": 19.29,
+   "seg": 11
+  },
+  {
+   "w": "Você",
+   "start": 19.43,
+   "end": 19.645,
+   "seg": 12
+  },
+  {
+   "w": "passou",
+   "start": 19.645,
+   "end": 19.945,
+   "seg": 12
+  },
+  {
+   "w": "três",
+   "start": 19.945,
+   "end": 20.205,
+   "seg": 12
+  },
+  {
+   "w": "horas",
+   "start": 20.205,
+   "end": 20.485,
+   "seg": 12
+  },
+  {
+   "w": "presa",
+   "start": 20.485,
+   "end": 20.685,
+   "seg": 12
+  },
+  {
+   "w": "no",
+   "start": 20.685,
+   "end": 20.835,
+   "seg": 12
+  },
+  {
+   "w": "porta-malas",
+   "start": 20.835,
+   "end": 21.425,
+   "seg": 12
+  },
+  {
+   "w": "de",
+   "start": 21.425,
+   "end": 21.565,
+   "seg": 12
+  },
+  {
+   "w": "um",
+   "start": 21.565,
+   "end": 21.695,
+   "seg": 12
+  },
+  {
+   "w": "carro...",
+   "start": 21.695,
+   "end": 21.94,
+   "seg": 12
+  },
+  {
+   "w": "até",
+   "start": 22.31,
+   "end": 22.525,
+   "seg": 13
+  },
+  {
+   "w": "que",
+   "start": 22.525,
+   "end": 22.645,
+   "seg": 13
+  },
+  {
+   "w": "o",
+   "start": 22.645,
+   "end": 22.805,
+   "seg": 13
+  },
+  {
+   "w": "veículo",
+   "start": 22.805,
+   "end": 23.165,
+   "seg": 13
+  },
+  {
+   "w": "finalmente",
+   "start": 23.165,
+   "end": 23.725,
+   "seg": 13
+  },
+  {
+   "w": "parou.",
+   "start": 23.725,
+   "end": 23.96,
+   "seg": 13
+  },
+  {
+   "w": "Você",
+   "start": 24.1,
+   "end": 24.415,
+   "seg": 14
+  },
+  {
+   "w": "ouviu",
+   "start": 24.415,
+   "end": 24.845,
+   "seg": 14
+  },
+  {
+   "w": "um",
+   "start": 24.845,
+   "end": 25.015,
+   "seg": 14
+  },
+  {
+   "w": "galho",
+   "start": 25.015,
+   "end": 25.375,
+   "seg": 14
+  },
+  {
+   "w": "se",
+   "start": 25.375,
+   "end": 25.545,
+   "seg": 14
+  },
+  {
+   "w": "quebrando...",
+   "start": 25.545,
+   "end": 26.06,
+   "seg": 14
+  },
+  {
+   "w": "e",
+   "start": 26.23,
+   "end": 26.335,
+   "seg": 15
+  },
+  {
+   "w": "sentiu",
+   "start": 26.335,
+   "end": 26.555,
+   "seg": 15
+  },
+  {
+   "w": "um",
+   "start": 26.555,
+   "end": 26.685,
+   "seg": 15
+  },
+  {
+   "w": "forte",
+   "start": 26.685,
+   "end": 26.895,
+   "seg": 15
+  },
+  {
+   "w": "cheiro",
+   "start": 26.895,
+   "end": 27.105,
+   "seg": 15
+  },
+  {
+   "w": "de",
+   "start": 27.105,
+   "end": 27.205,
+   "seg": 15
+  },
+  {
+   "w": "mato",
+   "start": 27.205,
+   "end": 27.375,
+   "seg": 15
+  },
+  {
+   "w": "e",
+   "start": 27.375,
+   "end": 27.525,
+   "seg": 15
+  },
+  {
+   "w": "árvores.",
+   "start": 27.525,
+   "end": 27.81,
+   "seg": 15
+  },
+  {
+   "w": "Alguém",
+   "start": 28.28,
+   "end": 28.505,
+   "seg": 16
+  },
+  {
+   "w": "arrancou",
+   "start": 28.505,
+   "end": 28.845,
+   "seg": 16
+  },
+  {
+   "w": "o",
+   "start": 28.845,
+   "end": 28.955,
+   "seg": 16
+  },
+  {
+   "w": "saco",
+   "start": 28.955,
+   "end": 29.145,
+   "seg": 16
+  },
+  {
+   "w": "da",
+   "start": 29.145,
+   "end": 29.285,
+   "seg": 16
+  },
+  {
+   "w": "sua",
+   "start": 29.285,
+   "end": 29.435,
+   "seg": 16
+  },
+  {
+   "w": "cabeça.",
+   "start": 29.435,
+   "end": 29.723,
+   "seg": 16
+  },
+  {
+   "w": "Uma",
+   "start": 29.723,
+   "end": 29.935,
+   "seg": 17
+  },
+  {
+   "w": "voz",
+   "start": 29.935,
+   "end": 30.115,
+   "seg": 17
+  },
+  {
+   "w": "masculina",
+   "start": 30.115,
+   "end": 30.625,
+   "seg": 17
+  },
+  {
+   "w": "sussurrou",
+   "start": 30.625,
+   "end": 31.045,
+   "seg": 17
+  },
+  {
+   "w": "bem",
+   "start": 31.045,
+   "end": 31.225,
+   "seg": 17
+  },
+  {
+   "w": "perto",
+   "start": 31.225,
+   "end": 31.445,
+   "seg": 17
+  },
+  {
+   "w": "do",
+   "start": 31.445,
+   "end": 31.595,
+   "seg": 17
+  },
+  {
+   "w": "seu",
+   "start": 31.595,
+   "end": 31.705,
+   "seg": 17
+  },
+  {
+   "w": "ouvido:",
+   "start": 31.705,
+   "end": 32.14,
+   "seg": 17
+  },
+  {
+   "w": "\"Você",
+   "start": 32.45,
+   "end": 32.685,
+   "seg": 18
+  },
+  {
+   "w": "tem",
+   "start": 32.685,
+   "end": 32.845,
+   "seg": 18
+  },
+  {
+   "w": "24",
+   "start": 32.845,
+   "end": 33.265,
+   "seg": 18
+  },
+  {
+   "w": "horas...",
+   "start": 33.265,
+   "end": 33.522,
+   "seg": 18
+  },
+  {
+   "w": "afinal,",
+   "start": 33.522,
+   "end": 34.1,
+   "seg": 19
+  },
+  {
+   "w": "foi",
+   "start": 34.32,
+   "end": 34.475,
+   "seg": 20
+  },
+  {
+   "w": "você",
+   "start": 34.475,
+   "end": 34.605,
+   "seg": 20
+  },
+  {
+   "w": "mesma",
+   "start": 34.605,
+   "end": 34.925,
+   "seg": 20
+  },
+  {
+   "w": "quem",
+   "start": 34.925,
+   "end": 35.055,
+   "seg": 20
+  },
+  {
+   "w": "escolheu.\"",
+   "start": 35.055,
+   "end": 35.37,
+   "seg": 20
+  },
+  {
+   "w": "O",
+   "start": 35.51,
+   "end": 35.605,
+   "seg": 21
+  },
+  {
+   "w": "carro",
+   "start": 35.605,
+   "end": 35.805,
+   "seg": 21
+  },
+  {
+   "w": "começou",
+   "start": 35.805,
+   "end": 36.175,
+   "seg": 21
+  },
+  {
+   "w": "a",
+   "start": 36.175,
+   "end": 36.315,
+   "seg": 21
+  },
+  {
+   "w": "se",
+   "start": 36.315,
+   "end": 36.425,
+   "seg": 21
+  },
+  {
+   "w": "afastar...",
+   "start": 36.425,
+   "end": 36.74,
+   "seg": 21
+  },
+  {
+   "w": "e",
+   "start": 37.11,
+   "end": 37.205,
+   "seg": 22
+  },
+  {
+   "w": "a",
+   "start": 37.205,
+   "end": 37.325,
+   "seg": 22
+  },
+  {
+   "w": "última",
+   "start": 37.325,
+   "end": 37.595,
+   "seg": 22
+  },
+  {
+   "w": "coisa",
+   "start": 37.595,
+   "end": 37.885,
+   "seg": 22
+  },
+  {
+   "w": "que",
+   "start": 37.885,
+   "end": 38.035,
+   "seg": 22
+  },
+  {
+   "w": "você",
+   "start": 38.035,
+   "end": 38.215,
+   "seg": 22
+  },
+  {
+   "w": "ouviu",
+   "start": 38.215,
+   "end": 38.455,
+   "seg": 22
+  },
+  {
+   "w": "foi:",
+   "start": 38.455,
+   "end": 38.58,
+   "seg": 22
+  },
+  {
+   "w": "\"Quando",
+   "start": 38.8,
+   "end": 39.055,
+   "seg": 23
+  },
+  {
+   "w": "anoitecer...",
+   "start": 39.055,
+   "end": 39.58,
+   "seg": 23
+  },
+  {
+   "w": "vamos",
+   "start": 39.7,
+   "end": 39.965,
+   "seg": 24
+  },
+  {
+   "w": "trazer",
+   "start": 39.965,
+   "end": 40.155,
+   "seg": 24
+  },
+  {
+   "w": "o",
+   "start": 40.155,
+   "end": 40.265,
+   "seg": 24
+  },
+  {
+   "w": "homem.\"",
+   "start": 40.265,
+   "end": 40.51,
+   "seg": 24
+  },
+  {
+   "w": "Agora,",
+   "start": 40.81,
+   "end": 41.101,
+   "seg": 25
+  },
+  {
+   "w": "você",
+   "start": 41.101,
+   "end": 41.445,
+   "seg": 26
+  },
+  {
+   "w": "está",
+   "start": 41.445,
+   "end": 41.685,
+   "seg": 26
+  },
+  {
+   "w": "sozinha...",
+   "start": 41.685,
+   "end": 42.076,
+   "seg": 26
+  },
+  {
+   "w": "no",
+   "start": 42.076,
+   "end": 42.285,
+   "seg": 27
+  },
+  {
+   "w": "meio",
+   "start": 42.285,
+   "end": 42.415,
+   "seg": 27
+  },
+  {
+   "w": "de",
+   "start": 42.415,
+   "end": 42.695,
+   "seg": 27
+  },
+  {
+   "w": "uma",
+   "start": 42.695,
+   "end": 42.925,
+   "seg": 27
+  },
+  {
+   "w": "floresta.",
+   "start": 42.925,
+   "end": 43.52,
+   "seg": 27
+  },
+  {
+   "w": "A",
+   "start": 43.75,
+   "end": 43.895,
+   "seg": 28
+  },
+  {
+   "w": "apenas",
+   "start": 43.895,
+   "end": 44.255,
+   "seg": 28
+  },
+  {
+   "w": "trinta",
+   "start": 44.255,
+   "end": 44.515,
+   "seg": 28
+  },
+  {
+   "w": "metros",
+   "start": 44.515,
+   "end": 44.795,
+   "seg": 28
+  },
+  {
+   "w": "de",
+   "start": 44.795,
+   "end": 44.895,
+   "seg": 28
+  },
+  {
+   "w": "distância,",
+   "start": 44.895,
+   "end": 45.276,
+   "seg": 28
+  },
+  {
+   "w": "perto",
+   "start": 45.276,
+   "end": 45.615,
+   "seg": 29
+  },
+  {
+   "w": "de",
+   "start": 45.615,
+   "end": 45.725,
+   "seg": 29
+  },
+  {
+   "w": "uma",
+   "start": 45.725,
+   "end": 45.955,
+   "seg": 29
+  },
+  {
+   "w": "árvore",
+   "start": 45.955,
+   "end": 46.485,
+   "seg": 29
+  },
+  {
+   "w": "caída...",
+   "start": 46.485,
+   "end": 46.85,
+   "seg": 29
+  },
+  {
+   "w": "um",
+   "start": 47.16,
+   "end": 47.285,
+   "seg": 30
+  },
+  {
+   "w": "enorme",
+   "start": 47.285,
+   "end": 47.755,
+   "seg": 30
+  },
+  {
+   "w": "lobo",
+   "start": 47.755,
+   "end": 48.025,
+   "seg": 30
+  },
+  {
+   "w": "cinzento",
+   "start": 48.025,
+   "end": 48.565,
+   "seg": 30
+  },
+  {
+   "w": "está",
+   "start": 48.565,
+   "end": 48.855,
+   "seg": 30
+  },
+  {
+   "w": "parado,",
+   "start": 48.855,
+   "end": 49.23,
+   "seg": 30
+  },
+  {
+   "w": "olhando",
+   "start": 49.4,
+   "end": 49.745,
+   "seg": 31
+  },
+  {
+   "w": "diretamente",
+   "start": 49.745,
+   "end": 50.475,
+   "seg": 31
+  },
+  {
+   "w": "pra",
+   "start": 50.475,
+   "end": 50.635,
+   "seg": 31
+  },
+  {
+   "w": "você.",
+   "start": 50.635,
+   "end": 50.86,
+   "seg": 31
+  },
+  {
+   "w": "Seu",
+   "start": 50.99,
+   "end": 51.155,
+   "seg": 32
+  },
+  {
+   "w": "primeiro",
+   "start": 51.155,
+   "end": 51.515,
+   "seg": 32
+  },
+  {
+   "w": "impulso",
+   "start": 51.515,
+   "end": 51.855,
+   "seg": 32
+  },
+  {
+   "w": "é",
+   "start": 51.855,
+   "end": 51.955,
+   "seg": 32
+  },
+  {
+   "w": "sair",
+   "start": 51.955,
+   "end": 52.145,
+   "seg": 32
+  },
+  {
+   "w": "correndo...",
+   "start": 52.145,
+   "end": 52.48,
+   "seg": 32
+  },
+  {
+   "w": "mas",
+   "start": 52.67,
+   "end": 52.815,
+   "seg": 33
+  },
+  {
+   "w": "não",
+   "start": 52.815,
+   "end": 52.965,
+   "seg": 33
+  },
+  {
+   "w": "faça",
+   "start": 52.965,
+   "end": 53.285,
+   "seg": 33
+  },
+  {
+   "w": "isso.",
+   "start": 53.285,
+   "end": 53.46,
+   "seg": 33
+  },
+  {
+   "w": "Um",
+   "start": 53.6,
+   "end": 53.735,
+   "seg": 34
+  },
+  {
+   "w": "lobo",
+   "start": 53.735,
+   "end": 53.955,
+   "seg": 34
+  },
+  {
+   "w": "pode",
+   "start": 53.955,
+   "end": 54.205,
+   "seg": 34
+  },
+  {
+   "w": "alcançar",
+   "start": 54.205,
+   "end": 54.545,
+   "seg": 34
+  },
+  {
+   "w": "até",
+   "start": 54.545,
+   "end": 54.735,
+   "seg": 34
+  },
+  {
+   "w": "60",
+   "start": 54.735,
+   "end": 55.135,
+   "seg": 34
+  },
+  {
+   "w": "quilômetros",
+   "start": 55.135,
+   "end": 55.615,
+   "seg": 34
+  },
+  {
+   "w": "por",
+   "start": 55.615,
+   "end": 55.725,
+   "seg": 34
+  },
+  {
+   "w": "hora.",
+   "start": 55.725,
+   "end": 55.96,
+   "seg": 34
+  },
+  {
+   "w": "Você",
+   "start": 56.26,
+   "end": 56.405,
+   "seg": 35
+  },
+  {
+   "w": "não",
+   "start": 56.405,
+   "end": 56.705,
+   "seg": 35
+  },
+  {
+   "w": "conseguiria",
+   "start": 56.705,
+   "end": 57.065,
+   "seg": 35
+  },
+  {
+   "w": "dar",
+   "start": 57.065,
+   "end": 57.185,
+   "seg": 35
+  },
+  {
+   "w": "nem",
+   "start": 57.185,
+   "end": 57.295,
+   "seg": 35
+  },
+  {
+   "w": "dez",
+   "start": 57.295,
+   "end": 57.405,
+   "seg": 35
+  },
+  {
+   "w": "passos...",
+   "start": 57.405,
+   "end": 57.593,
+   "seg": 35
+  },
+  {
+   "w": "antes",
+   "start": 57.593,
+   "end": 57.845,
+   "seg": 36
+  },
+  {
+   "w": "que",
+   "start": 57.845,
+   "end": 57.965,
+   "seg": 36
+  },
+  {
+   "w": "ele",
+   "start": 57.965,
+   "end": 58.145,
+   "seg": 36
+  },
+  {
+   "w": "te",
+   "start": 58.145,
+   "end": 58.275,
+   "seg": 36
+  },
+  {
+   "w": "alcançasse.",
+   "start": 58.275,
+   "end": 58.702,
+   "seg": 36
+  },
+  {
+   "w": "Subir",
+   "start": 58.702,
+   "end": 58.945,
+   "seg": 37
+  },
+  {
+   "w": "em",
+   "start": 58.945,
+   "end": 59.155,
+   "seg": 37
+  },
+  {
+   "w": "uma",
+   "start": 59.155,
+   "end": 59.425,
+   "seg": 37
+  },
+  {
+   "w": "árvore",
+   "start": 59.425,
+   "end": 59.715,
+   "seg": 37
+  },
+  {
+   "w": "também",
+   "start": 59.715,
+   "end": 60.115,
+   "seg": 37
+  },
+  {
+   "w": "não",
+   "start": 60.115,
+   "end": 60.305,
+   "seg": 37
+  },
+  {
+   "w": "é",
+   "start": 60.305,
+   "end": 60.455,
+   "seg": 37
+  },
+  {
+   "w": "uma",
+   "start": 60.455,
+   "end": 60.685,
+   "seg": 37
+  },
+  {
+   "w": "boa",
+   "start": 60.685,
+   "end": 60.985,
+   "seg": 37
+  },
+  {
+   "w": "ideia.",
+   "start": 60.985,
+   "end": 61.2,
+   "seg": 37
+  },
+  {
+   "w": "Lobos",
+   "start": 61.52,
+   "end": 61.855,
+   "seg": 38
+  },
+  {
+   "w": "não",
+   "start": 61.855,
+   "end": 62.005,
+   "seg": 38
+  },
+  {
+   "w": "escalam",
+   "start": 62.005,
+   "end": 62.425,
+   "seg": 38
+  },
+  {
+   "w": "tão",
+   "start": 62.425,
+   "end": 62.715,
+   "seg": 38
+  },
+  {
+   "w": "bem",
+   "start": 62.715,
+   "end": 62.835,
+   "seg": 38
+  },
+  {
+   "w": "quanto",
+   "start": 62.835,
+   "end": 63.115,
+   "seg": 38
+  },
+  {
+   "w": "ursos...",
+   "start": 63.115,
+   "end": 63.35,
+   "seg": 38
+  },
+  {
+   "w": "mas",
+   "start": 63.64,
+   "end": 63.765,
+   "seg": 39
+  },
+  {
+   "w": "a",
+   "start": 63.765,
+   "end": 63.895,
+   "seg": 39
+  },
+  {
+   "w": "matilha",
+   "start": 63.895,
+   "end": 64.205,
+   "seg": 39
+  },
+  {
+   "w": "pode",
+   "start": 64.205,
+   "end": 64.445,
+   "seg": 39
+  },
+  {
+   "w": "cercar",
+   "start": 64.445,
+   "end": 64.645,
+   "seg": 39
+  },
+  {
+   "w": "o",
+   "start": 64.645,
+   "end": 64.785,
+   "seg": 39
+  },
+  {
+   "w": "tronco",
+   "start": 64.785,
+   "end": 65.015,
+   "seg": 39
+  },
+  {
+   "w": "e",
+   "start": 65.015,
+   "end": 65.125,
+   "seg": 39
+  },
+  {
+   "w": "esperar.",
+   "start": 65.125,
+   "end": 65.46,
+   "seg": 39
+  },
+  {
+   "w": "Primeira",
+   "start": 65.68,
+   "end": 66.205,
+   "seg": 40
+  },
+  {
+   "w": "regra:",
+   "start": 66.205,
+   "end": 66.497,
+   "seg": 40
+  },
+  {
+   "w": "tente",
+   "start": 66.497,
+   "end": 66.845,
+   "seg": 41
+  },
+  {
+   "w": "parecer",
+   "start": 66.845,
+   "end": 67.405,
+   "seg": 41
+  },
+  {
+   "w": "maior.",
+   "start": 67.405,
+   "end": 67.59,
+   "seg": 41
+  },
+  {
+   "w": "Você",
+   "start": 67.79,
+   "end": 68.085,
+   "seg": 42
+  },
+  {
+   "w": "levanta",
+   "start": 68.085,
+   "end": 68.425,
+   "seg": 42
+  },
+  {
+   "w": "os",
+   "start": 68.425,
+   "end": 68.535,
+   "seg": 42
+  },
+  {
+   "w": "braços",
+   "start": 68.535,
+   "end": 68.825,
+   "seg": 42
+  },
+  {
+   "w": "acima",
+   "start": 68.825,
+   "end": 69.105,
+   "seg": 42
+  },
+  {
+   "w": "da",
+   "start": 69.105,
+   "end": 69.215,
+   "seg": 42
+  },
+  {
+   "w": "cabeça...",
+   "start": 69.215,
+   "end": 69.6,
+   "seg": 42
+  },
+  {
+   "w": "e",
+   "start": 70.03,
+   "end": 70.125,
+   "seg": 43
+  },
+  {
+   "w": "começa",
+   "start": 70.125,
+   "end": 70.645,
+   "seg": 43
+  },
+  {
+   "w": "a",
+   "start": 70.645,
+   "end": 70.765,
+   "seg": 43
+  },
+  {
+   "w": "falar",
+   "start": 70.765,
+   "end": 71.105,
+   "seg": 43
+  },
+  {
+   "w": "com",
+   "start": 71.105,
+   "end": 71.205,
+   "seg": 43
+  },
+  {
+   "w": "uma",
+   "start": 71.205,
+   "end": 71.555,
+   "seg": 43
+  },
+  {
+   "w": "voz",
+   "start": 71.555,
+   "end": 71.695,
+   "seg": 43
+  },
+  {
+   "w": "firme,",
+   "start": 71.695,
+   "end": 71.969,
+   "seg": 43
+  },
+  {
+   "w": "grave",
+   "start": 71.969,
+   "end": 72.265,
+   "seg": 44
+  },
+  {
+   "w": "e",
+   "start": 72.265,
+   "end": 72.395,
+   "seg": 44
+  },
+  {
+   "w": "tranquila...",
+   "start": 72.395,
+   "end": 72.816,
+   "seg": 44
+  },
+  {
+   "w": "sem",
+   "start": 72.816,
+   "end": 72.985,
+   "seg": 45
+  },
+  {
+   "w": "gritar.",
+   "start": 72.985,
+   "end": 73.33,
+   "seg": 45
+  },
+  {
+   "w": "O",
+   "start": 73.48,
+   "end": 73.585,
+   "seg": 46
+  },
+  {
+   "w": "objetivo",
+   "start": 73.585,
+   "end": 73.925,
+   "seg": 46
+  },
+  {
+   "w": "é",
+   "start": 73.925,
+   "end": 74.035,
+   "seg": 46
+  },
+  {
+   "w": "fazer",
+   "start": 74.035,
+   "end": 74.215,
+   "seg": 46
+  },
+  {
+   "w": "o",
+   "start": 74.215,
+   "end": 74.335,
+   "seg": 46
+  },
+  {
+   "w": "animal",
+   "start": 74.335,
+   "end": 74.575,
+   "seg": 46
+  },
+  {
+   "w": "perceber",
+   "start": 74.575,
+   "end": 74.925,
+   "seg": 46
+  },
+  {
+   "w": "que",
+   "start": 74.925,
+   "end": 75.035,
+   "seg": 46
+  },
+  {
+   "w": "você",
+   "start": 75.035,
+   "end": 75.205,
+   "seg": 46
+  },
+  {
+   "w": "é",
+   "start": 75.205,
+   "end": 75.315,
+   "seg": 46
+  },
+  {
+   "w": "uma",
+   "start": 75.315,
+   "end": 75.505,
+   "seg": 46
+  },
+  {
+   "w": "ameaça",
+   "start": 75.505,
+   "end": 75.775,
+   "seg": 46
+  },
+  {
+   "w": "perigosa,",
+   "start": 75.775,
+   "end": 76.21,
+   "seg": 46
+  },
+  {
+   "w": "e",
+   "start": 76.51,
+   "end": 76.655,
+   "seg": 47
+  },
+  {
+   "w": "não",
+   "start": 76.655,
+   "end": 76.845,
+   "seg": 47
+  },
+  {
+   "w": "presa",
+   "start": 76.845,
+   "end": 77.135,
+   "seg": 47
+  },
+  {
+   "w": "fácil.",
+   "start": 77.135,
+   "end": 77.41,
+   "seg": 47
+  },
+  {
+   "w": "O",
+   "start": 77.6,
+   "end": 77.755,
+   "seg": 48
+  },
+  {
+   "w": "lobo",
+   "start": 77.755,
+   "end": 77.985,
+   "seg": 48
+  },
+  {
+   "w": "solta",
+   "start": 77.985,
+   "end": 78.355,
+   "seg": 48
+  },
+  {
+   "w": "um",
+   "start": 78.355,
+   "end": 78.465,
+   "seg": 48
+  },
+  {
+   "w": "rosnado",
+   "start": 78.465,
+   "end": 78.935,
+   "seg": 48
+  },
+  {
+   "w": "grave...",
+   "start": 78.935,
+   "end": 79.29,
+   "seg": 48
+  },
+  {
+   "w": "e",
+   "start": 79.45,
+   "end": 79.555,
+   "seg": 49
+  },
+  {
+   "w": "dá",
+   "start": 79.555,
+   "end": 79.715,
+   "seg": 49
+  },
+  {
+   "w": "um",
+   "start": 79.715,
+   "end": 79.825,
+   "seg": 49
+  },
+  {
+   "w": "passo",
+   "start": 79.825,
+   "end": 80.055,
+   "seg": 49
+  },
+  {
+   "w": "na",
+   "start": 80.055,
+   "end": 80.145,
+   "seg": 49
+  },
+  {
+   "w": "sua",
+   "start": 80.145,
+   "end": 80.275,
+   "seg": 49
+  },
+  {
+   "w": "direção.",
+   "start": 80.275,
+   "end": 80.77,
+   "seg": 49
+  },
+  {
+   "w": "Segunda",
+   "start": 80.91,
+   "end": 81.315,
+   "seg": 50
+  },
+  {
+   "w": "regra:",
+   "start": 81.315,
+   "end": 81.6,
+   "seg": 50
+  },
+  {
+   "w": "evite",
+   "start": 82.03,
+   "end": 82.415,
+   "seg": 51
+  },
+  {
+   "w": "encará-lo",
+   "start": 82.415,
+   "end": 82.805,
+   "seg": 51
+  },
+  {
+   "w": "diretamente",
+   "start": 82.805,
+   "end": 83.395,
+   "seg": 51
+  },
+  {
+   "w": "nos",
+   "start": 83.395,
+   "end": 83.555,
+   "seg": 51
+  },
+  {
+   "w": "olhos.",
+   "start": 83.555,
+   "end": 83.79,
+   "seg": 51
+  },
+  {
+   "w": "Um",
+   "start": 84.02,
+   "end": 84.135,
+   "seg": 52
+  },
+  {
+   "w": "olhar",
+   "start": 84.135,
+   "end": 84.385,
+   "seg": 52
+  },
+  {
+   "w": "fixo",
+   "start": 84.385,
+   "end": 84.635,
+   "seg": 52
+  },
+  {
+   "w": "pode",
+   "start": 84.635,
+   "end": 84.865,
+   "seg": 52
+  },
+  {
+   "w": "ser",
+   "start": 84.865,
+   "end": 85.005,
+   "seg": 52
+  },
+  {
+   "w": "interpretado",
+   "start": 85.005,
+   "end": 85.535,
+   "seg": 52
+  },
+  {
+   "w": "pela",
+   "start": 85.535,
+   "end": 85.785,
+   "seg": 52
+  },
+  {
+   "w": "alcateia",
+   "start": 85.785,
+   "end": 86.205,
+   "seg": 52
+  },
+  {
+   "w": "como",
+   "start": 86.205,
+   "end": 86.405,
+   "seg": 52
+  },
+  {
+   "w": "um",
+   "start": 86.405,
+   "end": 86.555,
+   "seg": 52
+  },
+  {
+   "w": "desafio",
+   "start": 86.555,
+   "end": 86.915,
+   "seg": 52
+  },
+  {
+   "w": "de",
+   "start": 86.915,
+   "end": 87.015,
+   "seg": 52
+  },
+  {
+   "w": "liderança.",
+   "start": 87.015,
+   "end": 87.48,
+   "seg": 52
+  },
+  {
+   "w": "Você",
+   "start": 87.64,
+   "end": 87.845,
+   "seg": 53
+  },
+  {
+   "w": "começa",
+   "start": 87.845,
+   "end": 88.325,
+   "seg": 53
+  },
+  {
+   "w": "a",
+   "start": 88.325,
+   "end": 88.435,
+   "seg": 53
+  },
+  {
+   "w": "recuar",
+   "start": 88.435,
+   "end": 88.635,
+   "seg": 53
+  },
+  {
+   "w": "lentamente...",
+   "start": 88.635,
+   "end": 89.24,
+   "seg": 53
+  },
+  {
+   "w": "de",
+   "start": 89.42,
+   "end": 89.565,
+   "seg": 54
+  },
+  {
+   "w": "lado...",
+   "start": 89.565,
+   "end": 89.82,
+   "seg": 54
+  },
+  {
+   "w": "sem",
+   "start": 90.26,
+   "end": 90.405,
+   "seg": 55
+  },
+  {
+   "w": "virar",
+   "start": 90.405,
+   "end": 90.835,
+   "seg": 55
+  },
+  {
+   "w": "as",
+   "start": 90.835,
+   "end": 91.025,
+   "seg": 55
+  },
+  {
+   "w": "costas.",
+   "start": 91.025,
+   "end": 91.347,
+   "seg": 55
+  },
+  {
+   "w": "Vinte",
+   "start": 91.347,
+   "end": 91.735,
+   "seg": 56
+  },
+  {
+   "w": "metros...",
+   "start": 91.735,
+   "end": 92.0,
+   "seg": 56
+  },
+  {
+   "w": "quarenta",
+   "start": 92.15,
+   "end": 92.665,
+   "seg": 57
+  },
+  {
+   "w": "metros.",
+   "start": 92.665,
+   "end": 92.91,
+   "seg": 57
+  },
+  {
+   "w": "Se",
+   "start": 93.26,
+   "end": 93.405,
+   "seg": 58
+  },
+  {
+   "w": "ele",
+   "start": 93.405,
+   "end": 93.695,
+   "seg": 58
+  },
+  {
+   "w": "atacar",
+   "start": 93.695,
+   "end": 94.075,
+   "seg": 58
+  },
+  {
+   "w": "para",
+   "start": 94.075,
+   "end": 94.285,
+   "seg": 58
+  },
+  {
+   "w": "se",
+   "start": 94.285,
+   "end": 94.435,
+   "seg": 58
+  },
+  {
+   "w": "defender,",
+   "start": 94.435,
+   "end": 94.8,
+   "seg": 58
+  },
+  {
+   "w": "enrole-se",
+   "start": 95.1,
+   "end": 95.675,
+   "seg": 59
+  },
+  {
+   "w": "em",
+   "start": 95.675,
+   "end": 95.785,
+   "seg": 59
+  },
+  {
+   "w": "posição",
+   "start": 95.785,
+   "end": 96.395,
+   "seg": 59
+  },
+  {
+   "w": "fetal,",
+   "start": 96.395,
+   "end": 96.63,
+   "seg": 59
+  },
+  {
+   "w": "proteja",
+   "start": 96.82,
+   "end": 97.275,
+   "seg": 60
+  },
+  {
+   "w": "o",
+   "start": 97.275,
+   "end": 97.405,
+   "seg": 60
+  },
+  {
+   "w": "pescoço",
+   "start": 97.405,
+   "end": 97.905,
+   "seg": 60
+  },
+  {
+   "w": "com",
+   "start": 97.905,
+   "end": 98.095,
+   "seg": 60
+  },
+  {
+   "w": "as",
+   "start": 98.095,
+   "end": 98.295,
+   "seg": 60
+  },
+  {
+   "w": "mãos",
+   "start": 98.295,
+   "end": 98.515,
+   "seg": 60
+  },
+  {
+   "w": "entrelaçadas",
+   "start": 98.515,
+   "end": 99.415,
+   "seg": 60
+  },
+  {
+   "w": "e",
+   "start": 99.415,
+   "end": 99.535,
+   "seg": 60
+  },
+  {
+   "w": "permaneça",
+   "start": 99.535,
+   "end": 100.125,
+   "seg": 60
+  },
+  {
+   "w": "imóvel.",
+   "start": 100.125,
+   "end": 100.61,
+   "seg": 60
+  },
+  {
+   "w": "Mas",
+   "start": 100.74,
+   "end": 100.955,
+   "seg": 61
+  },
+  {
+   "w": "o",
+   "start": 100.955,
+   "end": 101.065,
+   "seg": 61
+  },
+  {
+   "w": "lobo",
+   "start": 101.065,
+   "end": 101.455,
+   "seg": 61
+  },
+  {
+   "w": "não",
+   "start": 101.455,
+   "end": 101.725,
+   "seg": 61
+  },
+  {
+   "w": "ataca.",
+   "start": 101.725,
+   "end": 102.18,
+   "seg": 61
+  },
+  {
+   "w": "Ele",
+   "start": 102.59,
+   "end": 102.815,
+   "seg": 62
+  },
+  {
+   "w": "se",
+   "start": 102.815,
+   "end": 102.905,
+   "seg": 62
+  },
+  {
+   "w": "aproxima",
+   "start": 102.905,
+   "end": 103.405,
+   "seg": 62
+  },
+  {
+   "w": "do",
+   "start": 103.405,
+   "end": 103.505,
+   "seg": 62
+  },
+  {
+   "w": "saco",
+   "start": 103.505,
+   "end": 103.735,
+   "seg": 62
+  },
+  {
+   "w": "preto",
+   "start": 103.735,
+   "end": 103.955,
+   "seg": 62
+  },
+  {
+   "w": "que",
+   "start": 103.955,
+   "end": 104.125,
+   "seg": 62
+  },
+  {
+   "w": "estava",
+   "start": 104.125,
+   "end": 104.455,
+   "seg": 62
+  },
+  {
+   "w": "na",
+   "start": 104.455,
+   "end": 104.565,
+   "seg": 62
+  },
+  {
+   "w": "sua",
+   "start": 104.565,
+   "end": 104.695,
+   "seg": 62
+  },
+  {
+   "w": "cabeça...",
+   "start": 104.695,
+   "end": 105.01,
+   "seg": 62
+  },
+  {
+   "w": "cheira",
+   "start": 105.18,
+   "end": 105.515,
+   "seg": 63
+  },
+  {
+   "w": "o",
+   "start": 105.515,
+   "end": 105.615,
+   "seg": 63
+  },
+  {
+   "w": "tecido",
+   "start": 105.615,
+   "end": 105.975,
+   "seg": 63
+  },
+  {
+   "w": "que",
+   "start": 105.975,
+   "end": 106.205,
+   "seg": 63
+  },
+  {
+   "w": "ainda",
+   "start": 106.205,
+   "end": 106.505,
+   "seg": 63
+  },
+  {
+   "w": "carrega",
+   "start": 106.505,
+   "end": 106.845,
+   "seg": 63
+  },
+  {
+   "w": "o",
+   "start": 106.845,
+   "end": 107.005,
+   "seg": 63
+  },
+  {
+   "w": "seu",
+   "start": 107.005,
+   "end": 107.105,
+   "seg": 63
+  },
+  {
+   "w": "cheiro...",
+   "start": 107.105,
+   "end": 107.42,
+   "seg": 63
+  },
+  {
+   "w": "e,",
+   "start": 107.62,
+   "end": 107.772,
+   "seg": 64
+  },
+  {
+   "w": "depois",
+   "start": 107.772,
+   "end": 108.085,
+   "seg": 65
+  },
+  {
+   "w": "de",
+   "start": 108.085,
+   "end": 108.245,
+   "seg": 65
+  },
+  {
+   "w": "alguns",
+   "start": 108.245,
+   "end": 108.655,
+   "seg": 65
+  },
+  {
+   "w": "segundos...",
+   "start": 108.655,
+   "end": 109.13,
+   "seg": 65
+  },
+  {
+   "w": "desaparece",
+   "start": 109.26,
+   "end": 109.935,
+   "seg": 66
+  },
+  {
+   "w": "no",
+   "start": 109.935,
+   "end": 110.125,
+   "seg": 66
+  },
+  {
+   "w": "meio",
+   "start": 110.125,
+   "end": 110.275,
+   "seg": 66
+  },
+  {
+   "w": "da",
+   "start": 110.275,
+   "end": 110.365,
+   "seg": 66
+  },
+  {
+   "w": "escuridão.",
+   "start": 110.365,
+   "end": 111.07,
+   "seg": 66
+  },
+  {
+   "w": "Você",
+   "start": 111.21,
+   "end": 111.505,
+   "seg": 67
+  },
+  {
+   "w": "tenta",
+   "start": 111.505,
+   "end": 111.855,
+   "seg": 67
+  },
+  {
+   "w": "manter",
+   "start": 111.855,
+   "end": 112.125,
+   "seg": 67
+  },
+  {
+   "w": "a",
+   "start": 112.125,
+   "end": 112.265,
+   "seg": 67
+  },
+  {
+   "w": "calma...",
+   "start": 112.265,
+   "end": 112.521,
+   "seg": 67
+  },
+  {
+   "w": "e",
+   "start": 112.521,
+   "end": 112.665,
+   "seg": 68
+  },
+  {
+   "w": "começa",
+   "start": 112.665,
+   "end": 112.985,
+   "seg": 68
+  },
+  {
+   "w": "a",
+   "start": 112.985,
+   "end": 113.105,
+   "seg": 68
+  },
+  {
+   "w": "conferir",
+   "start": 113.105,
+   "end": 113.505,
+   "seg": 68
+  },
+  {
+   "w": "tudo",
+   "start": 113.505,
+   "end": 113.685,
+   "seg": 68
+  },
+  {
+   "w": "o",
+   "start": 113.685,
+   "end": 113.785,
+   "seg": 68
+  },
+  {
+   "w": "que",
+   "start": 113.785,
+   "end": 113.915,
+   "seg": 68
+  },
+  {
+   "w": "tem:",
+   "start": 113.915,
+   "end": 114.02,
+   "seg": 68
+  },
+  {
+   "w": "um",
+   "start": 114.45,
+   "end": 114.605,
+   "seg": 69
+  },
+  {
+   "w": "celular",
+   "start": 114.605,
+   "end": 115.005,
+   "seg": 69
+  },
+  {
+   "w": "sem",
+   "start": 115.005,
+   "end": 115.145,
+   "seg": 69
+  },
+  {
+   "w": "sinal...",
+   "start": 115.145,
+   "end": 115.421,
+   "seg": 69
+  },
+  {
+   "w": "apenas",
+   "start": 115.421,
+   "end": 115.895,
+   "seg": 70
+  },
+  {
+   "w": "12%",
+   "start": 115.895,
+   "end": 116.255,
+   "seg": 70
+  },
+  {
+   "w": "de",
+   "start": 116.255,
+   "end": 116.345,
+   "seg": 70
+  },
+  {
+   "w": "bateria...",
+   "start": 116.345,
+   "end": 116.78,
+   "seg": 70
+  },
+  {
+   "w": "um",
+   "start": 116.78,
+   "end": 116.915,
+   "seg": 71
+  },
+  {
+   "w": "isqueiro",
+   "start": 116.915,
+   "end": 117.225,
+   "seg": 71
+  },
+  {
+   "w": "no",
+   "start": 117.225,
+   "end": 117.335,
+   "seg": 71
+  },
+  {
+   "w": "bolso...",
+   "start": 117.335,
+   "end": 117.53,
+   "seg": 71
+  },
+  {
+   "w": "e",
+   "start": 117.68,
+   "end": 117.895,
+   "seg": 72
+  },
+  {
+   "w": "aproximadamente",
+   "start": 117.895,
+   "end": 119.135,
+   "seg": 72
+  },
+  {
+   "w": "20",
+   "start": 119.135,
+   "end": 119.655,
+   "seg": 72
+  },
+  {
+   "w": "horas",
+   "start": 119.655,
+   "end": 119.945,
+   "seg": 72
+  },
+  {
+   "w": "até",
+   "start": 119.945,
+   "end": 120.325,
+   "seg": 72
+  },
+  {
+   "w": "o",
+   "start": 120.325,
+   "end": 120.565,
+   "seg": 72
+  },
+  {
+   "w": "amanhecer.",
+   "start": 120.565,
+   "end": 121.25,
+   "seg": 72
+  },
+  {
+   "w": "Você",
+   "start": 121.39,
+   "end": 121.585,
+   "seg": 73
+  },
+  {
+   "w": "consegue",
+   "start": 121.585,
+   "end": 122.025,
+   "seg": 73
+  },
+  {
+   "w": "acender",
+   "start": 122.025,
+   "end": 122.275,
+   "seg": 73
+  },
+  {
+   "w": "uma",
+   "start": 122.275,
+   "end": 122.545,
+   "seg": 73
+  },
+  {
+   "w": "fogueira.",
+   "start": 122.545,
+   "end": 122.91,
+   "seg": 73
+  },
+  {
+   "w": "O",
+   "start": 123.08,
+   "end": 123.235,
+   "seg": 74
+  },
+  {
+   "w": "fogo",
+   "start": 123.235,
+   "end": 123.505,
+   "seg": 74
+  },
+  {
+   "w": "pode",
+   "start": 123.505,
+   "end": 123.755,
+   "seg": 74
+  },
+  {
+   "w": "ajudar",
+   "start": 123.755,
+   "end": 124.045,
+   "seg": 74
+  },
+  {
+   "w": "a",
+   "start": 124.045,
+   "end": 124.225,
+   "seg": 74
+  },
+  {
+   "w": "afastar",
+   "start": 124.225,
+   "end": 124.625,
+   "seg": 74
+  },
+  {
+   "w": "alguns",
+   "start": 124.625,
+   "end": 124.845,
+   "seg": 74
+  },
+  {
+   "w": "animais",
+   "start": 124.845,
+   "end": 125.175,
+   "seg": 74
+  },
+  {
+   "w": "selvagens.",
+   "start": 125.175,
+   "end": 125.64,
+   "seg": 74
+  },
+  {
+   "w": "Em",
+   "start": 125.86,
+   "end": 125.975,
+   "seg": 75
+  },
+  {
+   "w": "teoria...",
+   "start": 125.975,
+   "end": 126.35,
+   "seg": 75
+  },
+  {
+   "w": "basta",
+   "start": 126.53,
+   "end": 126.845,
+   "seg": 76
+  },
+  {
+   "w": "sobreviver",
+   "start": 126.845,
+   "end": 127.435,
+   "seg": 76
+  },
+  {
+   "w": "até",
+   "start": 127.435,
+   "end": 127.755,
+   "seg": 76
+  },
+  {
+   "w": "o",
+   "start": 127.755,
+   "end": 127.845,
+   "seg": 76
+  },
+  {
+   "w": "sol",
+   "start": 127.845,
+   "end": 128.025,
+   "seg": 76
+  },
+  {
+   "w": "nascer.",
+   "start": 128.025,
+   "end": 128.32,
+   "seg": 76
+  },
+  {
+   "w": "Mas",
+   "start": 128.44,
+   "end": 128.625,
+   "seg": 77
+  },
+  {
+   "w": "a",
+   "start": 128.625,
+   "end": 128.735,
+   "seg": 77
+  },
+  {
+   "w": "floresta",
+   "start": 128.735,
+   "end": 129.285,
+   "seg": 77
+  },
+  {
+   "w": "começa",
+   "start": 129.285,
+   "end": 129.735,
+   "seg": 77
+  },
+  {
+   "w": "a",
+   "start": 129.735,
+   "end": 129.825,
+   "seg": 77
+  },
+  {
+   "w": "escurecer.",
+   "start": 129.825,
+   "end": 130.49,
+   "seg": 77
+  },
+  {
+   "w": "Os",
+   "start": 130.67,
+   "end": 130.845,
+   "seg": 78
+  },
+  {
+   "w": "sons",
+   "start": 130.845,
+   "end": 130.995,
+   "seg": 78
+  },
+  {
+   "w": "dos",
+   "start": 130.995,
+   "end": 131.085,
+   "seg": 78
+  },
+  {
+   "w": "animais",
+   "start": 131.085,
+   "end": 131.455,
+   "seg": 78
+  },
+  {
+   "w": "ficam",
+   "start": 131.455,
+   "end": 131.855,
+   "seg": 78
+  },
+  {
+   "w": "cada",
+   "start": 131.855,
+   "end": 132.045,
+   "seg": 78
+  },
+  {
+   "w": "vez",
+   "start": 132.045,
+   "end": 132.245,
+   "seg": 78
+  },
+  {
+   "w": "mais",
+   "start": 132.245,
+   "end": 132.385,
+   "seg": 78
+  },
+  {
+   "w": "intensos...",
+   "start": 132.385,
+   "end": 132.78,
+   "seg": 78
+  },
+  {
+   "w": "e",
+   "start": 132.9,
+   "end": 133.055,
+   "seg": 79
+  },
+  {
+   "w": "você",
+   "start": 133.055,
+   "end": 133.365,
+   "seg": 79
+  },
+  {
+   "w": "percebe",
+   "start": 133.365,
+   "end": 133.935,
+   "seg": 79
+  },
+  {
+   "w": "que",
+   "start": 133.935,
+   "end": 134.075,
+   "seg": 79
+  },
+  {
+   "w": "está",
+   "start": 134.075,
+   "end": 134.515,
+   "seg": 79
+  },
+  {
+   "w": "completamente",
+   "start": 134.515,
+   "end": 135.415,
+   "seg": 79
+  },
+  {
+   "w": "sozinha.",
+   "start": 135.415,
+   "end": 135.9,
+   "seg": 79
+  },
+  {
+   "w": "Pelo",
+   "start": 136.05,
+   "end": 136.295,
+   "seg": 80
+  },
+  {
+   "w": "menos...",
+   "start": 136.295,
+   "end": 136.625,
+   "seg": 80
+  },
+  {
+   "w": "é",
+   "start": 136.625,
+   "end": 136.715,
+   "seg": 81
+  },
+  {
+   "w": "o",
+   "start": 136.715,
+   "end": 136.895,
+   "seg": 81
+  },
+  {
+   "w": "que",
+   "start": 136.895,
+   "end": 137.015,
+   "seg": 81
+  },
+  {
+   "w": "parece.",
+   "start": 137.015,
+   "end": 137.41,
+   "seg": 81
+  },
+  {
+   "w": "Por",
+   "start": 137.53,
+   "end": 137.705,
+   "seg": 82
+  },
+  {
+   "w": "volta",
+   "start": 137.705,
+   "end": 137.985,
+   "seg": 82
+  },
+  {
+   "w": "da",
+   "start": 137.985,
+   "end": 138.155,
+   "seg": 82
+  },
+  {
+   "w": "meia-noite...",
+   "start": 138.155,
+   "end": 138.566,
+   "seg": 82
+  },
+  {
+   "w": "o",
+   "start": 138.566,
+   "end": 138.755,
+   "seg": 83
+  },
+  {
+   "w": "lobo",
+   "start": 138.755,
+   "end": 139.165,
+   "seg": 83
+  },
+  {
+   "w": "retorna.",
+   "start": 139.165,
+   "end": 139.67,
+   "seg": 83
+  },
+  {
+   "w": "Ele",
+   "start": 139.8,
+   "end": 139.995,
+   "seg": 84
+  },
+  {
+   "w": "para",
+   "start": 139.995,
+   "end": 140.345,
+   "seg": 84
+  },
+  {
+   "w": "a",
+   "start": 140.345,
+   "end": 140.445,
+   "seg": 84
+  },
+  {
+   "w": "apenas",
+   "start": 140.445,
+   "end": 140.865,
+   "seg": 84
+  },
+  {
+   "w": "dez",
+   "start": 140.865,
+   "end": 140.985,
+   "seg": 84
+  },
+  {
+   "w": "metros",
+   "start": 140.985,
+   "end": 141.235,
+   "seg": 84
+  },
+  {
+   "w": "da",
+   "start": 141.235,
+   "end": 141.405,
+   "seg": 84
+  },
+  {
+   "w": "fogueira.",
+   "start": 141.405,
+   "end": 141.794,
+   "seg": 84
+  },
+  {
+   "w": "Seu",
+   "start": 141.794,
+   "end": 141.945,
+   "seg": 85
+  },
+  {
+   "w": "coração",
+   "start": 141.945,
+   "end": 142.515,
+   "seg": 85
+  },
+  {
+   "w": "dispara...",
+   "start": 142.515,
+   "end": 142.94,
+   "seg": 85
+  },
+  {
+   "w": "você",
+   "start": 143.26,
+   "end": 143.535,
+   "seg": 86
+  },
+  {
+   "w": "fica",
+   "start": 143.535,
+   "end": 143.825,
+   "seg": 86
+  },
+  {
+   "w": "completamente",
+   "start": 143.825,
+   "end": 144.385,
+   "seg": 86
+  },
+  {
+   "w": "imóvel.",
+   "start": 144.385,
+   "end": 144.81,
+   "seg": 86
+  },
+  {
+   "w": "Mas",
+   "start": 144.93,
+   "end": 145.055,
+   "seg": 87
+  },
+  {
+   "w": "algo",
+   "start": 145.055,
+   "end": 145.335,
+   "seg": 87
+  },
+  {
+   "w": "estranho",
+   "start": 145.335,
+   "end": 145.795,
+   "seg": 87
+  },
+  {
+   "w": "acontece.",
+   "start": 145.795,
+   "end": 146.433,
+   "seg": 87
+  },
+  {
+   "w": "O",
+   "start": 146.433,
+   "end": 146.545,
+   "seg": 88
+  },
+  {
+   "w": "lobo",
+   "start": 146.545,
+   "end": 146.725,
+   "seg": 88
+  },
+  {
+   "w": "não",
+   "start": 146.725,
+   "end": 147.025,
+   "seg": 88
+  },
+  {
+   "w": "está",
+   "start": 147.025,
+   "end": 147.255,
+   "seg": 88
+  },
+  {
+   "w": "olhando",
+   "start": 147.255,
+   "end": 147.685,
+   "seg": 88
+  },
+  {
+   "w": "para",
+   "start": 147.685,
+   "end": 147.895,
+   "seg": 88
+  },
+  {
+   "w": "você.",
+   "start": 147.895,
+   "end": 148.1,
+   "seg": 88
+  },
+  {
+   "w": "Ele",
+   "start": 148.24,
+   "end": 148.405,
+   "seg": 89
+  },
+  {
+   "w": "está",
+   "start": 148.405,
+   "end": 148.655,
+   "seg": 89
+  },
+  {
+   "w": "olhando",
+   "start": 148.655,
+   "end": 148.935,
+   "seg": 89
+  },
+  {
+   "w": "para",
+   "start": 148.935,
+   "end": 149.265,
+   "seg": 89
+  },
+  {
+   "w": "alguma",
+   "start": 149.265,
+   "end": 149.585,
+   "seg": 89
+  },
+  {
+   "w": "coisa...",
+   "start": 149.585,
+   "end": 149.74,
+   "seg": 89
+  },
+  {
+   "w": "atrás",
+   "start": 149.92,
+   "end": 150.355,
+   "seg": 90
+  },
+  {
+   "w": "das",
+   "start": 150.355,
+   "end": 150.535,
+   "seg": 90
+  },
+  {
+   "w": "suas",
+   "start": 150.535,
+   "end": 150.755,
+   "seg": 90
+  },
+  {
+   "w": "costas.",
+   "start": 150.755,
+   "end": 151.095,
+   "seg": 90
+  },
+  {
+   "w": "Por",
+   "start": 151.095,
+   "end": 151.235,
+   "seg": 91
+  },
+  {
+   "w": "um",
+   "start": 151.235,
+   "end": 151.385,
+   "seg": 91
+  },
+  {
+   "w": "segundo...",
+   "start": 151.385,
+   "end": 151.96,
+   "seg": 91
+  },
+  {
+   "w": "o",
+   "start": 152.3,
+   "end": 152.395,
+   "seg": 92
+  },
+  {
+   "w": "animal",
+   "start": 152.395,
+   "end": 152.725,
+   "seg": 92
+  },
+  {
+   "w": "permanece",
+   "start": 152.725,
+   "end": 153.245,
+   "seg": 92
+  },
+  {
+   "w": "paralisado.",
+   "start": 153.245,
+   "end": 153.898,
+   "seg": 92
+  },
+  {
+   "w": "Então,",
+   "start": 153.898,
+   "end": 154.36,
+   "seg": 93
+  },
+  {
+   "w": "de",
+   "start": 154.36,
+   "end": 154.495,
+   "seg": 94
+  },
+  {
+   "w": "repente...",
+   "start": 154.495,
+   "end": 154.98,
+   "seg": 94
+  },
+  {
+   "w": "ele",
+   "start": 155.32,
+   "end": 155.585,
+   "seg": 95
+  },
+  {
+   "w": "se",
+   "start": 155.585,
+   "end": 155.715,
+   "seg": 95
+  },
+  {
+   "w": "vira",
+   "start": 155.715,
+   "end": 155.935,
+   "seg": 95
+  },
+  {
+   "w": "e",
+   "start": 155.935,
+   "end": 156.025,
+   "seg": 95
+  },
+  {
+   "w": "dispara",
+   "start": 156.025,
+   "end": 156.485,
+   "seg": 95
+  },
+  {
+   "w": "floresta",
+   "start": 156.485,
+   "end": 156.805,
+   "seg": 95
+  },
+  {
+   "w": "adentro,",
+   "start": 156.805,
+   "end": 157.201,
+   "seg": 95
+  },
+  {
+   "w": "correndo",
+   "start": 157.201,
+   "end": 157.635,
+   "seg": 96
+  },
+  {
+   "w": "o",
+   "start": 157.635,
+   "end": 157.765,
+   "seg": 96
+  },
+  {
+   "w": "mais",
+   "start": 157.765,
+   "end": 157.905,
+   "seg": 96
+  },
+  {
+   "w": "rápido",
+   "start": 157.905,
+   "end": 158.275,
+   "seg": 96
+  },
+  {
+   "w": "que",
+   "start": 158.275,
+   "end": 158.455,
+   "seg": 96
+  },
+  {
+   "w": "consegue.",
+   "start": 158.455,
+   "end": 158.818,
+   "seg": 96
+  },
+  {
+   "w": "Você",
+   "start": 158.818,
+   "end": 159.165,
+   "seg": 97
+  },
+  {
+   "w": "não",
+   "start": 159.165,
+   "end": 159.395,
+   "seg": 97
+  },
+  {
+   "w": "entende",
+   "start": 159.395,
+   "end": 159.765,
+   "seg": 97
+  },
+  {
+   "w": "o",
+   "start": 159.765,
+   "end": 159.965,
+   "seg": 97
+  },
+  {
+   "w": "que",
+   "start": 159.965,
+   "end": 160.095,
+   "seg": 97
+  },
+  {
+   "w": "aconteceu...",
+   "start": 160.095,
+   "end": 160.66,
+   "seg": 97
+  },
+  {
+   "w": "até",
+   "start": 161.04,
+   "end": 161.245,
+   "seg": 98
+  },
+  {
+   "w": "que",
+   "start": 161.245,
+   "end": 161.455,
+   "seg": 98
+  },
+  {
+   "w": "escuta",
+   "start": 161.455,
+   "end": 161.815,
+   "seg": 98
+  },
+  {
+   "w": "o",
+   "start": 161.815,
+   "end": 161.925,
+   "seg": 98
+  },
+  {
+   "w": "barulho",
+   "start": 161.925,
+   "end": 162.285,
+   "seg": 98
+  },
+  {
+   "w": "de",
+   "start": 162.285,
+   "end": 162.445,
+   "seg": 98
+  },
+  {
+   "w": "um",
+   "start": 162.445,
+   "end": 162.555,
+   "seg": 98
+  },
+  {
+   "w": "galho",
+   "start": 162.555,
+   "end": 162.825,
+   "seg": 98
+  },
+  {
+   "w": "se",
+   "start": 162.825,
+   "end": 162.925,
+   "seg": 98
+  },
+  {
+   "w": "quebrando...",
+   "start": 162.925,
+   "end": 163.34,
+   "seg": 98
+  },
+  {
+   "w": "bem",
+   "start": 163.52,
+   "end": 163.785,
+   "seg": 99
+  },
+  {
+   "w": "atrás",
+   "start": 163.785,
+   "end": 164.055,
+   "seg": 99
+  },
+  {
+   "w": "de",
+   "start": 164.055,
+   "end": 164.255,
+   "seg": 99
+  },
+  {
+   "w": "você.",
+   "start": 164.255,
+   "end": 164.64,
+   "seg": 99
+  },
+  {
+   "w": "Seu",
+   "start": 164.81,
+   "end": 164.965,
+   "seg": 100
+  },
+  {
+   "w": "corpo",
+   "start": 164.965,
+   "end": 165.325,
+   "seg": 100
+  },
+  {
+   "w": "inteiro",
+   "start": 165.325,
+   "end": 165.695,
+   "seg": 100
+  },
+  {
+   "w": "congela.",
+   "start": 165.695,
+   "end": 166.126,
+   "seg": 100
+  },
+  {
+   "w": "E",
+   "start": 166.126,
+   "end": 166.245,
+   "seg": 101
+  },
+  {
+   "w": "então...",
+   "start": 166.245,
+   "end": 166.64,
+   "seg": 101
+  },
+  {
+   "w": "você",
+   "start": 166.79,
+   "end": 167.085,
+   "seg": 102
+  },
+  {
+   "w": "se",
+   "start": 167.085,
+   "end": 167.235,
+   "seg": 102
+  },
+  {
+   "w": "lembra",
+   "start": 167.235,
+   "end": 167.535,
+   "seg": 102
+  },
+  {
+   "w": "da",
+   "start": 167.535,
+   "end": 167.715,
+   "seg": 102
+  },
+  {
+   "w": "última",
+   "start": 167.715,
+   "end": 168.075,
+   "seg": 102
+  },
+  {
+   "w": "frase",
+   "start": 168.075,
+   "end": 168.385,
+   "seg": 102
+  },
+  {
+   "w": "que",
+   "start": 168.385,
+   "end": 168.565,
+   "seg": 102
+  },
+  {
+   "w": "ouviu",
+   "start": 168.565,
+   "end": 168.795,
+   "seg": 102
+  },
+  {
+   "w": "antes",
+   "start": 168.795,
+   "end": 169.155,
+   "seg": 102
+  },
+  {
+   "w": "de",
+   "start": 169.155,
+   "end": 169.285,
+   "seg": 102
+  },
+  {
+   "w": "o",
+   "start": 169.285,
+   "end": 169.415,
+   "seg": 102
+  },
+  {
+   "w": "carro",
+   "start": 169.415,
+   "end": 169.705,
+   "seg": 102
+  },
+  {
+   "w": "partir:",
+   "start": 169.705,
+   "end": 170.03,
+   "seg": 102
+  },
+  {
+   "w": "\"Quando",
+   "start": 170.15,
+   "end": 170.435,
+   "seg": 103
+  },
+  {
+   "w": "anoitecer...",
+   "start": 170.435,
+   "end": 170.972,
+   "seg": 103
+  },
+  {
+   "w": "vamos",
+   "start": 170.972,
+   "end": 171.235,
+   "seg": 104
+  },
+  {
+   "w": "trazer",
+   "start": 171.235,
+   "end": 171.555,
+   "seg": 104
+  },
+  {
+   "w": "o",
+   "start": 171.555,
+   "end": 171.685,
+   "seg": 104
+  },
+  {
+   "w": "homem.\"",
+   "start": 171.685,
+   "end": 172.02,
+   "seg": 104
+  },
+  {
+   "w": "Eles",
+   "start": 172.34,
+   "end": 172.645,
+   "seg": 105
+  },
+  {
+   "w": "trouxeram",
+   "start": 172.645,
+   "end": 173.015,
+   "seg": 105
+  },
+  {
+   "w": "o",
+   "start": 173.015,
+   "end": 173.135,
+   "seg": 105
+  },
+  {
+   "w": "homem.",
+   "start": 173.135,
+   "end": 173.37,
+   "seg": 105
+  }
+ ]
+}

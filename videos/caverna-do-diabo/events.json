@@ -1,0 +1,646 @@
+{
+ "music": {
+  "root": 46,
+  "chord": [
+   1,
+   1.19,
+   1.5
+  ],
+  "level": 0.1,
+  "pulse": 0,
+  "fade_in": 1.2,
+  "fade_out": 3.0
+ },
+ "events": [
+  {
+   "t": 0,
+   "fx": "impact",
+   "gain": 0.4,
+   "args": {}
+  },
+  {
+   "t": 0.05,
+   "fx": "drone",
+   "gain": 0.26,
+   "args": {}
+  },
+  {
+   "t": 0.4,
+   "fx": "heartbeat",
+   "gain": 0.3,
+   "args": {}
+  },
+  {
+   "t": 1,
+   "fx": "heartbeat",
+   "gain": 0.3,
+   "args": {}
+  },
+  {
+   "t": 2.4,
+   "fx": "whoosh",
+   "gain": 0.2,
+   "args": {}
+  },
+  {
+   "t": 3.6,
+   "fx": "shimmer",
+   "gain": 0.2,
+   "args": {}
+  },
+  {
+   "t": 4.43,
+   "fx": "impact",
+   "gain": 0.3,
+   "args": {}
+  },
+  {
+   "t": 6.31,
+   "fx": "drone",
+   "gain": 0.25,
+   "args": {}
+  },
+  {
+   "t": 10.16,
+   "fx": "click",
+   "gain": 0.15,
+   "args": {}
+  },
+  {
+   "t": 11.61,
+   "fx": "whoosh",
+   "gain": 0.2,
+   "args": {}
+  },
+  {
+   "t": 15.48,
+   "fx": "click",
+   "gain": 0.12,
+   "args": {}
+  },
+  {
+   "t": 17.52,
+   "fx": "shimmer",
+   "gain": 0.15,
+   "args": {}
+  },
+  {
+   "t": 18.67,
+   "fx": "whoosh",
+   "gain": 0.2,
+   "args": {}
+  },
+  {
+   "t": 21.1,
+   "fx": "click",
+   "gain": 0.12,
+   "args": {}
+  },
+  {
+   "t": 24.6,
+   "fx": "pop",
+   "gain": 0.12,
+   "args": {}
+  },
+  {
+   "t": 25.55,
+   "fx": "footsteps",
+   "gain": 0.15,
+   "args": {}
+  },
+  {
+   "t": 27.87,
+   "fx": "pop",
+   "gain": 0.12,
+   "args": {}
+  },
+  {
+   "t": 29.45,
+   "fx": "click",
+   "gain": 0.2,
+   "args": {}
+  },
+  {
+   "t": 32.72,
+   "fx": "drone",
+   "gain": 0.22,
+   "args": {}
+  },
+  {
+   "t": 33.75,
+   "fx": "shimmer",
+   "gain": 0.28,
+   "args": {}
+  },
+  {
+   "t": 34.2,
+   "fx": "heartbeat",
+   "gain": 0.3,
+   "args": {}
+  },
+  {
+   "t": 36.74,
+   "fx": "shimmer",
+   "gain": 0.2,
+   "args": {}
+  },
+  {
+   "t": 38.14,
+   "fx": "impact",
+   "gain": 0.25,
+   "args": {}
+  },
+  {
+   "t": 39.84,
+   "fx": "whoosh",
+   "gain": 0.2,
+   "args": {}
+  },
+  {
+   "t": 40.77,
+   "fx": "drone",
+   "gain": 0.2,
+   "args": {}
+  },
+  {
+   "t": 43.75,
+   "fx": "whoosh",
+   "gain": 0.15,
+   "args": {}
+  },
+  {
+   "t": 46.16,
+   "fx": "shimmer",
+   "gain": 0.2,
+   "args": {}
+  },
+  {
+   "t": 47.34,
+   "fx": "drone",
+   "gain": 0.2,
+   "args": {}
+  },
+  {
+   "t": 48.15,
+   "fx": "impact",
+   "gain": 0.4,
+   "args": {}
+  },
+  {
+   "t": 49.72,
+   "fx": "drone",
+   "gain": 0.3,
+   "args": {}
+  },
+  {
+   "t": 53.21,
+   "fx": "heartbeat",
+   "gain": 0.3,
+   "args": {}
+  },
+  {
+   "t": 54.0,
+   "fx": "click",
+   "gain": 0.25,
+   "args": {}
+  },
+  {
+   "t": 55.59,
+   "fx": "beep",
+   "gain": 0.15,
+   "args": {}
+  },
+  {
+   "t": 56.84,
+   "fx": "footsteps",
+   "gain": 0.18,
+   "args": {}
+  },
+  {
+   "t": 59.94,
+   "fx": "drone",
+   "gain": 0.2,
+   "args": {}
+  },
+  {
+   "t": 61.31,
+   "fx": "ticktock",
+   "gain": 0.2,
+   "args": {}
+  },
+  {
+   "t": 63.11,
+   "fx": "impact",
+   "gain": 0.3,
+   "args": {}
+  },
+  {
+   "t": 66.8,
+   "fx": "whoosh",
+   "gain": 0.2,
+   "args": {}
+  },
+  {
+   "t": 68.09,
+   "fx": "impact",
+   "gain": 0.35,
+   "args": {}
+  },
+  {
+   "t": 69.09,
+   "fx": "drone",
+   "gain": 0.2,
+   "args": {}
+  },
+  {
+   "t": 71.01,
+   "fx": "creak",
+   "gain": 0.15,
+   "args": {}
+  },
+  {
+   "t": 73.18,
+   "fx": "click",
+   "gain": 0.2,
+   "args": {}
+  },
+  {
+   "t": 73.5,
+   "fx": "beep",
+   "gain": 0.12,
+   "args": {}
+  },
+  {
+   "t": 76.38,
+   "fx": "footsteps",
+   "gain": 0.15,
+   "args": {}
+  },
+  {
+   "t": 78.51,
+   "fx": "drone",
+   "gain": 0.2,
+   "args": {}
+  },
+  {
+   "t": 78.56,
+   "fx": "drone",
+   "gain": 0.25,
+   "args": {}
+  },
+  {
+   "t": 80.17,
+   "fx": "wood_knock",
+   "gain": 0.6,
+   "args": {}
+  },
+  {
+   "t": 80.64,
+   "fx": "wood_knock",
+   "gain": 0.6,
+   "args": {}
+  },
+  {
+   "t": 80.94,
+   "fx": "wood_knock",
+   "gain": 0.6,
+   "args": {}
+  },
+  {
+   "t": 81.23,
+   "fx": "creak",
+   "gain": 0.2,
+   "args": {}
+  },
+  {
+   "t": 82.48,
+   "fx": "whoosh",
+   "gain": 0.2,
+   "args": {}
+  },
+  {
+   "t": 84.01,
+   "fx": "drone",
+   "gain": 0.2,
+   "args": {}
+  },
+  {
+   "t": 85.22,
+   "fx": "shimmer",
+   "gain": 0.25,
+   "args": {}
+  },
+  {
+   "t": 86.8,
+   "fx": "impact",
+   "gain": 0.3,
+   "args": {}
+  },
+  {
+   "t": 87.73,
+   "fx": "heartbeat",
+   "gain": 0.4,
+   "args": {}
+  },
+  {
+   "t": 88.95,
+   "fx": "shimmer",
+   "gain": 0.2,
+   "args": {}
+  },
+  {
+   "t": 91.02,
+   "fx": "pop",
+   "gain": 0.15,
+   "args": {}
+  },
+  {
+   "t": 94.21,
+   "fx": "drone",
+   "gain": 0.2,
+   "args": {}
+  },
+  {
+   "t": 95.94,
+   "fx": "drone",
+   "gain": 0.2,
+   "args": {}
+  },
+  {
+   "t": 97.26,
+   "fx": "footsteps",
+   "gain": 0.2,
+   "args": {}
+  },
+  {
+   "t": 98.1,
+   "fx": "whoosh",
+   "gain": 0.2,
+   "args": {}
+  },
+  {
+   "t": 99.63,
+   "fx": "pop",
+   "gain": 0.15,
+   "args": {}
+  },
+  {
+   "t": 100.64,
+   "fx": "whoosh",
+   "gain": 0.2,
+   "args": {}
+  },
+  {
+   "t": 101.65,
+   "fx": "click",
+   "gain": 0.2,
+   "args": {}
+  },
+  {
+   "t": 102.39,
+   "fx": "drone",
+   "gain": 0.2,
+   "args": {}
+  },
+  {
+   "t": 104.15,
+   "fx": "impact",
+   "gain": 0.25,
+   "args": {}
+  },
+  {
+   "t": 105.12,
+   "fx": "click",
+   "gain": 0.15,
+   "args": {}
+  },
+  {
+   "t": 106.52,
+   "fx": "pop",
+   "gain": 0.12,
+   "args": {}
+  },
+  {
+   "t": 108.02,
+   "fx": "footsteps",
+   "gain": 0.15,
+   "args": {}
+  },
+  {
+   "t": 109.2,
+   "fx": "drone",
+   "gain": 0.25,
+   "args": {}
+  },
+  {
+   "t": 110.2,
+   "fx": "dirt_fall",
+   "gain": 0.15,
+   "args": {}
+  },
+  {
+   "t": 112.14,
+   "fx": "impact",
+   "gain": 0.35,
+   "args": {}
+  },
+  {
+   "t": 115.42,
+   "fx": "drone",
+   "gain": 0.2,
+   "args": {}
+  },
+  {
+   "t": 116.72,
+   "fx": "drone",
+   "gain": 0.25,
+   "args": {}
+  },
+  {
+   "t": 120.71,
+   "fx": "shimmer",
+   "gain": 0.25,
+   "args": {}
+  },
+  {
+   "t": 121.15,
+   "fx": "chord",
+   "gain": 0.25,
+   "args": {}
+  },
+  {
+   "t": 123.3,
+   "fx": "whoosh",
+   "gain": 0.2,
+   "args": {}
+  },
+  {
+   "t": 125.09,
+   "fx": "footsteps",
+   "gain": 0.15,
+   "args": {}
+  },
+  {
+   "t": 127.0,
+   "fx": "impact",
+   "gain": 0.3,
+   "args": {}
+  },
+  {
+   "t": 129.13,
+   "fx": "shimmer",
+   "gain": 0.2,
+   "args": {}
+  },
+  {
+   "t": 130.51,
+   "fx": "impact",
+   "gain": 0.35,
+   "args": {}
+  },
+  {
+   "t": 131.02,
+   "fx": "heartbeat",
+   "gain": 0.3,
+   "args": {}
+  },
+  {
+   "t": 133.26,
+   "fx": "drone",
+   "gain": 0.25,
+   "args": {}
+  },
+  {
+   "t": 134.83,
+   "fx": "shimmer",
+   "gain": 0.2,
+   "args": {}
+  },
+  {
+   "t": 135.43,
+   "fx": "impact",
+   "gain": 0.3,
+   "args": {}
+  },
+  {
+   "t": 136.92,
+   "fx": "beep",
+   "gain": 0.3,
+   "args": {}
+  },
+  {
+   "t": 136.97,
+   "fx": "beep",
+   "gain": 0.25,
+   "args": {}
+  },
+  {
+   "t": 137.22,
+   "fx": "beep",
+   "gain": 0.3,
+   "args": {}
+  },
+  {
+   "t": 138.64,
+   "fx": "beep",
+   "gain": 0.15,
+   "args": {}
+  },
+  {
+   "t": 140.35,
+   "fx": "impact",
+   "gain": 0.35,
+   "args": {}
+  },
+  {
+   "t": 141.56,
+   "fx": "shimmer",
+   "gain": 0.25,
+   "args": {}
+  },
+  {
+   "t": 143.6,
+   "fx": "creak",
+   "gain": 0.15,
+   "args": {}
+  },
+  {
+   "t": 144.41,
+   "fx": "shimmer",
+   "gain": 0.2,
+   "args": {}
+  },
+  {
+   "t": 146.32,
+   "fx": "pop",
+   "gain": 0.15,
+   "args": {}
+  },
+  {
+   "t": 148.96,
+   "fx": "click",
+   "gain": 0.15,
+   "args": {}
+  },
+  {
+   "t": 150.92,
+   "fx": "drone",
+   "gain": 0.2,
+   "args": {}
+  },
+  {
+   "t": 151.88,
+   "fx": "impact",
+   "gain": 0.35,
+   "args": {}
+  },
+  {
+   "t": 153.3,
+   "fx": "chord",
+   "gain": 0.3,
+   "args": {}
+  },
+  {
+   "t": 154.23,
+   "fx": "shimmer",
+   "gain": 0.3,
+   "args": {}
+  },
+  {
+   "t": 155.34,
+   "fx": "drone",
+   "gain": 0.3,
+   "args": {}
+  },
+  {
+   "t": 157.08,
+   "fx": "heartbeat",
+   "gain": 0.35,
+   "args": {}
+  },
+  {
+   "t": 157.92,
+   "fx": "footsteps",
+   "gain": 0.2,
+   "args": {}
+  },
+  {
+   "t": 160.68,
+   "fx": "drone",
+   "gain": 0.3,
+   "args": {}
+  },
+  {
+   "t": 161.68,
+   "fx": "chord",
+   "gain": 0.35,
+   "args": {}
+  },
+  {
+   "t": 164.86,
+   "fx": "impact",
+   "gain": 0.4,
+   "args": {}
+  }
+ ]
+}

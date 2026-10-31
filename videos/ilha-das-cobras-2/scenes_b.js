@@ -1,0 +1,61 @@
+/* scenes_b.js - Ilha das Cobras 2: 50.6 a 111 s */
+const CANS = (x, y, sc) => G([0, 1, 2].map(i => G(R(-70, -190, 140, 190, ['#c8c0a8', '#b8b0a0', '#c8b898'][i], 'rx="12"') + R(-70, -140, 140, 56, ['#c04a2a', '#3a7a4a', '#c8a030'][i]) + E(0, -190, 70, 16, '#8a8a8a') + R(-70, -190, 140, 190, '#000', OP(0.12), 'rx="12"'), `translate(${i * 190 - 190} ${i == 1 ? -60 : 0})`)).join(''), `translate(${f1(x)} ${f1(y)}) scale(${sc})`);
+const MAPC = (Pf, x, y, sc, rot, mark = 0) => G(R(-300, -220, 600, 440, '#d8c898', 'rx="8"') + P('M-200,-60 Q-160,-150 -60,-130 Q40,-170 120,-90 Q200,-30 150,60 Q60,140 -60,110 Q-170,100 -200,-60Z', '#6a9a6a', 'stroke="#3a5a3a" stroke-width="6"') + P('M-260,150 Q-100,60 -20,-10 T220,-120', 'none', 'stroke="#c04a2a" stroke-width="7" stroke-dasharray="16 12"') + (mark ? L(150, -120, 210, -60, HC_RED, 14) + L(210, -120, 150, -60, HC_RED, 14) : '') + R(-300, -220, 600, 440, '#000', OP(0.08)), `translate(${f1(x)} ${f1(y)}) rotate(${rot}) scale(${sc})`);
+const TABLE = (Pf, t, lt, o = {}) => BGW(Pf, 0.55) + R(-100, 1000, 1280, 1000, '#4a3220') + R(-100, 996, 1280, 12, '#2a1a10') + glow(Pf, 'A', 540, 900, 700, 0.3);
+const FUEL = (t, lt) => G(R(-260, -180, 520, 360, '#3a3a40', 'rx="30"') + R(-200, -250, 400, 90, '#5a5a62', 'rx="16"') + P('M260,-60 Q380,-60 400,20 Q420,120 360,160', 'none', 'stroke="#1a1a1c" stroke-width="30" stroke-linecap="round"') + P('M360,160 Q330,200 330,240', 'none', 'stroke="#1a1a1c" stroke-width="30" stroke-linecap="round"') + [0, 1, 2, 3].map(i => { const u = (t * 1.5 + i * 0.25) % 1; return E(350 + 6 * i, 260 + 500 * u * u, 12, 20 + 20 * u, '#d8b030', OP(0.9 * (1 - u))); }).join('') + L(300, 160, 380, 120, '#fff', 8, OP(0.0)), 'translate(500 900) scale(1.5)');
+const SCISS = (u) => G(L(0, 0, 130, -120, '#c8c8d0', 18) + L(0, 0, 130, 120 * (1 - 0.7 * u), '#c8c8d0', 18) + C(0, 0, 14, '#3a3a40') + L(0, 0, -110, -100, '#c04a2a', 28) + L(0, 0, -110, 100, '#c04a2a', 28), 'translate(780 1100) rotate(-20) scale(1.4)');
+function partE(c) {
+  const { add, tw, k, S } = c; const E_ = ez;
+  const SN = (s0, fin, fn) => SNP(c, s0, fin, fn);
+  const mb = (a, b) => { window.MBI = window.MBI || []; window.MBI.push([a, b]); };
+  mb(81.5, 83.2); mb(112, 112.5);
+  const sh = (s0, dur, o, fn, pf) => SN(s0, 0.001, (t, lt, Pf) => CM(Pf, t, fn(t, lt, Pf), lt, dur, o) + (pf === 0 ? '' : PUNCH(lt, pf === undefined ? 0.4 : pf, typeof pf === 'string' ? pf : '#fff')));
+  /* 50.6 la dentro */
+  sh(50.6, 1.0, { z0: 1.5, z1: 1.0, shk: 2 }, (t, lt, Pf) => INTR(Pf, t, {}) + lanternObj(Pf, { x: 540, y: 420, scale: 1.2, on: 1, sw: 4 * Math.sin(t * 2) }));
+  sh(51.6, 1.5, { z0: 1.0, z1: 1.35, shk: 1.2 }, (t, lt, Pf) => FC(LU, { eye: 1.1, worry: 0.4, lookx: lp(-0.7, 0.7, ez(lt / 1.4)), t }, BGW(Pf, 0.5)));
+  sh(53.7, 0.9, { z0: 1.0, z1: 1.3, y0: 1100, y1: 1150, shk: 2 }, (t, lt, Pf) => TABLE(Pf, t, lt) + CANS(540, 1250, 1.8), 0.5);
+  sh(54.6, 1.0, { z0: 1.0, z1: 1.25, r0: -3, r1: 2, shk: 2 }, (t, lt, Pf) => TABLE(Pf, t, lt) + MAPC(Pf, 540, 960, 1.6, -4), 0.5);
+  sh(55.6, 1.2, { z0: 1.0, z1: 1.35, shk: 2 }, (t, lt, Pf) => TABLE(Pf, t, lt) + RADIOO(Pf, t, 480, 1400, 1.8, { on: 0 }), 0.5);
+  sh(56.8, 2.1, { z0: 1.0, z1: 1.3, y0: 1000, y1: 1050, shk: 1.5 }, (t, lt, Pf) => TABLE(Pf, t, lt) + [0, 1, 2, 3].map(i => PHOTOCARD(Pf, t, 200 + (i % 2) * 360 + 80 * (i > 1), 760 + Math.floor(i / 2) * 420, 0.8, [-10, 7, 4, -6][i], i == 1 ? 'boat' : 'x') ).join(''), 0.5);
+  sh(58.9, 0.6, { z0: 1.0, z1: 1.3, shk: 2 }, (t, lt, Pf) => TABLE(Pf, t, lt) + PHOTOCARD(Pf, t, 540, 1100 - 200 * ez(lt / 0.5), 1.4, -4, 'boat') + HAND2(700, 1500 - 200 * ez(lt / 0.5), 1.0, 200, '#c8a080'), 0.4);
+  sh(59.5, 2.0, { z0: 1.0, z1: 1.5, shk: 1.5 }, (t, lt, Pf) => BGW(Pf, 0.3) + PHOTOCARD(Pf, t, 540, 960, 2.2, -3, 'boat'), 0.5);
+  SN(61.4, 0.001, (t, lt, Pf) => { const fl = lt < 0.15 || (lt > 0.5 && lt < 0.6) ? 1 : 0; return CM(Pf, t, skyI(Pf, t, 800, 'night', { clouds: 5 }) + seaI(Pf, t, 1000, 2.2, { n: 5, c1: '#1a3a50', span: 500 }) + boatObj(Pf, t, 540, 1150 + 20 * Math.sin(t * 3), 1.1, 40 * ez(lt / 1.4) + 6 * Math.sin(t * 4), 1) + rainFx(t, 90, 1200, 1920) + (fl ? FB('#dfefff', 0.7) : ''), lt, 1.7, { z0: 1.0, z1: 1.3, shk: 8, r0: -2, r1: 8 }) + PUNCH(lt, 0.7, '#dfefff'); });
+  sh(63.1, 0.7, { z0: 1.0, z1: 1.2, shk: 2 }, (t, lt, Pf) => FC(LU, { eye: 1, worry: 0.7, lookx: 0.2, t }, BGW(Pf, 0.4)));
+  sh(63.8, 1.3, { z0: 1.1, z1: 1.4, shk: 2 }, (t, lt, Pf) => TABLE(Pf, t, lt) + PHOTOCARD(Pf, t, 540, 1200 - 160 * ez(lt / 0.5), 1.2, -4, 'boat') + HAND2(620, 1600 - 260 * ez(lt / 0.5), 1.1, 190, '#d8b090'), 0.4);
+  sh(65.1, 2.2, { z0: 1.0, z1: 1.3, shk: 1.2 }, (t, lt, Pf) => FC(LU, { eye: 1, worry: 0.5, mouth: DLG(t, 65.1, 66.9), t, lookx: 0.5 }, BGW(Pf, 0.5)) + PHOTOCARD(Pf, t, 330, 1500, 0.8, -8, 'boat') + HAND2(250, 1700, 0.9, 20, '#d8b090'), 0.4);
+  /* 67.3 Andre serio */
+  sh(67.3, 0.9, { z0: 1.2, z1: 1.7, shk: 1 }, (t, lt, Pf) => FC(AND, { eye: 0.9, anger: 0.6, worry: 0, t, lookx: 0.2 }, BGW(Pf, 0.3)), 0.6);
+  sh(68.2, 1.3, { z0: 1.5, z1: 1.8, shk: 1 }, (t, lt, Pf) => FC(AND, { eye: 1, anger: 0.5, t, mouth: DLG(t, 68.2, 69.5) }, BGW(Pf, 0.3)), 0.4);
+  sh(69.5, 1.0, { z0: 1.0, z1: 1.3, shk: 2 }, (t, lt, Pf) => FC(AND, { eye: 1, anger: 0.5, t, mouth: DLG(t, 69.5, 70.5) }, BGD(Pf)), 0.4);
+  sh(70.5, 1.2, { z0: 1.0, z1: 1.4, x0: 540, x1: 700, shk: 3 }, (t, lt, Pf) => BGD(Pf) + FUEL(t, lt) + SCISS(ez(lt / 0.4)), 0.7);
+  sh(71.7, 1.3, { z0: 1.0, z1: 1.4, shk: 1 }, (t, lt, Pf) => FC(LU, { eye: 1.2, worry: 1, cold: 0.5, t, tremble: 0.8, sweat: 0.4 }, BGD(Pf)) + frost(t, 0.15), 0.5);
+  sh(73.0, 1.7, { z0: 1.0, z1: 1.25, shk: 1.5 }, (t, lt, Pf) => FC(LU, { eye: 1.1, worry: 0.5, mouth: 0.6, lookx: -0.3, t }, BGW(Pf, 0.4)));
+  SN(74.7, 0.001, (t, lt, Pf) => CM(Pf, t, TABLE(Pf, t, lt) + RADIOO(Pf, t, 540, 1350, 2.4, { on: 1, talk: ez(lt / 1.2) }) + STATIC(t, 0.3 * ez(lt / 1.0)), lt, 2.1, { z0: 1.0, z1: 1.4, shk: 3 }) + PUNCH(lt, 0.5, '#c8f0c0'));
+  sh(76.8, 1.9, { z0: 1.4, z1: 1.2, shk: 2 }, (t, lt, Pf) => TABLE(Pf, t, lt) + RADIOO(Pf, t, 540, 1350, 2.4, { on: 1, talk: 1 }) + STATIC(t, 0.12), 0.4);
+  sh(78.7, 0.9, { z0: 1.5, z1: 1.9, y0: 1100, y1: 1050, shk: 2 }, (t, lt, Pf) => BGD(Pf) + RADIOO(Pf, t, 540, 1350, 3.2, { on: 1, talk: 1 }) + STATIC(t, 0.15), 0.5);
+  sh(79.6, 1.9, { z0: 1.0, z1: 1.3, shk: 2 }, (t, lt, Pf) => FC(LU, { eye: 1.1, worry: 0.7, lookx: 0.6, t }, BGW(Pf, 0.35)) + RADIOO(Pf, t, 880, 1700, 1.0, { on: 1, talk: 1 }));
+  SN(81.5, 0.001, (t, lt, Pf) => CM(Pf, t, TABLE(Pf, t, lt) + RADIOO(Pf, t, 540, 1350, 1.4 + 1.6 * ez(lt / 1.6), { on: 1, talk: 1 }) + STATIC(t, 0.1), lt, 1.7, { z0: 1.0, z1: 1.3, shk: 4 }) + PUNCH(lt, 0.4));
+  sh(83.2, 0.6, { z0: 1.5, z1: 2.0, y0: 1100, y1: 1050, shk: 2 }, (t, lt, Pf) => BGD(Pf) + RADIOO(Pf, t, 540, 1350, 3.2, { on: 1, talk: 1 }) + STATIC(t, 0.2), 0.4);
+  sh(83.8, 1.1, { z0: 1.0, z1: 1.6, shk: 8 }, (t, lt, Pf) => FC(LU, { eye: 1.35, worry: 1, t, tremble: 2, sweat: 0.8 }, BGD(Pf)), 0.9);
+  sh(84.9, 1.8, { z0: 1.0, z1: 1.3, shk: 1.5 }, (t, lt, Pf) => BGW(Pf, 0.3) + G(AND({ eye: 1, anger: 0.4, t, lookx: 0 }, 0, 0, 1.2), 'translate(760 900)') + G(LU({ eye: 1.2, worry: 0.9, t, lookx: 0.5 }, 0, 0, 1.7), 'translate(330 1000)') + R(0, 0, 1080, 1920, '#000', OP(0.0)), 0.5);
+  sh(86.7, 1.0, { z0: 1.0, z1: 1.25, shk: 1 }, (t, lt, Pf) => FC(LU, { eye: 1, worry: 0.6, lookx: lp(0, 0.9, ez(lt / 0.5)), t }, BGW(Pf, 0.4)));
+  sh(87.7, 1.0, { z0: 1.3, z1: 1.5, shk: 0.5 }, (t, lt, Pf) => FC(AND, { eye: 1, anger: 0.5, t, lookx: -0.6, mouth: 0 }, BGW(Pf, 0.3)) + LANT(Pf, t), 0.4);
+  sh(88.7, 0.8, { z0: 1.0, z1: 1.3, shk: 1 }, (t, lt, Pf) => TABLE(Pf, t, lt) + RADIOO(Pf, t, 540, 1350, 2.6, { on: 1, talk: 0.5 }), 0.4);
+  sh(89.5, 1.2, { z0: 1.2, z1: 1.5, shk: 3 }, (t, lt, Pf) => TABLE(Pf, t, lt) + RADIOO(Pf, t, 540, 1350, 2.6, { on: lt < 0.5 ? 1 : 0, talk: lt < 0.5 ? 1 : 0 }) + HAND2(780, 1500 - 160 * ez(lt / 0.4), 1.1, 190, '#c7966f') + (lt > 0.5 ? PUNCH(lt - 0.5, 0.5) : ''), 0.4);
+  sh(90.7, 1.6, { z0: 1.5, z1: 1.8, shk: 1 }, (t, lt, Pf) => FC(AND, { eye: 1, anger: 0.6, t, mouth: DLG(t, 90.7, 92.3) }, BGD(Pf)), 0.4);
+  SN(92.3, 0.001, (t, lt, Pf) => CM(Pf, t, BGW(Pf, 0.3) + doorObj(Pf, { x: 540, y: 1620, sc: 2.2, t }) + G(R(-120, -4, 240, 20, '#8a8a90', 'rx="8"') + R(-60 + 80 * ez((lt - 0.8) / 0.2), -4, 120, 20, '#c8c8d0', 'rx="8"'), 'translate(540 1060) scale(1.5)'), lt, 1.9, { z0: 1.0, z1: 1.3, shk: lt > 0.8 && lt < 1.0 ? 8 : 1 }) + (lt > 0.8 ? PUNCH(lt - 0.8, 0.7) : ''));
+  sh(94.2, 1.7, { z0: 1.0, z1: 1.3, shk: 1 }, (t, lt, Pf) => FC(LU, { eye: 1, worry: 0.5, mouth: DLG(t, 94.2, 95.7), t }, BGW(Pf, 0.4)) + questionMarks(t, 540, 400, 300, 6, '#8fe0d0'));
+  sh(95.9, 1.3, { z0: 1.3, z1: 1.0, shk: 2 }, (t, lt, Pf) => TABLE(Pf, t, lt) + RADIOO(Pf, t, 540, 1350, 2.2, { on: 0 }) + eyesPair(Pf, 540, 600, 0.0, '#fff', 0), 0.4);
+  sh(97.2, 1.0, { z0: 1.0, z1: 1.3, shk: 1 }, (t, lt, Pf) => FC(AND, { eye: 0.3 + 0.7 * ez(lt / 0.8), worry: 0.5, t, mouth: 0.4 * Math.abs(Math.sin(t * 3)) }, BGW(Pf, 0.3)) + LANT(Pf, t), 0.4);
+  sh(98.2, 2.0, { z0: 1.3, z1: 1.6, shk: 1 }, (t, lt, Pf) => FC(AND, { eye: 1, anger: 0.3, worry: 0.3, t, mouth: DLG(t, 98.2, 100.2) }, BGW(Pf, 0.3)), 0.3);
+  sh(100.2, 1.0, { z0: 1.0, z1: 1.3, shk: 2 }, (t, lt, Pf) => TABLE(Pf, t, lt) + MAPC(Pf, 540, 960, 1.8, 3, ez((lt - 0.4) / 0.4)), 0.5);
+  sh(101.2, 1.7, { z0: 1.0, z1: 1.25, shk: 1.5 }, (t, lt, Pf) => BGD(Pf) + [0, 1, 2, 3].map(i => G(ANDF({ t, view: 'f', idle: 1 }), `translate(${220 + 210 * i} ${1350 + 40 * (i % 2)}) scale(${0.9 + 0.1 * (i % 2)})`)).join('') + BIG('#000', 0.45) + glow(Pf, 'B', 540, 900, 800, 0.1), 0.5);
+  sh(102.9, 1.6, { z0: 1.4, z1: 1.0, shk: 1.5 }, (t, lt, Pf) => skyI(Pf, t, 1000, 'night', { clouds: 2 }) + moon(Pf, 800, 340, 70) + seaI(Pf, t, 1150, 0.5, { n: 3, c1: '#0e2a38', span: 300 }) + G(P('M-520,0 Q-380,-120 -220,-170 Q-60,-260 80,-230 Q300,-200 420,-90 Q520,-40 560,0Z', '#08150f') + treesI(Pf, t, -400, 400, -140, 120, '#07130f', '#0e2a20'), 'translate(540 1180) scale(1.2)') + lighthouseObj(Pf, 560, 1040, 0.8, 0, t));
+  sh(104.5, 1.3, { z0: 1.0, z1: 1.3, shk: 2 }, (t, lt, Pf) => BGN(Pf, t) + R(-300, 1350, 1680, 800, '#0e1c1c') + [0, 1, 2].map(i => G(R(-120, -140, 240, 140, '#4a3a22', 'rx="6"') + L(-120, -70, 120, -70, '#2a1c10', 8) + L(0, -140, 0, 0, '#2a1c10', 8), `translate(${300 + 260 * i} ${1450 - 90 * (i % 2)}) scale(1.1)`)).join('') + treesI(Pf, t, -200, 1300, 1350, 700, '#061410', '#0c2418') + eyesPair(Pf, 760, 1100, 0.0, '#fff', 0), 0.5);
+  sh(105.8, 1.7, { z0: 1.0, z1: 1.3, shk: 2 }, (t, lt, Pf) => skyI(Pf, t, 1000, 'night', { clouds: 2 }) + seaI(Pf, t, 1100, 0.8, { n: 4, c1: '#0e2a38', span: 400 }) + G(boatObj(Pf, t, 0, 0, 1.0, 3 * Math.sin(t * 1.6), 0) + [0, 1, 2].map(i => G(P('M-14,0 L-18,-80 Q0,-120 18,-80 L14,0Z', '#05080a') + C(0, -110, 22, '#05080a'), `translate(${-80 + 70 * i} -90)`)).join(''), `translate(${f1(300 + 240 * lt)} ${f1(1230 + 10 * Math.sin(t * 2))})`));
+  sh(107.5, 0.7, { z0: 1.0, z1: 1.3, shk: 1.5 }, (t, lt, Pf) => BGD(Pf) + seaI(Pf, t, 1200, 0.6, { n: 3, c1: '#08181f', span: 300 }) + G(boatObj(Pf, t, 0, 0, 1.2, 2, 0), 'translate(540 1260)') + FOGL2(t), 0.4);
+  sh(108.2, 1.0, { z0: 1.0, z1: 1.3, shk: 2 }, (t, lt, Pf) => BGW(Pf, 0.4) + R(100, 500, 880, 1000, '#2a1c12') + [0, 1, 2, 3, 4, 5, 6, 7].map(i => R(100 + i * 110, 500, 6, 1000, '#140c06', OP(0.6))).join('') + TALLY(11, 200, 800, 1.7) + C(560 + 0, 860, 0, '#fff'), 0.5);
+  sh(109.2, 1.0, { z0: 1.0, z1: 1.5, shk: 4 }, (t, lt, Pf) => FC(AND, { eye: 1.35, worry: 0.8, t, tremble: 1 }, BGD(Pf)), 0.8);
+  sh(110.2, 0.8, { z0: 1.2, z1: 1.5, shk: 3 }, (t, lt, Pf) => BGD(Pf) + P('M540,800 L200,1900 L880,1900Z', '#ffe9a0', OP(0.14)) + PHOTOCARD(Pf, t, 540, 1250, 1.1, 5, 'x') + R(220, 1100, 600, 14, HC_RED, OP(0.0)), 0.5);
+}
+const FOGL2 = t => [0, 1, 2, 3].map(i => E(((i * 380 + t * 24) % 1700) - 300, 1220 + 20 * Math.sin(t + i), 400, 60, '#8aa0b0', OP(0.14))).join('');

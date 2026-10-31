@@ -1,0 +1,13 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>html,body{margin:0;background:#000}#stage{display:block;width:1080px;height:1920px}</style></head><body>
+<svg id="stage" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920"></svg>
+<script src="../../lib/helpers.js"></script><script src="art.js"></script><script src="env.js"></script><script src="shared.js"></script><script src="art3.js"></script><script src="old_a.js"></script><script src="old_b.js"></script><script src="old_c.js"></script><script src="p3.js"></script><script src="lucas.js"></script><script src="hiker.js"></script>
+<script>
+window.READY=true;window.DURATION=4;
+window.MB=t=>1;
+window.setT=function(t){const Pf='w_';let s=defsC(Pf)+R(-300,-300,1680,2520,'#0f1c24')+R(-300,1400,1680,800,'#16262a')+E(540,1500,500,30,'rgba(0,0,0,0.4)');
+ const sc=0.95, dist=t*330, x=100+(dist%800);
+ s+=G(heroFig({t,walk:dist/(430*sc),view:'s',stride:0.9}),`translate(${x} 1500) scale(${sc})`);
+ s+=G(heroFig({t,walk:t*0.85,view:'b',stride:0.9}),`translate(300 1000) scale(0.5)`);
+ s+=G(heroFig({t,walk:t*0.85,view:'f',stride:0.9}),`translate(760 1000) scale(0.5)`);
+ document.getElementById('stage').innerHTML=s+vignette(Pf,0.6);};
+</script></body></html>

@@ -1,13 +1,13 @@
 <!DOCTYPE html><html><head><meta charset="utf-8"><style>html,body{margin:0;background:#000}#stage{display:block;width:1080px;height:1920px}</style></head><body>
 <svg id="stage" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920"></svg>
-<script src="../../lib/helpers.js"></script><script src="art.js"></script><script src="env.js"></script><script src="shared.js"></script><script src="art3.js"></script><script src="old_a.js"></script><script src="old_b.js"></script><script src="old_c.js"></script><script src="p3.js"></script><script src="lucas.js"></script><script src="hiker.js"></script>
+<script src="../../lib/helpers.js"></script><script src="art.js"></script><script src="env.js"></script><script src="shared.js"></script><script src="art3.js"></script><script src="old_a.js"></script><script src="old_b.js"></script><script src="old_c.js"></script><script src="p3.js"></script><script src="lucas.js"></script><script src="ilha.js"></script><script src="cave.js"></script><script src="hiker.js"></script>
 <script>
-window.READY=true;window.DURATION=4;
-window.MB=t=>1;
-window.setT=function(t){const Pf='w_';let s=defsC(Pf)+R(-300,-300,1680,2520,'#0f1c24')+R(-300,1400,1680,800,'#16262a')+E(540,1500,500,30,'rgba(0,0,0,0.4)');
- const sc=0.95, dist=t*330, x=100+(dist%800);
- s+=G(heroFig({t,walk:dist/(430*sc),view:'s',stride:0.9}),`translate(${x} 1500) scale(${sc})`);
- s+=G(heroFig({t,walk:t*0.85,view:'b',stride:0.9}),`translate(300 1000) scale(0.5)`);
- s+=G(heroFig({t,walk:t*0.85,view:'f',stride:0.9}),`translate(760 1000) scale(0.5)`);
- document.getElementById('stage').innerHTML=s+vignette(Pf,0.6);};
+window.READY=true;window.DURATION=4;window.MB=t=>0;
+window.DURATION=5;window.MB=t=>0;
+const gr=(y,dist,col)=>{let q=R(-300,y,1680,700,col);for(let k=-2;k<12;k++){const x=((k*170-dist)%1700+1700)%1700-300;q+=R(x,y+6,70,5,'#fff',OP(0.12))+E(x+90,y+60,30,6,'#fff',OP(0.05))}return q};
+window.setT=function(t){const Pf='w_';let s=defsC(Pf)+R(-300,-300,1680,2520,'#0f1c24');
+ const sc=0.9, vw=1.0*WALK_CYCLE*sc, dw=vw*t; s+=gr(760,dw,'#16262a')+E(300,760,150,18,'rgba(0,0,0,0.45)')+G(heroFig({t,walk:dw/(WALK_CYCLE*sc),view:'s',stride:1}),`translate(300 760) scale(${sc})`);
+ const vr=1.35*RUN_CYCLE*sc, dr=vr*t; s+=gr(1400,dr,'#1a2c30')+E(560,1400,150,18,'rgba(0,0,0,0.45)')+G(heroFig({t,walk:dr/(RUN_CYCLE*sc),view:'s',stride:1,run:1}),`translate(560 1400) scale(${sc})`);
+ s+=G(heroFig({t,walk:dw/(WALK_CYCLE*0.5),view:'f',stride:1}),`translate(860 1000) scale(0.5)`)+G(heroFig({t,walk:dw/(WALK_CYCLE*0.5),view:'b',stride:1}),`translate(160 1000) scale(0.5)`);
+ document.getElementById('stage').innerHTML=s+vignette(Pf,0.5);};
 </script></body></html>

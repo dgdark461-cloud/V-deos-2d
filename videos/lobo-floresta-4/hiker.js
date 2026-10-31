@@ -23,22 +23,53 @@ const hkF = (o, x, y, sc) => G(hikerFace(o), `translate(${f1(x)} ${f1(y)}) scale
    o: {t, walk (fase 0..1 contínua), view, flip, scale, lean, stride, arms:[[a,e],[a,e]] near/far, holdNear, holdFar, look, scared, mouth, bag(1/0), idle} origem = pés */
 function hikerFig(o) {
   const d = Object.assign({ t: 0, walk: 0, view: 's', flip: 1, scale: 1, lean: 0, stride: 1, arms: null, holdNear: '', holdFar: '', look: 0, scared: 0, mouth: 0, bag: 1, idle: 1, cap: 1, eyes: 1 }, o);
-  const ph = d.walk * 2 * Math.PI + 0.12 * Math.sin(d.walk * 5.1), st = d.stride * (1 + 0.05 * Math.sin(d.walk * 3.7)), br = d.idle * Math.sin(d.t * 1.9) * 3, swayX = (d.view === 's' ? 0 : 9 * Math.sin(ph)) * (d.stride ? 1 : 0);
-  const bob = -9 * st * Math.abs(Math.sin(ph)) * (d.stride ? 1 : 0) - br * 0.4;
-  const hipY = -440 + bob, shY = -700 + bob + br * 0.3, lean = d.lean + 6 * st, hipX = 0;
+  const run = d.run ? 1 : 0, moving = d.stride > 0.01, duty = run ? 0.38 : 0.62, Lst = (run ? 430 : 250) * Math.min(1.1, d.stride || 1);
+  const p0 = (((d.walk % 1) + 1) % 1), ph = p0 * 2 * Math.PI, st = d.stride, br = d.idle * Math.sin(d.t * 1.9) * 3;
+  const hipH = !moving ? 440 : run ? 396 - 26 * Math.cos(4 * Math.PI * (p0 - duty / 2)) : 421 + 12 * Math.cos(4 * Math.PI * (p0 - duty / 2));
+  const swayX = (d.view === 's' || !moving) ? 0 : (run ? 14 : 10) * Math.sin(ph);
+  const bob = (moving ? 440 - hipH : 0) * -1 - br * 0.4;
+  const hipY = -hipH + (moving ? 0 : -br * 0.4), shY = hipY - 262 + br * 0.3 + (moving ? 4 * Math.cos(4 * Math.PI * (p0 - duty / 2)) * (run ? 1.5 : 1) : 0), lean = d.lean + (moving ? (run ? 78 : 16) : 6), hipX = 0;
+  const sstep = x => { x = Math.max(0, Math.min(1, x)); return x * x * (3 - 2 * x); };
+  /* pe: posicao do tornozelo e rotacao do pe para a fase pp (0 = contato do calcanhar) */
+  const footAt = pp => {
+    pp = ((pp % 1) + 1) % 1;
+    const hl = [-30, 10], tl = [96, 10];
+    if (pp < duty) {
+      const u = pp / duty, th = u < 0.22 ? -16 * (1 - u / 0.22) : u > 0.58 ? 40 * sstep((u - 0.58) / 0.42) : 0;
+      const k = sstep((u - 0.08) / 0.7), plx = hl[0] + (tl[0] - hl[0]) * k, ply = 10, px = Lst / 2 - Lst * u;
+      const c = Math.cos(th * Math.PI / 180), s_ = Math.sin(th * Math.PI / 180);
+      return { x: px - (plx * c - ply * s_), y: 0, rot: th, u, st: 1, plx, ply, px };
+    }
+    const u = (pp - duty) / (1 - duty), e = sstep(u * 1.05 - 0.02), H = run ? 150 : 62;
+    const lift = H * Math.pow(Math.sin(Math.PI * Math.min(1, u * 1.06)), run ? 0.9 : 1.25), th = -16 + 56 * (1 - sstep(u * 2.2)) * 1 - 40 * 0 + (u > 0.55 ? 0 : 0);
+    const thr = u < 0.45 ? 40 - 40 * sstep(u / 0.45) : -16 * sstep((u - 0.45) / 0.55);
+    return { x: -Lst / 2 + Lst * e - 20 * Math.sin(Math.PI * u) * 0, y: -lift, rot: thr, u, st: 0 };
+  };
+  const ik = (hx, hy, ax, ay, l1, l2) => { let dx = ax - hx, dy = ay - hy, dd = Math.hypot(dx, dy); const mx = l1 + l2 - 0.5; if (dd > mx) { dx *= mx / dd; dy *= mx / dd; dd = mx; } const a = (l1 * l1 - l2 * l2 + dd * dd) / (2 * dd), h = Math.sqrt(Math.max(0, l1 * l1 - a * a)); const bx = hx + dx / dd * a, by = hy + dy / dd * a; return [[hx, hy], [bx + dy / dd * h, by - dx / dd * h], [hx + dx, hy + dy]]; };
   const bl = hkBlink(d.t), v = d.view;
   /* pernas */
   const leg = (side, phase) => {
-    const a1 = 30 * st * Math.sin(phase) * side, k = 6 + 38 * st * Math.max(0, Math.sin(phase * side + 1.4)), a2 = a1 - k * (v === 's' ? 1 : 0.3);
-    const p = lmb(hipX + (v === 's' ? 0 : side * 24), hipY, v === 's' ? a1 : a1 * 0.25, 222, v === 's' ? a2 : a2 * 0.25, 222);
-    const col = side === 1 ? HK.pants : HK.pantsDk, ax = p[2][0], ay = p[2][1];
-    const toe = v === 's' ? 40 : 0, lift = Math.max(0, Math.sin(phase * side + 2.2)), fRot = v === 's' ? (-a2 * 0.55 + 28 * lift * st) : 0;
+    const col = side === 1 ? HK.pants : HK.pantsDk;
+    let p, ax, ay, fRot = 0;
+    if (!moving) {
+      const fx = v === 's' ? side * 26 : side * 30; p = ik(v === 's' ? 0 : side * 24, hipY, fx + (v === 's' ? 0 : 0), -10, 222, 222); ax = p[2][0]; ay = p[2][1]; fRot = 0;
+    } else {
+      const pp = p0 + (side === 1 ? 0 : 0.5), f = footAt(pp);
+      let fy;
+      if (f.st) { const c = Math.cos(f.rot * Math.PI / 180), s_ = Math.sin(f.rot * Math.PI / 180); fy = -(f.plx * s_ + f.ply * c); }
+      else fy = -10 + f.y;
+      if (v === 's') { ax = f.x; ay = fy; fRot = f.rot; p = ik(hipX, hipY, ax, ay, 222, 222); }
+      else { const dz = (v === 'f' ? 1 : -1) * f.x * 0.07; ax = side * 26; ay = fy + dz; fRot = 0; p = ik(side * 24, hipY, ax, ay, 222, 222); p[1][0] = side * 26 + (f.x > 0 ? 6 : -4) * side; }
+    }
+    const toe = v === 's' ? 40 : 0;
     return hkTube(p, 52, 44, col) + E(p[1][0], p[1][1], 28, 28, col) + G(P(`M-30,-30 L${22 + toe},-30 Q${52 + toe},-24 ${54 + toe},4 L-36,4 Z`, side === 1 ? HK.boot : HK.bootDk) + R(-36, -2, 92 + toe, 12, HK.sole, 'rx="5"') + R(-30, -34, 54, 8, '#d8d0c0', 'rx="4"'), `translate(${f1(ax)} ${f1(ay)}) rotate(${f1(fRot)})`);
   };
   const armP = (side, phase) => {
-    const sw = d.arms ? null : -26 * st * Math.sin(phase) * side, ea = d.arms ? null : 14 + 22 * st * Math.max(0, Math.sin(phase * side + 0.4));
-    const A = d.arms ? d.arms[side === 1 ? 0 : 1] : [sw, ea];
-    return lmb(side === 1 || v !== 's' ? (v === 's' ? lean : side * 78 + lean) : lean, shY + 20, A[0] * (v === 's' ? 1 : (side === 1 ? 1 : 1)), 150, A[0] + A[1], 140);
+    let A;
+    if (d.arms) A = d.arms[side === 1 ? 0 : 1];
+    else if (!moving) A = [4 * side, 14 + 4 * Math.sin(d.t * 1.7 + side)];
+    else { const Am = run ? 52 : 26 * Math.min(1, st), c = Math.cos(ph + (side === 1 ? 0 : Math.PI)); const a = -Am * c * 1 + (run ? 6 : 0); A = [a, run ? 78 + 16 * Math.sin(ph * 2 + side) : 12 + 26 * Math.max(0, a / Am)]; }
+    return lmb(side === 1 || v !== 's' ? (v === 's' ? lean : side * 78 + lean) : lean, shY + 20, A[0], 150, A[0] + A[1], 140);
   };
   const arm = (side, phase, hold, col) => { const p = armP(side, phase); return hkTube(p, 40, 34, col) + E(p[1][0], p[1][1], 21, 21, col) + C(p[2][0], p[2][1], 19, HK.skin) + (hold ? G(hold, `translate(${f1(p[2][0])} ${f1(p[2][1])})`) : ''); };
   let s = '';
@@ -91,3 +122,4 @@ function heroFig(o) {
   Object.assign(HK, { jacket: '#e7dcc9', jacketDk: '#b4a68c', jacketLt: '#f4ecdc', shirt: '#c92f2b', pants: '#2d3a58', pantsDk: '#1f2a42', boot: '#4a3226', bootDk: '#33221a', sole: '#1c1410', skin: '#e9bb9c', skinDk: '#b87a62', hair: '#2b1a14', pack: '#2b4a55', packDk: '#1e3640' });
   try { return hikerFig(Object.assign({ cap: 0, bag: 0, hair: 1 }, o)); } finally { Object.assign(HK, sv); }
 }
+const WALK_CYCLE = 403, RUN_CYCLE = 1132;   // unidades locais por ciclo (2 passos): fase = distancia / (ciclo*escala)

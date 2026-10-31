@@ -1,0 +1,22 @@
+/* scenes_c.js - 129.7 s ao fim */
+function partF(c) {
+  const { add, tw, k, E_, S } = c;
+  const SN = (s0, fin, fn) => SNP(c, s0, fin, fn);
+  const D = '#10141f';
+  SN(129.7, 0.001, (t, lt, Pf) => CM(Pf, t, BIG(D) + PHN(Pf, t, 540, 960, 2.5, R(-104, -210, 208, 360, '#0a0f14', 'rx="10"') + AF({ eye: 1, scarf: 1, bodyLen: 120, t: 5 }, 0, -30, 0.35) + R(-104, -210, 208, 360, '#000', OP(0.5)) + C(0, -30, 40, 'none', 'stroke="#f0f4fa" stroke-width="6"') + TXT(0, 120, '00:12', 30, '#f0f4fa')), lt, 1.6, { z0: 1.0, z1: 1.14 }));
+  SN(131.3, 0.001, (t, lt, Pf) => { const u = ez(H.prog(lt, 0, 0.4)); return CM(Pf, t, BIG(D) + PHN(Pf, t, 540, 960, 2.5, G(R(-104, -200, 208, 100, '#1c2838', 'rx="20"') + C(-80, -168, 14, '#4a8aff') + TXT(20, -172, 'REDE SOCIAL', 16, '#8fb0d6') + TXT(0, -130, 'Nova publicação', 22, '#f0f4fa'), `translate(0 ${f1(lp(-200, 0, u))})`), { shake: 6 * Math.max(0, Math.sin(t * 34)) * (lt < 0.6 ? 1 : 0) }), lt, 2.0, { z0: 1.0, z1: 1.2, shk: 3 }) + PUNCH(lt, 0.3); });
+  SN(133.3, 0.001, (t, lt, Pf) => CM(Pf, t, BIG(D) + PHN(Pf, t, 540, 960, 3.0, SCR.post(t, {})), lt, 2.8, { z0: 1.0, z1: 1.22, y0: 960, y1: 860 }));
+  SN(136.1, 0.001, (t, lt, Pf) => CM(Pf, t, BIG('#1a1830') + glow(Pf, 'A', 540, 900, 800, 0.25) + R(120, 560, 840, 900, '#6a5a9a', 'rx="30"') + DF({ eye: 1, pupil: 0.5, smile: 1, t }, 540, 940, 1.9), lt, 2.0, { z0: 1.0, z1: 1.14, r0: -1, r1: 1 }) + PUNCH(lt, 0.3));
+  SN(138.1, 0.001, (t, lt, Pf) => CM(Pf, t, BIG(D) + PHN(Pf, t, 540, 960, 2.5, SCR.post(t, {})), lt, 1.9, { x0: 540, x1: 540, y0: 1040, y1: 1040, z0: 1.5, z1: 1.75 }));
+  SN(140.0, 0.001, (t, lt, Pf) => CM(Pf, t, BIG(D) + AF({ eye: 1, pupil: 0.3, worry: 0.9, lookx: -18, t }, 540, 1030, 2.7), lt, 1.3, { z0: 1.0, z1: 1.16 }));
+  SN(141.3, 0.001, (t, lt, Pf) => CM(Pf, t, BEDR(Pf, t, { empty: 1 }) + FB('#000', 0.3), lt, 0.5, { z0: 1.3, z1: 1.45, y0: 1000, y1: 1000 }) + PUNCH(lt, 0.5));
+  SN(141.8, 0.001, (t, lt, Pf) => CM(Pf, t, BIG(D) + AF({ eye: 1, pupil: 0.3, worry: 1, looky: 16, t }, 540, 1030, 2.7) + PHN(Pf, t, 780, 1650, 1.2, SCR.post(t, {})), lt, 2.9, { z0: 1.0, z1: 1.2, shk: 2 }));
+  SN(144.7, 0.001, (t, lt, Pf) => CM(Pf, t, BIG(D) + PHN(Pf, t, 540, 960, 2.5, SCR.comments(Math.min(5, 1 + Math.floor(lt * 1.6)), t)), lt, 3.5, { z0: 1.0, z1: 1.2 }));
+  SN(148.2, 0.001, (t, lt, Pf) => CM(Pf, t, BIG('#1a1830') + [0, 1, 2, 3, 4, 5, 6, 7].map(i => TXT(((hz(i, 2) * 1000 + 40) % 1000) + 40, 1900 - ((t * 140 * (0.5 + hz(i, 3)) + i * 220) % 2100), ['♥', '😍', '❤'][i % 3] === '😍' ? '♥' : '♥', 120 + 60 * hz(i, 4), '#ff5a6a', OP(0.8))).join('') + PHN(Pf, t, 540, 960, 2.2, SCR.post(t, { hearts: 128 + Math.floor(lt * 40) })), lt, 2.1, { z0: 1.0, z1: 1.14 }));
+  SN(150.3, 0.001, (t, lt, Pf) => CM(Pf, t, BIG(D) + glow(Pf, 'A', 540, 900, 700, 0.25) + MF({ eye: 1, pupil: 0.5, smile: 0.5, t }, 540, 900, 1.7) + R(120, 1380, 840, 180, '#1c2838', 'rx="40"') + TXT(540, 1490, '...', 90, '#8fb0d6', OP(0.5 + 0.5 * Math.sin(t * 6))), lt, 2.3, { z0: 1.0, z1: 1.14 }));
+  SN(152.6, 0.001, (t, lt, Pf) => CM(Pf, t, BIG(D) + glow(Pf, 'A', 540, 900, 700, 0.3) + MF({ eye: 1, pupil: 0.5, smile: 0.7, t }, 540, 880, 1.7) + R(70, 1330, 940, 300, '#1c2838', 'rx="40"') + TXT(540, 1450, 'Meu filho,', 70, '#f0f4fa') + TXT(540, 1550, 'senti tanto sua falta.', 60, '#f0f4fa'), lt, 1.4, { z0: 1.0, z1: 1.14 }) + PUNCH(lt, 0.3));
+  SN(154.0, 0.001, (t, lt, Pf) => CM(Pf, t, BIG(D) + PHN(Pf, t, 540, 960, 2.5, SCR.notif('SEU NÚMERO', 'Nova mensagem', t), { shake: 8 * Math.max(0, Math.sin(t * 38)) }) + ringWaves(540, 960, t, 0, 3, 520, 'rgba(143,176,214,0.4)', 1, 5), lt, 3.1, { z0: 1.0, z1: 1.2, shk: 4 }));
+  SN(157.1, 0.001, (t, lt, Pf) => CM(Pf, t, BIG('#0a0e16') + PHN(Pf, t, 540, 960, 2.5, SCR.chat([{ me: 0, t: 'Não tente explicar.' }]).replace('MÃE', 'VOCÊ'), { glow: 0.6 }), lt, 1.0, { z0: 1.0, z1: 1.16, shk: 3 }) + PUNCH(lt, 0.4));
+  SN(158.1, 0.001, (t, lt, Pf) => CM(Pf, t, BIG('#0a0e16') + PHN(Pf, t, 540, 960, 2.5, SCR.chat([{ me: 0, t: 'Não tente explicar.' }, { me: 0, t: 'Para todo mundo,' }]).replace('MÃE', 'VOCÊ'), { glow: 0.6 }), lt, 0.8, { z0: 1.16, z1: 1.2 }));
+  SN(158.9, 0.001, (t, lt, Pf) => CM(Pf, t, BIG('#0a0e16') + glow(Pf, 'R', 540, 900, 900, 0.25) + DF({ eye: 1, pupil: 0.5, smile: 1, t }, 540, 1000, 2.7) + R(90, 1560, 900, 200, 'rgba(0,0,0,0.75)', 'rx="30"' + ' opacity="' + H.prog(lt, 0.3, 0.7).toFixed(2) + '"') + TXT(540, 1680, 'eu sou você agora.', 76, '#ff7a6a', OP(H.prog(lt, 0.3, 0.7))) + FB('#000', 0.9 * H.prog(lt, 0.7, 1.15)), lt, 1.2, { z0: 1.0, z1: 1.14 }));
+}

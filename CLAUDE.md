@@ -36,3 +36,14 @@ Claude cria as cenas, os efeitos sonoros e a música, e entrega **um MP4**.
 - Não versionar frames, WAV grandes nem `render_tmp/` (já no `.gitignore`).
 - `tools/` e `lib/` são genéricos e não carregam estilo: nada de cores, personagens ou cenários de um vídeo específico aí.
 - Commits na branch `main`.
+
+## Qualidade de movimento (regra permanente a partir do vídeo Parte 4)
+
+O usuário quer movimento menos "robótico", mesmo que demore mais. Em todo vídeo novo:
+
+1. **Caminhada com poses reais** (contato, queda, passagem, impulso), pé rolando no chão, torção de tronco, braços e cabeça em contramovimento, variação leve entre passos. Fase do passo ligada à distância percorrida (sem patinar).
+2. **Atuação**: olhos antes da cabeça, piscadas, respiração, pausas e gestos no tempo da fala; curvas com aceleração/desaceleração, antecipação e "sobra" (roupa, mochila, cabelo atrasados).
+3. **Planos variados**: evitar corpo inteiro andando por muito tempo; usar pés, sombra, costas, ponto de vista, ângulo baixo, cortes e câmera de mão.
+4. **Desfoque de movimento** nas cenas de ação/caminhada: `window.MB = t => 0..1` na página e `tools/render.py ... --mblur 4` (só renderiza sub-quadros onde MB(t) > 0).
+5. **Acabamento**: sombras no chão, luz de contorno, partículas, variação de luz.
+6. Antes de produzir o vídeo inteiro, mostrar ao usuário um teste curto do personagem andando.

@@ -173,6 +173,7 @@ def main():
     ap.add_argument("--quality", type=int, default=92, help="qualidade JPEG dos quadros")
     ap.add_argument("--crf", type=int, default=18)
     ap.add_argument("--resume", action="store_true", help="pula quadros JPEG que já existem")
+    ap.add_argument("--mblur", type=int, default=0, help="sub-quadros para desfoque de movimento (ex.: 4). Só nos instantes em que window.MB(t) > 0 (0 a 1 = abertura do obturador em fração do quadro)")
     a = ap.parse_args()
 
     html = os.path.abspath(a.html)
@@ -240,8 +241,22 @@ def main():
             fpath = os.path.join(frames, f"f{fr:06d}.jpg")
             if a.resume and os.path.exists(fpath) and os.path.getsize(fpath) > 1000:
                 continue
-            page.evaluate("t => window.setT(t)", fr / a.fps)
-            page.screenshot(path=fpath, type="jpeg", quality=a.quality)
+            t0 = fr / a.fps
+            mb = page.evaluate("t => (window.MB ? window.MB(t) : 0)", t0) if a.mblur > 1 else 0
+            if mb and mb > 0:
+                import io
+                import numpy as np
+                from PIL import Image
+                acc = None
+                for k in range(a.mblur):
+                    tk = t0 + ((k + 0.5) / a.mblur - 0.5) * mb / a.fps
+                    page.evaluate("t => window.setT(t)", max(0.0, tk))
+                    im = np.asarray(Image.open(io.BytesIO(page.screenshot(type="jpeg", quality=95))).convert("RGB"), dtype=np.float32)
+                    acc = im if acc is None else acc + im
+                Image.fromarray((acc / a.mblur).astype("uint8")).save(fpath, quality=a.quality)
+            else:
+                page.evaluate("t => window.setT(t)", t0)
+                page.screenshot(path=fpath, type="jpeg", quality=a.quality)
             if (fr - f0) % 90 == 0:
                 print(f"  quadro {fr}/{f1 - 1}", flush=True)
         browser.close(); srv.shutdown()

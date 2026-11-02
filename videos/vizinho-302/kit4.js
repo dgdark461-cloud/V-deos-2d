@@ -17,3 +17,23 @@ const EYESX = (Pf, t, x, y, sc, o = {}) => { const bl = Math.max(0.08, 1 - 1.2 *
   const eye = (cx, fl) => G(P(`M-70,0 Q0,${-52 * op} 70,0 Q0,${40 * op} -70,0Z`, '#e8e4da', 'stroke="#05030a" stroke-width="6"') + P(`M-70,0 Q0,${-52 * op} 70,0`, 'none', 'stroke="#d8c8b0" stroke-width="3" opacity="0.5"') + C(lk, 0, 25 + 6 * di, '#5a4a3a') + C(lk, 0, 11 + 8 * di, '#030208') + C(lk + 8, -8, 5, '#fff'), `translate(${cx} 0) scale(${fl} 1)`);
   return G(glow(Pf, 'A', 0, 0, 380, 0.08 + 0.1 * (o.glow || 0)) + eye(-112, 1) + eye(112, -1), `translate(${f1(x)} ${f1(y)}) scale(${sc})`); };
 const PEEPCIRC = (Pf, t, x, y, r, inner) => `<defs><clipPath id="${Pf}pcc"><circle cx="${f1(x)}" cy="${f1(y)}" r="${f1(r)}"/></clipPath></defs><g clip-path="url(#${Pf}pcc)">${inner}</g>` + C(x, y, r, 'none', 'stroke="#14101a" stroke-width="40"') + C(x, y, r + 24, 'none', 'stroke="#9a9ea6" stroke-width="16"') + P(`M${x - r},${y} a${r},${r} 0 0 1 ${2 * r},0`, 'none', 'stroke="rgba(255,255,255,0.12)" stroke-width="24"');
+/* close do senhor encapuzado: capuz preto, luz baixa, só a faixa dos olhos com óculos */
+const HOODED = (Pf, t, x, y, sc, o = {}) => {
+  const bl = Math.max(0.1, 1 - 1.3 * Math.max(0, 1 - Math.abs(((t * 0.4 + 0.2) % 1) - 0.5) * 16)), op = (o.open === undefined ? 0.8 : o.open) * bl, lk = (o.look || 0) * 9 + 3 * Math.sin(t * 1.2), gl = ((t * 0.5) % 1);
+  const defs = `<defs><linearGradient id="${Pf}hb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#000" stop-opacity="1"/><stop offset="0.3" stop-color="#000" stop-opacity="0.7"/><stop offset="0.43" stop-color="#000" stop-opacity="0.05"/><stop offset="0.56" stop-color="#000" stop-opacity="0.75"/><stop offset="1" stop-color="#000" stop-opacity="1"/></linearGradient><radialGradient id="${Pf}hs" cx="0.5" cy="0.45" r="0.55"><stop offset="0" stop-color="#c89878" stop-opacity="0.55"/><stop offset="0.6" stop-color="#6a4a38" stop-opacity="0.3"/><stop offset="1" stop-color="#2a1a14" stop-opacity="0"/></radialGradient></defs>`;
+  const eye = (cx) => G(P(`M-62,0 Q0,${-46 * op} 62,0 Q0,${34 * op} -62,0Z`, '#d8d2c4', 'stroke="#0a0608" stroke-width="5"') + C(lk, 0, 22, '#5a7a8a') + C(lk, 0, 10, '#020204') + C(lk + 7, -7, 4, '#fff') + P(`M-62,0 Q0,${-46 * op} 62,0`, 'none', 'stroke="#2a1a14" stroke-width="9"'), `translate(${cx} 0)`);
+  const lens = (cx) => G(C(0, 0, 78, 'rgba(180,210,230,0.07)', 'stroke="#c7a15a" stroke-width="7"') + P(`M${-40 + gl * 80},-60 L${-20 + gl * 80},-60 L${-60 + gl * 80},60 L${-80 + gl * 80},60Z`, 'rgba(255,255,255,0.22)', 'clip-path="none"'), `translate(${cx} 0)`);
+  let s = defs + R(-700, -800, 1400, 1700, '#050409');
+  s += E(0, 20, 300, 380, `url(#${Pf}hs)`);
+  s += P('M-120,-20 Q0,-50 120,-20 L110,-5 Q0,-30 -110,-5Z', '#2a2a2a', OP(0.0));
+  s += eye(-112) + eye(112) + [-112, 112].map(cx => P(`M${cx - 70},-62 Q${cx},${-92 - 8 * (o.brow || 0)} ${cx + 70},-60`, 'none', 'stroke="#cfcfcf" stroke-width="12" stroke-linecap="round" opacity="0.65"')).join('');
+  s += lens(-112) + lens(112) + L(-34, -8, 34, -8, '#c7a15a', 6) + L(-190, -6, -300, -30, '#c7a15a', 5) + L(190, -6, 300, -30, '#c7a15a', 5);
+  s += P('M-22,30 Q0,120 22,30', 'none', 'stroke="#8a5e46" stroke-width="7" opacity="0.35" stroke-linecap="round"');
+  s += R(-700, -800, 1400, 1700, `url(#${Pf}hb)`);
+  /* capuz: tecido preto com dobras e luz de contorno */
+  s += P('M-700,-800 L700,-800 L700,900 L360,900 Q300,300 215,-30 Q170,-250 0,-290 Q-170,-250 -215,-30 Q-300,300 -360,900 L-700,900Z', '#08070c');
+  s += P('M-215,-30 Q-170,-250 0,-290 Q170,-250 215,-30', 'none', 'stroke="#4a4860" stroke-width="12" opacity="0.95"') + P('M-360,900 Q-300,300 -215,-30', 'none', 'stroke="#2c2a38" stroke-width="6" opacity="0.7"') + P('M360,900 Q300,300 215,-30', 'none', 'stroke="#1c1a26" stroke-width="6" opacity="0.7"');
+  s += [0, 1, 2, 3, 4].map(i => P(`M${-520 + i * 60},${-700 + i * 30} Q${-380 + i * 40},${-300} ${-300 + i * 24},${200 + i * 60}`, 'none', 'stroke="#14121c" stroke-width="10" opacity="0.9"')).join('') + [0, 1, 2, 3, 4].map(i => P(`M${520 - i * 60},${-700 + i * 30} Q${380 - i * 40},${-300} ${300 - i * 24},${200 + i * 60}`, 'none', 'stroke="#14121c" stroke-width="10" opacity="0.9"')).join('');
+  s += glow(Pf, 'A', -20, 10, 380, 0.1);
+  return G(s, `translate(${f1(x)} ${f1(y)}) scale(${sc})`);
+};

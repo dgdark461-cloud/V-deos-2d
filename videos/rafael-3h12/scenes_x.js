@@ -7,14 +7,20 @@ function partX(c) {
   const knk = lt => Math.max(0, ...[0, 0.22, 0.44].map(s => lt >= s ? Math.exp(-(lt - s) * 12) : 0));
   const DK = (a) => R(-400, -400, 1880, 2720, '#02050a', OP(a));
   /* ---------- abertura ---------- */
-  q(0, 5, { z0: 1.0, z1: 1.35, y0: 960, y1: 1050, shk: 1 }, (t, lt, Pf) => CITYN(Pf, t, { hero: 1 }), 0);
-  q(5, 11, { z0: 1.35, z1: 1.55, y0: 1050, y1: 1100, shk: 1 }, (t, lt, Pf) => CITYN(Pf, t, { hero: 1, off: ez(lt / 2.5) }));
+  q(0, 2, { z0: 1.0, z1: 1.45, shk: 6, gl: 0 }, (t, lt, Pf) => BIG('#0a1220') + glow(Pf, 'B', 540, 900, 800, 0.35) + RF(t, { eye: 1.3, worry: 0.8, glow: 1, sweat: 0.6, trem: 0.4, lookx: 0.6 }, 540, 1000, 2.8), 0);
+  q(2, 5, { z0: 1.5, z1: 1.0, shk: 8 }, (t, lt, Pf) => BIG('#05080e') + CLOCKN(t, 540, 960, 2.1, { txt: '03:12' }) + glow(Pf, 'R', 540, 960, 900, 0.45) + KNOCKR(lt, 540, 960, 0.8), '#ff3b30');
+  q(5, 7, { z0: 1.0, z1: 1.4, y0: 960, y1: 1100, shk: 1 }, (t, lt, Pf) => CITYN(Pf, t, { hero: 1, off: 0.3 * ez(lt / 0.8) }), '#9fd0ff');
+  q(7, 9, { z0: 1.4, z1: 1.8, x0: 540, x1: 540, y0: 1100, y1: 1100, shk: 2 }, (t, lt, Pf) => CITYN(Pf, t, { hero: 1, off: 0.3 + 0.5 * ez(lt / 0.7) }), 0);
+  q(9, 11, { z0: 1.8, z1: 2.6, x0: 540, x1: 540, y0: 1100, y1: 1100, shk: 2 }, (t, lt, Pf) => CITYN(Pf, t, { hero: 1, off: 0.8 + 0.2 * ez(lt / 0.5) }), 0);
   q(11, 13, { z0: 1.0, z1: 1.35, shk: 4 }, (t, lt, Pf) => BIG('#04070d') + EYEBIG(Pf, t, 540, 900, 1.6, { open: ez(lt / 0.2), dil: 0.3 + lt * 0.5 }), '#fff');
-  q(13, 17, { z0: 1.0, z1: 4.2, x0: 540, x1: 540, y0: 1000, y1: 1100, shk: 1 }, (t, lt, Pf) => CITYN(Pf, t, { hero: 1, off: 0.95, hs: 1 }));
+  q(13, 15, { z0: 1.0, z1: 2.6, x0: 540, x1: 540, y0: 1000, y1: 1100, shk: 1 }, (t, lt, Pf) => CITYN(Pf, t, { hero: 1, off: 0.95 }));
+  q(15, 17, { z0: 2.6, z1: 4.4, x0: 540, x1: 540, y0: 1100, y1: 1100, shk: 3 }, (t, lt, Pf) => CITYN(Pf, t, { hero: 1, off: 0.95 }) + glow(Pf, 'A', 540, 1100, 260, 0.4), '#ffd88a');
   q(17, 19, { z0: 1.0, z1: 1.25, shk: 2 }, (t, lt, Pf) => BIG('#0a1220') + glow(Pf, 'B', 540, 900, 700, 0.3) + RF(t, { eye: 1.1, worry: 0.5, glow: 1 }) + TXP('RAFAEL', 540, 1500, 150, lt, '#ffd23a', { dur: 0.2 }), '#9fd0ff');
   q(19, 21, { z0: 1.0, z1: 1.2, shk: 1 }, (t, lt, Pf) => CITYN(Pf, t, { off: 1 }) + DK(0.4) + CLOCKN(t, 540, 900, 1.9, { txt: '03:00' }), '#ff3b30');
-  q(21, 25, { z0: 1.0, z1: 1.3, shk: 1 }, (t, lt, Pf) => DESKN(Pf, t, {}) + DK(0.5) + RB({ t, view: 'b' }, 700, 1700, 0.9), 0);
-  q(25, 28, { z0: 1.0, z1: 1.5, y0: 960, y1: 1100, shk: 1 }, (t, lt, Pf) => PLANN(Pf, t, {}), '#7fd0ff');
+  q(21, 23, { z0: 1.0, z1: 1.3, shk: 1 }, (t, lt, Pf) => DESKN(Pf, t, {}) + DK(0.5) + RB({ t, view: 'b' }, 700, 1700, 0.9), 0);
+  q(23, 25, { z0: 1.6, z1: 1.2, x0: 700, x1: 700, y0: 1250, y1: 1250, shk: 3 }, (t, lt, Pf) => DESKN(Pf, t, {}) + DK(0.6) + RB({ t, view: 'b' }, 700, 1700, 0.9) + glow(Pf, 'R', 540, 300, 400, 0.15), 0);
+  q(25, 27, { z0: 1.0, z1: 1.4, y0: 960, y1: 1100, shk: 1 }, (t, lt, Pf) => PLANN(Pf, t, {}), '#7fd0ff');
+  q(27, 28, { z0: 2.0, z1: 1.2, x0: 400, x1: 540, y0: 1100, y1: 960, shk: 3 }, (t, lt, Pf) => PLANN(Pf, t, {}), '#7fd0ff');
   SN(W(28), 0.001, (t, lt, Pf) => CM(Pf, t, TRI(Pf, lt, [p => BIG('#04070d') + CLOCKN(t, 540, 320, 1.5, { txt: '03:00' }), p => GLASSW(p, t, {}), p => DESKN(p, t, {}) + DK(0.6) + R(300, 1100, 200, 300, '#222c44', 'rx="20"')]), lt, 5, { z0: 1.0, z1: 1.06, shk: 2 }));
   /* ---------- apresentação ---------- */
   q(33, 35, { z0: 1.0, z1: 1.3, shk: 2 }, (t, lt, Pf) => BIG('#0a1220') + glow(Pf, 'A', 540, 900, 600, 0.2) + RF(t, { eye: 1.1, worry: 0.1, smile: 0.5, glow: 0.5 }), '#fff');

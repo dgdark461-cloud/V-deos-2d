@@ -217,7 +217,89 @@ def chord(dur=3.0, root=220, ratios=(1.0, 1.2, 1.5), attack=0.05):
     return _fade(x * env, 0.002, 0.15)
 
 
+def rails(dur=4.0, bpm=170):
+    """Trilhos de trem: 'ta-tac ta-tac' (junções do trilho) sobre ronco grave."""
+    n = int(dur * SR); out = np.zeros(n); step = 60.0 / bpm
+    k = 0
+    while k * step < dur:
+        for off, a in ((0.0, 1.0), (step * 0.22, 0.7)):
+            tt = k * step + off
+            c = _filt(_noise(int(0.09 * SR)), "bandpass", [700, 2600]) * _decay(int(0.09 * SR), 0.018)
+            th = np.sin(2 * np.pi * 95 * _t(0.09)) * _decay(int(0.09 * SR), 0.03)
+            _place(out, (c + 0.6 * th) * a * (0.85 + 0.3 * _rng.random()), tt)
+        k += 1
+    rum = _filt(_noise(n), "lowpass", 90) * 0.5
+    return _fade(out + rum, 0.05, 0.1)
+
+
+def rumble(dur=5.0):
+    n = int(dur * SR); t = _t(dur)
+    x = _filt(_noise(n), "lowpass", 70) * (0.7 + 0.3 * np.sin(2 * np.pi * 0.4 * t))
+    x += 0.4 * np.sin(2 * np.pi * 42 * t) * (0.6 + 0.4 * np.sin(2 * np.pi * 0.23 * t))
+    return _fade(x, 0.3, 0.4)
+
+
+def scream_echo(dur=3.6):
+    """Grito sombrio distante, com eco longo (como vindo de outro vagão)."""
+    n = int(dur * SR); t = _t(dur); L = int(1.5 * SR)
+    tt = t[:L]; env = np.minimum(1, tt / 0.05) * np.exp(-np.maximum(0, tt - 0.5) / 0.55)
+    f = 380 + 520 * np.sin(np.pi * np.minimum(1, tt / 1.1)) ** 1.5 - 120 * (tt / 1.5)
+    ph = 2 * np.pi * np.cumsum(f * (1 + 0.012 * np.sin(2 * np.pi * 7 * tt))) / SR
+    src = np.sign(np.sin(ph)) * 0.4 + np.sin(ph) + 0.5 * np.sin(2 * ph) + 0.3 * np.sin(3 * ph) + 0.25 * _noise(L)
+    v = np.zeros(L)
+    for fc, bw, a in ((750, 140, 1.0), (1250, 190, 0.8), (2650, 330, 0.45)):
+        v += a * signal.sosfilt(signal.butter(2, [fc - bw, fc + bw], btype="bandpass", fs=SR, output="sos"), src)
+    v = _filt(v * env, "lowpass", 3800)
+    dry = np.zeros(n); dry[:L] = v
+    out = dry * 0.5
+    for i, (d, g) in enumerate(((0.28, 0.62), (0.57, 0.5), (0.9, 0.38), (1.3, 0.28), (1.75, 0.2))):
+        e = _filt(dry, "lowpass", max(700, 3200 - 520 * i)); e = np.roll(e, int(d * SR)); e[:int(d * SR)] = 0
+        out += g * e
+    rev = np.convolve(dry, _noise(int(1.2 * SR)) * np.exp(-np.arange(int(1.2 * SR)) / (0.35 * SR)), mode="full")[:n] * 0.012
+    return _fade(out + rev, 0.01, 0.4)
+
+
+def train_brake(dur=3.2):
+    n = int(dur * SR); t = _t(dur); u = t / dur
+    f = 2600 - 1700 * u ** 0.8
+    x = np.sin(2 * np.pi * np.cumsum(f) / SR) * 0.4 + _filt(_noise(n), "bandpass", [2200, 5200]) * 0.5
+    env = np.minimum(1, t / 0.2) * (1 - u) ** 0.7
+    x = x * env + 0.5 * _filt(_noise(n), "lowpass", 160) * (1 - 0.5 * u)
+    return _fade(x, 0.05, 0.3)
+
+
+def doors_air(dur=1.4):
+    n = int(dur * SR); t = _t(dur)
+    hiss = _filt(_noise(n), "highpass", 2500) * np.exp(-t / 0.35) * np.minimum(1, t / 0.02)
+    th = np.sin(2 * np.pi * 70 * t) * np.exp(-t / 0.1)
+    return _fade(hiss + 0.8 * th, 0.002, 0.1)
+
+
+def chime(dur=2.0):
+    t = _t(dur); x = np.zeros(len(t))
+    for st, f in ((0.0, 659.0), (0.45, 523.0)):
+        m = t >= st; tt = t[m] - st
+        x[m] += (np.sin(2 * np.pi * f * tt) + 0.4 * np.sin(2 * np.pi * 2 * f * tt)) * np.exp(-tt / 0.55)
+    return _fade(_filt(x, "lowpass", 3200) + 0.04 * _filt(_noise(len(t)), "bandpass", [900, 2500]), 0.002, 0.2)
+
+
+def buzz_flicker(dur=1.4):
+    n = int(dur * SR); t = _t(dur)
+    b = (np.sin(2 * np.pi * 100 * t) + 0.5 * np.sin(2 * np.pi * 200 * t) + 0.3 * _noise(n))
+    gate = (np.sin(2 * np.pi * 9 * t) + np.sin(2 * np.pi * 14.3 * t + 1) > -0.2).astype(float)
+    return _fade(_filt(b, "bandpass", [80, 3000]) * gate, 0.01, 0.1)
+
+
+def horn(dur=2.6):
+    t = _t(dur); x = np.zeros(len(t))
+    for f in (233.0, 311.0):
+        x += np.sign(np.sin(2 * np.pi * f * t)) * 0.4 + np.sin(2 * np.pi * f * t)
+    env = np.minimum(1, t / 0.08) * np.minimum(1, (dur - t) / 0.8)
+    return _fade(_filt(x, "lowpass", 1200) * env, 0.01, 0.3)
+
+
 FX = {
+    "rails": rails, "rumble": rumble, "scream_echo": scream_echo, "train_brake": train_brake, "doors_air": doors_air, "chime": chime, "buzz_flicker": buzz_flicker, "horn": horn,
     "pop": pop, "whoosh": whoosh, "impact": impact, "click": click, "heartbeat": heartbeat,
     "shimmer": shimmer, "wood_knock": wood_knock, "creak": creak, "footsteps": footsteps,
     "dirt_fall": dirt_fall, "beep": beep, "ticktock": ticktock, "drone": drone, "chord": chord,

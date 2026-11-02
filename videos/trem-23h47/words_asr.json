@@ -1,0 +1,3645 @@
+{
+ "method": "asr-anchored (whisper windows) + syllables",
+ "duration": 145.246,
+ "speech_start": 0.0,
+ "speech_end": 145.15,
+ "silence_threshold_db": -34.4,
+ "pauses": [
+  {
+   "start": 2.33,
+   "end": 2.48
+  },
+  {
+   "start": 4.08,
+   "end": 4.22
+  },
+  {
+   "start": 5.41,
+   "end": 5.57
+  },
+  {
+   "start": 5.87,
+   "end": 6.2
+  },
+  {
+   "start": 8.27,
+   "end": 8.41
+  },
+  {
+   "start": 9.24,
+   "end": 9.45
+  },
+  {
+   "start": 11.88,
+   "end": 12.18
+  },
+  {
+   "start": 16.24,
+   "end": 16.49
+  },
+  {
+   "start": 20.57,
+   "end": 20.82
+  },
+  {
+   "start": 22.31,
+   "end": 22.43
+  },
+  {
+   "start": 24.74,
+   "end": 24.87
+  },
+  {
+   "start": 24.93,
+   "end": 25.16
+  },
+  {
+   "start": 26.45,
+   "end": 26.59
+  },
+  {
+   "start": 28.15,
+   "end": 28.29
+  },
+  {
+   "start": 28.95,
+   "end": 29.23
+  },
+  {
+   "start": 31.34,
+   "end": 31.67
+  },
+  {
+   "start": 34.47,
+   "end": 34.64
+  },
+  {
+   "start": 36.33,
+   "end": 36.92
+  },
+  {
+   "start": 39.15,
+   "end": 39.38
+  },
+  {
+   "start": 40.64,
+   "end": 40.77
+  },
+  {
+   "start": 41.18,
+   "end": 41.39
+  },
+  {
+   "start": 42.1,
+   "end": 42.25
+  },
+  {
+   "start": 43.59,
+   "end": 43.9
+  },
+  {
+   "start": 45.19,
+   "end": 45.38
+  },
+  {
+   "start": 47.07,
+   "end": 47.51
+  },
+  {
+   "start": 50.67,
+   "end": 50.81
+  },
+  {
+   "start": 51.53,
+   "end": 51.91
+  },
+  {
+   "start": 53.75,
+   "end": 53.89
+  },
+  {
+   "start": 55.08,
+   "end": 55.55
+  },
+  {
+   "start": 56.07,
+   "end": 56.22
+  },
+  {
+   "start": 61.14,
+   "end": 61.43
+  },
+  {
+   "start": 64.91,
+   "end": 65.25
+  },
+  {
+   "start": 67.31,
+   "end": 67.59
+  },
+  {
+   "start": 68.88,
+   "end": 69.04
+  },
+  {
+   "start": 71.09,
+   "end": 71.26
+  },
+  {
+   "start": 72.8,
+   "end": 72.99
+  },
+  {
+   "start": 75.0,
+   "end": 75.33
+  },
+  {
+   "start": 76.03,
+   "end": 76.18
+  },
+  {
+   "start": 77.31,
+   "end": 77.51
+  },
+  {
+   "start": 78.96,
+   "end": 79.3
+  },
+  {
+   "start": 79.49,
+   "end": 79.64
+  },
+  {
+   "start": 83.16,
+   "end": 83.36
+  },
+  {
+   "start": 83.86,
+   "end": 84.22
+  },
+  {
+   "start": 86.02,
+   "end": 86.2
+  },
+  {
+   "start": 87.5,
+   "end": 87.84
+  },
+  {
+   "start": 89.34,
+   "end": 89.57
+  },
+  {
+   "start": 91.48,
+   "end": 91.66
+  },
+  {
+   "start": 92.74,
+   "end": 93.01
+  },
+  {
+   "start": 94.28,
+   "end": 94.43
+  },
+  {
+   "start": 95.81,
+   "end": 95.97
+  },
+  {
+   "start": 96.39,
+   "end": 96.55
+  },
+  {
+   "start": 99.28,
+   "end": 99.4
+  },
+  {
+   "start": 100.73,
+   "end": 100.89
+  },
+  {
+   "start": 101.81,
+   "end": 102.2
+  },
+  {
+   "start": 104.69,
+   "end": 104.95
+  },
+  {
+   "start": 105.63,
+   "end": 105.75
+  },
+  {
+   "start": 109.19,
+   "end": 109.37
+  },
+  {
+   "start": 116.54,
+   "end": 116.66
+  },
+  {
+   "start": 117.64,
+   "end": 117.85
+  },
+  {
+   "start": 119.5,
+   "end": 119.66
+  },
+  {
+   "start": 122.78,
+   "end": 123.21
+  },
+  {
+   "start": 124.68,
+   "end": 124.91
+  },
+  {
+   "start": 126.03,
+   "end": 126.21
+  },
+  {
+   "start": 131.34,
+   "end": 131.66
+  },
+  {
+   "start": 133.95,
+   "end": 134.07
+  },
+  {
+   "start": 135.17,
+   "end": 135.3
+  },
+  {
+   "start": 135.58,
+   "end": 135.74
+  },
+  {
+   "start": 136.65,
+   "end": 136.82
+  },
+  {
+   "start": 138.26,
+   "end": 138.47
+  },
+  {
+   "start": 142.3,
+   "end": 142.6
+  }
+ ],
+ "segments": [
+  {
+   "i": 0,
+   "text": "Imagine entrar em um trem durante a madrugada e descobrir que,",
+   "start": -0.943,
+   "end": 3.028,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 1,
+   "text": "a cada estação,",
+   "start": 3.028,
+   "end": 4.086,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 2,
+   "text": "um passageiro desaparece.",
+   "start": 4.086,
+   "end": 5.539,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 3,
+   "text": "Agora imagine perceber que você é o único que ainda não desceu…",
+   "start": 5.539,
+   "end": 9.285,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 4,
+   "text": "e que o maquinista sabe exatamente quem você é.",
+   "start": 9.285,
+   "end": 12.086,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 5,
+   "text": "Rafael tinha 29 anos e voltava para casa depois de um dia exaustivo de trabalho.",
+   "start": 12.086,
+   "end": 17.62,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 6,
+   "text": "Eram 23h47 quando entrou no último trem da estação.",
+   "start": 17.62,
+   "end": 20.741,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 7,
+   "text": "O vagão estava praticamente vazio,",
+   "start": 20.741,
+   "end": 22.46,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 8,
+   "text": "exceto por quatro passageiros espalhados pelos assentos.",
+   "start": 22.46,
+   "end": 24.859,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 9,
+   "text": "Uma senhora perto da janela,",
+   "start": 24.859,
+   "end": 26.392,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 10,
+   "text": "um homem de terno,",
+   "start": 26.392,
+   "end": 27.187,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 11,
+   "text": "uma garota usando fones de ouvido e um rapaz que não tirava os olhos do chão.",
+   "start": 27.187,
+   "end": 31.464,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 12,
+   "text": "Rafael se sentou e colocou os fones.",
+   "start": 31.464,
+   "end": 33.464,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 13,
+   "text": "Poucos minutos depois,",
+   "start": 33.464,
+   "end": 34.482,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 14,
+   "text": "o trem parou em uma estação deserta.",
+   "start": 34.482,
+   "end": 36.639,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 15,
+   "text": "As portas se abriram,",
+   "start": 36.639,
+   "end": 37.779,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 16,
+   "text": "o homem de terno levantou e saiu sem olhar para trás.",
+   "start": 37.779,
+   "end": 40.914,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 17,
+   "text": "Até aí,",
+   "start": 40.914,
+   "end": 41.432,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 18,
+   "text": "tudo normal.",
+   "start": 41.432,
+   "end": 42.15,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 19,
+   "text": "Mas,",
+   "start": 42.15,
+   "end": 42.328,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 20,
+   "text": "quando o trem voltou a andar,",
+   "start": 42.328,
+   "end": 43.941,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 21,
+   "text": "Rafael percebeu algo estranho:",
+   "start": 43.941,
+   "end": 45.854,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 22,
+   "text": "nenhuma pessoa havia entrado.",
+   "start": 45.854,
+   "end": 47.333,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 23,
+   "text": "Na estação seguinte,",
+   "start": 47.333,
+   "end": 48.46,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 24,
+   "text": "a garota também desceu.",
+   "start": 48.46,
+   "end": 49.572,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 25,
+   "text": "Depois,",
+   "start": 49.572,
+   "end": 49.95,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 26,
+   "text": "foi a vez da senhora.",
+   "start": 49.95,
+   "end": 50.973,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 27,
+   "text": "Em poucos minutos,",
+   "start": 50.973,
+   "end": 51.825,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 28,
+   "text": "restaram apenas Rafael e o rapaz que continuava olhando para o chão.",
+   "start": 51.825,
+   "end": 55.718,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 29,
+   "text": "Incomodado,",
+   "start": 55.718,
+   "end": 56.119,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 30,
+   "text": "Rafael perguntou se ele sabia por que o trem estava tão vazio.",
+   "start": 56.119,
+   "end": 58.709,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 31,
+   "text": "O rapaz levantou lentamente a cabeça e respondeu:",
+   "start": 58.709,
+   "end": 61.058,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 32,
+   "text": "\"Você ainda não percebeu?\"",
+   "start": 61.058,
+   "end": 62.15,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 33,
+   "text": "Antes que Rafael pudesse perguntar o que aquilo significava,",
+   "start": 62.15,
+   "end": 65.365,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 34,
+   "text": "o trem parou novamente.",
+   "start": 65.365,
+   "end": 66.615,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 35,
+   "text": "As portas se abriram,",
+   "start": 66.615,
+   "end": 67.507,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 36,
+   "text": "mas não havia plataforma do lado de fora.",
+   "start": 67.507,
+   "end": 69.756,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 37,
+   "text": "Apenas um corredor escuro,",
+   "start": 69.756,
+   "end": 71.123,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 38,
+   "text": "iluminado por lâmpadas que piscavam.",
+   "start": 71.123,
+   "end": 72.872,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 39,
+   "text": "O rapaz se levantou imediatamente e disse:",
+   "start": 72.872,
+   "end": 75.155,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 40,
+   "text": "\"Não saia daqui.",
+   "start": 75.155,
+   "end": 75.964,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 41,
+   "text": "Essa não é a sua estação.\"",
+   "start": 75.964,
+   "end": 77.389,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 42,
+   "text": "Rafael tentou perguntar quem ele era,",
+   "start": 77.389,
+   "end": 79.407,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 43,
+   "text": "mas o desconhecido simplesmente atravessou as portas e desapareceu na escuridão.",
+   "start": 79.407,
+   "end": 83.475,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 44,
+   "text": "Assustado,",
+   "start": 83.475,
+   "end": 84.15,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 45,
+   "text": "Rafael correu até a cabine do maquinista.",
+   "start": 84.15,
+   "end": 86.288,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 46,
+   "text": "Bateu na porta várias vezes,",
+   "start": 86.288,
+   "end": 87.476,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 47,
+   "text": "até ouvir uma voz pelo alto-falante:",
+   "start": 87.476,
+   "end": 89.714,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 48,
+   "text": "\"Senhor Rafael,",
+   "start": 89.714,
+   "end": 90.15,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 49,
+   "text": "por favor,",
+   "start": 90.15,
+   "end": 90.557,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 50,
+   "text": "permaneça sentado.",
+   "start": 90.557,
+   "end": 91.507,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 51,
+   "text": "Estamos chegando ao seu destino.\"",
+   "start": 91.507,
+   "end": 93.136,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 52,
+   "text": "O sangue de Rafael gelou.",
+   "start": 93.136,
+   "end": 94.357,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 53,
+   "text": "Ele nunca havia dito seu nome a ninguém naquele trem.",
+   "start": 94.357,
+   "end": 96.71,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 54,
+   "text": "Então pegou o celular para ligar para a polícia,",
+   "start": 96.71,
+   "end": 99.389,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 55,
+   "text": "mas percebeu que não havia sinal.",
+   "start": 99.389,
+   "end": 100.87,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 56,
+   "text": "Ao abrir a galeria,",
+   "start": 100.87,
+   "end": 102.144,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 57,
+   "text": "encontrou uma fotografia que não lembrava de ter tirado:",
+   "start": 102.144,
+   "end": 105.0,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 58,
+   "text": "era ele mesmo,",
+   "start": 105.0,
+   "end": 106.111,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 59,
+   "text": "sentado exatamente naquele assento,",
+   "start": 106.111,
+   "end": 108.15,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 60,
+   "text": "usando a mesma roupa.",
+   "start": 108.15,
+   "end": 109.236,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 61,
+   "text": "A data da fotografia era de quinze anos atrás.",
+   "start": 109.236,
+   "end": 111.964,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 62,
+   "text": "Naquele instante,",
+   "start": 111.964,
+   "end": 112.741,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 63,
+   "text": "o alto-falante voltou a funcionar.",
+   "start": 112.741,
+   "end": 114.425,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 64,
+   "text": "\"Última chamada.",
+   "start": 114.425,
+   "end": 115.202,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 65,
+   "text": "Passageiro Rafael,",
+   "start": 115.202,
+   "end": 116.668,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 66,
+   "text": "favor desembarcar.\"",
+   "start": 116.668,
+   "end": 117.445,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 67,
+   "text": "O trem começou a diminuir a velocidade.",
+   "start": 117.445,
+   "end": 119.4,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 68,
+   "text": "Pela janela,",
+   "start": 119.4,
+   "end": 120.477,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 69,
+   "text": "Rafael finalmente conseguiu enxergar a próxima estação.",
+   "start": 120.477,
+   "end": 123.182,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 70,
+   "text": "Era a mesma onde havia embarcado,",
+   "start": 123.182,
+   "end": 124.87,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 71,
+   "text": "mas havia algo diferente:",
+   "start": 124.87,
+   "end": 126.138,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 72,
+   "text": "uma multidão estava reunida na plataforma,",
+   "start": 126.138,
+   "end": 128.428,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 73,
+   "text": "observando o trem se aproximar.",
+   "start": 128.428,
+   "end": 130.14,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 74,
+   "text": "E,",
+   "start": 130.14,
+   "end": 130.282,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 75,
+   "text": "no meio daquelas pessoas,",
+   "start": 130.282,
+   "end": 131.401,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 76,
+   "text": "havia um homem segurando uma fotografia de Rafael.",
+   "start": 131.401,
+   "end": 134.15,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 77,
+   "text": "Era o próprio Rafael,",
+   "start": 134.15,
+   "end": 135.186,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 78,
+   "text": "só que quinze anos mais velho.",
+   "start": 135.186,
+   "end": 136.583,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 79,
+   "text": "Quando as portas começaram a abrir,",
+   "start": 136.583,
+   "end": 138.15,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 80,
+   "text": "o homem levantou a cabeça e sussurrou algo que Rafael conseguiu ler pelos seus lábios:",
+   "start": 138.15,
+   "end": 142.618,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 81,
+   "text": "\"Você não deveria ter embarcado novamente.\"",
+   "start": 142.618,
+   "end": 145.014,
+   "anchored_on_pause": null
+  }
+ ],
+ "words": [
+  {
+   "w": "Imagine",
+   "start": -0.943,
+   "end": -0.143,
+   "seg": 0
+  },
+  {
+   "w": "entrar",
+   "start": -0.143,
+   "end": 0.257,
+   "seg": 0
+  },
+  {
+   "w": "em",
+   "start": 0.257,
+   "end": 0.457,
+   "seg": 0
+  },
+  {
+   "w": "um",
+   "start": 0.457,
+   "end": 0.657,
+   "seg": 0
+  },
+  {
+   "w": "trem",
+   "start": 0.657,
+   "end": 0.857,
+   "seg": 0
+  },
+  {
+   "w": "durante",
+   "start": 0.857,
+   "end": 1.457,
+   "seg": 0
+  },
+  {
+   "w": "a",
+   "start": 1.457,
+   "end": 1.657,
+   "seg": 0
+  },
+  {
+   "w": "madrugada",
+   "start": 1.657,
+   "end": 2.457,
+   "seg": 0
+  },
+  {
+   "w": "e",
+   "start": 2.457,
+   "end": 2.564,
+   "seg": 0
+  },
+  {
+   "w": "descobrir",
+   "start": 2.564,
+   "end": 2.883,
+   "seg": 0
+  },
+  {
+   "w": "que,",
+   "start": 2.883,
+   "end": 3.028,
+   "seg": 0
+  },
+  {
+   "w": "a",
+   "start": 3.028,
+   "end": 3.173,
+   "seg": 1
+  },
+  {
+   "w": "cada",
+   "start": 3.173,
+   "end": 3.463,
+   "seg": 1
+  },
+  {
+   "w": "estação,",
+   "start": 3.463,
+   "end": 4.086,
+   "seg": 1
+  },
+  {
+   "w": "um",
+   "start": 4.086,
+   "end": 4.221,
+   "seg": 2
+  },
+  {
+   "w": "passageiro",
+   "start": 4.221,
+   "end": 4.769,
+   "seg": 2
+  },
+  {
+   "w": "desaparece.",
+   "start": 4.769,
+   "end": 5.539,
+   "seg": 2
+  },
+  {
+   "w": "Agora",
+   "start": 5.539,
+   "end": 6.05,
+   "seg": 3
+  },
+  {
+   "w": "imagine",
+   "start": 6.05,
+   "end": 6.635,
+   "seg": 3
+  },
+  {
+   "w": "perceber",
+   "start": 6.635,
+   "end": 7.08,
+   "seg": 3
+  },
+  {
+   "w": "que",
+   "start": 7.08,
+   "end": 7.234,
+   "seg": 3
+  },
+  {
+   "w": "você",
+   "start": 7.234,
+   "end": 7.542,
+   "seg": 3
+  },
+  {
+   "w": "é",
+   "start": 7.542,
+   "end": 7.707,
+   "seg": 3
+  },
+  {
+   "w": "o",
+   "start": 7.707,
+   "end": 7.86,
+   "seg": 3
+  },
+  {
+   "w": "único",
+   "start": 7.86,
+   "end": 8.288,
+   "seg": 3
+  },
+  {
+   "w": "que",
+   "start": 8.288,
+   "end": 8.43,
+   "seg": 3
+  },
+  {
+   "w": "ainda",
+   "start": 8.43,
+   "end": 8.715,
+   "seg": 3
+  },
+  {
+   "w": "não",
+   "start": 8.715,
+   "end": 9.0,
+   "seg": 3
+  },
+  {
+   "w": "desceu…",
+   "start": 9.0,
+   "end": 9.285,
+   "seg": 3
+  },
+  {
+   "w": "e",
+   "start": 9.285,
+   "end": 9.428,
+   "seg": 4
+  },
+  {
+   "w": "que",
+   "start": 9.428,
+   "end": 9.57,
+   "seg": 4
+  },
+  {
+   "w": "o",
+   "start": 9.57,
+   "end": 9.881,
+   "seg": 4
+  },
+  {
+   "w": "maquinista",
+   "start": 9.881,
+   "end": 10.283,
+   "seg": 4
+  },
+  {
+   "w": "sabe",
+   "start": 10.283,
+   "end": 10.568,
+   "seg": 4
+  },
+  {
+   "w": "exatamente",
+   "start": 10.568,
+   "end": 11.28,
+   "seg": 4
+  },
+  {
+   "w": "quem",
+   "start": 11.28,
+   "end": 11.423,
+   "seg": 4
+  },
+  {
+   "w": "você",
+   "start": 11.423,
+   "end": 11.707,
+   "seg": 4
+  },
+  {
+   "w": "é.",
+   "start": 11.707,
+   "end": 12.086,
+   "seg": 4
+  },
+  {
+   "w": "Rafael",
+   "start": 12.086,
+   "end": 12.493,
+   "seg": 5
+  },
+  {
+   "w": "tinha",
+   "start": 12.493,
+   "end": 12.764,
+   "seg": 5
+  },
+  {
+   "w": "29",
+   "start": 12.764,
+   "end": 13.171,
+   "seg": 5
+  },
+  {
+   "w": "anos",
+   "start": 13.171,
+   "end": 13.443,
+   "seg": 5
+  },
+  {
+   "w": "e",
+   "start": 13.443,
+   "end": 13.811,
+   "seg": 5
+  },
+  {
+   "w": "voltava",
+   "start": 13.811,
+   "end": 14.747,
+   "seg": 5
+  },
+  {
+   "w": "para",
+   "start": 14.747,
+   "end": 15.017,
+   "seg": 5
+  },
+  {
+   "w": "casa",
+   "start": 15.017,
+   "end": 15.265,
+   "seg": 5
+  },
+  {
+   "w": "depois",
+   "start": 15.265,
+   "end": 15.513,
+   "seg": 5
+  },
+  {
+   "w": "de",
+   "start": 15.513,
+   "end": 15.637,
+   "seg": 5
+  },
+  {
+   "w": "um",
+   "start": 15.637,
+   "end": 15.761,
+   "seg": 5
+  },
+  {
+   "w": "dia",
+   "start": 15.761,
+   "end": 15.885,
+   "seg": 5
+  },
+  {
+   "w": "exaustivo",
+   "start": 15.885,
+   "end": 16.38,
+   "seg": 5
+  },
+  {
+   "w": "de",
+   "start": 16.38,
+   "end": 16.504,
+   "seg": 5
+  },
+  {
+   "w": "trabalho.",
+   "start": 16.504,
+   "end": 17.62,
+   "seg": 5
+  },
+  {
+   "w": "Eram",
+   "start": 17.62,
+   "end": 18.363,
+   "seg": 6
+  },
+  {
+   "w": "23h47",
+   "start": 18.363,
+   "end": 18.735,
+   "seg": 6
+  },
+  {
+   "w": "quando",
+   "start": 18.735,
+   "end": 18.983,
+   "seg": 6
+  },
+  {
+   "w": "entrou",
+   "start": 18.983,
+   "end": 19.23,
+   "seg": 6
+  },
+  {
+   "w": "no",
+   "start": 19.23,
+   "end": 19.354,
+   "seg": 6
+  },
+  {
+   "w": "último",
+   "start": 19.354,
+   "end": 19.726,
+   "seg": 6
+  },
+  {
+   "w": "trem",
+   "start": 19.726,
+   "end": 20.093,
+   "seg": 6
+  },
+  {
+   "w": "da",
+   "start": 20.093,
+   "end": 20.223,
+   "seg": 6
+  },
+  {
+   "w": "estação.",
+   "start": 20.223,
+   "end": 20.741,
+   "seg": 6
+  },
+  {
+   "w": "O",
+   "start": 20.741,
+   "end": 20.87,
+   "seg": 7
+  },
+  {
+   "w": "vagão",
+   "start": 20.87,
+   "end": 21.259,
+   "seg": 7
+  },
+  {
+   "w": "estava",
+   "start": 21.259,
+   "end": 21.637,
+   "seg": 7
+  },
+  {
+   "w": "praticamente",
+   "start": 21.637,
+   "end": 22.257,
+   "seg": 7
+  },
+  {
+   "w": "vazio,",
+   "start": 22.257,
+   "end": 22.46,
+   "seg": 7
+  },
+  {
+   "w": "exceto",
+   "start": 22.46,
+   "end": 22.844,
+   "seg": 8
+  },
+  {
+   "w": "por",
+   "start": 22.844,
+   "end": 22.973,
+   "seg": 8
+  },
+  {
+   "w": "quatro",
+   "start": 22.973,
+   "end": 23.229,
+   "seg": 8
+  },
+  {
+   "w": "passageiros",
+   "start": 23.229,
+   "end": 23.742,
+   "seg": 8
+  },
+  {
+   "w": "espalhados",
+   "start": 23.742,
+   "end": 24.255,
+   "seg": 8
+  },
+  {
+   "w": "pelos",
+   "start": 24.255,
+   "end": 24.496,
+   "seg": 8
+  },
+  {
+   "w": "assentos.",
+   "start": 24.496,
+   "end": 24.859,
+   "seg": 8
+  },
+  {
+   "w": "Uma",
+   "start": 24.859,
+   "end": 25.107,
+   "seg": 9
+  },
+  {
+   "w": "senhora",
+   "start": 25.107,
+   "end": 25.478,
+   "seg": 9
+  },
+  {
+   "w": "perto",
+   "start": 25.478,
+   "end": 25.726,
+   "seg": 9
+  },
+  {
+   "w": "da",
+   "start": 25.726,
+   "end": 25.994,
+   "seg": 9
+  },
+  {
+   "w": "janela,",
+   "start": 25.994,
+   "end": 26.392,
+   "seg": 9
+  },
+  {
+   "w": "um",
+   "start": 26.392,
+   "end": 26.524,
+   "seg": 10
+  },
+  {
+   "w": "homem",
+   "start": 26.524,
+   "end": 26.578,
+   "seg": 10
+  },
+  {
+   "w": "de",
+   "start": 26.578,
+   "end": 26.922,
+   "seg": 10
+  },
+  {
+   "w": "terno,",
+   "start": 26.922,
+   "end": 27.187,
+   "seg": 10
+  },
+  {
+   "w": "uma",
+   "start": 27.187,
+   "end": 27.452,
+   "seg": 11
+  },
+  {
+   "w": "garota",
+   "start": 27.452,
+   "end": 28.05,
+   "seg": 11
+  },
+  {
+   "w": "usando",
+   "start": 28.05,
+   "end": 28.457,
+   "seg": 11
+  },
+  {
+   "w": "fones",
+   "start": 28.457,
+   "end": 28.729,
+   "seg": 11
+  },
+  {
+   "w": "de",
+   "start": 28.729,
+   "end": 28.864,
+   "seg": 11
+  },
+  {
+   "w": "ouvido",
+   "start": 28.864,
+   "end": 29.271,
+   "seg": 11
+  },
+  {
+   "w": "e",
+   "start": 29.271,
+   "end": 29.407,
+   "seg": 11
+  },
+  {
+   "w": "um",
+   "start": 29.407,
+   "end": 29.543,
+   "seg": 11
+  },
+  {
+   "w": "rapaz",
+   "start": 29.543,
+   "end": 29.844,
+   "seg": 11
+  },
+  {
+   "w": "que",
+   "start": 29.844,
+   "end": 30.006,
+   "seg": 11
+  },
+  {
+   "w": "não",
+   "start": 30.006,
+   "end": 30.246,
+   "seg": 11
+  },
+  {
+   "w": "tirava",
+   "start": 30.246,
+   "end": 30.669,
+   "seg": 11
+  },
+  {
+   "w": "os",
+   "start": 30.669,
+   "end": 30.801,
+   "seg": 11
+  },
+  {
+   "w": "olhos",
+   "start": 30.801,
+   "end": 31.066,
+   "seg": 11
+  },
+  {
+   "w": "do",
+   "start": 31.066,
+   "end": 31.199,
+   "seg": 11
+  },
+  {
+   "w": "chão.",
+   "start": 31.199,
+   "end": 31.464,
+   "seg": 11
+  },
+  {
+   "w": "Rafael",
+   "start": 31.464,
+   "end": 32.0,
+   "seg": 12
+  },
+  {
+   "w": "se",
+   "start": 32.0,
+   "end": 32.15,
+   "seg": 12
+  },
+  {
+   "w": "sentou",
+   "start": 32.15,
+   "end": 32.442,
+   "seg": 12
+  },
+  {
+   "w": "e",
+   "start": 32.442,
+   "end": 32.588,
+   "seg": 12
+  },
+  {
+   "w": "colocou",
+   "start": 32.588,
+   "end": 33.027,
+   "seg": 12
+  },
+  {
+   "w": "os",
+   "start": 33.027,
+   "end": 33.173,
+   "seg": 12
+  },
+  {
+   "w": "fones.",
+   "start": 33.173,
+   "end": 33.464,
+   "seg": 12
+  },
+  {
+   "w": "Poucos",
+   "start": 33.464,
+   "end": 33.729,
+   "seg": 13
+  },
+  {
+   "w": "minutos",
+   "start": 33.729,
+   "end": 34.15,
+   "seg": 13
+  },
+  {
+   "w": "depois,",
+   "start": 34.15,
+   "end": 34.482,
+   "seg": 13
+  },
+  {
+   "w": "o",
+   "start": 34.482,
+   "end": 34.635,
+   "seg": 14
+  },
+  {
+   "w": "trem",
+   "start": 34.635,
+   "end": 34.781,
+   "seg": 14
+  },
+  {
+   "w": "parou",
+   "start": 34.781,
+   "end": 35.073,
+   "seg": 14
+  },
+  {
+   "w": "em",
+   "start": 35.073,
+   "end": 35.219,
+   "seg": 14
+  },
+  {
+   "w": "uma",
+   "start": 35.219,
+   "end": 35.512,
+   "seg": 14
+  },
+  {
+   "w": "estação",
+   "start": 35.512,
+   "end": 36.15,
+   "seg": 14
+  },
+  {
+   "w": "deserta.",
+   "start": 36.15,
+   "end": 36.639,
+   "seg": 14
+  },
+  {
+   "w": "As",
+   "start": 36.639,
+   "end": 36.801,
+   "seg": 15
+  },
+  {
+   "w": "portas",
+   "start": 36.801,
+   "end": 37.127,
+   "seg": 15
+  },
+  {
+   "w": "se",
+   "start": 37.127,
+   "end": 37.29,
+   "seg": 15
+  },
+  {
+   "w": "abriram,",
+   "start": 37.29,
+   "end": 37.779,
+   "seg": 15
+  },
+  {
+   "w": "o",
+   "start": 37.779,
+   "end": 38.059,
+   "seg": 16
+  },
+  {
+   "w": "homem",
+   "start": 38.059,
+   "end": 38.384,
+   "seg": 16
+  },
+  {
+   "w": "de",
+   "start": 38.384,
+   "end": 38.608,
+   "seg": 16
+  },
+  {
+   "w": "terno",
+   "start": 38.608,
+   "end": 38.919,
+   "seg": 16
+  },
+  {
+   "w": "levantou",
+   "start": 38.919,
+   "end": 39.407,
+   "seg": 16
+  },
+  {
+   "w": "e",
+   "start": 39.407,
+   "end": 39.57,
+   "seg": 16
+  },
+  {
+   "w": "saiu",
+   "start": 39.57,
+   "end": 39.733,
+   "seg": 16
+  },
+  {
+   "w": "sem",
+   "start": 39.733,
+   "end": 40.05,
+   "seg": 16
+  },
+  {
+   "w": "olhar",
+   "start": 40.05,
+   "end": 40.395,
+   "seg": 16
+  },
+  {
+   "w": "para",
+   "start": 40.395,
+   "end": 40.741,
+   "seg": 16
+  },
+  {
+   "w": "trás.",
+   "start": 40.741,
+   "end": 40.914,
+   "seg": 16
+  },
+  {
+   "w": "Até",
+   "start": 40.914,
+   "end": 41.259,
+   "seg": 17
+  },
+  {
+   "w": "aí,",
+   "start": 41.259,
+   "end": 41.432,
+   "seg": 17
+  },
+  {
+   "w": "tudo",
+   "start": 41.432,
+   "end": 41.777,
+   "seg": 18
+  },
+  {
+   "w": "normal.",
+   "start": 41.777,
+   "end": 42.15,
+   "seg": 18
+  },
+  {
+   "w": "Mas,",
+   "start": 42.15,
+   "end": 42.328,
+   "seg": 19
+  },
+  {
+   "w": "quando",
+   "start": 42.328,
+   "end": 42.684,
+   "seg": 20
+  },
+  {
+   "w": "o",
+   "start": 42.684,
+   "end": 42.862,
+   "seg": 20
+  },
+  {
+   "w": "trem",
+   "start": 42.862,
+   "end": 43.041,
+   "seg": 20
+  },
+  {
+   "w": "voltou",
+   "start": 43.041,
+   "end": 43.397,
+   "seg": 20
+  },
+  {
+   "w": "a",
+   "start": 43.397,
+   "end": 43.575,
+   "seg": 20
+  },
+  {
+   "w": "andar,",
+   "start": 43.575,
+   "end": 43.941,
+   "seg": 20
+  },
+  {
+   "w": "Rafael",
+   "start": 43.941,
+   "end": 44.467,
+   "seg": 21
+  },
+  {
+   "w": "percebeu",
+   "start": 44.467,
+   "end": 45.0,
+   "seg": 21
+  },
+  {
+   "w": "algo",
+   "start": 45.0,
+   "end": 45.356,
+   "seg": 21
+  },
+  {
+   "w": "estranho:",
+   "start": 45.356,
+   "end": 45.854,
+   "seg": 21
+  },
+  {
+   "w": "nenhuma",
+   "start": 45.854,
+   "end": 46.235,
+   "seg": 22
+  },
+  {
+   "w": "pessoa",
+   "start": 46.235,
+   "end": 46.652,
+   "seg": 22
+  },
+  {
+   "w": "havia",
+   "start": 46.652,
+   "end": 46.93,
+   "seg": 22
+  },
+  {
+   "w": "entrado.",
+   "start": 46.93,
+   "end": 47.333,
+   "seg": 22
+  },
+  {
+   "w": "Na",
+   "start": 47.333,
+   "end": 47.476,
+   "seg": 23
+  },
+  {
+   "w": "estação",
+   "start": 47.476,
+   "end": 48.046,
+   "seg": 23
+  },
+  {
+   "w": "seguinte,",
+   "start": 48.046,
+   "end": 48.46,
+   "seg": 23
+  },
+  {
+   "w": "a",
+   "start": 48.46,
+   "end": 48.599,
+   "seg": 24
+  },
+  {
+   "w": "garota",
+   "start": 48.599,
+   "end": 49.016,
+   "seg": 24
+  },
+  {
+   "w": "também",
+   "start": 49.016,
+   "end": 49.294,
+   "seg": 24
+  },
+  {
+   "w": "desceu.",
+   "start": 49.294,
+   "end": 49.572,
+   "seg": 24
+  },
+  {
+   "w": "Depois,",
+   "start": 49.572,
+   "end": 49.95,
+   "seg": 25
+  },
+  {
+   "w": "foi",
+   "start": 49.95,
+   "end": 50.096,
+   "seg": 26
+  },
+  {
+   "w": "a",
+   "start": 50.096,
+   "end": 50.242,
+   "seg": 26
+  },
+  {
+   "w": "vez",
+   "start": 50.242,
+   "end": 50.388,
+   "seg": 26
+  },
+  {
+   "w": "da",
+   "start": 50.388,
+   "end": 50.535,
+   "seg": 26
+  },
+  {
+   "w": "senhora.",
+   "start": 50.535,
+   "end": 50.973,
+   "seg": 26
+  },
+  {
+   "w": "Em",
+   "start": 50.973,
+   "end": 51.119,
+   "seg": 27
+  },
+  {
+   "w": "poucos",
+   "start": 51.119,
+   "end": 51.412,
+   "seg": 27
+  },
+  {
+   "w": "minutos,",
+   "start": 51.412,
+   "end": 51.825,
+   "seg": 27
+  },
+  {
+   "w": "restaram",
+   "start": 51.825,
+   "end": 52.488,
+   "seg": 28
+  },
+  {
+   "w": "apenas",
+   "start": 52.488,
+   "end": 52.927,
+   "seg": 28
+  },
+  {
+   "w": "Rafael",
+   "start": 52.927,
+   "end": 53.365,
+   "seg": 28
+  },
+  {
+   "w": "e",
+   "start": 53.365,
+   "end": 53.512,
+   "seg": 28
+  },
+  {
+   "w": "o",
+   "start": 53.512,
+   "end": 53.658,
+   "seg": 28
+  },
+  {
+   "w": "rapaz",
+   "start": 53.658,
+   "end": 53.95,
+   "seg": 28
+  },
+  {
+   "w": "que",
+   "start": 53.95,
+   "end": 54.096,
+   "seg": 28
+  },
+  {
+   "w": "continuava",
+   "start": 54.096,
+   "end": 54.681,
+   "seg": 28
+  },
+  {
+   "w": "olhando",
+   "start": 54.681,
+   "end": 55.119,
+   "seg": 28
+  },
+  {
+   "w": "para",
+   "start": 55.119,
+   "end": 55.412,
+   "seg": 28
+  },
+  {
+   "w": "o",
+   "start": 55.412,
+   "end": 55.558,
+   "seg": 28
+  },
+  {
+   "w": "chão.",
+   "start": 55.558,
+   "end": 55.718,
+   "seg": 28
+  },
+  {
+   "w": "Incomodado,",
+   "start": 55.718,
+   "end": 56.119,
+   "seg": 29
+  },
+  {
+   "w": "Rafael",
+   "start": 56.119,
+   "end": 56.464,
+   "seg": 30
+  },
+  {
+   "w": "perguntou",
+   "start": 56.464,
+   "end": 56.81,
+   "seg": 30
+  },
+  {
+   "w": "se",
+   "start": 56.81,
+   "end": 56.925,
+   "seg": 30
+  },
+  {
+   "w": "ele",
+   "start": 56.925,
+   "end": 57.155,
+   "seg": 30
+  },
+  {
+   "w": "sabia",
+   "start": 57.155,
+   "end": 57.386,
+   "seg": 30
+  },
+  {
+   "w": "por",
+   "start": 57.386,
+   "end": 57.501,
+   "seg": 30
+  },
+  {
+   "w": "que",
+   "start": 57.501,
+   "end": 57.616,
+   "seg": 30
+  },
+  {
+   "w": "o",
+   "start": 57.616,
+   "end": 57.731,
+   "seg": 30
+  },
+  {
+   "w": "trem",
+   "start": 57.731,
+   "end": 57.895,
+   "seg": 30
+  },
+  {
+   "w": "estava",
+   "start": 57.895,
+   "end": 58.244,
+   "seg": 30
+  },
+  {
+   "w": "tão",
+   "start": 58.244,
+   "end": 58.477,
+   "seg": 30
+  },
+  {
+   "w": "vazio.",
+   "start": 58.477,
+   "end": 58.709,
+   "seg": 30
+  },
+  {
+   "w": "O",
+   "start": 58.709,
+   "end": 58.826,
+   "seg": 31
+  },
+  {
+   "w": "rapaz",
+   "start": 58.826,
+   "end": 59.058,
+   "seg": 31
+  },
+  {
+   "w": "levantou",
+   "start": 59.058,
+   "end": 59.407,
+   "seg": 31
+  },
+  {
+   "w": "lentamente",
+   "start": 59.407,
+   "end": 59.872,
+   "seg": 31
+  },
+  {
+   "w": "a",
+   "start": 59.872,
+   "end": 60.15,
+   "seg": 31
+  },
+  {
+   "w": "cabeça",
+   "start": 60.15,
+   "end": 60.548,
+   "seg": 31
+  },
+  {
+   "w": "e",
+   "start": 60.548,
+   "end": 60.68,
+   "seg": 31
+  },
+  {
+   "w": "respondeu:",
+   "start": 60.68,
+   "end": 61.058,
+   "seg": 31
+  },
+  {
+   "w": "\"Você",
+   "start": 61.058,
+   "end": 61.291,
+   "seg": 32
+  },
+  {
+   "w": "ainda",
+   "start": 61.291,
+   "end": 61.523,
+   "seg": 32
+  },
+  {
+   "w": "não",
+   "start": 61.523,
+   "end": 61.756,
+   "seg": 32
+  },
+  {
+   "w": "percebeu?\"",
+   "start": 61.756,
+   "end": 62.15,
+   "seg": 32
+  },
+  {
+   "w": "Antes",
+   "start": 62.15,
+   "end": 62.442,
+   "seg": 33
+  },
+  {
+   "w": "que",
+   "start": 62.442,
+   "end": 62.588,
+   "seg": 33
+  },
+  {
+   "w": "Rafael",
+   "start": 62.588,
+   "end": 63.027,
+   "seg": 33
+  },
+  {
+   "w": "pudesse",
+   "start": 63.027,
+   "end": 63.464,
+   "seg": 33
+  },
+  {
+   "w": "perguntar",
+   "start": 63.464,
+   "end": 63.862,
+   "seg": 33
+  },
+  {
+   "w": "o",
+   "start": 63.862,
+   "end": 63.994,
+   "seg": 33
+  },
+  {
+   "w": "que",
+   "start": 63.994,
+   "end": 64.15,
+   "seg": 33
+  },
+  {
+   "w": "aquilo",
+   "start": 64.15,
+   "end": 64.612,
+   "seg": 33
+  },
+  {
+   "w": "significava,",
+   "start": 64.612,
+   "end": 65.365,
+   "seg": 33
+  },
+  {
+   "w": "o",
+   "start": 65.365,
+   "end": 65.512,
+   "seg": 34
+  },
+  {
+   "w": "trem",
+   "start": 65.512,
+   "end": 65.658,
+   "seg": 34
+  },
+  {
+   "w": "parou",
+   "start": 65.658,
+   "end": 65.999,
+   "seg": 34
+  },
+  {
+   "w": "novamente.",
+   "start": 65.999,
+   "end": 66.615,
+   "seg": 34
+  },
+  {
+   "w": "As",
+   "start": 66.615,
+   "end": 66.769,
+   "seg": 35
+  },
+  {
+   "w": "portas",
+   "start": 66.769,
+   "end": 67.077,
+   "seg": 35
+  },
+  {
+   "w": "se",
+   "start": 67.077,
+   "end": 67.185,
+   "seg": 35
+  },
+  {
+   "w": "abriram,",
+   "start": 67.185,
+   "end": 67.507,
+   "seg": 35
+  },
+  {
+   "w": "mas",
+   "start": 67.507,
+   "end": 67.643,
+   "seg": 36
+  },
+  {
+   "w": "não",
+   "start": 67.643,
+   "end": 68.001,
+   "seg": 36
+  },
+  {
+   "w": "havia",
+   "start": 68.001,
+   "end": 68.321,
+   "seg": 36
+  },
+  {
+   "w": "plataforma",
+   "start": 68.321,
+   "end": 68.926,
+   "seg": 36
+  },
+  {
+   "w": "do",
+   "start": 68.926,
+   "end": 69.08,
+   "seg": 36
+  },
+  {
+   "w": "lado",
+   "start": 69.08,
+   "end": 69.388,
+   "seg": 36
+  },
+  {
+   "w": "de",
+   "start": 69.388,
+   "end": 69.542,
+   "seg": 36
+  },
+  {
+   "w": "fora.",
+   "start": 69.542,
+   "end": 69.756,
+   "seg": 36
+  },
+  {
+   "w": "Apenas",
+   "start": 69.756,
+   "end": 70.15,
+   "seg": 37
+  },
+  {
+   "w": "um",
+   "start": 70.15,
+   "end": 70.289,
+   "seg": 37
+  },
+  {
+   "w": "corredor",
+   "start": 70.289,
+   "end": 70.706,
+   "seg": 37
+  },
+  {
+   "w": "escuro,",
+   "start": 70.706,
+   "end": 71.123,
+   "seg": 37
+  },
+  {
+   "w": "iluminado",
+   "start": 71.123,
+   "end": 71.777,
+   "seg": 38
+  },
+  {
+   "w": "por",
+   "start": 71.777,
+   "end": 71.932,
+   "seg": 38
+  },
+  {
+   "w": "lâmpadas",
+   "start": 71.932,
+   "end": 72.335,
+   "seg": 38
+  },
+  {
+   "w": "que",
+   "start": 72.335,
+   "end": 72.425,
+   "seg": 38
+  },
+  {
+   "w": "piscavam.",
+   "start": 72.425,
+   "end": 72.872,
+   "seg": 38
+  },
+  {
+   "w": "O",
+   "start": 72.872,
+   "end": 72.943,
+   "seg": 39
+  },
+  {
+   "w": "rapaz",
+   "start": 72.943,
+   "end": 73.202,
+   "seg": 39
+  },
+  {
+   "w": "se",
+   "start": 73.202,
+   "end": 73.332,
+   "seg": 39
+  },
+  {
+   "w": "levantou",
+   "start": 73.332,
+   "end": 73.904,
+   "seg": 39
+  },
+  {
+   "w": "imediatamente",
+   "start": 73.904,
+   "end": 74.513,
+   "seg": 39
+  },
+  {
+   "w": "e",
+   "start": 74.513,
+   "end": 74.877,
+   "seg": 39
+  },
+  {
+   "w": "disse:",
+   "start": 74.877,
+   "end": 75.155,
+   "seg": 39
+  },
+  {
+   "w": "\"Não",
+   "start": 75.155,
+   "end": 75.433,
+   "seg": 40
+  },
+  {
+   "w": "saia",
+   "start": 75.433,
+   "end": 75.572,
+   "seg": 40
+  },
+  {
+   "w": "daqui.",
+   "start": 75.572,
+   "end": 75.964,
+   "seg": 40
+  },
+  {
+   "w": "Essa",
+   "start": 75.964,
+   "end": 76.223,
+   "seg": 41
+  },
+  {
+   "w": "não",
+   "start": 76.223,
+   "end": 76.482,
+   "seg": 41
+  },
+  {
+   "w": "é",
+   "start": 76.482,
+   "end": 76.611,
+   "seg": 41
+  },
+  {
+   "w": "a",
+   "start": 76.611,
+   "end": 76.741,
+   "seg": 41
+  },
+  {
+   "w": "sua",
+   "start": 76.741,
+   "end": 76.87,
+   "seg": 41
+  },
+  {
+   "w": "estação.\"",
+   "start": 76.87,
+   "end": 77.389,
+   "seg": 41
+  },
+  {
+   "w": "Rafael",
+   "start": 77.389,
+   "end": 77.777,
+   "seg": 42
+  },
+  {
+   "w": "tentou",
+   "start": 77.777,
+   "end": 78.321,
+   "seg": 42
+  },
+  {
+   "w": "perguntar",
+   "start": 78.321,
+   "end": 78.729,
+   "seg": 42
+  },
+  {
+   "w": "quem",
+   "start": 78.729,
+   "end": 78.864,
+   "seg": 42
+  },
+  {
+   "w": "ele",
+   "start": 78.864,
+   "end": 79.136,
+   "seg": 42
+  },
+  {
+   "w": "era,",
+   "start": 79.136,
+   "end": 79.407,
+   "seg": 42
+  },
+  {
+   "w": "mas",
+   "start": 79.407,
+   "end": 79.543,
+   "seg": 43
+  },
+  {
+   "w": "o",
+   "start": 79.543,
+   "end": 79.674,
+   "seg": 43
+  },
+  {
+   "w": "desconhecido",
+   "start": 79.674,
+   "end": 80.357,
+   "seg": 43
+  },
+  {
+   "w": "simplesmente",
+   "start": 80.357,
+   "end": 80.9,
+   "seg": 43
+  },
+  {
+   "w": "atravessou",
+   "start": 80.9,
+   "end": 81.443,
+   "seg": 43
+  },
+  {
+   "w": "as",
+   "start": 81.443,
+   "end": 81.579,
+   "seg": 43
+  },
+  {
+   "w": "portas",
+   "start": 81.579,
+   "end": 81.873,
+   "seg": 43
+  },
+  {
+   "w": "e",
+   "start": 81.873,
+   "end": 82.15,
+   "seg": 43
+  },
+  {
+   "w": "desapareceu",
+   "start": 82.15,
+   "end": 82.763,
+   "seg": 43
+  },
+  {
+   "w": "na",
+   "start": 82.763,
+   "end": 82.881,
+   "seg": 43
+  },
+  {
+   "w": "escuridão.",
+   "start": 82.881,
+   "end": 83.475,
+   "seg": 43
+  },
+  {
+   "w": "Assustado,",
+   "start": 83.475,
+   "end": 84.15,
+   "seg": 44
+  },
+  {
+   "w": "Rafael",
+   "start": 84.15,
+   "end": 84.557,
+   "seg": 45
+  },
+  {
+   "w": "correu",
+   "start": 84.557,
+   "end": 84.81,
+   "seg": 45
+  },
+  {
+   "w": "até",
+   "start": 84.81,
+   "end": 85.063,
+   "seg": 45
+  },
+  {
+   "w": "a",
+   "start": 85.063,
+   "end": 85.19,
+   "seg": 45
+  },
+  {
+   "w": "cabine",
+   "start": 85.19,
+   "end": 85.57,
+   "seg": 45
+  },
+  {
+   "w": "do",
+   "start": 85.57,
+   "end": 85.697,
+   "seg": 45
+  },
+  {
+   "w": "maquinista.",
+   "start": 85.697,
+   "end": 86.288,
+   "seg": 45
+  },
+  {
+   "w": "Bateu",
+   "start": 86.288,
+   "end": 86.583,
+   "seg": 46
+  },
+  {
+   "w": "na",
+   "start": 86.583,
+   "end": 86.71,
+   "seg": 46
+  },
+  {
+   "w": "porta",
+   "start": 86.71,
+   "end": 86.963,
+   "seg": 46
+  },
+  {
+   "w": "várias",
+   "start": 86.963,
+   "end": 87.217,
+   "seg": 46
+  },
+  {
+   "w": "vezes,",
+   "start": 87.217,
+   "end": 87.476,
+   "seg": 46
+  },
+  {
+   "w": "até",
+   "start": 87.476,
+   "end": 88.14,
+   "seg": 47
+  },
+  {
+   "w": "ouvir",
+   "start": 88.14,
+   "end": 88.425,
+   "seg": 47
+  },
+  {
+   "w": "uma",
+   "start": 88.425,
+   "end": 88.71,
+   "seg": 47
+  },
+  {
+   "w": "voz",
+   "start": 88.71,
+   "end": 88.853,
+   "seg": 47
+  },
+  {
+   "w": "pelo",
+   "start": 88.853,
+   "end": 89.138,
+   "seg": 47
+  },
+  {
+   "w": "alto-falante:",
+   "start": 89.138,
+   "end": 89.714,
+   "seg": 47
+  },
+  {
+   "w": "\"Senhor",
+   "start": 89.714,
+   "end": 89.985,
+   "seg": 48
+  },
+  {
+   "w": "Rafael,",
+   "start": 89.985,
+   "end": 90.15,
+   "seg": 48
+  },
+  {
+   "w": "por",
+   "start": 90.15,
+   "end": 90.286,
+   "seg": 49
+  },
+  {
+   "w": "favor,",
+   "start": 90.286,
+   "end": 90.557,
+   "seg": 49
+  },
+  {
+   "w": "permaneça",
+   "start": 90.557,
+   "end": 91.1,
+   "seg": 50
+  },
+  {
+   "w": "sentado.",
+   "start": 91.1,
+   "end": 91.507,
+   "seg": 50
+  },
+  {
+   "w": "Estamos",
+   "start": 91.507,
+   "end": 92.15,
+   "seg": 51
+  },
+  {
+   "w": "chegando",
+   "start": 92.15,
+   "end": 92.53,
+   "seg": 51
+  },
+  {
+   "w": "ao",
+   "start": 92.53,
+   "end": 92.783,
+   "seg": 51
+  },
+  {
+   "w": "seu",
+   "start": 92.783,
+   "end": 92.91,
+   "seg": 51
+  },
+  {
+   "w": "destino.\"",
+   "start": 92.91,
+   "end": 93.136,
+   "seg": 51
+  },
+  {
+   "w": "O",
+   "start": 93.136,
+   "end": 93.344,
+   "seg": 52
+  },
+  {
+   "w": "sangue",
+   "start": 93.344,
+   "end": 93.606,
+   "seg": 52
+  },
+  {
+   "w": "de",
+   "start": 93.606,
+   "end": 93.738,
+   "seg": 52
+  },
+  {
+   "w": "Rafael",
+   "start": 93.738,
+   "end": 94.109,
+   "seg": 52
+  },
+  {
+   "w": "gelou.",
+   "start": 94.109,
+   "end": 94.357,
+   "seg": 52
+  },
+  {
+   "w": "Ele",
+   "start": 94.357,
+   "end": 94.629,
+   "seg": 53
+  },
+  {
+   "w": "nunca",
+   "start": 94.629,
+   "end": 94.9,
+   "seg": 53
+  },
+  {
+   "w": "havia",
+   "start": 94.9,
+   "end": 95.171,
+   "seg": 53
+  },
+  {
+   "w": "dito",
+   "start": 95.171,
+   "end": 95.443,
+   "seg": 53
+  },
+  {
+   "w": "seu",
+   "start": 95.443,
+   "end": 95.57,
+   "seg": 53
+  },
+  {
+   "w": "nome",
+   "start": 95.57,
+   "end": 95.751,
+   "seg": 53
+  },
+  {
+   "w": "a",
+   "start": 95.751,
+   "end": 95.95,
+   "seg": 53
+  },
+  {
+   "w": "ninguém",
+   "start": 95.95,
+   "end": 96.203,
+   "seg": 53
+  },
+  {
+   "w": "naquele",
+   "start": 96.203,
+   "end": 96.583,
+   "seg": 53
+  },
+  {
+   "w": "trem.",
+   "start": 96.583,
+   "end": 96.71,
+   "seg": 53
+  },
+  {
+   "w": "Então",
+   "start": 96.71,
+   "end": 97.09,
+   "seg": 54
+  },
+  {
+   "w": "pegou",
+   "start": 97.09,
+   "end": 97.348,
+   "seg": 54
+  },
+  {
+   "w": "o",
+   "start": 97.348,
+   "end": 97.487,
+   "seg": 54
+  },
+  {
+   "w": "celular",
+   "start": 97.487,
+   "end": 98.093,
+   "seg": 54
+  },
+  {
+   "w": "para",
+   "start": 98.093,
+   "end": 98.352,
+   "seg": 54
+  },
+  {
+   "w": "ligar",
+   "start": 98.352,
+   "end": 98.611,
+   "seg": 54
+  },
+  {
+   "w": "para",
+   "start": 98.611,
+   "end": 98.87,
+   "seg": 54
+  },
+  {
+   "w": "a",
+   "start": 98.87,
+   "end": 99.0,
+   "seg": 54
+  },
+  {
+   "w": "polícia,",
+   "start": 99.0,
+   "end": 99.389,
+   "seg": 54
+  },
+  {
+   "w": "mas",
+   "start": 99.389,
+   "end": 99.518,
+   "seg": 55
+  },
+  {
+   "w": "percebeu",
+   "start": 99.518,
+   "end": 99.964,
+   "seg": 55
+  },
+  {
+   "w": "que",
+   "start": 99.964,
+   "end": 100.093,
+   "seg": 55
+  },
+  {
+   "w": "não",
+   "start": 100.093,
+   "end": 100.352,
+   "seg": 55
+  },
+  {
+   "w": "havia",
+   "start": 100.352,
+   "end": 100.611,
+   "seg": 55
+  },
+  {
+   "w": "sinal.",
+   "start": 100.611,
+   "end": 100.87,
+   "seg": 55
+  },
+  {
+   "w": "Ao",
+   "start": 100.87,
+   "end": 101.13,
+   "seg": 56
+  },
+  {
+   "w": "abrir",
+   "start": 101.13,
+   "end": 101.389,
+   "seg": 56
+  },
+  {
+   "w": "a",
+   "start": 101.389,
+   "end": 101.518,
+   "seg": 56
+  },
+  {
+   "w": "galeria,",
+   "start": 101.518,
+   "end": 102.144,
+   "seg": 56
+  },
+  {
+   "w": "encontrou",
+   "start": 102.144,
+   "end": 102.536,
+   "seg": 57
+  },
+  {
+   "w": "uma",
+   "start": 102.536,
+   "end": 102.801,
+   "seg": 57
+  },
+  {
+   "w": "fotografia",
+   "start": 102.801,
+   "end": 103.331,
+   "seg": 57
+  },
+  {
+   "w": "que",
+   "start": 103.331,
+   "end": 103.464,
+   "seg": 57
+  },
+  {
+   "w": "não",
+   "start": 103.464,
+   "end": 103.729,
+   "seg": 57
+  },
+  {
+   "w": "lembrava",
+   "start": 103.729,
+   "end": 104.288,
+   "seg": 57
+  },
+  {
+   "w": "de",
+   "start": 104.288,
+   "end": 104.43,
+   "seg": 57
+  },
+  {
+   "w": "ter",
+   "start": 104.43,
+   "end": 104.573,
+   "seg": 57
+  },
+  {
+   "w": "tirado:",
+   "start": 104.573,
+   "end": 105.0,
+   "seg": 57
+  },
+  {
+   "w": "era",
+   "start": 105.0,
+   "end": 105.285,
+   "seg": 58
+  },
+  {
+   "w": "ele",
+   "start": 105.285,
+   "end": 105.57,
+   "seg": 58
+  },
+  {
+   "w": "mesmo,",
+   "start": 105.57,
+   "end": 106.111,
+   "seg": 58
+  },
+  {
+   "w": "sentado",
+   "start": 106.111,
+   "end": 106.578,
+   "seg": 59
+  },
+  {
+   "w": "exatamente",
+   "start": 106.578,
+   "end": 107.29,
+   "seg": 59
+  },
+  {
+   "w": "naquele",
+   "start": 107.29,
+   "end": 107.718,
+   "seg": 59
+  },
+  {
+   "w": "assento,",
+   "start": 107.718,
+   "end": 108.15,
+   "seg": 59
+  },
+  {
+   "w": "usando",
+   "start": 108.15,
+   "end": 108.573,
+   "seg": 60
+  },
+  {
+   "w": "a",
+   "start": 108.573,
+   "end": 108.715,
+   "seg": 60
+  },
+  {
+   "w": "mesma",
+   "start": 108.715,
+   "end": 109.0,
+   "seg": 60
+  },
+  {
+   "w": "roupa.",
+   "start": 109.0,
+   "end": 109.236,
+   "seg": 60
+  },
+  {
+   "w": "A",
+   "start": 109.236,
+   "end": 109.372,
+   "seg": 61
+  },
+  {
+   "w": "data",
+   "start": 109.372,
+   "end": 109.644,
+   "seg": 61
+  },
+  {
+   "w": "da",
+   "start": 109.644,
+   "end": 109.855,
+   "seg": 61
+  },
+  {
+   "w": "fotografia",
+   "start": 109.855,
+   "end": 110.425,
+   "seg": 61
+  },
+  {
+   "w": "era",
+   "start": 110.425,
+   "end": 110.71,
+   "seg": 61
+  },
+  {
+   "w": "de",
+   "start": 110.71,
+   "end": 110.9,
+   "seg": 61
+  },
+  {
+   "w": "quinze",
+   "start": 110.9,
+   "end": 111.28,
+   "seg": 61
+  },
+  {
+   "w": "anos",
+   "start": 111.28,
+   "end": 111.565,
+   "seg": 61
+  },
+  {
+   "w": "atrás.",
+   "start": 111.565,
+   "end": 111.964,
+   "seg": 61
+  },
+  {
+   "w": "Naquele",
+   "start": 111.964,
+   "end": 112.352,
+   "seg": 62
+  },
+  {
+   "w": "instante,",
+   "start": 112.352,
+   "end": 112.741,
+   "seg": 62
+  },
+  {
+   "w": "o",
+   "start": 112.741,
+   "end": 112.87,
+   "seg": 63
+  },
+  {
+   "w": "alto-falante",
+   "start": 112.87,
+   "end": 113.518,
+   "seg": 63
+  },
+  {
+   "w": "voltou",
+   "start": 113.518,
+   "end": 113.777,
+   "seg": 63
+  },
+  {
+   "w": "a",
+   "start": 113.777,
+   "end": 113.907,
+   "seg": 63
+  },
+  {
+   "w": "funcionar.",
+   "start": 113.907,
+   "end": 114.425,
+   "seg": 63
+  },
+  {
+   "w": "\"Última",
+   "start": 114.425,
+   "end": 114.814,
+   "seg": 64
+  },
+  {
+   "w": "chamada.",
+   "start": 114.814,
+   "end": 115.202,
+   "seg": 64
+  },
+  {
+   "w": "Passageiro",
+   "start": 115.202,
+   "end": 116.15,
+   "seg": 65
+  },
+  {
+   "w": "Rafael,",
+   "start": 116.15,
+   "end": 116.668,
+   "seg": 65
+  },
+  {
+   "w": "favor",
+   "start": 116.668,
+   "end": 116.927,
+   "seg": 66
+  },
+  {
+   "w": "desembarcar.\"",
+   "start": 116.927,
+   "end": 117.445,
+   "seg": 66
+  },
+  {
+   "w": "O",
+   "start": 117.445,
+   "end": 117.575,
+   "seg": 67
+  },
+  {
+   "w": "trem",
+   "start": 117.575,
+   "end": 117.705,
+   "seg": 67
+  },
+  {
+   "w": "começou",
+   "start": 117.705,
+   "end": 118.093,
+   "seg": 67
+  },
+  {
+   "w": "a",
+   "start": 118.093,
+   "end": 118.223,
+   "seg": 67
+  },
+  {
+   "w": "diminuir",
+   "start": 118.223,
+   "end": 118.611,
+   "seg": 67
+  },
+  {
+   "w": "a",
+   "start": 118.611,
+   "end": 118.741,
+   "seg": 67
+  },
+  {
+   "w": "velocidade.",
+   "start": 118.741,
+   "end": 119.4,
+   "seg": 67
+  },
+  {
+   "w": "Pela",
+   "start": 119.4,
+   "end": 120.128,
+   "seg": 68
+  },
+  {
+   "w": "janela,",
+   "start": 120.128,
+   "end": 120.477,
+   "seg": 68
+  },
+  {
+   "w": "Rafael",
+   "start": 120.477,
+   "end": 120.826,
+   "seg": 69
+  },
+  {
+   "w": "finalmente",
+   "start": 120.826,
+   "end": 121.291,
+   "seg": 69
+  },
+  {
+   "w": "conseguiu",
+   "start": 121.291,
+   "end": 121.64,
+   "seg": 69
+  },
+  {
+   "w": "enxergar",
+   "start": 121.64,
+   "end": 122.069,
+   "seg": 69
+  },
+  {
+   "w": "a",
+   "start": 122.069,
+   "end": 122.28,
+   "seg": 69
+  },
+  {
+   "w": "próxima",
+   "start": 122.28,
+   "end": 122.668,
+   "seg": 69
+  },
+  {
+   "w": "estação.",
+   "start": 122.668,
+   "end": 123.182,
+   "seg": 69
+  },
+  {
+   "w": "Era",
+   "start": 123.182,
+   "end": 123.424,
+   "seg": 70
+  },
+  {
+   "w": "a",
+   "start": 123.424,
+   "end": 123.546,
+   "seg": 70
+  },
+  {
+   "w": "mesma",
+   "start": 123.546,
+   "end": 123.788,
+   "seg": 70
+  },
+  {
+   "w": "onde",
+   "start": 123.788,
+   "end": 124.093,
+   "seg": 70
+  },
+  {
+   "w": "havia",
+   "start": 124.093,
+   "end": 124.352,
+   "seg": 70
+  },
+  {
+   "w": "embarcado,",
+   "start": 124.352,
+   "end": 124.87,
+   "seg": 70
+  },
+  {
+   "w": "mas",
+   "start": 124.87,
+   "end": 125.0,
+   "seg": 71
+  },
+  {
+   "w": "havia",
+   "start": 125.0,
+   "end": 125.259,
+   "seg": 71
+  },
+  {
+   "w": "algo",
+   "start": 125.259,
+   "end": 125.518,
+   "seg": 71
+  },
+  {
+   "w": "diferente:",
+   "start": 125.518,
+   "end": 126.138,
+   "seg": 71
+  },
+  {
+   "w": "uma",
+   "start": 126.138,
+   "end": 126.403,
+   "seg": 72
+  },
+  {
+   "w": "multidão",
+   "start": 126.403,
+   "end": 126.934,
+   "seg": 72
+  },
+  {
+   "w": "estava",
+   "start": 126.934,
+   "end": 127.331,
+   "seg": 72
+  },
+  {
+   "w": "reunida",
+   "start": 127.331,
+   "end": 127.729,
+   "seg": 72
+  },
+  {
+   "w": "na",
+   "start": 127.729,
+   "end": 127.932,
+   "seg": 72
+  },
+  {
+   "w": "plataforma,",
+   "start": 127.932,
+   "end": 128.428,
+   "seg": 72
+  },
+  {
+   "w": "observando",
+   "start": 128.428,
+   "end": 128.984,
+   "seg": 73
+  },
+  {
+   "w": "o",
+   "start": 128.984,
+   "end": 129.123,
+   "seg": 73
+  },
+  {
+   "w": "trem",
+   "start": 129.123,
+   "end": 129.262,
+   "seg": 73
+  },
+  {
+   "w": "se",
+   "start": 129.262,
+   "end": 129.401,
+   "seg": 73
+  },
+  {
+   "w": "aproximar.",
+   "start": 129.401,
+   "end": 130.14,
+   "seg": 73
+  },
+  {
+   "w": "E,",
+   "start": 130.14,
+   "end": 130.282,
+   "seg": 74
+  },
+  {
+   "w": "no",
+   "start": 130.282,
+   "end": 130.425,
+   "seg": 75
+  },
+  {
+   "w": "meio",
+   "start": 130.425,
+   "end": 130.567,
+   "seg": 75
+  },
+  {
+   "w": "daquelas",
+   "start": 130.567,
+   "end": 130.984,
+   "seg": 75
+  },
+  {
+   "w": "pessoas,",
+   "start": 130.984,
+   "end": 131.401,
+   "seg": 75
+  },
+  {
+   "w": "havia",
+   "start": 131.401,
+   "end": 131.693,
+   "seg": 76
+  },
+  {
+   "w": "um",
+   "start": 131.693,
+   "end": 131.818,
+   "seg": 76
+  },
+  {
+   "w": "homem",
+   "start": 131.818,
+   "end": 132.096,
+   "seg": 76
+  },
+  {
+   "w": "segurando",
+   "start": 132.096,
+   "end": 132.652,
+   "seg": 76
+  },
+  {
+   "w": "uma",
+   "start": 132.652,
+   "end": 132.93,
+   "seg": 76
+  },
+  {
+   "w": "fotografia",
+   "start": 132.93,
+   "end": 133.487,
+   "seg": 76
+  },
+  {
+   "w": "de",
+   "start": 133.487,
+   "end": 133.626,
+   "seg": 76
+  },
+  {
+   "w": "Rafael.",
+   "start": 133.626,
+   "end": 134.15,
+   "seg": 76
+  },
+  {
+   "w": "Era",
+   "start": 134.15,
+   "end": 134.409,
+   "seg": 77
+  },
+  {
+   "w": "o",
+   "start": 134.409,
+   "end": 134.539,
+   "seg": 77
+  },
+  {
+   "w": "próprio",
+   "start": 134.539,
+   "end": 134.798,
+   "seg": 77
+  },
+  {
+   "w": "Rafael,",
+   "start": 134.798,
+   "end": 135.186,
+   "seg": 77
+  },
+  {
+   "w": "só",
+   "start": 135.186,
+   "end": 135.316,
+   "seg": 78
+  },
+  {
+   "w": "que",
+   "start": 135.316,
+   "end": 135.527,
+   "seg": 78
+  },
+  {
+   "w": "quinze",
+   "start": 135.527,
+   "end": 135.95,
+   "seg": 78
+  },
+  {
+   "w": "anos",
+   "start": 135.95,
+   "end": 136.203,
+   "seg": 78
+  },
+  {
+   "w": "mais",
+   "start": 136.203,
+   "end": 136.33,
+   "seg": 78
+  },
+  {
+   "w": "velho.",
+   "start": 136.33,
+   "end": 136.583,
+   "seg": 78
+  },
+  {
+   "w": "Quando",
+   "start": 136.583,
+   "end": 136.837,
+   "seg": 79
+  },
+  {
+   "w": "as",
+   "start": 136.837,
+   "end": 136.963,
+   "seg": 79
+  },
+  {
+   "w": "portas",
+   "start": 136.963,
+   "end": 137.217,
+   "seg": 79
+  },
+  {
+   "w": "começaram",
+   "start": 137.217,
+   "end": 137.723,
+   "seg": 79
+  },
+  {
+   "w": "a",
+   "start": 137.723,
+   "end": 137.935,
+   "seg": 79
+  },
+  {
+   "w": "abrir,",
+   "start": 137.935,
+   "end": 138.15,
+   "seg": 79
+  },
+  {
+   "w": "o",
+   "start": 138.15,
+   "end": 138.304,
+   "seg": 80
+  },
+  {
+   "w": "homem",
+   "start": 138.304,
+   "end": 138.612,
+   "seg": 80
+  },
+  {
+   "w": "levantou",
+   "start": 138.612,
+   "end": 139.074,
+   "seg": 80
+  },
+  {
+   "w": "a",
+   "start": 139.074,
+   "end": 139.228,
+   "seg": 80
+  },
+  {
+   "w": "cabeça",
+   "start": 139.228,
+   "end": 139.648,
+   "seg": 80
+  },
+  {
+   "w": "e",
+   "start": 139.648,
+   "end": 139.777,
+   "seg": 80
+  },
+  {
+   "w": "sussurrou",
+   "start": 139.777,
+   "end": 140.307,
+   "seg": 80
+  },
+  {
+   "w": "algo",
+   "start": 140.307,
+   "end": 140.615,
+   "seg": 80
+  },
+  {
+   "w": "que",
+   "start": 140.615,
+   "end": 140.769,
+   "seg": 80
+  },
+  {
+   "w": "Rafael",
+   "start": 140.769,
+   "end": 141.231,
+   "seg": 80
+  },
+  {
+   "w": "conseguiu",
+   "start": 141.231,
+   "end": 141.693,
+   "seg": 80
+  },
+  {
+   "w": "ler",
+   "start": 141.693,
+   "end": 141.847,
+   "seg": 80
+  },
+  {
+   "w": "pelos",
+   "start": 141.847,
+   "end": 142.155,
+   "seg": 80
+  },
+  {
+   "w": "seus",
+   "start": 142.155,
+   "end": 142.393,
+   "seg": 80
+  },
+  {
+   "w": "lábios:",
+   "start": 142.393,
+   "end": 142.618,
+   "seg": 80
+  },
+  {
+   "w": "\"Você",
+   "start": 142.618,
+   "end": 142.926,
+   "seg": 81
+  },
+  {
+   "w": "não",
+   "start": 142.926,
+   "end": 143.234,
+   "seg": 81
+  },
+  {
+   "w": "deveria",
+   "start": 143.234,
+   "end": 143.696,
+   "seg": 81
+  },
+  {
+   "w": "ter",
+   "start": 143.696,
+   "end": 143.932,
+   "seg": 81
+  },
+  {
+   "w": "embarcado",
+   "start": 143.932,
+   "end": 144.514,
+   "seg": 81
+  },
+  {
+   "w": "novamente.\"",
+   "start": 144.514,
+   "end": 145.014,
+   "seg": 81
+  }
+ ]
+}

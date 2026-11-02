@@ -9,16 +9,18 @@ function partX(c) {
   const FX = 390, FY = 940;
   const warm = (w) => w;
   /* ---------- abertura: o senhor de costas, pouca luz, olhando para a janela (sem revelar) ---------- */
-  q(0, 4, { z0: 1.0, z1: 1.35, x0: 540, x1: 470, y0: 1100, y1: 1000, shk: 0.5 }, (t, lt, Pf) => SALAA(Pf, t, { dark: 0.5, warm: 0.0 }) + AUGX({ t, view: 'b', hide: 1 }, 520, 1700, 1.2), 0);
-  q(4, 7, { z0: 1.5, z1: 1.9, x0: 330, x1: 330, y0: 800, y1: 780, shk: 0.5 }, (t, lt, Pf) => SALAA(Pf, t, { dark: 0.45, warm: 0.08 }) + AUGX({ t, view: 'b', hide: 1 }, 700, 1750, 1.4) + R(-400, -400, 1880, 2720, '#0a0a1a', OP(0.1)), 0);
+  const DK2 = '#04030a';
+  const DARK = (Pf) => BIG(DK2) + glow(Pf, 'A', 540, 960, 600, 0.05);
+  q(0, 5, { z0: 1.0, z1: 1.35, shk: 1, gl: 0 }, (t, lt, Pf) => DARK(Pf) + EYESX(Pf, t, 540, 960, 2.2, { open: 0.55 * ez(lt / 0.4), dil: 0.2, glow: 1 }), 0);
+  q(5, 7, { z0: 1.0, z1: 1.3, x0: 540, x1: 540, shk: 2 }, (t, lt, Pf) => DARK(Pf) + EYESX(Pf, t, 540, 960, 2.2, { open: 0.7, dil: 0.9, look: 1.2, glow: 1 }), '#ffe9c0');
+  q(7, 10, { z0: 1.0, z1: 1.15, shk: 3 }, (t, lt, Pf) => HALLA(Pf, t, {}) + DOORA(Pf, t, 540, 1150, 1.5, { strip: 0.5 }) + M(t, { eye: 1.1, lookx: -1, worry: 0.2, smile: 0 }, lp(1350, 560, ez(lt / 1.0)), 1000, 2.2), '#fff');
+  q(10, 16, { z0: 1.15, z1: 1.0, shk: 3 }, (t, lt, Pf) => HALLA(Pf, t, {}) + DOORA(Pf, t, 540, 1150, 1.5, { strip: 0.5 + 0.4 * Math.sin(t * 9) }) + M(t, { eye: 1.1, lookx: -1 + 2 * ez(lt / 1.2), worry: 0.3, smile: 0 }, lp(560, -400, ez((lt - 0.2) / 1.6)), 1000, 2.2), 0);
+  q(16, 19, { z0: 1.0, z1: 9.0, x0: 540, x1: 540, y0: 1000, y1: 814, shk: 3 }, (t, lt, Pf) => HALLA(Pf, t, {}) + DOORA(Pf, t, 540, 1150, 1.5, { strip: 0.5 }), 0);
+  q(19, 22, { z0: 1.0, z1: 1.12, shk: 2 }, (t, lt, Pf) => BIG('#0a0810') + PEEPCIRC(Pf, t, 540, 960, 430, BIG(DK2) + EYESX(Pf, t, 540, 960, 1.35, { look: 0.5, dil: 0.9 }) + glow(Pf, 'A', 540, 960, 520, 0.12)), '#ffe9c0');
+  q(22, 25, { z0: 1.0, z1: 1.3, x0: 540, x1: 540, y0: 1000, y1: 1100, shk: 2 }, (t, lt, Pf) => FACADE(Pf, t, { warm: 0.25, bl: 0 }) + BGX({ kind: 'mar', view: 'f', bag: 1, t, walk: 1, ph: lt * 8 }, 540 + 40 * lt, 1850, 1.0), 0);
+  q(25, 30, { z0: 1.0, z1: 2.6, x0: 540, x1: FX, y0: 1000, y1: FY, shk: 2 }, (t, lt, Pf) => FACADE(Pf, t, { warm: 0.3, bl: 0 }) + (lt > 1.2 ? G(EYESX(Pf, t, 0, 0, 0.2, { open: ez((lt - 1.2) / 0.3) }), `translate(${FX + 80} ${FY + 80})`) : ''), 0);
+  q(30, 34, { z0: 1.0, z1: 1.3, shk: 3 }, (t, lt, Pf) => HALLA(Pf, t, {}) + DOORA(Pf, t, 540, 1150, 1.5, { strip: 0.3 }) + NAMEP(540, 540, 1.0) + PEEPCIRC(Pf, t, 540, 1150 - 240 * 1.5, 40, BIG(DK2) + EYESX(Pf, t, 540, 790, 0.1, { dil: 1 })), '#fff');
   /* ---------- apresentação do mistério ---------- */
-  q(7, 12, { z0: 1.0, z1: 1.3, x0: 540, x1: 540, shk: 1 }, (t, lt, Pf) => HALLA(Pf, t, {}), '#ffe9c0');
-  q(12, 16, { z0: 1.0, z1: 1.5, x0: 540, x1: 400, y0: 1100, y1: 900, shk: 1 }, (t, lt, Pf) => FACADE(Pf, t, { warm: 0.15, bl: 0 }));
-  q(16, 20, { z0: 1.0, z1: 1.7, x0: 540, x1: 540, y0: 1100, y1: 1250, shk: 2 }, (t, lt, Pf) => HALLA(Pf, t, {}) + DOORA(Pf, t, 540, 1150, 1.3, { strip: 0.5 }), '#ffe9c0');
-  q(20, 23, { z0: 1.0, z1: 1.25, x0: 540, x1: 540, y0: 1000, y1: 1100, shk: 1 }, (t, lt, Pf) => FACADE(Pf, t, { warm: 0.25, bl: 0 }));
-  q(23, 25, { z0: 1.0, z1: 1.2, shk: 2 }, (t, lt, Pf) => STREETA(Pf, t, { warm: 0.45 }) + BGX({ kind: 'mar', view: 'f', bag: 1, t, walk: 1, ph: lt * 8 }, 540, 1750, 1.2));
-  q(25, 30, { z0: 1.0, z1: 2.2, x0: 540, x1: FX, y0: 1000, y1: FY, shk: 1 }, (t, lt, Pf) => FACADE(Pf, t, { warm: 0.3, bl: 0 }));
-  q(30, 34, { z0: 1.0, z1: 1.3, shk: 2 }, (t, lt, Pf) => HALLA(Pf, t, {}) + DOORA(Pf, t, 540, 1150, 1.4, {}) + NAMEP(540, 540, 1.0), '#fff');
   q(34, 37, { z0: 1.0, z1: 1.3, shk: 1 }, (t, lt, Pf) => HALLA(Pf, t, {}) + R(250, 1480, 600, 40, '#5a3a24', OP(0.9)) + DOORA(Pf, t, 540, 1150, 1.0, { strip: 0 }));
   q(37, 42, { z0: 1.0, z1: 1.3, x0: 700, x1: 560, shk: 1 }, (t, lt, Pf) => LOBBYA(Pf, t, {}) + G(R(-90, -70, 180, 140, '#c8a070', 'stroke="#5a3a24" stroke-width="8"') + TXT(0, 10, '302', 44, '#3a2418') + L(-90, -20, 90, -20, '#8a6a3a', 8), 'translate(250 1440)') + G(R(-80, -60, 160, 120, '#d8b080', 'stroke="#5a3a24" stroke-width="8"'), 'translate(440 1452)'));
   q(42, 46, { z0: 1.0, z1: 1.3, shk: 1 }, (t, lt, Pf) => BGF(Pf, '#4a3a4c') + Pt(t, { smile: 0.4, mouth: 0.3 * Math.abs(Math.sin(t * 8)) }), 0);

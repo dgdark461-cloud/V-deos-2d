@@ -37,3 +37,17 @@ const HOODED = (Pf, t, x, y, sc, o = {}) => {
   s += glow(Pf, 'A', -20, 10, 380, 0.1);
   return G(s, `translate(${f1(x)} ${f1(y)}) scale(${sc})`);
 };
+/* seu Augusto de capuz preto: rosto inteiro em pouca luz, sério → sorriso maligno */
+const HOODFACE = (Pf, t, x, y, sc, o = {}) => {
+  const sm = o.smile || 0, ck = { cloth: '#0b0a10', clothSh: '#15131c', hair: '#0d0c13', hi: '#0d0c13' };
+  const defs = `<defs><radialGradient id="${Pf}hl" cx="0.46" cy="0.58" r="0.5"><stop offset="0" stop-color="#000" stop-opacity="0.0"/><stop offset="0.45" stop-color="#000" stop-opacity="0.55"/><stop offset="1" stop-color="#000" stop-opacity="0.97"/></radialGradient><linearGradient id="${Pf}hu" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#000" stop-opacity="0.95"/><stop offset="0.42" stop-color="#000" stop-opacity="0.7"/><stop offset="0.56" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.2"/></linearGradient></defs>`;
+  let s = defs + R(-900, -900, 1800, 1800, '#050409') + C(0, -40, 700, '#2e2c4c', OP(1)) + C(0, -40, 520, '#403e68', OP(0.9)) + C(0, -40, 400, '#58567f', OP(0.8));
+  s += P('M-340,460 Q-410,-150 -190,-350 Q0,-490 190,-350 Q410,-150 340,460Z', '#050408') + P('M-340,460 Q-410,-150 -190,-350 Q0,-490 190,-350 Q410,-150 340,460', 'none', 'stroke="#6a6890" stroke-width="10" opacity="0.9"');
+  s += FG(t, { kind: 'aug', eye: 0.62 - 0.08 * sm, lookx: 0, looky: 0.1, worry: -1.4, smile: sm, up: -0.6, blush: 0, kp: ck, tilt: -2 * sm });
+  if (sm > 0.35) { const u = (sm - 0.35) / 0.65; s += P(`M-54,${88 - 6 * u} Q0,${96 + 40 * u} 58,${80 - 16 * u} Q10,${100 + 20 * u} -54,${88 - 6 * u}Z`, '#1a0a0c', OP(0.9)) + P(`M-40,${92 + 2 * u} Q4,${106 + 22 * u} 46,${88 - 8 * u}`, 'none', `stroke="#f4efe6" stroke-width="${f1(4 * u)}" stroke-linecap="round"`); }
+  s += P('M-130,170 Q-220,300 -350,460 L350,460 Q220,300 130,170Z', '#0d0c13') + P('M-130,170 Q-220,300 -350,460', 'none', 'stroke="#3a384c" stroke-width="6"');
+  s += P('M-210,-10 Q-170,-84 0,-94 Q170,-84 210,-10 Q250,-205 0,-240 Q-250,-205 -210,-10Z', '#0d0c13') + P('M-240,-190 Q-280,40 -240,340 L-134,340 Q-166,110 -152,-24Z', '#0d0c13') + P('M240,-190 Q280,40 240,340 L134,340 Q166,110 152,-24Z', '#0d0c13');
+  s += P('M-210,-10 Q-170,-84 0,-94 Q170,-84 210,-10', 'none', 'stroke="#5a5878" stroke-width="7" opacity="0.9"') + [0, 1, 2].map(i => P(`M${-320 + i * 26},${-130 + i * 70} Q${-270 + i * 20},${80} ${-240 + i * 16},${400}`, 'none', 'stroke="#22202e" stroke-width="8" opacity="0.9"')).join('') + [0, 1, 2].map(i => P(`M${320 - i * 26},${-130 + i * 70} Q${270 - i * 20},${80} ${240 - i * 16},${400}`, 'none', 'stroke="#22202e" stroke-width="8" opacity="0.9"')).join('');
+  s += E(-10, 50, 250, 330, `url(#${Pf}hl)`) + R(-215, -330, 430, 800, `url(#${Pf}hu)`);
+  return G(s, `translate(${f1(x)} ${f1(y)}) scale(${sc})`);
+};

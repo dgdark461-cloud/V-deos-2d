@@ -11,8 +11,8 @@ function partX(c) {
   /* ---------- abertura: o senhor de costas, pouca luz, olhando para a janela (sem revelar) ---------- */
   const DK2 = '#04030a';
   const DARK = (Pf) => BIG(DK2) + glow(Pf, 'A', 540, 960, 600, 0.05);
-  q(0, 5, { z0: 1.0, z1: 1.2, shk: 1, gl: 0 }, (t, lt, Pf) => HOODED(Pf, t, 540, 960, 1.7, { open: 0.5 + 0.35 * ez(lt / 0.5), look: -0.6 }), 0);
-  q(5, 7, { z0: 1.15, z1: 1.55, x0: 540, x1: 540, y0: 960, y1: 940, shk: 2 }, (t, lt, Pf) => HOODED(Pf, t, 540, 960, 1.7, { open: 0.85, look: 1.2, brow: 1 }), '#ffe9c0');
+  q(0, 5, { z0: 1.0, z1: 1.22, shk: 1, gl: 0 }, (t, lt, Pf) => HOODFACE(Pf, t, 540, 980, 2.0, { smile: 0 }) + BIG('#000', 1 - ez(lt / 0.35)), 0);
+  q(5, 7, { z0: 1.2, z1: 1.5, x0: 540, x1: 540, y0: 900, y1: 880, shk: 2 }, (t, lt, Pf) => HOODFACE(Pf, t, 540, 980, 2.0, { smile: 0.95 * ez(lt / 0.55) }), '#ffe9c0');
   q(7, 10, { z0: 1.0, z1: 1.15, shk: 3 }, (t, lt, Pf) => HALLA(Pf, t, {}) + DOORA(Pf, t, 540, 1150, 1.5, { strip: 0.5 }) + M(t, { eye: 1.1, lookx: -1, worry: 0.2, smile: 0 }, lp(1350, 560, ez(lt / 1.0)), 1000, 2.2), '#fff');
   q(10, 16, { z0: 1.15, z1: 1.0, shk: 3 }, (t, lt, Pf) => HALLA(Pf, t, {}) + DOORA(Pf, t, 540, 1150, 1.5, { strip: 0.5 + 0.4 * Math.sin(t * 9) }) + M(t, { eye: 1.1, lookx: -1 + 2 * ez(lt / 1.2), worry: 0.3, smile: 0 }, lp(560, -400, ez((lt - 0.2) / 1.6)), 1000, 2.2), 0);
   q(16, 19, { z0: 1.0, z1: 9.0, x0: 540, x1: 540, y0: 1000, y1: 814, shk: 3 }, (t, lt, Pf) => HALLA(Pf, t, {}) + DOORA(Pf, t, 540, 1150, 1.5, { strip: 0.5 }), 0);

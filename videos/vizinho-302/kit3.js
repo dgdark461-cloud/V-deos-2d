@@ -5,7 +5,7 @@ const KP = {
   por: { skin: '#d9a37f', sh: '#a8745a', hair: '#2a2420', hi: '#4a3c34', cloth: '#2d5a9a', clothSh: '#1d3a66', pants: '#222a38' },
 };
 function FG(t, o = {}) {
-  const d = Object.assign({ kind: 'mar', eye: 1, lookx: 0, looky: 0, worry: 0, mouth: 0, smile: 0.3, tilt: 0, blush: 0.3, up: 0 }, o), K = KP[d.kind];
+  const d = Object.assign({ kind: 'mar', eye: 1, lookx: 0, looky: 0, worry: 0, mouth: 0, smile: 0.3, tilt: 0, blush: 0.3, up: 0 }, o), K = Object.assign({}, KP[d.kind], o.kp || {});
   const bl = (t % 3.9) < 0.12 ? 0.12 : 1, ey = Math.min(1.5, d.eye) * bl, lx = d.lookx * 12, ly = d.looky * 9, br = Math.sin(t * 1.5) * 2;
   const ink = 'stroke="#05080b" stroke-width="3"';
   let s = '';

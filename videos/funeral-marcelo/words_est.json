@@ -1,0 +1,2446 @@
+{
+ "method": "estimated: pauses + syllables (no speech recognition)",
+ "duration": 101.264,
+ "speech_start": 0.0,
+ "speech_end": 101.18,
+ "silence_threshold_db": -35.2,
+ "pauses": [
+  {
+   "start": 2.01,
+   "end": 2.24
+  },
+  {
+   "start": 4.81,
+   "end": 5.21
+  },
+  {
+   "start": 7.22,
+   "end": 7.69
+  },
+  {
+   "start": 12.56,
+   "end": 12.81
+  },
+  {
+   "start": 15.13,
+   "end": 15.43
+  },
+  {
+   "start": 16.66,
+   "end": 16.78
+  },
+  {
+   "start": 17.54,
+   "end": 17.76
+  },
+  {
+   "start": 19.53,
+   "end": 19.69
+  },
+  {
+   "start": 20.64,
+   "end": 20.82
+  },
+  {
+   "start": 22.68,
+   "end": 23.08
+  },
+  {
+   "start": 25.01,
+   "end": 25.38
+  },
+  {
+   "start": 27.77,
+   "end": 27.94
+  },
+  {
+   "start": 29.06,
+   "end": 29.25
+  },
+  {
+   "start": 30.26,
+   "end": 30.62
+  },
+  {
+   "start": 31.94,
+   "end": 32.24
+  },
+  {
+   "start": 34.18,
+   "end": 34.32
+  },
+  {
+   "start": 36.8,
+   "end": 37.2
+  },
+  {
+   "start": 38.69,
+   "end": 38.85
+  },
+  {
+   "start": 41.41,
+   "end": 41.53
+  },
+  {
+   "start": 43.66,
+   "end": 43.81
+  },
+  {
+   "start": 46.92,
+   "end": 47.04
+  },
+  {
+   "start": 48.51,
+   "end": 48.82
+  },
+  {
+   "start": 51.56,
+   "end": 51.71
+  },
+  {
+   "start": 54.51,
+   "end": 54.63
+  },
+  {
+   "start": 55.83,
+   "end": 56.19
+  },
+  {
+   "start": 57.68,
+   "end": 57.91
+  },
+  {
+   "start": 59.28,
+   "end": 59.49
+  },
+  {
+   "start": 62.52,
+   "end": 62.67
+  },
+  {
+   "start": 63.76,
+   "end": 63.98
+  },
+  {
+   "start": 67.62,
+   "end": 67.75
+  },
+  {
+   "start": 68.68,
+   "end": 69.0
+  },
+  {
+   "start": 71.12,
+   "end": 71.29
+  },
+  {
+   "start": 72.15,
+   "end": 72.29
+  },
+  {
+   "start": 73.23,
+   "end": 73.39
+  },
+  {
+   "start": 74.17,
+   "end": 74.39
+  },
+  {
+   "start": 74.84,
+   "end": 75.0
+  },
+  {
+   "start": 75.66,
+   "end": 75.82
+  },
+  {
+   "start": 78.86,
+   "end": 79.11
+  },
+  {
+   "start": 80.62,
+   "end": 80.78
+  },
+  {
+   "start": 87.18,
+   "end": 87.35
+  },
+  {
+   "start": 88.05,
+   "end": 88.19
+  },
+  {
+   "start": 88.84,
+   "end": 88.99
+  },
+  {
+   "start": 90.47,
+   "end": 90.62
+  },
+  {
+   "start": 94.91,
+   "end": 95.05
+  },
+  {
+   "start": 96.64,
+   "end": 96.81
+  }
+ ],
+ "segments": [
+  {
+   "i": 0,
+   "text": "Imagine passar em frente a um cemitério e descobrir que estão realizando o seu próprio funeral.",
+   "start": 0.0,
+   "end": 4.81,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 1,
+   "text": "Foi exatamente isso que aconteceu com Marcelo,",
+   "start": 5.21,
+   "end": 7.22,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 2,
+   "text": "um homem de 34 anos que voltava do trabalho quando viu uma multidão reunida diante de um túmulo.",
+   "start": 7.69,
+   "end": 12.1,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 3,
+   "text": "Curioso,",
+   "start": 12.1,
+   "end": 12.56,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 4,
+   "text": "aproximou-se para entender o que estava acontecendo.",
+   "start": 12.81,
+   "end": 15.13,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 5,
+   "text": "Mas,",
+   "start": 15.43,
+   "end": 15.577,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 6,
+   "text": "quando olhou para a fotografia sobre o caixão,",
+   "start": 15.577,
+   "end": 17.54,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 7,
+   "text": "sentiu as pernas perderem a força.",
+   "start": 17.76,
+   "end": 19.53,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 8,
+   "text": "Era o rosto dele.",
+   "start": 19.69,
+   "end": 20.64,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 9,
+   "text": "Marcelo começou a rir nervosamente,",
+   "start": 20.82,
+   "end": 22.68,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 10,
+   "text": "achando que aquilo era uma brincadeira de mau gosto.",
+   "start": 23.08,
+   "end": 25.01,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 11,
+   "text": "Até ouvir uma mulher chorando e repetindo seu nome.",
+   "start": 25.38,
+   "end": 27.77,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 12,
+   "text": "Era sua própria esposa.",
+   "start": 27.94,
+   "end": 29.06,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 13,
+   "text": "Ele tentou chamá-la,",
+   "start": 29.25,
+   "end": 30.091,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 14,
+   "text": "mas,",
+   "start": 30.091,
+   "end": 30.26,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 15,
+   "text": "quando ela olhou em sua direção,",
+   "start": 30.62,
+   "end": 31.94,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 16,
+   "text": "ficou completamente branca e desmaiou.",
+   "start": 32.24,
+   "end": 34.18,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 17,
+   "text": "Um homem de terno percebeu sua presença e correu até ele.",
+   "start": 34.32,
+   "end": 36.8,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 18,
+   "text": "Segurou seu braço e sussurrou:",
+   "start": 37.2,
+   "end": 38.69,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 19,
+   "text": "\"Você não deveria estar aqui.",
+   "start": 38.85,
+   "end": 40.137,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 20,
+   "text": "Nós enterramos você ontem.\"",
+   "start": 40.137,
+   "end": 41.41,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 21,
+   "text": "Marcelo se soltou e exigiu explicações.",
+   "start": 41.53,
+   "end": 43.66,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 22,
+   "text": "O desconhecido abriu uma pasta e mostrou uma certidão de óbito,",
+   "start": 43.81,
+   "end": 46.92,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 23,
+   "text": "documentos de identificação e até o resultado de um exame que confirmava sua morte.",
+   "start": 47.04,
+   "end": 51.56,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 24,
+   "text": "Tudo estava registrado oficialmente.",
+   "start": 51.71,
+   "end": 53.843,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 25,
+   "text": "Desesperado,",
+   "start": 53.843,
+   "end": 54.51,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 26,
+   "text": "Marcelo ligou para a esposa,",
+   "start": 54.63,
+   "end": 55.83,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 27,
+   "text": "mas o celular dela estava desligado.",
+   "start": 56.19,
+   "end": 57.68,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 28,
+   "text": "Então percebeu outro detalhe:",
+   "start": 57.91,
+   "end": 59.28,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 29,
+   "text": "ninguém naquele funeral parecia surpreso com sua aparência.",
+   "start": 59.49,
+   "end": 62.52,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 30,
+   "text": "Todos estavam assustados,",
+   "start": 62.67,
+   "end": 63.76,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 31,
+   "text": "como se estivessem vendo um morto voltar à vida.",
+   "start": 63.98,
+   "end": 66.015,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 32,
+   "text": "Ele decidiu procurar a polícia,",
+   "start": 66.015,
+   "end": 67.62,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 33,
+   "text": "mas,",
+   "start": 67.75,
+   "end": 67.917,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 34,
+   "text": "antes de sair,",
+   "start": 67.917,
+   "end": 68.68,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 35,
+   "text": "encontrou uma fotografia caída perto do caixão.",
+   "start": 69.0,
+   "end": 71.12,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 36,
+   "text": "Era uma imagem dele entrando em um carro,",
+   "start": 71.29,
+   "end": 73.23,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 37,
+   "text": "poucos dias antes.",
+   "start": 73.39,
+   "end": 74.17,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 38,
+   "text": "No verso havia uma frase:",
+   "start": 74.39,
+   "end": 75.66,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 39,
+   "text": "\"Agora ninguém vai procurar pelo verdadeiro desaparecido.\"",
+   "start": 75.82,
+   "end": 78.86,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 40,
+   "text": "Naquele instante,",
+   "start": 79.11,
+   "end": 79.88,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 41,
+   "text": "Marcelo entendeu.",
+   "start": 79.88,
+   "end": 80.62,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 42,
+   "text": "Alguém havia preparado sua morte para assumir sua identidade e ficar com tudo o que possuía.",
+   "start": 80.78,
+   "end": 85.558,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 43,
+   "text": "Mas a última descoberta foi ainda pior:",
+   "start": 85.558,
+   "end": 87.18,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 44,
+   "text": "o homem de terno era seu irmão,",
+   "start": 87.35,
+   "end": 88.84,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 45,
+   "text": "desaparecido havia quinze anos.",
+   "start": 88.99,
+   "end": 90.36,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 46,
+   "text": "E,",
+   "start": 90.36,
+   "end": 90.47,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 47,
+   "text": "quando Marcelo levantou os olhos para procurá-lo,",
+   "start": 90.62,
+   "end": 92.906,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 48,
+   "text": "ele já estava entrando no carro da sua esposa.",
+   "start": 92.906,
+   "end": 94.91,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 49,
+   "text": "O funeral não era uma despedida.",
+   "start": 95.05,
+   "end": 96.64,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 50,
+   "text": "Era a comemoração de quem finalmente conseguiu roubar sua vida.",
+   "start": 96.81,
+   "end": 101.18,
+   "anchored_on_pause": null
+  }
+ ],
+ "words": [
+  {
+   "w": "Imagine",
+   "start": 0.0,
+   "end": 0.535,
+   "seg": 0
+  },
+  {
+   "w": "passar",
+   "start": 0.535,
+   "end": 0.835,
+   "seg": 0
+  },
+  {
+   "w": "em",
+   "start": 0.835,
+   "end": 0.975,
+   "seg": 0
+  },
+  {
+   "w": "frente",
+   "start": 0.975,
+   "end": 1.255,
+   "seg": 0
+  },
+  {
+   "w": "a",
+   "start": 1.255,
+   "end": 1.395,
+   "seg": 0
+  },
+  {
+   "w": "um",
+   "start": 1.395,
+   "end": 1.515,
+   "seg": 0
+  },
+  {
+   "w": "cemitério",
+   "start": 1.515,
+   "end": 2.085,
+   "seg": 0
+  },
+  {
+   "w": "e",
+   "start": 2.085,
+   "end": 2.185,
+   "seg": 0
+  },
+  {
+   "w": "descobrir",
+   "start": 2.185,
+   "end": 2.595,
+   "seg": 0
+  },
+  {
+   "w": "que",
+   "start": 2.595,
+   "end": 2.765,
+   "seg": 0
+  },
+  {
+   "w": "estão",
+   "start": 2.765,
+   "end": 3.095,
+   "seg": 0
+  },
+  {
+   "w": "realizando",
+   "start": 3.095,
+   "end": 3.785,
+   "seg": 0
+  },
+  {
+   "w": "o",
+   "start": 3.785,
+   "end": 3.915,
+   "seg": 0
+  },
+  {
+   "w": "seu",
+   "start": 3.915,
+   "end": 4.075,
+   "seg": 0
+  },
+  {
+   "w": "próprio",
+   "start": 4.075,
+   "end": 4.435,
+   "seg": 0
+  },
+  {
+   "w": "funeral.",
+   "start": 4.435,
+   "end": 4.81,
+   "seg": 0
+  },
+  {
+   "w": "Foi",
+   "start": 5.21,
+   "end": 5.355,
+   "seg": 1
+  },
+  {
+   "w": "exatamente",
+   "start": 5.355,
+   "end": 5.925,
+   "seg": 1
+  },
+  {
+   "w": "isso",
+   "start": 5.925,
+   "end": 6.165,
+   "seg": 1
+  },
+  {
+   "w": "que",
+   "start": 6.165,
+   "end": 6.305,
+   "seg": 1
+  },
+  {
+   "w": "aconteceu",
+   "start": 6.305,
+   "end": 6.705,
+   "seg": 1
+  },
+  {
+   "w": "com",
+   "start": 6.705,
+   "end": 6.915,
+   "seg": 1
+  },
+  {
+   "w": "Marcelo,",
+   "start": 6.915,
+   "end": 7.22,
+   "seg": 1
+  },
+  {
+   "w": "um",
+   "start": 7.69,
+   "end": 7.855,
+   "seg": 2
+  },
+  {
+   "w": "homem",
+   "start": 7.855,
+   "end": 8.055,
+   "seg": 2
+  },
+  {
+   "w": "de",
+   "start": 8.055,
+   "end": 8.195,
+   "seg": 2
+  },
+  {
+   "w": "34",
+   "start": 8.195,
+   "end": 8.515,
+   "seg": 2
+  },
+  {
+   "w": "anos",
+   "start": 8.515,
+   "end": 8.705,
+   "seg": 2
+  },
+  {
+   "w": "que",
+   "start": 8.705,
+   "end": 8.875,
+   "seg": 2
+  },
+  {
+   "w": "voltava",
+   "start": 8.875,
+   "end": 9.215,
+   "seg": 2
+  },
+  {
+   "w": "do",
+   "start": 9.215,
+   "end": 9.415,
+   "seg": 2
+  },
+  {
+   "w": "trabalho",
+   "start": 9.415,
+   "end": 9.755,
+   "seg": 2
+  },
+  {
+   "w": "quando",
+   "start": 9.755,
+   "end": 9.985,
+   "seg": 2
+  },
+  {
+   "w": "viu",
+   "start": 9.985,
+   "end": 10.205,
+   "seg": 2
+  },
+  {
+   "w": "uma",
+   "start": 10.205,
+   "end": 10.385,
+   "seg": 2
+  },
+  {
+   "w": "multidão",
+   "start": 10.385,
+   "end": 10.925,
+   "seg": 2
+  },
+  {
+   "w": "reunida",
+   "start": 10.925,
+   "end": 11.235,
+   "seg": 2
+  },
+  {
+   "w": "diante",
+   "start": 11.235,
+   "end": 11.465,
+   "seg": 2
+  },
+  {
+   "w": "de",
+   "start": 11.465,
+   "end": 11.635,
+   "seg": 2
+  },
+  {
+   "w": "um",
+   "start": 11.635,
+   "end": 11.765,
+   "seg": 2
+  },
+  {
+   "w": "túmulo.",
+   "start": 11.765,
+   "end": 12.1,
+   "seg": 2
+  },
+  {
+   "w": "Curioso,",
+   "start": 12.1,
+   "end": 12.56,
+   "seg": 3
+  },
+  {
+   "w": "aproximou-se",
+   "start": 12.81,
+   "end": 13.395,
+   "seg": 4
+  },
+  {
+   "w": "para",
+   "start": 13.395,
+   "end": 13.585,
+   "seg": 4
+  },
+  {
+   "w": "entender",
+   "start": 13.585,
+   "end": 13.985,
+   "seg": 4
+  },
+  {
+   "w": "o",
+   "start": 13.985,
+   "end": 14.085,
+   "seg": 4
+  },
+  {
+   "w": "que",
+   "start": 14.085,
+   "end": 14.215,
+   "seg": 4
+  },
+  {
+   "w": "estava",
+   "start": 14.215,
+   "end": 14.605,
+   "seg": 4
+  },
+  {
+   "w": "acontecendo.",
+   "start": 14.605,
+   "end": 15.13,
+   "seg": 4
+  },
+  {
+   "w": "Mas,",
+   "start": 15.43,
+   "end": 15.577,
+   "seg": 5
+  },
+  {
+   "w": "quando",
+   "start": 15.577,
+   "end": 15.765,
+   "seg": 6
+  },
+  {
+   "w": "olhou",
+   "start": 15.765,
+   "end": 16.055,
+   "seg": 6
+  },
+  {
+   "w": "para",
+   "start": 16.055,
+   "end": 16.305,
+   "seg": 6
+  },
+  {
+   "w": "a",
+   "start": 16.305,
+   "end": 16.415,
+   "seg": 6
+  },
+  {
+   "w": "fotografia",
+   "start": 16.415,
+   "end": 16.925,
+   "seg": 6
+  },
+  {
+   "w": "sobre",
+   "start": 16.925,
+   "end": 17.115,
+   "seg": 6
+  },
+  {
+   "w": "o",
+   "start": 17.115,
+   "end": 17.215,
+   "seg": 6
+  },
+  {
+   "w": "caixão,",
+   "start": 17.215,
+   "end": 17.54,
+   "seg": 6
+  },
+  {
+   "w": "sentiu",
+   "start": 17.76,
+   "end": 18.095,
+   "seg": 7
+  },
+  {
+   "w": "as",
+   "start": 18.095,
+   "end": 18.225,
+   "seg": 7
+  },
+  {
+   "w": "pernas",
+   "start": 18.225,
+   "end": 18.615,
+   "seg": 7
+  },
+  {
+   "w": "perderem",
+   "start": 18.615,
+   "end": 19.115,
+   "seg": 7
+  },
+  {
+   "w": "a",
+   "start": 19.115,
+   "end": 19.235,
+   "seg": 7
+  },
+  {
+   "w": "força.",
+   "start": 19.235,
+   "end": 19.53,
+   "seg": 7
+  },
+  {
+   "w": "Era",
+   "start": 19.69,
+   "end": 19.985,
+   "seg": 8
+  },
+  {
+   "w": "o",
+   "start": 19.985,
+   "end": 20.095,
+   "seg": 8
+  },
+  {
+   "w": "rosto",
+   "start": 20.095,
+   "end": 20.405,
+   "seg": 8
+  },
+  {
+   "w": "dele.",
+   "start": 20.405,
+   "end": 20.64,
+   "seg": 8
+  },
+  {
+   "w": "Marcelo",
+   "start": 20.82,
+   "end": 21.195,
+   "seg": 9
+  },
+  {
+   "w": "começou",
+   "start": 21.195,
+   "end": 21.665,
+   "seg": 9
+  },
+  {
+   "w": "a",
+   "start": 21.665,
+   "end": 21.855,
+   "seg": 9
+  },
+  {
+   "w": "rir",
+   "start": 21.855,
+   "end": 21.945,
+   "seg": 9
+  },
+  {
+   "w": "nervosamente,",
+   "start": 21.945,
+   "end": 22.68,
+   "seg": 9
+  },
+  {
+   "w": "achando",
+   "start": 23.08,
+   "end": 23.385,
+   "seg": 10
+  },
+  {
+   "w": "que",
+   "start": 23.385,
+   "end": 23.535,
+   "seg": 10
+  },
+  {
+   "w": "aquilo",
+   "start": 23.535,
+   "end": 23.835,
+   "seg": 10
+  },
+  {
+   "w": "era",
+   "start": 23.835,
+   "end": 24.025,
+   "seg": 10
+  },
+  {
+   "w": "uma",
+   "start": 24.025,
+   "end": 24.215,
+   "seg": 10
+  },
+  {
+   "w": "brincadeira",
+   "start": 24.215,
+   "end": 24.595,
+   "seg": 10
+  },
+  {
+   "w": "de",
+   "start": 24.595,
+   "end": 24.695,
+   "seg": 10
+  },
+  {
+   "w": "mau",
+   "start": 24.695,
+   "end": 24.825,
+   "seg": 10
+  },
+  {
+   "w": "gosto.",
+   "start": 24.825,
+   "end": 25.01,
+   "seg": 10
+  },
+  {
+   "w": "Até",
+   "start": 25.38,
+   "end": 25.675,
+   "seg": 11
+  },
+  {
+   "w": "ouvir",
+   "start": 25.675,
+   "end": 25.935,
+   "seg": 11
+  },
+  {
+   "w": "uma",
+   "start": 25.935,
+   "end": 26.155,
+   "seg": 11
+  },
+  {
+   "w": "mulher",
+   "start": 26.155,
+   "end": 26.435,
+   "seg": 11
+  },
+  {
+   "w": "chorando",
+   "start": 26.435,
+   "end": 26.785,
+   "seg": 11
+  },
+  {
+   "w": "e",
+   "start": 26.785,
+   "end": 26.915,
+   "seg": 11
+  },
+  {
+   "w": "repetindo",
+   "start": 26.915,
+   "end": 27.385,
+   "seg": 11
+  },
+  {
+   "w": "seu",
+   "start": 27.385,
+   "end": 27.485,
+   "seg": 11
+  },
+  {
+   "w": "nome.",
+   "start": 27.485,
+   "end": 27.77,
+   "seg": 11
+  },
+  {
+   "w": "Era",
+   "start": 27.94,
+   "end": 28.185,
+   "seg": 12
+  },
+  {
+   "w": "sua",
+   "start": 28.185,
+   "end": 28.315,
+   "seg": 12
+  },
+  {
+   "w": "própria",
+   "start": 28.315,
+   "end": 28.645,
+   "seg": 12
+  },
+  {
+   "w": "esposa.",
+   "start": 28.645,
+   "end": 29.06,
+   "seg": 12
+  },
+  {
+   "w": "Ele",
+   "start": 29.25,
+   "end": 29.415,
+   "seg": 13
+  },
+  {
+   "w": "tentou",
+   "start": 29.415,
+   "end": 29.715,
+   "seg": 13
+  },
+  {
+   "w": "chamá-la,",
+   "start": 29.715,
+   "end": 30.091,
+   "seg": 13
+  },
+  {
+   "w": "mas,",
+   "start": 30.091,
+   "end": 30.26,
+   "seg": 14
+  },
+  {
+   "w": "quando",
+   "start": 30.62,
+   "end": 30.845,
+   "seg": 15
+  },
+  {
+   "w": "ela",
+   "start": 30.845,
+   "end": 31.095,
+   "seg": 15
+  },
+  {
+   "w": "olhou",
+   "start": 31.095,
+   "end": 31.275,
+   "seg": 15
+  },
+  {
+   "w": "em",
+   "start": 31.275,
+   "end": 31.395,
+   "seg": 15
+  },
+  {
+   "w": "sua",
+   "start": 31.395,
+   "end": 31.505,
+   "seg": 15
+  },
+  {
+   "w": "direção,",
+   "start": 31.505,
+   "end": 31.94,
+   "seg": 15
+  },
+  {
+   "w": "ficou",
+   "start": 32.24,
+   "end": 32.535,
+   "seg": 16
+  },
+  {
+   "w": "completamente",
+   "start": 32.535,
+   "end": 33.335,
+   "seg": 16
+  },
+  {
+   "w": "branca",
+   "start": 33.335,
+   "end": 33.675,
+   "seg": 16
+  },
+  {
+   "w": "e",
+   "start": 33.675,
+   "end": 33.795,
+   "seg": 16
+  },
+  {
+   "w": "desmaiou.",
+   "start": 33.795,
+   "end": 34.18,
+   "seg": 16
+  },
+  {
+   "w": "Um",
+   "start": 34.32,
+   "end": 34.415,
+   "seg": 17
+  },
+  {
+   "w": "homem",
+   "start": 34.415,
+   "end": 34.695,
+   "seg": 17
+  },
+  {
+   "w": "de",
+   "start": 34.695,
+   "end": 34.825,
+   "seg": 17
+  },
+  {
+   "w": "terno",
+   "start": 34.825,
+   "end": 35.125,
+   "seg": 17
+  },
+  {
+   "w": "percebeu",
+   "start": 35.125,
+   "end": 35.425,
+   "seg": 17
+  },
+  {
+   "w": "sua",
+   "start": 35.425,
+   "end": 35.585,
+   "seg": 17
+  },
+  {
+   "w": "presença",
+   "start": 35.585,
+   "end": 35.965,
+   "seg": 17
+  },
+  {
+   "w": "e",
+   "start": 35.965,
+   "end": 36.105,
+   "seg": 17
+  },
+  {
+   "w": "correu",
+   "start": 36.105,
+   "end": 36.365,
+   "seg": 17
+  },
+  {
+   "w": "até",
+   "start": 36.365,
+   "end": 36.595,
+   "seg": 17
+  },
+  {
+   "w": "ele.",
+   "start": 36.595,
+   "end": 36.8,
+   "seg": 17
+  },
+  {
+   "w": "Segurou",
+   "start": 37.2,
+   "end": 37.685,
+   "seg": 18
+  },
+  {
+   "w": "seu",
+   "start": 37.685,
+   "end": 37.815,
+   "seg": 18
+  },
+  {
+   "w": "braço",
+   "start": 37.815,
+   "end": 38.135,
+   "seg": 18
+  },
+  {
+   "w": "e",
+   "start": 38.135,
+   "end": 38.235,
+   "seg": 18
+  },
+  {
+   "w": "sussurrou:",
+   "start": 38.235,
+   "end": 38.69,
+   "seg": 18
+  },
+  {
+   "w": "\"Você",
+   "start": 38.85,
+   "end": 39.125,
+   "seg": 19
+  },
+  {
+   "w": "não",
+   "start": 39.125,
+   "end": 39.305,
+   "seg": 19
+  },
+  {
+   "w": "deveria",
+   "start": 39.305,
+   "end": 39.645,
+   "seg": 19
+  },
+  {
+   "w": "estar",
+   "start": 39.645,
+   "end": 39.885,
+   "seg": 19
+  },
+  {
+   "w": "aqui.",
+   "start": 39.885,
+   "end": 40.137,
+   "seg": 19
+  },
+  {
+   "w": "Nós",
+   "start": 40.137,
+   "end": 40.325,
+   "seg": 20
+  },
+  {
+   "w": "enterramos",
+   "start": 40.325,
+   "end": 40.825,
+   "seg": 20
+  },
+  {
+   "w": "você",
+   "start": 40.825,
+   "end": 41.145,
+   "seg": 20
+  },
+  {
+   "w": "ontem.\"",
+   "start": 41.145,
+   "end": 41.41,
+   "seg": 20
+  },
+  {
+   "w": "Marcelo",
+   "start": 41.53,
+   "end": 41.985,
+   "seg": 21
+  },
+  {
+   "w": "se",
+   "start": 41.985,
+   "end": 42.115,
+   "seg": 21
+  },
+  {
+   "w": "soltou",
+   "start": 42.115,
+   "end": 42.425,
+   "seg": 21
+  },
+  {
+   "w": "e",
+   "start": 42.425,
+   "end": 42.535,
+   "seg": 21
+  },
+  {
+   "w": "exigiu",
+   "start": 42.535,
+   "end": 42.945,
+   "seg": 21
+  },
+  {
+   "w": "explicações.",
+   "start": 42.945,
+   "end": 43.66,
+   "seg": 21
+  },
+  {
+   "w": "O",
+   "start": 43.81,
+   "end": 43.925,
+   "seg": 22
+  },
+  {
+   "w": "desconhecido",
+   "start": 43.925,
+   "end": 44.625,
+   "seg": 22
+  },
+  {
+   "w": "abriu",
+   "start": 44.625,
+   "end": 44.885,
+   "seg": 22
+  },
+  {
+   "w": "uma",
+   "start": 44.885,
+   "end": 45.095,
+   "seg": 22
+  },
+  {
+   "w": "pasta",
+   "start": 45.095,
+   "end": 45.345,
+   "seg": 22
+  },
+  {
+   "w": "e",
+   "start": 45.345,
+   "end": 45.455,
+   "seg": 22
+  },
+  {
+   "w": "mostrou",
+   "start": 45.455,
+   "end": 45.705,
+   "seg": 22
+  },
+  {
+   "w": "uma",
+   "start": 45.705,
+   "end": 45.975,
+   "seg": 22
+  },
+  {
+   "w": "certidão",
+   "start": 45.975,
+   "end": 46.465,
+   "seg": 22
+  },
+  {
+   "w": "de",
+   "start": 46.465,
+   "end": 46.595,
+   "seg": 22
+  },
+  {
+   "w": "óbito,",
+   "start": 46.595,
+   "end": 46.92,
+   "seg": 22
+  },
+  {
+   "w": "documentos",
+   "start": 47.04,
+   "end": 47.575,
+   "seg": 23
+  },
+  {
+   "w": "de",
+   "start": 47.575,
+   "end": 47.705,
+   "seg": 23
+  },
+  {
+   "w": "identificação",
+   "start": 47.705,
+   "end": 48.725,
+   "seg": 23
+  },
+  {
+   "w": "e",
+   "start": 48.725,
+   "end": 48.825,
+   "seg": 23
+  },
+  {
+   "w": "até",
+   "start": 48.825,
+   "end": 49.065,
+   "seg": 23
+  },
+  {
+   "w": "o",
+   "start": 49.065,
+   "end": 49.175,
+   "seg": 23
+  },
+  {
+   "w": "resultado",
+   "start": 49.175,
+   "end": 49.725,
+   "seg": 23
+  },
+  {
+   "w": "de",
+   "start": 49.725,
+   "end": 49.915,
+   "seg": 23
+  },
+  {
+   "w": "um",
+   "start": 49.915,
+   "end": 50.015,
+   "seg": 23
+  },
+  {
+   "w": "exame",
+   "start": 50.015,
+   "end": 50.375,
+   "seg": 23
+  },
+  {
+   "w": "que",
+   "start": 50.375,
+   "end": 50.585,
+   "seg": 23
+  },
+  {
+   "w": "confirmava",
+   "start": 50.585,
+   "end": 51.165,
+   "seg": 23
+  },
+  {
+   "w": "sua",
+   "start": 51.165,
+   "end": 51.305,
+   "seg": 23
+  },
+  {
+   "w": "morte.",
+   "start": 51.305,
+   "end": 51.56,
+   "seg": 23
+  },
+  {
+   "w": "Tudo",
+   "start": 51.71,
+   "end": 51.985,
+   "seg": 24
+  },
+  {
+   "w": "estava",
+   "start": 51.985,
+   "end": 52.405,
+   "seg": 24
+  },
+  {
+   "w": "registrado",
+   "start": 52.405,
+   "end": 53.115,
+   "seg": 24
+  },
+  {
+   "w": "oficialmente.",
+   "start": 53.115,
+   "end": 53.843,
+   "seg": 24
+  },
+  {
+   "w": "Desesperado,",
+   "start": 53.843,
+   "end": 54.51,
+   "seg": 25
+  },
+  {
+   "w": "Marcelo",
+   "start": 54.63,
+   "end": 55.005,
+   "seg": 26
+  },
+  {
+   "w": "ligou",
+   "start": 55.005,
+   "end": 55.185,
+   "seg": 26
+  },
+  {
+   "w": "para",
+   "start": 55.185,
+   "end": 55.385,
+   "seg": 26
+  },
+  {
+   "w": "a",
+   "start": 55.385,
+   "end": 55.485,
+   "seg": 26
+  },
+  {
+   "w": "esposa,",
+   "start": 55.485,
+   "end": 55.83,
+   "seg": 26
+  },
+  {
+   "w": "mas",
+   "start": 56.19,
+   "end": 56.305,
+   "seg": 27
+  },
+  {
+   "w": "o",
+   "start": 56.305,
+   "end": 56.405,
+   "seg": 27
+  },
+  {
+   "w": "celular",
+   "start": 56.405,
+   "end": 56.795,
+   "seg": 27
+  },
+  {
+   "w": "dela",
+   "start": 56.795,
+   "end": 56.985,
+   "seg": 27
+  },
+  {
+   "w": "estava",
+   "start": 56.985,
+   "end": 57.225,
+   "seg": 27
+  },
+  {
+   "w": "desligado.",
+   "start": 57.225,
+   "end": 57.68,
+   "seg": 27
+  },
+  {
+   "w": "Então",
+   "start": 57.91,
+   "end": 58.205,
+   "seg": 28
+  },
+  {
+   "w": "percebeu",
+   "start": 58.205,
+   "end": 58.625,
+   "seg": 28
+  },
+  {
+   "w": "outro",
+   "start": 58.625,
+   "end": 58.935,
+   "seg": 28
+  },
+  {
+   "w": "detalhe:",
+   "start": 58.935,
+   "end": 59.28,
+   "seg": 28
+  },
+  {
+   "w": "ninguém",
+   "start": 59.49,
+   "end": 59.775,
+   "seg": 29
+  },
+  {
+   "w": "naquele",
+   "start": 59.775,
+   "end": 60.235,
+   "seg": 29
+  },
+  {
+   "w": "funeral",
+   "start": 60.235,
+   "end": 60.705,
+   "seg": 29
+  },
+  {
+   "w": "parecia",
+   "start": 60.705,
+   "end": 61.215,
+   "seg": 29
+  },
+  {
+   "w": "surpreso",
+   "start": 61.215,
+   "end": 61.665,
+   "seg": 29
+  },
+  {
+   "w": "com",
+   "start": 61.665,
+   "end": 61.795,
+   "seg": 29
+  },
+  {
+   "w": "sua",
+   "start": 61.795,
+   "end": 61.915,
+   "seg": 29
+  },
+  {
+   "w": "aparência.",
+   "start": 61.915,
+   "end": 62.52,
+   "seg": 29
+  },
+  {
+   "w": "Todos",
+   "start": 62.67,
+   "end": 62.975,
+   "seg": 30
+  },
+  {
+   "w": "estavam",
+   "start": 62.975,
+   "end": 63.335,
+   "seg": 30
+  },
+  {
+   "w": "assustados,",
+   "start": 63.335,
+   "end": 63.76,
+   "seg": 30
+  },
+  {
+   "w": "como",
+   "start": 63.98,
+   "end": 64.215,
+   "seg": 31
+  },
+  {
+   "w": "se",
+   "start": 64.215,
+   "end": 64.315,
+   "seg": 31
+  },
+  {
+   "w": "estivessem",
+   "start": 64.315,
+   "end": 64.765,
+   "seg": 31
+  },
+  {
+   "w": "vendo",
+   "start": 64.765,
+   "end": 65.095,
+   "seg": 31
+  },
+  {
+   "w": "um",
+   "start": 65.095,
+   "end": 65.195,
+   "seg": 31
+  },
+  {
+   "w": "morto",
+   "start": 65.195,
+   "end": 65.365,
+   "seg": 31
+  },
+  {
+   "w": "voltar",
+   "start": 65.365,
+   "end": 65.655,
+   "seg": 31
+  },
+  {
+   "w": "à",
+   "start": 65.655,
+   "end": 65.765,
+   "seg": 31
+  },
+  {
+   "w": "vida.",
+   "start": 65.765,
+   "end": 66.015,
+   "seg": 31
+  },
+  {
+   "w": "Ele",
+   "start": 66.015,
+   "end": 66.215,
+   "seg": 32
+  },
+  {
+   "w": "decidiu",
+   "start": 66.215,
+   "end": 66.635,
+   "seg": 32
+  },
+  {
+   "w": "procurar",
+   "start": 66.635,
+   "end": 67.065,
+   "seg": 32
+  },
+  {
+   "w": "a",
+   "start": 67.065,
+   "end": 67.265,
+   "seg": 32
+  },
+  {
+   "w": "polícia,",
+   "start": 67.265,
+   "end": 67.62,
+   "seg": 32
+  },
+  {
+   "w": "mas,",
+   "start": 67.75,
+   "end": 67.917,
+   "seg": 33
+  },
+  {
+   "w": "antes",
+   "start": 67.917,
+   "end": 68.285,
+   "seg": 34
+  },
+  {
+   "w": "de",
+   "start": 68.285,
+   "end": 68.465,
+   "seg": 34
+  },
+  {
+   "w": "sair,",
+   "start": 68.465,
+   "end": 68.68,
+   "seg": 34
+  },
+  {
+   "w": "encontrou",
+   "start": 69.0,
+   "end": 69.365,
+   "seg": 35
+  },
+  {
+   "w": "uma",
+   "start": 69.365,
+   "end": 69.635,
+   "seg": 35
+  },
+  {
+   "w": "fotografia",
+   "start": 69.635,
+   "end": 70.085,
+   "seg": 35
+  },
+  {
+   "w": "caída",
+   "start": 70.085,
+   "end": 70.485,
+   "seg": 35
+  },
+  {
+   "w": "perto",
+   "start": 70.485,
+   "end": 70.645,
+   "seg": 35
+  },
+  {
+   "w": "do",
+   "start": 70.645,
+   "end": 70.815,
+   "seg": 35
+  },
+  {
+   "w": "caixão.",
+   "start": 70.815,
+   "end": 71.12,
+   "seg": 35
+  },
+  {
+   "w": "Era",
+   "start": 71.29,
+   "end": 71.535,
+   "seg": 36
+  },
+  {
+   "w": "uma",
+   "start": 71.535,
+   "end": 71.725,
+   "seg": 36
+  },
+  {
+   "w": "imagem",
+   "start": 71.725,
+   "end": 72.155,
+   "seg": 36
+  },
+  {
+   "w": "dele",
+   "start": 72.155,
+   "end": 72.415,
+   "seg": 36
+  },
+  {
+   "w": "entrando",
+   "start": 72.415,
+   "end": 72.715,
+   "seg": 36
+  },
+  {
+   "w": "em",
+   "start": 72.715,
+   "end": 72.885,
+   "seg": 36
+  },
+  {
+   "w": "um",
+   "start": 72.885,
+   "end": 72.985,
+   "seg": 36
+  },
+  {
+   "w": "carro,",
+   "start": 72.985,
+   "end": 73.23,
+   "seg": 36
+  },
+  {
+   "w": "poucos",
+   "start": 73.39,
+   "end": 73.705,
+   "seg": 37
+  },
+  {
+   "w": "dias",
+   "start": 73.705,
+   "end": 73.895,
+   "seg": 37
+  },
+  {
+   "w": "antes.",
+   "start": 73.895,
+   "end": 74.17,
+   "seg": 37
+  },
+  {
+   "w": "No",
+   "start": 74.39,
+   "end": 74.555,
+   "seg": 38
+  },
+  {
+   "w": "verso",
+   "start": 74.555,
+   "end": 74.885,
+   "seg": 38
+  },
+  {
+   "w": "havia",
+   "start": 74.885,
+   "end": 75.085,
+   "seg": 38
+  },
+  {
+   "w": "uma",
+   "start": 75.085,
+   "end": 75.375,
+   "seg": 38
+  },
+  {
+   "w": "frase:",
+   "start": 75.375,
+   "end": 75.66,
+   "seg": 38
+  },
+  {
+   "w": "\"Agora",
+   "start": 75.82,
+   "end": 76.185,
+   "seg": 39
+  },
+  {
+   "w": "ninguém",
+   "start": 76.185,
+   "end": 76.515,
+   "seg": 39
+  },
+  {
+   "w": "vai",
+   "start": 76.515,
+   "end": 76.705,
+   "seg": 39
+  },
+  {
+   "w": "procurar",
+   "start": 76.705,
+   "end": 77.145,
+   "seg": 39
+  },
+  {
+   "w": "pelo",
+   "start": 77.145,
+   "end": 77.455,
+   "seg": 39
+  },
+  {
+   "w": "verdadeiro",
+   "start": 77.455,
+   "end": 77.965,
+   "seg": 39
+  },
+  {
+   "w": "desaparecido.\"",
+   "start": 77.965,
+   "end": 78.86,
+   "seg": 39
+  },
+  {
+   "w": "Naquele",
+   "start": 79.11,
+   "end": 79.485,
+   "seg": 40
+  },
+  {
+   "w": "instante,",
+   "start": 79.485,
+   "end": 79.88,
+   "seg": 40
+  },
+  {
+   "w": "Marcelo",
+   "start": 79.88,
+   "end": 80.265,
+   "seg": 41
+  },
+  {
+   "w": "entendeu.",
+   "start": 80.265,
+   "end": 80.62,
+   "seg": 41
+  },
+  {
+   "w": "Alguém",
+   "start": 80.78,
+   "end": 81.145,
+   "seg": 42
+  },
+  {
+   "w": "havia",
+   "start": 81.145,
+   "end": 81.405,
+   "seg": 42
+  },
+  {
+   "w": "preparado",
+   "start": 81.405,
+   "end": 81.975,
+   "seg": 42
+  },
+  {
+   "w": "sua",
+   "start": 81.975,
+   "end": 82.135,
+   "seg": 42
+  },
+  {
+   "w": "morte",
+   "start": 82.135,
+   "end": 82.355,
+   "seg": 42
+  },
+  {
+   "w": "para",
+   "start": 82.355,
+   "end": 82.695,
+   "seg": 42
+  },
+  {
+   "w": "assumir",
+   "start": 82.695,
+   "end": 83.175,
+   "seg": 42
+  },
+  {
+   "w": "sua",
+   "start": 83.175,
+   "end": 83.315,
+   "seg": 42
+  },
+  {
+   "w": "identidade",
+   "start": 83.315,
+   "end": 84.025,
+   "seg": 42
+  },
+  {
+   "w": "e",
+   "start": 84.025,
+   "end": 84.145,
+   "seg": 42
+  },
+  {
+   "w": "ficar",
+   "start": 84.145,
+   "end": 84.455,
+   "seg": 42
+  },
+  {
+   "w": "com",
+   "start": 84.455,
+   "end": 84.545,
+   "seg": 42
+  },
+  {
+   "w": "tudo",
+   "start": 84.545,
+   "end": 84.805,
+   "seg": 42
+  },
+  {
+   "w": "o",
+   "start": 84.805,
+   "end": 84.945,
+   "seg": 42
+  },
+  {
+   "w": "que",
+   "start": 84.945,
+   "end": 85.135,
+   "seg": 42
+  },
+  {
+   "w": "possuía.",
+   "start": 85.135,
+   "end": 85.558,
+   "seg": 42
+  },
+  {
+   "w": "Mas",
+   "start": 85.558,
+   "end": 85.695,
+   "seg": 43
+  },
+  {
+   "w": "a",
+   "start": 85.695,
+   "end": 85.835,
+   "seg": 43
+  },
+  {
+   "w": "última",
+   "start": 85.835,
+   "end": 86.125,
+   "seg": 43
+  },
+  {
+   "w": "descoberta",
+   "start": 86.125,
+   "end": 86.695,
+   "seg": 43
+  },
+  {
+   "w": "foi",
+   "start": 86.695,
+   "end": 86.805,
+   "seg": 43
+  },
+  {
+   "w": "ainda",
+   "start": 86.805,
+   "end": 87.075,
+   "seg": 43
+  },
+  {
+   "w": "pior:",
+   "start": 87.075,
+   "end": 87.18,
+   "seg": 43
+  },
+  {
+   "w": "o",
+   "start": 87.35,
+   "end": 87.505,
+   "seg": 44
+  },
+  {
+   "w": "homem",
+   "start": 87.505,
+   "end": 87.765,
+   "seg": 44
+  },
+  {
+   "w": "de",
+   "start": 87.765,
+   "end": 87.875,
+   "seg": 44
+  },
+  {
+   "w": "terno",
+   "start": 87.875,
+   "end": 88.135,
+   "seg": 44
+  },
+  {
+   "w": "era",
+   "start": 88.135,
+   "end": 88.305,
+   "seg": 44
+  },
+  {
+   "w": "seu",
+   "start": 88.305,
+   "end": 88.455,
+   "seg": 44
+  },
+  {
+   "w": "irmão,",
+   "start": 88.455,
+   "end": 88.84,
+   "seg": 44
+  },
+  {
+   "w": "desaparecido",
+   "start": 88.99,
+   "end": 89.645,
+   "seg": 45
+  },
+  {
+   "w": "havia",
+   "start": 89.645,
+   "end": 89.855,
+   "seg": 45
+  },
+  {
+   "w": "quinze",
+   "start": 89.855,
+   "end": 90.185,
+   "seg": 45
+  },
+  {
+   "w": "anos.",
+   "start": 90.185,
+   "end": 90.36,
+   "seg": 45
+  },
+  {
+   "w": "E,",
+   "start": 90.36,
+   "end": 90.47,
+   "seg": 46
+  },
+  {
+   "w": "quando",
+   "start": 90.62,
+   "end": 90.855,
+   "seg": 47
+  },
+  {
+   "w": "Marcelo",
+   "start": 90.855,
+   "end": 91.345,
+   "seg": 47
+  },
+  {
+   "w": "levantou",
+   "start": 91.345,
+   "end": 91.685,
+   "seg": 47
+  },
+  {
+   "w": "os",
+   "start": 91.685,
+   "end": 91.895,
+   "seg": 47
+  },
+  {
+   "w": "olhos",
+   "start": 91.895,
+   "end": 92.185,
+   "seg": 47
+  },
+  {
+   "w": "para",
+   "start": 92.185,
+   "end": 92.355,
+   "seg": 47
+  },
+  {
+   "w": "procurá-lo,",
+   "start": 92.355,
+   "end": 92.906,
+   "seg": 47
+  },
+  {
+   "w": "ele",
+   "start": 92.906,
+   "end": 93.155,
+   "seg": 48
+  },
+  {
+   "w": "já",
+   "start": 93.155,
+   "end": 93.255,
+   "seg": 48
+  },
+  {
+   "w": "estava",
+   "start": 93.255,
+   "end": 93.575,
+   "seg": 48
+  },
+  {
+   "w": "entrando",
+   "start": 93.575,
+   "end": 93.995,
+   "seg": 48
+  },
+  {
+   "w": "no",
+   "start": 93.995,
+   "end": 94.105,
+   "seg": 48
+  },
+  {
+   "w": "carro",
+   "start": 94.105,
+   "end": 94.285,
+   "seg": 48
+  },
+  {
+   "w": "da",
+   "start": 94.285,
+   "end": 94.475,
+   "seg": 48
+  },
+  {
+   "w": "sua",
+   "start": 94.475,
+   "end": 94.565,
+   "seg": 48
+  },
+  {
+   "w": "esposa.",
+   "start": 94.565,
+   "end": 94.91,
+   "seg": 48
+  },
+  {
+   "w": "O",
+   "start": 95.05,
+   "end": 95.185,
+   "seg": 49
+  },
+  {
+   "w": "funeral",
+   "start": 95.185,
+   "end": 95.575,
+   "seg": 49
+  },
+  {
+   "w": "não",
+   "start": 95.575,
+   "end": 95.705,
+   "seg": 49
+  },
+  {
+   "w": "era",
+   "start": 95.705,
+   "end": 95.995,
+   "seg": 49
+  },
+  {
+   "w": "uma",
+   "start": 95.995,
+   "end": 96.185,
+   "seg": 49
+  },
+  {
+   "w": "despedida.",
+   "start": 96.185,
+   "end": 96.64,
+   "seg": 49
+  },
+  {
+   "w": "Era",
+   "start": 96.81,
+   "end": 97.165,
+   "seg": 50
+  },
+  {
+   "w": "a",
+   "start": 97.165,
+   "end": 97.375,
+   "seg": 50
+  },
+  {
+   "w": "comemoração",
+   "start": 97.375,
+   "end": 98.415,
+   "seg": 50
+  },
+  {
+   "w": "de",
+   "start": 98.415,
+   "end": 98.615,
+   "seg": 50
+  },
+  {
+   "w": "quem",
+   "start": 98.615,
+   "end": 98.835,
+   "seg": 50
+  },
+  {
+   "w": "finalmente",
+   "start": 98.835,
+   "end": 99.575,
+   "seg": 50
+  },
+  {
+   "w": "conseguiu",
+   "start": 99.575,
+   "end": 100.195,
+   "seg": 50
+  },
+  {
+   "w": "roubar",
+   "start": 100.195,
+   "end": 100.675,
+   "seg": 50
+  },
+  {
+   "w": "sua",
+   "start": 100.675,
+   "end": 100.815,
+   "seg": 50
+  },
+  {
+   "w": "vida.",
+   "start": 100.815,
+   "end": 101.18,
+   "seg": 50
+  }
+ ]
+}

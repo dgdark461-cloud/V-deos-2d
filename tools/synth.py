@@ -298,8 +298,37 @@ def horn(dur=2.6):
     return _fade(_filt(x, "lowpass", 1200) * env, 0.01, 0.3)
 
 
+def rain(dur=8.0):
+    """chuva leve: ruído filtrado + gotas esparsas."""
+    n = int(dur * SR); x = _rng.standard_normal(n)
+    b, a = signal.butter(2, [900 / (SR / 2), 7500 / (SR / 2)], "band"); x = signal.lfilter(b, a, x) * 0.5
+    drops = (_rng.random(n) < 0.0012).astype(float)
+    drops = np.convolve(drops, _decay(300, 0.002), mode="same") * np.sin(np.arange(n) * 2 * np.pi * 3200 / SR)
+    lvl = 0.8 + 0.2 * np.sin(2 * np.pi * 0.17 * _t(dur))
+    return _fade(_norm((x * lvl + drops * 2.0)), 0.3, 0.5)
+
+
+def murmur(dur=8.0):
+    """murmúrios de multidão: ruído em faixa de voz com modulação silábica."""
+    n = int(dur * SR); out = np.zeros(n)
+    for k, f in enumerate((300, 520, 780)):
+        x = _rng.standard_normal(n)
+        b, a = signal.butter(2, [(f * 0.7) / (SR / 2), (f * 1.4) / (SR / 2)], "band"); x = signal.lfilter(b, a, x)
+        m = 0.5 + 0.5 * np.sin(2 * np.pi * (3.1 + 0.9 * k) * _t(dur) + k * 2) * np.sin(2 * np.pi * (0.4 + 0.13 * k) * _t(dur))
+        out += x * m
+    return _fade(_norm(out), 0.4, 0.6)
+
+
+def sob(dur=3.0):
+    """choro abafado: tom que oscila com soluços."""
+    t = _t(dur); f = 420 + 40 * np.sin(2 * np.pi * 5 * t)
+    x = np.sin(2 * np.pi * np.cumsum(f) / SR) * (0.4 + 0.6 * np.abs(np.sin(2 * np.pi * 1.3 * t))) ** 2
+    x += 0.15 * _rng.standard_normal(len(t)); b, a = signal.butter(2, 1800 / (SR / 2)); x = signal.lfilter(b, a, x)
+    return _fade(_norm(x), 0.1, 0.4)
+
+
 FX = {
-    "rails": rails, "rumble": rumble, "scream_echo": scream_echo, "train_brake": train_brake, "doors_air": doors_air, "chime": chime, "buzz_flicker": buzz_flicker, "horn": horn,
+    "rain": rain, "murmur": murmur, "sob": sob, "rails": rails, "rumble": rumble, "scream_echo": scream_echo, "train_brake": train_brake, "doors_air": doors_air, "chime": chime, "buzz_flicker": buzz_flicker, "horn": horn,
     "pop": pop, "whoosh": whoosh, "impact": impact, "click": click, "heartbeat": heartbeat,
     "shimmer": shimmer, "wood_knock": wood_knock, "creak": creak, "footsteps": footsteps,
     "dirt_fall": dirt_fall, "beep": beep, "ticktock": ticktock, "drone": drone, "chord": chord,

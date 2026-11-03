@@ -27,7 +27,7 @@ const FENCE = (y, x0 = -100, x1 = 1180, col = '#b88a58') => { let s = R(x0, y - 
 const YARDE = (Pf, t, o = {}) => {
   const sk = o.sk || 'day', hy = o.hy || 980, gy = hy + 140, dark = sk === 'dark' || sk === 'dusk';
   let s = SKYE(sk, hy + 100) + (sk === 'day' ? glow(Pf, 'W', 800, 260, 520, 0.5) + [0, 1, 2].map(i => E(160 + i * 380 + 14 * Math.sin(t * 0.3 + i), 260 + 70 * i, 140, 44, '#fff', OP(0.8))).join('') : '') + P(`M-100,${hy} Q200,${hy - 160} 520,${hy - 40} T1180,${hy - 100} L1180,${hy + 60} L-100,${hy + 60}Z`, dark ? '#2a5a3a' : '#7ac070');
-  s += FENCE(hy + 90, -100, 1180, dark ? '#8a6a48' : '#c89a64') + R(-100, hy + 90, 1380, 1100, `url(#gr_lawn${dark ? '_d' : ''})`);
+  s += FENCE(hy + 90, -100, 1180, dark ? '#8a6a48' : '#c89a64') + R(-100, hy + 90, 1380, 2600, `url(#gr_lawn${dark ? '_d' : ''})`);
   for (let i = 0; i < 40; i++) { const x = hz(i, 1) * 1200 - 60, y = hy + 140 + hz(i, 2) * 800; s += P(`M${x},${y} l-6,-22 M${x},${y} l4,-26 M${x},${y} l10,-20`, 'none', `stroke="${dark ? '#2a6a34' : '#3a8a30'}" stroke-width="4" stroke-linecap="round"`); }
   for (let i = 0; i < 14; i++) { const x = hz(i, 5) * 1100, y = hy + 200 + hz(i, 6) * 700; s += C(x, y, 8, ['#ffd23a', '#fff', '#ff7a9a'][i % 3]) + C(x, y, 3, '#c8541a'); }
   return s;
@@ -58,7 +58,7 @@ const KITCHE = (Pf, t, o = {}) => {
 const FORESTD = (Pf, t, o = {}) => {
   const ph = o.ph || 0; let s = SKYE('dream', 1300) + glow(Pf, 'B', 540, 700, 800, 0.4) + C(760, 420, 120, '#ffe6f0', OP(0.8)) + glow(Pf, 'W', 760, 420, 380, 0.5);
   for (let L_ = 0; L_ < 3; L_++) { const n = 7, col = ['#4a2a6a', '#3a1f58', '#241240'][L_]; for (let i = 0; i < n; i++) { const x = ((i * 190 + L_ * 70 + ph * (20 + L_ * 30)) % 1500) - 200, w = 50 + L_ * 26 + 20 * hz(i, L_), h = 1500; s += P(`M${x - w},1500 Q${x - w * 0.6},800 ${x - w * 0.3},0 L${x + w * 0.3},0 Q${x + w * 0.6},800 ${x + w},1500Z`, col, OP(0.95)); } s += R(-100, 0, 1400, 1500, ['#b070c8', '#8a50b0', '#401a60'][L_], OP(0.10)); }
-  s += R(-100, 1250, 1280, 700, '#2a1a40') + E(540, 1300, 520, 90, '#6a3a8a', OP(0.5));
+  s += R(-100, 1250, 1280, 1500, '#2a1a40') + E(540, 1300, 520, 90, '#6a3a8a', OP(0.5));
   for (let i = 0; i < 30; i++) s += C(hz(i, 1) * 1080, 300 + hz(i, 2) * 1100 + 20 * Math.sin(t * 1.3 + i), 3 + 3 * hz(i, 3), '#ffe890', OP(0.5 + 0.5 * Math.sin(t * 2 + i * 2))) + glow(Pf, 'A', hz(i, 1) * 1080, 300 + hz(i, 2) * 1100, 22, 0.35);
   return s + R(-100, 700, 1280, 700, '#e0b0f0', OP(0.10 + 0.05 * Math.sin(t)));
 };

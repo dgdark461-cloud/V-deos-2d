@@ -24,7 +24,7 @@ function EF(t, o = {}) {
   s += P('M-56,34 Q0,98 56,34 Q40,72 0,80 Q-40,72 -56,34Z', d.sh, OP(0.25));
   if (d.blush) s += E(-42, 26, 15, 9, '#e8604a', OP(0.35 * d.blush)) + E(42, 26, 15, 9, '#e8604a', OP(0.35 * d.blush));
   s += eye(-27) + eye(27);
-  const rb = d.raise * 9, wb = d.worry * 9, ab = d.angry * 9;
+  const rb = d.raise * 9, wb = d.worry * 9, ab = d.angry * 9; d.sm = d.sm - d.worry * 0.9 - d.angry * 0.5;
   s += PL([[-46, -33 - rb + wb * 0.3 - ab * 0.2], [-30, -40 - rb - wb * 0.3], [-10, -33 - rb - wb + ab]], d.hair, 8) + PL([[46, -33 - rb + wb * 0.3 - ab * 0.2], [30, -40 - rb - wb * 0.3], [10, -33 - rb - wb + ab]], d.hair, 8);
   s += P('M-4,10 Q0,22 8,19', 'none', `stroke="${d.sh}" stroke-width="4" stroke-linecap="round"`);
   const m = d.m, sm = d.sm;
@@ -50,6 +50,7 @@ function EFS(t, o = {}) {
   s += E(-12, 8, 12, 20, d.skin, `stroke="${OL}" stroke-width="3"`) + E(-12, 10, 5, 10, d.sh);
   s += E(30, -6, 12, 17 * ey + 1.5, '#fbfaf5', `stroke="${OL}" stroke-width="3"`) + (ey > 0.2 ? C(34, -6, 7.5, '#4a2a1a') + C(35, -7, 3.5, '#0c0806') : '');
   s += PL([[16, -30 - d.raise * 8 + d.worry * 4], [32, -34 - d.raise * 8], [46, -28 - d.raise * 8 - d.worry * 6]], d.hair, 7);
+  d.sm = d.sm - d.worry * 0.9;
   const m = d.m;
   if (m > 0.1) s += E(46, 42, 9, 4 + m * 14, '#4a1414', `stroke="${OL}" stroke-width="2.5"`); else s += P(`M34,44 Q46,${44 + d.sm * 10} 54,${40 - d.sm * 3}`, 'none', `stroke="${OL}" stroke-width="3.5" stroke-linecap="round"`);
   s += P('M-72,-14 Q-80,-86 0,-92 Q70,-90 70,-24 Q50,-52 20,-56 Q-20,-44 -50,-50 Q-66,-44 -72,-14Z', d.hair, `stroke="${OL}" stroke-width="3"`);

@@ -1,6 +1,6 @@
 /* kitH.js - Daniel e a pantera: personagens adultos, pantera, cenarios dark, paralaxe 2.5D. */
 const OD = '#070a12';
-const PAL2 = { dan: { skin: '#d9a47c', sh: '#a8744e', hair: '#14100e', jk: '#c8602c', jks: '#8f3f1c', pants: '#2c3a52', pantsS: '#1e2a3e', boot: '#241812' }, hel: { skin: '#e2b896', sh: '#b88a68', hair: '#0c0a10', jk: '#e8dcc4', jks: '#b8a888', pants: '#1c2230', pantsS: '#121722', boot: '#14100e' } };
+const PAL2 = { dan: { skin: '#d9a47c', sh: '#a8744e', hair: '#14100e', jk: '#c8602c', jks: '#8f3f1c', pants: '#2c3a52', pantsS: '#1e2a3e', boot: '#241812' }, org: { skin: '#c8946c', sh: '#9a6a48', hair: '#0a0a0a', jk: '#1a1e2a', jks: '#10131c', pants: '#10131c', pantsS: '#0a0c12', boot: '#050608' }, hel: { skin: '#e2b896', sh: '#b88a68', hair: '#0c0a10', jk: '#e8dcc4', jks: '#b8a888', pants: '#1c2230', pantsS: '#121722', boot: '#14100e' } };
 const LIM2 = (pts, col, w) => PL(pts, OD, w + 6) + PL(pts, col, w);
 /* paralaxe 2.5D: camadas [{d, svg}], cam {x,y,dz} */
 const PAR = (layers, cam = {}) => layers.map(l => { const dz = (cam.dz || 0) * l.d, sc = 1 + dz; return G(l.svg, `translate(540 960) scale(${sc.toFixed(4)}) translate(${f1(-540 - (cam.x || 0) * l.d)} ${f1(-960 - (cam.y || 0) * l.d)})`); }).join('');
@@ -25,6 +25,7 @@ function FACE2(t, o = {}) {
   if (d.sweat) { const u = (t * 0.9) % 1; s += P('M54,-34 q-9,16 0,24 q9,-8 0,-24Z', '#a8d8f0', `stroke="${OD}" stroke-width="2" ${OP(d.sweat)}`) + P(`M-50,${-4 + u * 20} q-7,12 0,18 q7,-6 0,-18Z`, '#a8d8f0', OP(d.sweat * (1 - u * 0.6))); }
   if (F) s += P('M0,-100 Q-72,-96 -66,-18 Q-60,-62 -28,-70 Q-8,-76 0,-100Z', Q.hair, `stroke="${OD}" stroke-width="3"`) + P('M0,-100 Q72,-96 66,-18 Q60,-62 28,-70 Q8,-76 0,-100Z', Q.hair, `stroke="${OD}" stroke-width="3"`) + P('M-40,-84 Q-10,-96 0,-92', 'none', 'stroke="#3a3a50" stroke-width="5" stroke-linecap="round" opacity="0.7"');
   else s += P('M-62,-24 Q-72,-98 0,-102 Q72,-98 62,-24 Q58,-62 26,-72 Q-18,-58 -62,-24Z', Q.hair, `stroke="${OD}" stroke-width="3"`) + P('M-30,-92 Q0,-104 36,-88', 'none', 'stroke="#3a3a4a" stroke-width="5" stroke-linecap="round" opacity="0.7"');
+  if (d.gl) s += R(-44, -18, 36, 22, '#05060a', `rx="5" stroke="#4a4f5a" stroke-width="2"`) + R(8, -18, 36, 22, '#05060a', `rx="5" stroke="#4a4f5a" stroke-width="2"`) + L(-8, -8, 8, -8, '#4a4f5a', 3);
   if (d.rim) s += P('M54,-60 Q66,-10 52,40 Q44,64 28,78', 'none', `stroke="${d.rim}" stroke-width="5" stroke-linecap="round" opacity="0.8"`);
   return G(s, `translate(${f1(sx)} 0) rotate(${f1(d.tilt)})`);
 }
@@ -64,7 +65,7 @@ function PERS(o = {}) {
       const kind = d.arms, swg = Math.sin(d.ph + (sg > 0 ? 0 : Math.PI)) * sp * 30; let tg;
       if (sg > 0 && d.hand) tg = d.hand; else if (sg < 0 && d.handL) tg = d.handL;
       else if (kind === 'up') tg = [sg * 140, sh - 170]; else if (kind === 'cover') tg = [sg * 40, hdY + 50]; else if (kind === 'cheeks') tg = [sg * 70, hdY + 40]; else if (kind === 'hold') tg = [sg * 50, sh + 130]; else if (kind === 'wide') tg = [sg * 190, sh + 80]; else if (kind === 'crossed') tg = [-sg * 40, sh + 120]; else tg = [sg * 108, sh + 190 - Math.abs(swg) * 0.3];
-      const ik = IK([sg * Sx, Sy], tg, 84, 82, sg);
+      const ik = IK([sg * Sx, Sy], tg, 84, 82, -sg);
       return LIM2([ik[0], ik[1]], Q.jk, 40 * wd) + LIM2([ik[1], ik[2]], Q.jk, 32 * wd) + C(ik[2][0], ik[2][1], 17, Q.skin, `stroke="${OD}" stroke-width="3"`) + (sg > 0 && d.hold ? G(d.hold, `translate(${f1(ik[2][0])} ${f1(ik[2][1])})`) : '');
     };
     if (!fb && F) s += P(`M-64,${hdY} Q-84,${sh} -70,${sh + 160} L70,${sh + 160} Q84,${sh} 64,${hdY}Z`, Q.hair);
@@ -102,18 +103,19 @@ function PANT(o = {}) {
 }
 const EYESP = (Pf, t, x, y, sc, a = 1, o = {}) => { const b = (t % 3.3) < 0.12 ? 0.15 : 1; return G(glow(Pf, 'A', 0, 0, 260, 0.45 * a) + [-1, 1].map(sg => P(`M${sg * 90 - 54},0 Q${sg * 90},${-44 * b} ${sg * 90 + 54},0 Q${sg * 90},${34 * b} ${sg * 90 - 54},0Z`, o.col || '#e6ff3a', `stroke="#050505" stroke-width="6" ${OP(a)}`) + E(sg * 90, -2, 11, 28 * b, '#050505', OP(a))).join(''), `translate(${f1(x)} ${f1(y)}) scale(${sc})`); };
 /* cenarios */
-const FOREST2 = (Pf, t, o = {}) => {
+const FOREST2L = (Pf, t, o = {}) => {
   const px = o.px || 0, dz = o.dz || 0, tone = o.tone || 'blue', ground = o.ground === undefined ? 1250 : o.ground;
-  const mk = (n, col, w, hh, seed, dep) => { let s = ''; for (let i = 0; i < n; i++) { const x = (hz(i, seed) * 2400 - 600), ww = w * (0.7 + 0.6 * hz(i, seed + 1)); s += P(`M${f1(x - ww)},${ground + 200} Q${f1(x - ww * 0.5)},${ground - hh * 0.5} ${f1(x - ww * 0.25)},${ground - hh} L${f1(x + ww * 0.25)},${ground - hh} Q${f1(x + ww * 0.5)},${ground - hh * 0.5} ${f1(x + ww)},${ground + 200}Z`, col); } return s; };
+  const mk = (n, col, w, hh, seed, dep) => { let s = ''; for (let i = 0; i < n; i++) { const x = (hz(i, seed) * 2400 - 600), ww = w * (0.7 + 0.6 * hz(i, seed + 1)); s += P(`M${f1(x - ww)},${ground + 200} Q${f1(x - ww * 0.5)},${ground - hh * 0.5} ${f1(x - ww * 0.25)},${ground - hh} L${f1(x + ww * 0.25)},${ground - hh} Q${f1(x + ww * 0.5)},${ground - hh * 0.5} ${f1(x + ww)},${ground + 200}Z`, col) + P(`M${f1(x - ww * 0.25)},${ground - hh} Q${f1(x - ww * 0.5)},${ground - hh * 0.5} ${f1(x - ww)},${ground + 200}`, 'none', `stroke="#6ab4d8" stroke-width="${dep > 0.3 ? 5 : 3}" opacity="${dep < 0.3 ? 0.18 : 0.3}"`); } return s; };
   const layers = [
-    { d: 0.05, svg: R(-800, -800, 2680, 3200, `url(#sk_night)`) + glow(Pf, 'B', 760, 380, 760, 0.45) + C(760, 380, 90, '#d8e8f8') + C(792, 366, 78, '#0a1030', OP(0.0)) + glow(Pf, 'W', 760, 380, 300, 0.3) },
-    { d: 0.2, svg: mk(14, '#0d1c2a', 60, 1300, 11, 0.2) + R(-800, ground - 80, 2680, 400, '#0d1c2a') },
-    { d: 0.4, svg: mk(11, '#0a1520', 80, 1500, 21, 0.4) + R(-800, ground - 20, 2680, 400, '#0a141e') },
-    { d: 0.7, svg: mk(7, '#060d16', 110, 1800, 31, 0.7) + R(-800, ground + 40, 2680, 800, '#07101a') + E(540, ground + 20, 1200, 60, '#2a5a6a', OP(0.18 + 0.05 * Math.sin(t))) },
-    { d: 1.0, svg: mk(4, '#03060c', 170, 2200, 41, 1) + R(-800, ground + 160, 2680, 1400, '#04080e') }
+    { d: 0.05, svg: R(-800, -800, 2680, 3200, `url(#sk_night)`) + glow(Pf, 'B', 760, 380, 760, 0.45) + C(760, 380, 90, '#d8e8f8') + C(792, 366, 78, '#0a1030', OP(0.0)) + glow(Pf, 'W', 760, 380, 300, 0.3) + RAYS(Pf, t, 760, 380, 9, 2000, '#bfe0ff', 0.05) },
+    { d: 0.2, svg: mk(14, '#14303f', 60, 1300, 11, 0.2) + R(-800, ground - 80, 2680, 400, '#14303f') },
+    { d: 0.4, svg: mk(11, '#0f2433', 80, 1500, 21, 0.4) + R(-800, ground - 20, 2680, 400, '#0f2433') },
+    { d: 0.7, svg: mk(7, '#0a1a28', 110, 1800, 31, 0.7) + R(-800, ground + 40, 2680, 1200, '#0a1a28') + E(540, ground + 20, 1200, 60, '#2a5a6a', OP(0.18 + 0.05 * Math.sin(t))) },
+    { d: 1.0, svg: [[-140, 150], [1230, 170]].map(p => P(`M${p[0] - p[1]},${ground + 400} Q${p[0] - p[1] * 0.5},${ground - 600} ${p[0] - p[1] * 0.3},-400 L${p[0] + p[1] * 0.3},-400 Q${p[0] + p[1] * 0.5},${ground - 600} ${p[0] + p[1]},${ground + 400}Z`, '#03060c') + P(`M${p[0] - p[1] * 0.3},-400 Q${p[0] - p[1] * 0.5},${ground - 600} ${p[0] - p[1]},${ground + 400}`, 'none', 'stroke="#6ab4d8" stroke-width="5" opacity="0.3"')).join('') }
   ];
-  return PAR(layers, { x: px, y: o.py || 0, dz }) + (o.fog === 0 ? '' : R(-100, 700, 1280, 1000, '#4a8aa0', OP(0.07 + 0.03 * Math.sin(t * 0.7))));
+  return layers;
 };
+const FOREST2 = (Pf, t, o = {}) => PAR(FOREST2L(Pf, t, o), { x: o.px || 0, y: o.py || 0, dz: o.dz || 0 }) + (o.fog === 0 ? '' : R(-100, 700, 1280, 1000, '#4a8aa0', OP(0.07 + 0.03 * Math.sin(t * 0.7))));
 const TORCH = (x, y, ang, len, w, a = 0.5) => { const r = ang * Math.PI / 180, dx = Math.cos(r), dy = Math.sin(r), nx = -dy, ny = dx; return P(`M${f1(x)},${f1(y)} L${f1(x + dx * len + nx * w)},${f1(y + dy * len + ny * w)} L${f1(x + dx * len - nx * w)},${f1(y + dy * len - ny * w)}Z`, '#fff6c8', OP(a)) + glow('', 'W', x + dx * 40, y + dy * 40, 60, 0.9); };
 const CAMH = (x, y, sc, t) => G(R(-26, -18, 52, 36, '#15181e', `rx="6" stroke="#3a3f4a" stroke-width="3"`) + C(0, 0, 12, '#05060a', 'stroke="#3a3f4a" stroke-width="3"') + C(0, 0, 6, '#1a2a4a') + C(-4, -4, 2.5, '#fff', OP(0.7)) + C(18, -10, 4, '#ff2a2a', OP(Math.sin(t * 6) > 0 ? 1 : 0.15)) + glow('', 'R', 18, -10, 20, Math.sin(t * 6) > 0 ? 0.8 : 0.1), `translate(${f1(x)} ${f1(y)}) scale(${sc})`);
 const CAGE = (x, y, sc, o = {}) => { const open = o.open || 0, sx = Math.cos(open * Math.PI * 0.62); let s = R(-170, -150, 340, 150, '#0a0c12', OP(0.6)) + (o.inside ? G(PANT({ t: o.t || 0, crouch: 1, shadow: 0, rim: '#2a4a5a' }), 'translate(-20 -10) scale(0.5)') : ''); for (let i = 0; i <= 6; i++) s += L(-170 + i * 42.5, -150, -170 + i * 42.5, 0, '#6a7480', 7); s += R(-176, -158, 352, 14, '#4a5260', `stroke="${OD}" stroke-width="3"`) + R(-176, -8, 352, 14, '#4a5260', `stroke="${OD}" stroke-width="3"`); s += G(R(-85, -150, 85, 150, 'none', `stroke="#8a94a0" stroke-width="8"`) + [1, 2, 3].map(i => L(-85 + i * 21, -150, -85 + i * 21, 0, '#8a94a0', 6)).join(''), `translate(170 0) scale(${f1(sx)} 1)`); return G(s, `translate(${f1(x)} ${f1(y)}) scale(${sc})`); };
@@ -123,8 +125,8 @@ const TRUCK = (Pf, t, x, y, sc, o = {}) => { const wr = (o.spin || 0); const whe
 const CABINX = (Pf, t, x, y, sc, o = {}) => { let s = R(-340, -300, 680, 300, '#4a2c18', `stroke="${OD}" stroke-width="5"`); for (let i = 0; i < 6; i++) s += R(-340, -300 + i * 50, 680, 46, i % 2 ? '#5a361e' : '#4e2f1a', `rx="22" stroke="${OD}" stroke-width="3"`); s += P('M-400,-300 L0,-460 L400,-300Z', '#1a1410', `stroke="${OD}" stroke-width="5"`) + R(-250, -230, 150, 130, '#ffb347', `stroke="${OD}" stroke-width="6"`) + glow(Pf, 'F', -175, -165, 200, o.lit === undefined ? 0.9 : o.lit) + L(-175, -230, -175, -100, OD, 6) + L(-250, -165, -100, -165, OD, 6) + R(60, -250, 130, 250, '#3a2010', `stroke="${OD}" stroke-width="6"`) + C(170, -120, 8, '#d8b050') + R(220, -420, 50, 120, '#2a2018', `stroke="${OD}" stroke-width="4"`) + (o.smoke ? [0, 1, 2, 3].map(i => { const u = (t * 0.2 + i / 4) % 1; return C(245 + 30 * u + 10 * Math.sin(t + i), -430 - u * 220, 22 + 26 * u, '#aab8c8', OP(0.25 * (1 - u))); }).join('') : ''); return G(s, `translate(${f1(x)} ${f1(y)}) scale(${sc})`); };
 const CABINI = (Pf, t, o = {}) => { let s = BIG('#2a1a10'); for (let i = 0; i < 16; i++) s += R(-100, i * 130 - 60, 1280, 126, i % 2 ? '#3a2314' : '#33200f', `stroke="#1a0e06" stroke-width="3"`); s += R(-100, 1380, 1280, 700, '#1c1008', `stroke="${OD}" stroke-width="4"`); for (let i = 0; i < 6; i++) s += L(-100 + i * 260, 1380, -300 + i * 330, 1920, '#0a0603', 4, OP(0.6));
   s += R(60, 300, 300, 400, '#0a1220', `stroke="#4a2c18" stroke-width="22"`) + (o.winInner || '') + L(210, 300, 210, 700, '#4a2c18', 12) + L(60, 500, 360, 500, '#4a2c18', 12);
-  s += (o.frame === false ? '' : R(700, 380, 220, 280, '#6a4a2a', `stroke="${OD}" stroke-width="8"`) + R(722, 402, 176, 236, '#2a4a3a') + P('M722,560 L800,480 L850,540 L898,500 L898,638 L722,638Z', '#1a2a22'));
-  s += R(600, 1060, 400, 30, '#5a3a20', `stroke="${OD}" stroke-width="4"`) + R(630, 1090, 24, 300, '#4a2c18') + R(946, 1090, 24, 300, '#4a2c18') + R(760, 960, 60, 100, '#d8a040', `stroke="${OD}" stroke-width="4"`) + P('M770,960 Q790,900 810,960Z', '#ffd070');
-  s += glow(Pf, 'F', 790, 940, 520, o.lamp === undefined ? 0.9 : o.lamp) + (o.door === false ? '' : R(-50, 560, 20, 20, 'none'));
+  s += (o.frame === false ? '' : (o.frameOff ? '' : R(700, 760, 220, 280, '#6a4a2a', `stroke="${OD}" stroke-width="8"`) + R(722, 782, 176, 236, '#2a4a3a') + P('M722,940 L800,860 L850,920 L898,880 L898,1018 L722,1018Z', '#1a2a22')));
+  s += R(80, 1060, 400, 30, '#5a3a20', `stroke="${OD}" stroke-width="4"`) + R(110, 1090, 24, 300, '#4a2c18') + R(426, 1090, 24, 300, '#4a2c18') + R(240, 960, 60, 100, '#d8a040', `stroke="${OD}" stroke-width="4"`) + P('M250,960 Q270,900 290,960Z', '#ffd070');
+  s += glow(Pf, 'F', 270, 940, 560, o.lamp === undefined ? 0.9 : o.lamp) + (o.door === false ? '' : R(-50, 560, 20, 20, 'none'));
   return s; };
 const HOUSEBED = 0;

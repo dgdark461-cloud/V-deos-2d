@@ -5,7 +5,7 @@ E=[]
 def ev(i,fx,g,off=0,**a): E.append({'t':round(max(0,w(i)+off),2),'fx':fx,'gain':g,'args':a})
 def at(t,fx,g,**a): E.append({'t':round(max(0,t),2),'fx':fx,'gain':g,'args':a})
 at(0.0,'drone',0.3,dur=10); at(1.5,'whoosh',0.3); ev(8,'whoosh',0.3); ev(12,'whoosh',0.2); ev(18,'impact',0.4); ev(18,'heartbeat',0.3,0.3,beats=6,bpm=84)
-ev(22,'shimmer',0.2); ev(27,'impact',0.3); ev(34,'drone',0.3,0,dur=6); ev(43,'click',0.2); ev(46,'click',0.2,0.5)
+ev(19,'rumble',0.3,0,dur=1.6); ev(22,'shimmer',0.2); ev(27,'impact',0.3); ev(34,'drone',0.3,0,dur=6); ev(43,'click',0.2); ev(46,'click',0.2,0.5)
 ev(52,'pop',0.25); ev(54,'pop',0.25); ev(56,'pop',0.25); ev(60,'ticktock',0.25,0,ticks=8,interval=0.4)
 ev(72,'shimmer',0.2); ev(77,'drone',0.25,0,dur=4); ev(84,'rumble',0.25,0,dur=2); ev(90,'rumble',0.35,0,dur=3); ev(100,'drone',0.25,0,dur=4)
 ev(109,'impact',0.3); ev(121,'rumble',0.3,0,dur=4); ev(128,'creak',0.3); ev(143,'drone',0.25,0,dur=5); ev(148,'rumble',0.25,0,dur=3)

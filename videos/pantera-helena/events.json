@@ -48,6 +48,14 @@
    "args": {}
   },
   {
+   "t": 5.66,
+   "fx": "rumble",
+   "gain": 0.3,
+   "args": {
+    "dur": 1.6
+   }
+  },
+  {
    "t": 5.88,
    "fx": "heartbeat",
    "gain": 0.3,

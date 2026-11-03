@@ -20,3 +20,19 @@ const GLOVE = (x, y, sc, rot = 0, t = 0) => G(E(0, 0, 50, 60, '#101218', `stroke
 const PAWS = (x, y, n, sc = 1, a = 1) => { let s = ''; for (let i = 0; i < n; i++) { const px = x + i * 90 * sc, py = y + (i % 2 ? 26 : -26) * sc; s += G(E(0, 12, 22, 18, '#05070c', OP(a)) + [-24, -8, 8, 24].map((tx, k) => E(tx, -14 + (k % 3 === 1 || k === 2 ? -6 : 0), 8, 10, '#05070c', OP(a))).join(''), `translate(${f1(px)} ${f1(py)}) scale(${sc}) rotate(-80)`); } return s; };
 const FROST2 = (a) => { if (a <= 0.01) return ''; let s = R(-100, -100, 1280, 2120, '#9fd8ff', OP(0.12 * a)); for (const [cx, cy, sg] of [[0, 0, 1], [1080, 0, -1], [0, 1920, 1], [1080, 1920, -1]]) for (let i = 0; i < 10; i++) { const an = (i / 10) * 1.5, l = (140 + 240 * hz(i, 2)) * a; s += L(cx, cy, cx + sg * Math.cos(an) * l, cy + (cy ? -1 : 1) * Math.sin(an) * l * 1.3, 'rgba(220,245,255,0.8)', 4 + 3 * hz(i, 3)); } return s; };
 const BARN = 0;
+
+/* rosto frontal da pantera em close (0,0 = centro da cabeca, ~300 de largura) */
+function PANTF(Pf, t, x, y, sc, o = {}) {
+  const d = Object.assign({ rim: '#4a9ac0', growl: 0, eye: 1 }, o), bl = (t % 3.4) < 0.12 ? 0.12 : 1, br = 1 + 0.012 * Math.sin(t * 2.2), sw = 3 * Math.sin(t * 0.9);
+  let s = P('M-150,-40 Q-166,-150 0,-164 Q166,-150 150,-40 Q154,96 74,152 Q0,184 -74,152 Q-154,96 -150,-40Z', '#0b0d14', `stroke="${d.rim}" stroke-width="5"`);
+  s += P('M-142,-100 L-132,-196 L-58,-146Z', '#0b0d14', `stroke="${d.rim}" stroke-width="5"`) + P('M142,-100 L132,-196 L58,-146Z', '#0b0d14', `stroke="${d.rim}" stroke-width="5"`) + P('M-124,-120 L-122,-170 L-84,-142Z', '#2a1620') + P('M124,-120 L122,-170 L84,-142Z', '#2a1620');
+  s += P('M-120,-70 Q-60,-120 -20,-70 M120,-70 Q60,-120 20,-70', 'none', 'stroke="#05070c" stroke-width="22" stroke-linecap="round"');
+  s += [-1, 1].map(sg => glow(Pf, 'A', sg * 66, -30, 120, 0.6 * d.eye) + P(`M${sg * 66 - 50},-30 Q${sg * 66},${-30 - 44 * bl} ${sg * 66 + 50},-30 Q${sg * 66},${-30 + 30 * bl} ${sg * 66 - 50},-30Z`, '#e6ff3a', 'stroke="#050505" stroke-width="5"') + E(sg * 66, -30, 8, 24 * bl, '#050505')).join('');
+  s += E(0, 84, 96, 66, '#141824') + P('M-34,40 Q0,28 34,40 Q22,70 0,76 Q-22,70 -34,40Z', '#2a1a22', `stroke="${d.rim}" stroke-width="3"`);
+  const gr = d.growl;
+  s += P(`M0,76 L0,100 M0,100 Q-30,${112 + gr * 40} -64,100 M0,100 Q30,${112 + gr * 40} 64,100`, 'none', 'stroke="#05070c" stroke-width="6" stroke-linecap="round"');
+  if (gr > 0.05) s += P(`M-60,102 Q0,${108 + gr * 70} 60,102 Q0,${112 + gr * 40} -60,102Z`, '#3a0c10') + P('M-46,104 L-38,' + f1(108 + gr * 40) + ' L-30,104Z M30,104 L38,' + f1(108 + gr * 40) + ' L46,104Z', '#f4f2ec');
+  [-1, 1].forEach(sg => { for (let k = 0; k < 4; k++) s += L(sg * 70, 88 + k * 8, sg * (190 + k * 6), 70 + k * 26 + sw, '#bcd8e8', 2.5, OP(0.5)); });
+  s += P('M110,-120 Q150,-40 130,60 Q110,110 70,150', 'none', `stroke="${d.rim}" stroke-width="6" stroke-linecap="round" opacity="0.7"`);
+  return G(s, `translate(${f1(x)} ${f1(y + sw * 0.4)}) scale(${(sc * br).toFixed(4)})`);
+}

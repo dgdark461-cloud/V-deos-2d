@@ -3,13 +3,13 @@ const D8 = '<defs><linearGradient id="dawn8" x1="0" y1="0" x2="0" y2="1"><stop o
 const SKIN8 = '#dfaa82', SKSH8 = '#b27a58', HAIR8 = '#2a1c16', JACK8 = '#c79a60', JACKSH8 = '#9a7240', SHIRT8 = '#2f4a7a', JEAN8 = '#3a4a6c', JEANSH8 = '#2a3650', BOOT8 = '#3a2a22';
 /* ---------------- Daniel: corpo inteiro. 0,0 = pés. altura ~ 520 ---------------- */
 function DAN(o = {}) {
-  const d = Object.assign({ view: 's', ph: 0, walk: 0, run: 0, t: 0, beard: 0, tired: 0, pack: 0, arms: 'swing', look: 0, sit: 0, shadow: 1, hold: '', mouth: 0, eye: 1, up: 0, lean: 0, wear: 0 }, o);
-  const jk = d.wear ? mixc(JACK8, '#8a7a60', 0.5) : JACK8, jks = d.wear ? mixc(JACKSH8, '#6a5a44', 0.5) : JACKSH8;
+  const d = Object.assign({ pj: 0, view: 's', ph: 0, walk: 0, run: 0, t: 0, beard: 0, tired: 0, pack: 0, arms: 'swing', look: 0, sit: 0, shadow: 1, hold: '', mouth: 0, eye: 1, up: 0, lean: 0, wear: 0 }, o);
+  const jk = d.pj ? '#8a98b0' : d.wear ? mixc(JACK8, '#8a7a60', 0.5) : JACK8, jks = d.pj ? '#6a7890' : d.wear ? mixc(JACKSH8, '#6a5a44', 0.5) : JACKSH8, jn = d.pj ? '#4a5470' : JEAN8, jns = d.pj ? '#363e58' : JEANSH8;
   const sp = d.walk ? (d.run ? 1.3 : 0.75) : 0, a = Math.sin(d.ph), b = Math.sin(d.ph + Math.PI), bob = d.walk ? Math.abs(Math.cos(d.ph)) * (d.run ? 14 : 8) : Math.sin(d.t * 1.5) * 2;
   const hipY = -250 - bob + d.sit * 110, shY = hipY - 190, hdY = shY - 78;
   let s = d.shadow ? E(0, 4, 120, 16, '#000', OP(0.28)) : '';
   const bl = (t) => (t % 3.9) < 0.11 ? 0.12 : 1;
-  const legS = (ph, back) => { const sw = Math.sin(ph) * sp * 0.75, kn = Math.max(0, -Math.cos(ph)) * sp * 0.9 + 0.05, col = back ? JEANSH8 : JEAN8; return G(R(-24, 0, 48, 128, col, 'rx="20"') + G(R(-21, 0, 42, 128, col, 'rx="18"') + R(-14, 118, 70, 30, BOOT8, 'rx="12"'), `translate(0 120) rotate(${f1((kn - sw * 0.3) * 57)})`), `translate(0 ${f1(hipY)}) rotate(${f1(sw * 57)})`); };
+  const legS = (ph, back) => { const sw = Math.sin(ph) * sp * 0.75, kn = Math.max(0, -Math.cos(ph)) * sp * 0.9 + 0.05, col = back ? jns : jn; return G(R(-24, 0, 48, 128, col, 'rx="20"') + G(R(-21, 0, 42, 128, col, 'rx="18"') + R(-14, 118, 70, 30, BOOT8, 'rx="12"'), `translate(0 120) rotate(${f1((kn - sw * 0.3) * 57)})`), `translate(0 ${f1(hipY)}) rotate(${f1(sw * 57)})`); };
   const armS = (ph, back) => { const sw = d.arms === 'up' ? -2.6 : d.arms === 'hold' ? -1.15 : Math.sin(ph + Math.PI) * sp * 0.7, el = d.arms === 'hold' ? -1.2 : d.arms === 'up' ? -0.3 : 0.3 + Math.max(0, Math.sin(ph + Math.PI)) * sp * 0.5; return G(R(-18, 0, 36, 112, back ? jks : jk, 'rx="16"') + G(R(-16, 0, 32, 108, back ? jks : jk, 'rx="14"') + C(0, 112, 18, SKIN8) + (d.hold && !back ? d.hold : ''), `translate(0 104) rotate(${f1(el * 57)})`), `translate(0 ${f1(shY + 14)}) rotate(${f1(sw * 57)})`); };
   if (d.view === 's') {
     if (d.sit) s += R(-60, hipY + 70, 220, 24, '#7a5a3a', OP(0));
@@ -20,26 +20,26 @@ function DAN(o = {}) {
     s += G(R(-18, 0, 36, 34, SKSH8, 'rx="10"') + E(0, -44, 54, 62, SKIN8, 'stroke="#0a0a10" stroke-width="2"') + P('M-54,-52 Q-56,-112 4,-112 Q56,-106 54,-52 Q40,-84 8,-82 Q-30,-74 -54,-52Z', HAIR8) + P('M52,-30 Q70,-22 52,-14', SKIN8) + C(24, -52, 5.5 * bl(d.t), '#06080e') + P('M12,-66 L40,-62', 'none', 'stroke="#2a1c16" stroke-width="5" stroke-linecap="round"') + E(-30, -42, 10, 20, SKSH8, OP(0.0)) + (d.beard ? P(`M-34,-24 Q-30,${f1(10 + 20 * d.beard)} 18,${f1(14 + 26 * d.beard)} Q50,${f1(4 + 14 * d.beard)} 48,-10 Q40,-24 10,-20 Q-10,-30 -34,-24Z`, '#2a1c16', OP(0.9)) : '') + (d.mouth ? E(40, -14, 8, 5 + 10 * d.mouth, '#4a1a20') : P('M34,-14 L46,-14', 'none', 'stroke="#7a3a38" stroke-width="3" stroke-linecap="round"')) + (d.tired ? P('M10,-44 Q24,-34 40,-44', 'none', `stroke="#6a4a5a" stroke-width="${f1(3 + 3 * d.tired)}" opacity="0.6"`) : ''), `translate(${f1(hx)} ${f1(hdY + 44)})`);
   } else {
     const fb = d.view === 'f', sw1 = a * sp * 22, sw2 = b * sp * 22, lift1 = Math.max(0, a) * sp * 26, lift2 = Math.max(0, b) * sp * 26;
-    const leg = (x, sw, lift) => R(x - 26, hipY, 52, 250 + bob - lift, JEAN8, 'rx="20"') + R(x - 28, -34 - lift, 56, 34, BOOT8, 'rx="12"');
+    const leg = (x, sw, lift) => R(x - 26, hipY, 52, 250 + bob - lift, jn, 'rx="20"') + R(x - 28, -34 - lift, 56, 34, BOOT8, 'rx="12"');
     s += leg(-34, sw1, lift1) + leg(34, sw2, lift2);
-    const arm = (x, sw, up) => G(R(-19, 0, 38, 200, jk, 'rx="17"') + C(0, 204, 19, SKIN8) + (d.hold && x > 0 && fb ? d.hold : ''), `translate(${x} ${f1(shY + 16)}) rotate(${f1((d.arms === 'up' ? (x > 0 ? 150 : -150) : x > 0 ? -sw : sw) + (x > 0 ? -5 : 5))})`);
+    const arm = (x, sw, up) => G(R(-19, 0, 38, 200, jk, 'rx="17"') + C(0, 204, 19, SKIN8) + (d.hold && x > 0 && fb ? d.hold : ''), `translate(${x} ${f1(shY + 16)}) rotate(${f1((d.arms === 'up' ? (x > 0 ? -150 : 150) : x > 0 ? -sw : sw) + (x > 0 ? -5 : 5))})`);
     s += arm(-100, sw1 * 0.8) + arm(100, sw2 * 0.8);
     s += P(`M-92,${shY} Q-100,${hipY - 20} -72,${hipY + 24} L72,${hipY + 24} Q100,${hipY - 20} 92,${shY} Q0,${shY - 34} -92,${shY}Z`, jk, 'stroke="#0a0a10" stroke-width="2"') + P(`M-72,${hipY + 24} L72,${hipY + 24} L68,${hipY - 4} L-68,${hipY - 4}Z`, jks);
     if (fb) s += P(`M-34,${shY - 6} L0,${shY + 90} L34,${shY - 6}Z`, SHIRT8) + L(0, shY + 90, 0, hipY + 20, jks, 4);
     else s += (d.pack ? R(-70, shY + 10, 140, 190, '#2a3a44', 'rx="22" stroke="#0a0a10" stroke-width="3"') + R(-50, shY + 50, 100, 60, '#3a4e5a', 'rx="10"') : '');
     const hx = d.look * 14;
-    s += G(R(-18, 0, 36, 34, SKSH8, 'rx="10"') + (fb ? E(0, -44, 54, 62, SKIN8, 'stroke="#0a0a10" stroke-width="2"') + P('M-54,-52 Q-56,-112 0,-112 Q56,-112 54,-52 Q40,-86 0,-84 Q-40,-86 -54,-52Z', HAIR8) + [-22, 22].map(x => E(x, -44, 8, 8 * bl(d.t) * Math.max(0.2, d.eye), '#f4f0e8') + C(x + hx * 0.3, -44, 4, '#06080e')).join('') + P('M-34,-62 L-10,-58 M34,-62 L10,-58', 'none', 'stroke="#2a1c16" stroke-width="5" stroke-linecap="round"') + (d.beard ? P(`M-44,-24 Q-44,${f1(16 + 26 * d.beard)} 0,${f1(24 + 30 * d.beard)} Q44,${f1(16 + 26 * d.beard)} 44,-24 Q30,-8 0,-6 Q-30,-8 -44,-24Z`, '#2a1c16', OP(0.9)) : '') + (d.mouth ? E(0, -14, 12, 4 + 12 * d.mouth, '#4a1a20') : P('M-12,-14 L12,-14', 'none', 'stroke="#7a3a38" stroke-width="3" stroke-linecap="round"')) : E(0, -44, 54, 62, HAIR8, 'stroke="#0a0a10" stroke-width="2"') + E(0, -22, 40, 40, SKSH8, OP(0.4))), `translate(${f1(hx)} ${f1(hdY + 44)})`);
+    s += G(R(-18, 0, 36, 34, SKSH8, 'rx="10"') + (fb ? E(0, -44, 54, 62, SKIN8, 'stroke="#0a0a10" stroke-width="2"') + P('M-54,-52 Q-56,-112 0,-112 Q56,-112 54,-52 Q40,-86 0,-84 Q-40,-86 -54,-52Z', HAIR8) + [-22, 22].map(x => E(x, -44, 8, 8 * bl(d.t) * Math.max(0.2, d.eye), '#f4f0e8') + C(x + hx * 0.3, -44, 4, '#06080e')).join('') + P('M-34,-62 L-10,-58 M34,-62 L10,-58', 'none', 'stroke="#2a1c16" stroke-width="5" stroke-linecap="round"') + (d.beard ? P(`M-44,-24 Q-44,${f1(16 + 26 * d.beard)} 0,${f1(24 + 30 * d.beard)} Q44,${f1(16 + 26 * d.beard)} 44,-24 Q30,-8 0,-6 Q-30,-8 -44,-24Z`, '#2a1c16', OP(0.9)) : '') + (d.mouth ? E(0, -14, 12, 4 + 12 * d.mouth, '#4a1a20') : P('M-12,-14 L12,-14', 'none', 'stroke="#7a3a38" stroke-width="3" stroke-linecap="round"')) : E(-55, -38, 8, 15, SKIN8) + E(55, -38, 8, 15, SKIN8) + E(0, -48, 55, 64, HAIR8, 'stroke="#0a0a10" stroke-width="2"') + P('M-38,-16 Q0,8 38,-16 L34,-2 Q0,18 -34,-2Z', HAIR8) + P('M-30,-96 q30,-12 60,0', 'none', 'stroke="#4a3426" stroke-width="5" stroke-linecap="round"')), `translate(${f1(hx)} ${f1(hdY + 44)})`);
   }
   return G(s, `rotate(${f1(d.lean * 0.3)})`);
 }
 const DB = (o, x, y, sc = 1, flip = 0) => G(DAN(o), `translate(${f1(x)} ${f1(y)}) scale(${flip ? -sc : sc} ${sc})`);
 /* ---------------- rosto grande de Daniel (close-ups) ---------------- */
 function DF(t, o = {}) {
-  const d = Object.assign({ eye: 1, lookx: 0, looky: 0, brow: 0, mouth: 0, smile: 0, tilt: 0, sweat: 0, trem: 0, beard: 0, tired: 0, tears: 0, wear: 0, pal: 0, body: 1, look: 0 }, o);
+  const d = Object.assign({ pj: 0, eye: 1, lookx: 0, looky: 0, brow: 0, mouth: 0, smile: 0, tilt: 0, sweat: 0, trem: 0, beard: 0, tired: 0, tears: 0, wear: 0, pal: 0, body: 1, look: 0 }, o);
   const bl = (t % 3.8) < 0.11 ? 0.1 : 1, ey = Math.max(0.08, Math.min(1.4, d.eye)) * bl, lx = d.lookx * 9, ly = d.looky * 6, br = Math.sin(t * 1.4) * 2 + (d.trem ? H.noise(t * 36, 4) * 3.5 * d.trem : 0);
-  const skin = d.pal ? mixc(SKIN8, '#d8dce0', d.pal) : SKIN8, jk = d.wear ? mixc(JACK8, '#8a7a60', 0.5) : JACK8;
+  const skin = d.pal ? mixc(SKIN8, '#d8dce0', d.pal) : SKIN8, jk = d.pj ? '#8a98b0' : d.wear ? mixc(JACK8, '#8a7a60', 0.5) : JACK8;
   let s = '';
-  if (d.body) s += P('M-140,176 Q-160,260 -210,340 L210,340 Q160,260 140,176 Q70,200 0,200 Q-70,200 -140,176Z', jk) + P('M-56,190 L0,270 L56,190 L40,176 L0,214 L-40,176Z', SHIRT8) + P('M140,176 Q160,260 210,340 L120,340 Q130,250 100,200Z', '#000', OP(0.18));
+  if (d.body) s += P('M-140,176 Q-160,260 -210,340 L210,340 Q160,260 140,176 Q70,200 0,200 Q-70,200 -140,176Z', jk) + (d.pj ? '' : P('M-56,190 L0,270 L56,190 L40,176 L0,214 L-40,176Z', SHIRT8)) + P('M140,176 Q160,260 210,340 L120,340 Q130,250 100,200Z', '#000', OP(0.18));
   s += R(-34, 118, 68, 90, SKSH8, 'rx="24"') + E(-98, 14, 12, 26, skin) + E(98, 14, 12, 26, skin);
   s += P('M-98,-40 Q-102,-126 0,-140 Q102,-126 98,-40 L92,58 Q72,122 0,148 Q-72,122 -92,58Z', skin) + P('M30,-136 Q102,-126 98,-40 L92,58 Q72,122 0,148 Q40,100 52,30 Q62,-60 30,-136Z', SKSH8, OP(0.35));
   if (d.beard) s += P(`M-90,20 Q-92,${f1(90 + 40 * d.beard)} 0,${f1(150 + 30 * d.beard)} Q92,${f1(90 + 40 * d.beard)} 90,20 Q70,70 40,70 Q0,56 -40,70 Q-70,70 -90,20Z`, '#2a1c16', OP(0.5 + 0.45 * d.beard)); else s += P('M-84,40 Q-76,118 0,146 Q76,118 84,40 Q60,92 30,88 Q0,78 -30,88 Q-60,92 -84,40Z', '#2a1c16', OP(0.18));

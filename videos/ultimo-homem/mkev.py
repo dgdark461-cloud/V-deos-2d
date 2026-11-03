@@ -4,7 +4,7 @@ W=lambda i:a[i]['start']
 E=[]
 def ev(i,fx,g,off=0,**args): E.append({'t':round(max(0,W(i)+off),2),'fx':fx,'gain':g,'args':args})
 def at(t,fx,g,**args): E.append({'t':round(t,2),'fx':fx,'gain':g,'args':args})
-ev(0,'drone',0.3,0,dur=12); ev(0,'whoosh',0.25)
+ev(0,'drone',0.3,0,dur=12); at(0.45,'impact',0.4); at(0.5,'heartbeat',0.3,beats=4,bpm=110); ev(10,'beep',0.15)
 ev(9,'beep',0.2,0.2); ev(12,'whoosh',0.2)
 ev(24,'beep',0.2); ev(28,'ticktock',0.2,0,ticks=8,interval=0.4)
 ev(37,'footsteps',0.25,0,steps=8,interval=0.55); ev(44,'shimmer',0.2)

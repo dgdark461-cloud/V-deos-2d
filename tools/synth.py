@@ -386,7 +386,7 @@ def _voice_envelope(voice, win=0.05):
     return np.clip(e / ref, 0, 1)
 
 
-def mix(voice, events=None, music=None, duration=None, duck=0.55):
+def mix(voice, events=None, music=None, duration=None, duck=0.55, sfx_scale=1.0, sfx_duck=0.0):
     """voice: array float mono em SR. events: lista [{t, fx, gain, args}].
     music: dict (root, chord, level, pulse, fade_in, fade_out) ou None.
     Retorna array float32 mono em SR (já limitado, pico <= ~0.89)."""
@@ -404,7 +404,10 @@ def mix(voice, events=None, music=None, duration=None, duck=0.55):
     for ev in (events or []):
         w = fx(ev["fx"], **ev.get("args", {}))
         _place(sfx, w.astype(np.float64) * 0.80 * float(ev.get("gain", 0.16)), float(ev["t"]))
-    out += sfx
+    if sfx_duck > 0:
+        _e = _voice_envelope(v); _s = signal.butter(1, 6.0, btype="low", fs=SR, output="sos")
+        sfx = sfx * (1.0 - sfx_duck * np.clip(signal.sosfilt(_s, _e), 0, 1))
+    out += sfx * sfx_scale
 
     if music:
         m = music_bed(duration, music.get("root", 55.0), tuple(music.get("chord", (1.0, 1.2, 1.5))),
@@ -429,7 +432,7 @@ def mix_to_file(voice_path, events_path, out_path, duration=None):
     if events_path and os.path.exists(events_path):
         with open(events_path, encoding="utf-8") as f:
             cfg = json.load(f)
-    y = mix(voice, cfg.get("events"), cfg.get("music"), duration)
+    y = mix(voice, cfg.get("events"), cfg.get("music"), duration, cfg.get("duck", 0.55), cfg.get("sfx_scale", 1.0), cfg.get("sfx_duck", 0.0))
     write_wav(out_path, y)
     pk = 20 * np.log10(np.max(np.abs(y)) + 1e-9)
     rms = 20 * np.log10(np.sqrt(np.mean(y.astype(np.float64) ** 2)) + 1e-9)

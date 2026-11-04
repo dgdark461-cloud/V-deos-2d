@@ -31,7 +31,7 @@ function partX(c) {
   q(84, 90, { z0: 1, z1: 1, shk: 1 }, (t, lt, Pf, d) => { const u = ez(lt / d); const L = [{ d: 0.05, svg: SKYE('night', 1500) + glow(Pf, 'B', 800, 420, 360, 0.3) + C(800, 420, 70, '#e8f0ff', OP(0.9)) }, { d: 0.35, svg: TREEE(120, 1500, 1.8) + TREEE(980, 1520, 2.1) }, { d: 0.6, svg: R(-100, 1450, 1280, 600, '#05070a') + P('M200,1450 L200,1010 L540,820 L880,1010 L880,1450Z', '#0a0d14', `stroke="${BL}" stroke-width="4"`) + R(420, 1060, 140, 160, '#ffd070', OP(0.9)) + glow(Pf, 'F', 490, 1140, 280, 0.5) }]; return PAR(sort(L), { x: 0, dz: lp(0, 0.9, u) }) + dim(0.5, '#050a14'); }, 0);
   /* ===== 34 s+ ===== */
   q(90, 96, { z0: 1, z1: 1.1, shk: 0 }, LS({ eye: 1, sm: 0.8, rim: AM }, null, 0.25), AM);
-  q(96, 102, { z0: 1, z1: 1.1 }, (t, lt, Pf, d) => DARK(Pf, 0.2) + PHONE(Pf, t, 540, 980, 1.5, { time: '11:11', tcol: '#ffd36a' }) + SPARK(Pf, t, 540, 800), '#ffd36a');
+  q(96, 102, { z0: 1, z1: 1.1 }, (t, lt, Pf, d) => DARK(Pf, 0.2) + PHONE(Pf, t, 540, 980, 1.5, { time: '11:11', tcol: '#ffd36a' }) + SPARK(t, 540, 800, 18, 260), '#ffd36a');
   q(102, 108, { z0: 1, z1: 1.2 }, LS({ eye: 0.1, sm: 0.7, rim: AM }, (t, lt, Pf) => glow(Pf, 'F', 540, 700, 500, 0.3), 0.3), AM);
   q(108, 114, { z0: 1, z1: 1.1 }, (t, lt, Pf, d) => DARK(Pf, 0.2) + TXE('TERÇA-FEIRA', 540, 700, 150, lt - 0.1, '#fff', { stroke: '#000' }) + LUC(t, { eye: 1.2, worry: 0.5, ly: -0.5, rim: BL }, 540, 1350, 2.0), BL);
   q(114, 120, { z0: 1, z1: 1.2 }, PS({ time: '02:22', tcol: RD }), RD);

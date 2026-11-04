@@ -27,6 +27,16 @@
 <script>
 (function () {
   const svg = document.getElementById('stage');
+
+  const CAPCH = ws => { const ch = []; let cur = []; const flush = () => { if (cur.length) { ch.push(cur); cur = []; } };
+    ws.forEach((w, i) => { cur.push(i); const txt = cur.map(k => ws[k].w).join(' '); const endp = /[.?!…:;]$/.test(w.w.replace(/[”"]+$/, '')), comma = /,$/.test(w.w);
+      if (cur.length >= 4 || txt.length >= 24 || endp || (comma && cur.length >= 2)) flush(); }); flush(); return ch; };
+  const capDraw = (t, M) => { if (!M.caps) return ''; const ws = M.words; for (let c = 0; c < M.caps.length; c++) { const ids = M.caps[c], a = ws[ids[0]].start, nx = M.caps[c + 1] ? ws[M.caps[c + 1][0]].start : a + 4, b = Math.min(nx - 0.02, ws[ids[ids.length - 1]].end + 0.35); if (t < a || t >= b) continue;
+      const u = Math.min(1, (t - a) / 0.12), full = ids.map(k => ws[k].w.replace(/[“”"]/g, '')).join(' ').toUpperCase(), sz = full.length > 20 ? 78 : 88;
+      let act = ids[0]; ids.forEach(k => { if (t >= ws[k].start) act = k; });
+      const sp = ids.map(k => { const w = ws[k].w.replace(/[“”"]/g, '').toUpperCase(); return `<tspan fill="${k === act ? '#ffd36a' : '#ffffff'}">${w}</tspan>`; }).join('<tspan> </tspan>');
+      const tx = (extra) => `<text x="0" y="0" text-anchor="middle" font-family="Bebas Neue, sans-serif" font-size="${sz}" letter-spacing="3" ${extra}>${sp}</text>`;
+      return `<g transform="translate(540 ${(1490 + (1 - u) * 14).toFixed(1)}) scale(${(0.94 + 0.06 * u).toFixed(3)})" opacity="${u.toFixed(3)}"><g transform="translate(0 5)" opacity="0.55">${tx('fill="#000" stroke="#000" stroke-width="16" stroke-linejoin="round"')}</g>${tx('stroke="#0a0a10" stroke-width="9" paint-order="stroke" stroke-linejoin="round"')}</g>`; } return ''; };
   window.READY = false; window.DURATION = 160.4;
   let M = null;
   window.MBI = []; window.MB = t => { for (const r of window.MBI) if (t >= r[0] && t < r[1]) return 0.8; return 0; };
@@ -41,9 +51,9 @@
       const a = i === 0 ? 1 : H.prog(t, s.start, s.start + Math.max(s.fin, 0.001));
       html += `<g opacity="${a.toFixed(3)}">` + s.draw(t, t - s.start, 's' + (i + 1) + '_') + '</g>';
     }
-    svg.innerHTML = html + R(0, 0, 1080, 1920, '#000', OP(H.prog(t, M.end - 0.25, M.end)));
+    svg.innerHTML = html + (M ? capDraw(t, M) : '') + R(0, 0, 1080, 1920, '#000', OP(H.prog(t, M.end - 0.25, M.end)));
   };
-  fetch('words.json').then(r => r.json()).then(j => document.fonts.load("100px 'Bebas Neue'").then(() => j)).then(j => { M = makeScenes(j.words, j.segments); M.words = j.words; window.READY = true; });
+  fetch('words.json').then(r => r.json()).then(j => document.fonts.load("100px 'Bebas Neue'").then(() => j)).then(j => { M = makeScenes(j.words, j.segments); M.words = j.words; M.caps = CAPCH(j.words); window.READY = true; });
 })();
 </script>
 </body>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>El Niño</title>
+<style>html,body{margin:0;padding:0;background:#000;overflow:hidden}#stage{display:block;width:1080px;height:1920px}</style>
+</head>
+<body>
+<svg id="stage" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920"></svg>
+<script src="../../lib/helpers.js"></script>
+<script src="base.js"></script>
+<script src="kit.js"></script>
+<script src="env.js"></script>
+<script src="scenes_a.js"></script>
+<script src="scenes_b.js"></script>
+<script src="scenes.js"></script>
+<script>
+(function () {
+  const svg = document.getElementById('stage');
+  window.READY = false; window.DURATION = 83.5;
+  let M = null, CAPS = [];
+  window.MBI = []; window.MB = t => { for (const r of window.MBI) if (t >= r[0] && t < r[1]) return r[2] || 0.7; return 0; };
+
+  /* ---------------- legendas: 1 ou 2 palavras, Arial Bold, maiúsculas, brancas ---------------- */
+  function buildCaps(words) {
+    const out = []; let i = 0;
+    const clean = w => w.replace(/[,.:;?!"“”]/g, '').toUpperCase();
+    while (i < words.length) {
+      const a = words[i], b = words[i + 1];
+      const ca = clean(a.w);
+      const endsA = /[,.:;?!]$/.test(a.w);
+      let take = 1;
+      if (b && !endsA) {
+        const cb = clean(b.w);
+        if ((ca.length <= 3 || cb.length <= 3) && (ca.length + cb.length) <= 13 && b.start - a.end < 0.25) take = 2;
+      }
+      const grp = words.slice(i, i + take);
+      out.push({ text: grp.map(w => clean(w.w)).join(' '), start: grp[0].start, end: grp[grp.length - 1].end });
+      i += take;
+    }
+    for (let k = 0; k < out.length; k++) {
+      const nx = out[k + 1];
+      out[k].hide = nx ? Math.min(nx.start, out[k].end + 0.45) : out[k].end + 0.6;
+      if (nx && nx.start - out[k].hide < 0.12) out[k].hide = nx.start;
+    }
+    return out;
+  }
+  function capAt(t) {
+    let c = null;
+    for (const x of CAPS) { if (x.start - 0.04 <= t && t < x.hide) c = x; if (x.start > t) break; }
+    if (!c) return '';
+    const lt = t - c.start + 0.04, k = H.ease.outBack(cl(lt / 0.16), 2.2), y = (M.capY ? M.capY(t) : 1440);
+    const len = c.text.length, size = Math.min(118, 940 / Math.max(4, len * 0.66));
+    const a = cl((c.hide - t) / 0.06);
+    const txt = `<text x="0" y="0" text-anchor="middle" dominant-baseline="middle" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-weight="700" font-size="${f1(size)}"`;
+    return G(txt + ` fill="#1f1640" stroke="#1f1640" stroke-width="${f1(size * 0.2)}" stroke-linejoin="round" opacity="0.9" transform="translate(5 8)">${c.text}</text>` +
+      txt + ` fill="#ffffff" stroke="#1f1640" stroke-width="${f1(size * 0.13)}" stroke-linejoin="round" paint-order="stroke">${c.text}</text>`,
+      `translate(540 ${f1(y)}) scale(${(0.6 + 0.4 * k).toFixed(3)})`, OP(Math.min(1, lt / 0.06) * a) + ' class="caption"');
+  }
+
+  /* ---------------- motor de cenas com transições ---------------- */
+  window.setT = function (t) {
+    if (!M) return;
+    const sc = M.scenes;
+    let html = '';
+    for (let i = 0; i < sc.length; i++) {
+      const s = sc[i], nx = sc[i + 1];
+      const tr = s.tr || 0.22;
+      if (t < s.start - (i ? 0 : 1)) continue;
+      if (nx && t >= nx.start + (nx.tr || 0.22)) continue;
+      const lt = t - s.start, k = i === 0 ? 1 : cl(lt / tr);
+      const Pf = 's' + (i + 1) + '_';
+      let body = s.draw(t, lt, Pf);
+      const kind = s.kind || 'fade';
+      if (k < 1) {
+        const e = H.ease.inOutCubic(k);
+        if (kind.startsWith('slide')) body = `<defs><clipPath id="${Pf}scl"><rect x="0" y="0" width="1080" height="1920"/></clipPath></defs>` + G(body, '', `clip-path="url(#${Pf}scl)"`);
+        if (kind === 'zoom') body = G(body, `translate(540 960) scale(${(1.25 - 0.25 * e).toFixed(3)}) translate(-540 -960)`, OP(e));
+        else if (kind === 'slideL') body = G(body, `translate(${f1((1 - e) * 1080)} 0)`);
+        else if (kind === 'slideR') body = G(body, `translate(${f1(-(1 - e) * 1080)} 0)`);
+        else if (kind === 'slideU') body = G(body, `translate(0 ${f1((1 - e) * 1920)})`);
+        else if (kind === 'iris') body = `<defs><clipPath id="${Pf}iris"><circle cx="540" cy="960" r="${f1(e * 1150)}"/></clipPath></defs>` + G(body, '', `clip-path="url(#${Pf}iris)"`);
+        else body = G(body, '', OP(e));
+      }
+      html += body;
+      if (k < 1 && kind === 'flash') html += R(0, 0, 1080, 1920, '#fff', OP(0.8 * (1 - k)));
+    }
+    html += capAt(t);
+    html += R(0, 0, 1080, 1920, '#fff', OP(H.prog(t, M.end - 0.35, M.end) * 0.0));
+    svg.innerHTML = html;
+  };
+  fetch('words.json').then(r => r.json()).then(j => document.fonts.ready.then(() => j)).then(j => {
+    M = makeScenes(j.words, j.segments); CAPS = buildCaps(j.words); window.READY = true;
+  });
+})();
+</script>
+</body>
+</html>

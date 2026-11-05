@@ -1,0 +1,1827 @@
+{
+ "method": "estimated: pauses + syllables (no speech recognition)",
+ "duration": 83.436,
+ "speech_start": 0.0,
+ "speech_end": 83.35,
+ "silence_threshold_db": -40.8,
+ "pauses": [
+  {
+   "start": 6.3,
+   "end": 6.56
+  },
+  {
+   "start": 15.33,
+   "end": 15.58
+  },
+  {
+   "start": 16.77,
+   "end": 16.93
+  },
+  {
+   "start": 20.62,
+   "end": 20.82
+  },
+  {
+   "start": 26.64,
+   "end": 26.84
+  },
+  {
+   "start": 28.17,
+   "end": 28.31
+  },
+  {
+   "start": 31.07,
+   "end": 31.29
+  },
+  {
+   "start": 36.8,
+   "end": 36.98
+  },
+  {
+   "start": 43.96,
+   "end": 44.22
+  },
+  {
+   "start": 45.52,
+   "end": 45.68
+  },
+  {
+   "start": 50.28,
+   "end": 50.5
+  },
+  {
+   "start": 57.44,
+   "end": 57.62
+  },
+  {
+   "start": 59.86,
+   "end": 60.03
+  },
+  {
+   "start": 64.02,
+   "end": 64.17
+  },
+  {
+   "start": 67.59,
+   "end": 67.82
+  },
+  {
+   "start": 76.5,
+   "end": 76.75
+  },
+  {
+   "start": 79.47,
+   "end": 79.66
+  }
+ ],
+ "segments": [
+  {
+   "i": 0,
+   "text": "Nos últimos dias,",
+   "start": 0.0,
+   "end": 1.0,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 1,
+   "text": "o Paraná foi atingido por uma sequência de tempestades que deixou milhares de pessoas assustadas.",
+   "start": 1.0,
+   "end": 6.3,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 2,
+   "text": "Em Maringá,",
+   "start": 6.56,
+   "end": 7.51,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 3,
+   "text": "um tornado provocou destruição,",
+   "start": 7.51,
+   "end": 9.26,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 4,
+   "text": "enquanto em outras cidades casas foram destelhadas,",
+   "start": 9.26,
+   "end": 12.26,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 5,
+   "text": "árvores caíram e pedras de granizo danificaram telhados.",
+   "start": 12.26,
+   "end": 15.33,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 6,
+   "text": "Segundo a Defesa Civil,",
+   "start": 15.58,
+   "end": 16.77,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 7,
+   "text": "mais de 13 mil pessoas foram afetadas em 47 municípios.",
+   "start": 16.93,
+   "end": 20.62,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 8,
+   "text": "Mas você sabia que existe um fenômeno climático capaz de influenciar diretamente esse tipo de situação?",
+   "start": 20.82,
+   "end": 26.64,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 9,
+   "text": "O nome dele é El Niño.",
+   "start": 26.84,
+   "end": 28.17,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 10,
+   "text": "E o mais curioso é que tudo começa muito longe daqui,",
+   "start": 28.31,
+   "end": 31.07,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 11,
+   "text": "no meio do Oceano Pacífico.",
+   "start": 31.29,
+   "end": 32.877,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 12,
+   "text": "O El Niño acontece quando as águas dessa região ficam mais quentes que o normal.",
+   "start": 32.877,
+   "end": 36.8,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 13,
+   "text": "Parece algo distante,",
+   "start": 36.98,
+   "end": 38.003,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 14,
+   "text": "não é?",
+   "start": 38.003,
+   "end": 38.495,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 15,
+   "text": "Só que esse aquecimento consegue alterar a circulação dos ventos e mudar os padrões de chuva em várias partes do planeta.",
+   "start": 38.495,
+   "end": 43.96,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 16,
+   "text": "No Sul do Brasil,",
+   "start": 44.22,
+   "end": 44.977,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 17,
+   "text": "por exemplo,",
+   "start": 44.977,
+   "end": 45.52,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 18,
+   "text": "o fenômeno costuma favorecer períodos de chuva acima da média.",
+   "start": 45.68,
+   "end": 48.877,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 19,
+   "text": "Com mais umidade na atmosfera,",
+   "start": 48.877,
+   "end": 50.28,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 20,
+   "text": "aumentam as condições para a formação de temporais,",
+   "start": 50.5,
+   "end": 52.86,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 21,
+   "text": "principalmente quando esse cenário se combina com frentes frias e outros sistemas meteorológicos.",
+   "start": 52.86,
+   "end": 57.44,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 22,
+   "text": "Mas existe um detalhe ainda mais interessante:",
+   "start": 57.62,
+   "end": 59.86,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 23,
+   "text": "o El Niño também pode dificultar a formação de furacões no Oceano Atlântico.",
+   "start": 60.03,
+   "end": 64.02,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 24,
+   "text": "Isso acontece porque ele altera os ventos em diferentes alturas da atmosfera,",
+   "start": 64.17,
+   "end": 67.59,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 25,
+   "text": "atrapalhando o desenvolvimento dessas tempestades.",
+   "start": 67.82,
+   "end": 70.102,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 26,
+   "text": "Ou seja,",
+   "start": 70.102,
+   "end": 70.594,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 27,
+   "text": "um aquecimento no outro lado do planeta pode influenciar até mesmo a intensidade das chuvas que você vê pela janela.",
+   "start": 70.594,
+   "end": 76.5,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 28,
+   "text": "E é justamente isso que torna o El Niño tão impressionante:",
+   "start": 76.75,
+   "end": 79.47,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 29,
+   "text": "suas consequências podem aparecer a milhares de quilômetros de onde tudo começou.",
+   "start": 79.66,
+   "end": 83.35,
+   "anchored_on_pause": null
+  }
+ ],
+ "words": [
+  {
+   "w": "Nos",
+   "start": 0.0,
+   "end": 0.225,
+   "seg": 0
+  },
+  {
+   "w": "últimos",
+   "start": 0.225,
+   "end": 0.735,
+   "seg": 0
+  },
+  {
+   "w": "dias,",
+   "start": 0.735,
+   "end": 1.0,
+   "seg": 0
+  },
+  {
+   "w": "o",
+   "start": 1.0,
+   "end": 1.185,
+   "seg": 1
+  },
+  {
+   "w": "Paraná",
+   "start": 1.185,
+   "end": 1.625,
+   "seg": 1
+  },
+  {
+   "w": "foi",
+   "start": 1.625,
+   "end": 1.775,
+   "seg": 1
+  },
+  {
+   "w": "atingido",
+   "start": 1.775,
+   "end": 2.405,
+   "seg": 1
+  },
+  {
+   "w": "por",
+   "start": 2.405,
+   "end": 2.495,
+   "seg": 1
+  },
+  {
+   "w": "uma",
+   "start": 2.495,
+   "end": 2.835,
+   "seg": 1
+  },
+  {
+   "w": "sequência",
+   "start": 2.835,
+   "end": 3.305,
+   "seg": 1
+  },
+  {
+   "w": "de",
+   "start": 3.305,
+   "end": 3.485,
+   "seg": 1
+  },
+  {
+   "w": "tempestades",
+   "start": 3.485,
+   "end": 4.105,
+   "seg": 1
+  },
+  {
+   "w": "que",
+   "start": 4.105,
+   "end": 4.235,
+   "seg": 1
+  },
+  {
+   "w": "deixou",
+   "start": 4.235,
+   "end": 4.585,
+   "seg": 1
+  },
+  {
+   "w": "milhares",
+   "start": 4.585,
+   "end": 5.025,
+   "seg": 1
+  },
+  {
+   "w": "de",
+   "start": 5.025,
+   "end": 5.265,
+   "seg": 1
+  },
+  {
+   "w": "pessoas",
+   "start": 5.265,
+   "end": 5.715,
+   "seg": 1
+  },
+  {
+   "w": "assustadas.",
+   "start": 5.715,
+   "end": 6.3,
+   "seg": 1
+  },
+  {
+   "w": "Em",
+   "start": 6.56,
+   "end": 6.805,
+   "seg": 2
+  },
+  {
+   "w": "Maringá,",
+   "start": 6.805,
+   "end": 7.51,
+   "seg": 2
+  },
+  {
+   "w": "um",
+   "start": 7.51,
+   "end": 7.625,
+   "seg": 3
+  },
+  {
+   "w": "tornado",
+   "start": 7.625,
+   "end": 8.075,
+   "seg": 3
+  },
+  {
+   "w": "provocou",
+   "start": 8.075,
+   "end": 8.595,
+   "seg": 3
+  },
+  {
+   "w": "destruição,",
+   "start": 8.595,
+   "end": 9.26,
+   "seg": 3
+  },
+  {
+   "w": "enquanto",
+   "start": 9.26,
+   "end": 9.745,
+   "seg": 4
+  },
+  {
+   "w": "em",
+   "start": 9.745,
+   "end": 9.925,
+   "seg": 4
+  },
+  {
+   "w": "outras",
+   "start": 9.925,
+   "end": 10.395,
+   "seg": 4
+  },
+  {
+   "w": "cidades",
+   "start": 10.395,
+   "end": 10.825,
+   "seg": 4
+  },
+  {
+   "w": "casas",
+   "start": 10.825,
+   "end": 11.145,
+   "seg": 4
+  },
+  {
+   "w": "foram",
+   "start": 11.145,
+   "end": 11.605,
+   "seg": 4
+  },
+  {
+   "w": "destelhadas,",
+   "start": 11.605,
+   "end": 12.26,
+   "seg": 4
+  },
+  {
+   "w": "árvores",
+   "start": 12.26,
+   "end": 12.645,
+   "seg": 5
+  },
+  {
+   "w": "caíram",
+   "start": 12.645,
+   "end": 13.175,
+   "seg": 5
+  },
+  {
+   "w": "e",
+   "start": 13.175,
+   "end": 13.285,
+   "seg": 5
+  },
+  {
+   "w": "pedras",
+   "start": 13.285,
+   "end": 13.545,
+   "seg": 5
+  },
+  {
+   "w": "de",
+   "start": 13.545,
+   "end": 13.715,
+   "seg": 5
+  },
+  {
+   "w": "granizo",
+   "start": 13.715,
+   "end": 14.205,
+   "seg": 5
+  },
+  {
+   "w": "danificaram",
+   "start": 14.205,
+   "end": 14.855,
+   "seg": 5
+  },
+  {
+   "w": "telhados.",
+   "start": 14.855,
+   "end": 15.33,
+   "seg": 5
+  },
+  {
+   "w": "Segundo",
+   "start": 15.58,
+   "end": 15.985,
+   "seg": 6
+  },
+  {
+   "w": "a",
+   "start": 15.985,
+   "end": 16.145,
+   "seg": 6
+  },
+  {
+   "w": "Defesa",
+   "start": 16.145,
+   "end": 16.485,
+   "seg": 6
+  },
+  {
+   "w": "Civil,",
+   "start": 16.485,
+   "end": 16.77,
+   "seg": 6
+  },
+  {
+   "w": "mais",
+   "start": 16.93,
+   "end": 17.125,
+   "seg": 7
+  },
+  {
+   "w": "de",
+   "start": 17.125,
+   "end": 17.295,
+   "seg": 7
+  },
+  {
+   "w": "13",
+   "start": 17.295,
+   "end": 17.675,
+   "seg": 7
+  },
+  {
+   "w": "mil",
+   "start": 17.675,
+   "end": 17.895,
+   "seg": 7
+  },
+  {
+   "w": "pessoas",
+   "start": 17.895,
+   "end": 18.445,
+   "seg": 7
+  },
+  {
+   "w": "foram",
+   "start": 18.445,
+   "end": 18.785,
+   "seg": 7
+  },
+  {
+   "w": "afetadas",
+   "start": 18.785,
+   "end": 19.325,
+   "seg": 7
+  },
+  {
+   "w": "em",
+   "start": 19.325,
+   "end": 19.475,
+   "seg": 7
+  },
+  {
+   "w": "47",
+   "start": 19.475,
+   "end": 19.985,
+   "seg": 7
+  },
+  {
+   "w": "municípios.",
+   "start": 19.985,
+   "end": 20.62,
+   "seg": 7
+  },
+  {
+   "w": "Mas",
+   "start": 20.82,
+   "end": 21.035,
+   "seg": 8
+  },
+  {
+   "w": "você",
+   "start": 21.035,
+   "end": 21.305,
+   "seg": 8
+  },
+  {
+   "w": "sabia",
+   "start": 21.305,
+   "end": 21.625,
+   "seg": 8
+  },
+  {
+   "w": "que",
+   "start": 21.625,
+   "end": 21.795,
+   "seg": 8
+  },
+  {
+   "w": "existe",
+   "start": 21.795,
+   "end": 22.225,
+   "seg": 8
+  },
+  {
+   "w": "um",
+   "start": 22.225,
+   "end": 22.355,
+   "seg": 8
+  },
+  {
+   "w": "fenômeno",
+   "start": 22.355,
+   "end": 22.935,
+   "seg": 8
+  },
+  {
+   "w": "climático",
+   "start": 22.935,
+   "end": 23.595,
+   "seg": 8
+  },
+  {
+   "w": "capaz",
+   "start": 23.595,
+   "end": 23.835,
+   "seg": 8
+  },
+  {
+   "w": "de",
+   "start": 23.835,
+   "end": 24.025,
+   "seg": 8
+  },
+  {
+   "w": "influenciar",
+   "start": 24.025,
+   "end": 24.545,
+   "seg": 8
+  },
+  {
+   "w": "diretamente",
+   "start": 24.545,
+   "end": 25.245,
+   "seg": 8
+  },
+  {
+   "w": "esse",
+   "start": 25.245,
+   "end": 25.645,
+   "seg": 8
+  },
+  {
+   "w": "tipo",
+   "start": 25.645,
+   "end": 25.855,
+   "seg": 8
+  },
+  {
+   "w": "de",
+   "start": 25.855,
+   "end": 26.095,
+   "seg": 8
+  },
+  {
+   "w": "situação?",
+   "start": 26.095,
+   "end": 26.64,
+   "seg": 8
+  },
+  {
+   "w": "O",
+   "start": 26.84,
+   "end": 26.985,
+   "seg": 9
+  },
+  {
+   "w": "nome",
+   "start": 26.985,
+   "end": 27.295,
+   "seg": 9
+  },
+  {
+   "w": "dele",
+   "start": 27.295,
+   "end": 27.585,
+   "seg": 9
+  },
+  {
+   "w": "é",
+   "start": 27.585,
+   "end": 27.765,
+   "seg": 9
+  },
+  {
+   "w": "El",
+   "start": 27.765,
+   "end": 27.895,
+   "seg": 9
+  },
+  {
+   "w": "Niño.",
+   "start": 27.895,
+   "end": 28.17,
+   "seg": 9
+  },
+  {
+   "w": "E",
+   "start": 28.31,
+   "end": 28.445,
+   "seg": 10
+  },
+  {
+   "w": "o",
+   "start": 28.445,
+   "end": 28.605,
+   "seg": 10
+  },
+  {
+   "w": "mais",
+   "start": 28.605,
+   "end": 28.765,
+   "seg": 10
+  },
+  {
+   "w": "curioso",
+   "start": 28.765,
+   "end": 29.225,
+   "seg": 10
+  },
+  {
+   "w": "é",
+   "start": 29.225,
+   "end": 29.335,
+   "seg": 10
+  },
+  {
+   "w": "que",
+   "start": 29.335,
+   "end": 29.455,
+   "seg": 10
+  },
+  {
+   "w": "tudo",
+   "start": 29.455,
+   "end": 29.705,
+   "seg": 10
+  },
+  {
+   "w": "começa",
+   "start": 29.705,
+   "end": 30.215,
+   "seg": 10
+  },
+  {
+   "w": "muito",
+   "start": 30.215,
+   "end": 30.415,
+   "seg": 10
+  },
+  {
+   "w": "longe",
+   "start": 30.415,
+   "end": 30.795,
+   "seg": 10
+  },
+  {
+   "w": "daqui,",
+   "start": 30.795,
+   "end": 31.07,
+   "seg": 10
+  },
+  {
+   "w": "no",
+   "start": 31.29,
+   "end": 31.475,
+   "seg": 11
+  },
+  {
+   "w": "meio",
+   "start": 31.475,
+   "end": 31.615,
+   "seg": 11
+  },
+  {
+   "w": "do",
+   "start": 31.615,
+   "end": 31.745,
+   "seg": 11
+  },
+  {
+   "w": "Oceano",
+   "start": 31.745,
+   "end": 32.275,
+   "seg": 11
+  },
+  {
+   "w": "Pacífico.",
+   "start": 32.275,
+   "end": 32.877,
+   "seg": 11
+  },
+  {
+   "w": "O",
+   "start": 32.877,
+   "end": 33.045,
+   "seg": 12
+  },
+  {
+   "w": "El",
+   "start": 33.045,
+   "end": 33.145,
+   "seg": 12
+  },
+  {
+   "w": "Niño",
+   "start": 33.145,
+   "end": 33.475,
+   "seg": 12
+  },
+  {
+   "w": "acontece",
+   "start": 33.475,
+   "end": 33.945,
+   "seg": 12
+  },
+  {
+   "w": "quando",
+   "start": 33.945,
+   "end": 34.325,
+   "seg": 12
+  },
+  {
+   "w": "as",
+   "start": 34.325,
+   "end": 34.445,
+   "seg": 12
+  },
+  {
+   "w": "águas",
+   "start": 34.445,
+   "end": 34.715,
+   "seg": 12
+  },
+  {
+   "w": "dessa",
+   "start": 34.715,
+   "end": 35.075,
+   "seg": 12
+  },
+  {
+   "w": "região",
+   "start": 35.075,
+   "end": 35.395,
+   "seg": 12
+  },
+  {
+   "w": "ficam",
+   "start": 35.395,
+   "end": 35.765,
+   "seg": 12
+  },
+  {
+   "w": "mais",
+   "start": 35.765,
+   "end": 35.935,
+   "seg": 12
+  },
+  {
+   "w": "quentes",
+   "start": 35.935,
+   "end": 36.205,
+   "seg": 12
+  },
+  {
+   "w": "que",
+   "start": 36.205,
+   "end": 36.365,
+   "seg": 12
+  },
+  {
+   "w": "o",
+   "start": 36.365,
+   "end": 36.525,
+   "seg": 12
+  },
+  {
+   "w": "normal.",
+   "start": 36.525,
+   "end": 36.8,
+   "seg": 12
+  },
+  {
+   "w": "Parece",
+   "start": 36.98,
+   "end": 37.355,
+   "seg": 13
+  },
+  {
+   "w": "algo",
+   "start": 37.355,
+   "end": 37.625,
+   "seg": 13
+  },
+  {
+   "w": "distante,",
+   "start": 37.625,
+   "end": 38.003,
+   "seg": 13
+  },
+  {
+   "w": "não",
+   "start": 38.003,
+   "end": 38.385,
+   "seg": 14
+  },
+  {
+   "w": "é?",
+   "start": 38.385,
+   "end": 38.495,
+   "seg": 14
+  },
+  {
+   "w": "Só",
+   "start": 38.495,
+   "end": 38.665,
+   "seg": 15
+  },
+  {
+   "w": "que",
+   "start": 38.665,
+   "end": 38.785,
+   "seg": 15
+  },
+  {
+   "w": "esse",
+   "start": 38.785,
+   "end": 39.065,
+   "seg": 15
+  },
+  {
+   "w": "aquecimento",
+   "start": 39.065,
+   "end": 39.655,
+   "seg": 15
+  },
+  {
+   "w": "consegue",
+   "start": 39.655,
+   "end": 40.025,
+   "seg": 15
+  },
+  {
+   "w": "alterar",
+   "start": 40.025,
+   "end": 40.395,
+   "seg": 15
+  },
+  {
+   "w": "a",
+   "start": 40.395,
+   "end": 40.495,
+   "seg": 15
+  },
+  {
+   "w": "circulação",
+   "start": 40.495,
+   "end": 41.105,
+   "seg": 15
+  },
+  {
+   "w": "dos",
+   "start": 41.105,
+   "end": 41.225,
+   "seg": 15
+  },
+  {
+   "w": "ventos",
+   "start": 41.225,
+   "end": 41.555,
+   "seg": 15
+  },
+  {
+   "w": "e",
+   "start": 41.555,
+   "end": 41.665,
+   "seg": 15
+  },
+  {
+   "w": "mudar",
+   "start": 41.665,
+   "end": 41.895,
+   "seg": 15
+  },
+  {
+   "w": "os",
+   "start": 41.895,
+   "end": 42.075,
+   "seg": 15
+  },
+  {
+   "w": "padrões",
+   "start": 42.075,
+   "end": 42.445,
+   "seg": 15
+  },
+  {
+   "w": "de",
+   "start": 42.445,
+   "end": 42.545,
+   "seg": 15
+  },
+  {
+   "w": "chuva",
+   "start": 42.545,
+   "end": 42.755,
+   "seg": 15
+  },
+  {
+   "w": "em",
+   "start": 42.755,
+   "end": 42.915,
+   "seg": 15
+  },
+  {
+   "w": "várias",
+   "start": 42.915,
+   "end": 43.145,
+   "seg": 15
+  },
+  {
+   "w": "partes",
+   "start": 43.145,
+   "end": 43.475,
+   "seg": 15
+  },
+  {
+   "w": "do",
+   "start": 43.475,
+   "end": 43.575,
+   "seg": 15
+  },
+  {
+   "w": "planeta.",
+   "start": 43.575,
+   "end": 43.96,
+   "seg": 15
+  },
+  {
+   "w": "No",
+   "start": 44.22,
+   "end": 44.325,
+   "seg": 16
+  },
+  {
+   "w": "Sul",
+   "start": 44.325,
+   "end": 44.535,
+   "seg": 16
+  },
+  {
+   "w": "do",
+   "start": 44.535,
+   "end": 44.695,
+   "seg": 16
+  },
+  {
+   "w": "Brasil,",
+   "start": 44.695,
+   "end": 44.977,
+   "seg": 16
+  },
+  {
+   "w": "por",
+   "start": 44.977,
+   "end": 45.135,
+   "seg": 17
+  },
+  {
+   "w": "exemplo,",
+   "start": 45.135,
+   "end": 45.52,
+   "seg": 17
+  },
+  {
+   "w": "o",
+   "start": 45.68,
+   "end": 45.795,
+   "seg": 18
+  },
+  {
+   "w": "fenômeno",
+   "start": 45.795,
+   "end": 46.335,
+   "seg": 18
+  },
+  {
+   "w": "costuma",
+   "start": 46.335,
+   "end": 46.755,
+   "seg": 18
+  },
+  {
+   "w": "favorecer",
+   "start": 46.755,
+   "end": 47.315,
+   "seg": 18
+  },
+  {
+   "w": "períodos",
+   "start": 47.315,
+   "end": 47.675,
+   "seg": 18
+  },
+  {
+   "w": "de",
+   "start": 47.675,
+   "end": 47.865,
+   "seg": 18
+  },
+  {
+   "w": "chuva",
+   "start": 47.865,
+   "end": 48.145,
+   "seg": 18
+  },
+  {
+   "w": "acima",
+   "start": 48.145,
+   "end": 48.495,
+   "seg": 18
+  },
+  {
+   "w": "da",
+   "start": 48.495,
+   "end": 48.635,
+   "seg": 18
+  },
+  {
+   "w": "média.",
+   "start": 48.635,
+   "end": 48.877,
+   "seg": 18
+  },
+  {
+   "w": "Com",
+   "start": 48.877,
+   "end": 48.975,
+   "seg": 19
+  },
+  {
+   "w": "mais",
+   "start": 48.975,
+   "end": 49.225,
+   "seg": 19
+  },
+  {
+   "w": "umidade",
+   "start": 49.225,
+   "end": 49.655,
+   "seg": 19
+  },
+  {
+   "w": "na",
+   "start": 49.655,
+   "end": 49.795,
+   "seg": 19
+  },
+  {
+   "w": "atmosfera,",
+   "start": 49.795,
+   "end": 50.28,
+   "seg": 19
+  },
+  {
+   "w": "aumentam",
+   "start": 50.5,
+   "end": 50.915,
+   "seg": 20
+  },
+  {
+   "w": "as",
+   "start": 50.915,
+   "end": 51.035,
+   "seg": 20
+  },
+  {
+   "w": "condições",
+   "start": 51.035,
+   "end": 51.535,
+   "seg": 20
+  },
+  {
+   "w": "para",
+   "start": 51.535,
+   "end": 51.765,
+   "seg": 20
+  },
+  {
+   "w": "a",
+   "start": 51.765,
+   "end": 51.875,
+   "seg": 20
+  },
+  {
+   "w": "formação",
+   "start": 51.875,
+   "end": 52.305,
+   "seg": 20
+  },
+  {
+   "w": "de",
+   "start": 52.305,
+   "end": 52.415,
+   "seg": 20
+  },
+  {
+   "w": "temporais,",
+   "start": 52.415,
+   "end": 52.86,
+   "seg": 20
+  },
+  {
+   "w": "principalmente",
+   "start": 52.86,
+   "end": 53.585,
+   "seg": 21
+  },
+  {
+   "w": "quando",
+   "start": 53.585,
+   "end": 53.835,
+   "seg": 21
+  },
+  {
+   "w": "esse",
+   "start": 53.835,
+   "end": 54.105,
+   "seg": 21
+  },
+  {
+   "w": "cenário",
+   "start": 54.105,
+   "end": 54.565,
+   "seg": 21
+  },
+  {
+   "w": "se",
+   "start": 54.565,
+   "end": 54.665,
+   "seg": 21
+  },
+  {
+   "w": "combina",
+   "start": 54.665,
+   "end": 55.055,
+   "seg": 21
+  },
+  {
+   "w": "com",
+   "start": 55.055,
+   "end": 55.255,
+   "seg": 21
+  },
+  {
+   "w": "frentes",
+   "start": 55.255,
+   "end": 55.475,
+   "seg": 21
+  },
+  {
+   "w": "frias",
+   "start": 55.475,
+   "end": 55.715,
+   "seg": 21
+  },
+  {
+   "w": "e",
+   "start": 55.715,
+   "end": 55.815,
+   "seg": 21
+  },
+  {
+   "w": "outros",
+   "start": 55.815,
+   "end": 56.075,
+   "seg": 21
+  },
+  {
+   "w": "sistemas",
+   "start": 56.075,
+   "end": 56.585,
+   "seg": 21
+  },
+  {
+   "w": "meteorológicos.",
+   "start": 56.585,
+   "end": 57.44,
+   "seg": 21
+  },
+  {
+   "w": "Mas",
+   "start": 57.62,
+   "end": 57.775,
+   "seg": 22
+  },
+  {
+   "w": "existe",
+   "start": 57.775,
+   "end": 58.175,
+   "seg": 22
+  },
+  {
+   "w": "um",
+   "start": 58.175,
+   "end": 58.345,
+   "seg": 22
+  },
+  {
+   "w": "detalhe",
+   "start": 58.345,
+   "end": 58.685,
+   "seg": 22
+  },
+  {
+   "w": "ainda",
+   "start": 58.685,
+   "end": 58.955,
+   "seg": 22
+  },
+  {
+   "w": "mais",
+   "start": 58.955,
+   "end": 59.185,
+   "seg": 22
+  },
+  {
+   "w": "interessante:",
+   "start": 59.185,
+   "end": 59.86,
+   "seg": 22
+  },
+  {
+   "w": "o",
+   "start": 60.03,
+   "end": 60.155,
+   "seg": 23
+  },
+  {
+   "w": "El",
+   "start": 60.155,
+   "end": 60.255,
+   "seg": 23
+  },
+  {
+   "w": "Niño",
+   "start": 60.255,
+   "end": 60.595,
+   "seg": 23
+  },
+  {
+   "w": "também",
+   "start": 60.595,
+   "end": 60.825,
+   "seg": 23
+  },
+  {
+   "w": "pode",
+   "start": 60.825,
+   "end": 61.015,
+   "seg": 23
+  },
+  {
+   "w": "dificultar",
+   "start": 61.015,
+   "end": 61.635,
+   "seg": 23
+  },
+  {
+   "w": "a",
+   "start": 61.635,
+   "end": 61.735,
+   "seg": 23
+  },
+  {
+   "w": "formação",
+   "start": 61.735,
+   "end": 62.255,
+   "seg": 23
+  },
+  {
+   "w": "de",
+   "start": 62.255,
+   "end": 62.355,
+   "seg": 23
+  },
+  {
+   "w": "furacões",
+   "start": 62.355,
+   "end": 62.845,
+   "seg": 23
+  },
+  {
+   "w": "no",
+   "start": 62.845,
+   "end": 63.055,
+   "seg": 23
+  },
+  {
+   "w": "Oceano",
+   "start": 63.055,
+   "end": 63.545,
+   "seg": 23
+  },
+  {
+   "w": "Atlântico.",
+   "start": 63.545,
+   "end": 64.02,
+   "seg": 23
+  },
+  {
+   "w": "Isso",
+   "start": 64.17,
+   "end": 64.385,
+   "seg": 24
+  },
+  {
+   "w": "acontece",
+   "start": 64.385,
+   "end": 64.835,
+   "seg": 24
+  },
+  {
+   "w": "porque",
+   "start": 64.835,
+   "end": 65.055,
+   "seg": 24
+  },
+  {
+   "w": "ele",
+   "start": 65.055,
+   "end": 65.285,
+   "seg": 24
+  },
+  {
+   "w": "altera",
+   "start": 65.285,
+   "end": 65.665,
+   "seg": 24
+  },
+  {
+   "w": "os",
+   "start": 65.665,
+   "end": 65.785,
+   "seg": 24
+  },
+  {
+   "w": "ventos",
+   "start": 65.785,
+   "end": 66.035,
+   "seg": 24
+  },
+  {
+   "w": "em",
+   "start": 66.035,
+   "end": 66.165,
+   "seg": 24
+  },
+  {
+   "w": "diferentes",
+   "start": 66.165,
+   "end": 66.695,
+   "seg": 24
+  },
+  {
+   "w": "alturas",
+   "start": 66.695,
+   "end": 67.035,
+   "seg": 24
+  },
+  {
+   "w": "da",
+   "start": 67.035,
+   "end": 67.145,
+   "seg": 24
+  },
+  {
+   "w": "atmosfera,",
+   "start": 67.145,
+   "end": 67.59,
+   "seg": 24
+  },
+  {
+   "w": "atrapalhando",
+   "start": 67.82,
+   "end": 68.455,
+   "seg": 25
+  },
+  {
+   "w": "o",
+   "start": 68.455,
+   "end": 68.555,
+   "seg": 25
+  },
+  {
+   "w": "desenvolvimento",
+   "start": 68.555,
+   "end": 69.385,
+   "seg": 25
+  },
+  {
+   "w": "dessas",
+   "start": 69.385,
+   "end": 69.645,
+   "seg": 25
+  },
+  {
+   "w": "tempestades.",
+   "start": 69.645,
+   "end": 70.102,
+   "seg": 25
+  },
+  {
+   "w": "Ou",
+   "start": 70.102,
+   "end": 70.295,
+   "seg": 26
+  },
+  {
+   "w": "seja,",
+   "start": 70.295,
+   "end": 70.594,
+   "seg": 26
+  },
+  {
+   "w": "um",
+   "start": 70.594,
+   "end": 70.715,
+   "seg": 27
+  },
+  {
+   "w": "aquecimento",
+   "start": 70.715,
+   "end": 71.415,
+   "seg": 27
+  },
+  {
+   "w": "no",
+   "start": 71.415,
+   "end": 71.605,
+   "seg": 27
+  },
+  {
+   "w": "outro",
+   "start": 71.605,
+   "end": 71.915,
+   "seg": 27
+  },
+  {
+   "w": "lado",
+   "start": 71.915,
+   "end": 72.135,
+   "seg": 27
+  },
+  {
+   "w": "do",
+   "start": 72.135,
+   "end": 72.275,
+   "seg": 27
+  },
+  {
+   "w": "planeta",
+   "start": 72.275,
+   "end": 72.655,
+   "seg": 27
+  },
+  {
+   "w": "pode",
+   "start": 72.655,
+   "end": 72.975,
+   "seg": 27
+  },
+  {
+   "w": "influenciar",
+   "start": 72.975,
+   "end": 73.505,
+   "seg": 27
+  },
+  {
+   "w": "até",
+   "start": 73.505,
+   "end": 73.755,
+   "seg": 27
+  },
+  {
+   "w": "mesmo",
+   "start": 73.755,
+   "end": 74.015,
+   "seg": 27
+  },
+  {
+   "w": "a",
+   "start": 74.015,
+   "end": 74.145,
+   "seg": 27
+  },
+  {
+   "w": "intensidade",
+   "start": 74.145,
+   "end": 74.765,
+   "seg": 27
+  },
+  {
+   "w": "das",
+   "start": 74.765,
+   "end": 74.935,
+   "seg": 27
+  },
+  {
+   "w": "chuvas",
+   "start": 74.935,
+   "end": 75.295,
+   "seg": 27
+  },
+  {
+   "w": "que",
+   "start": 75.295,
+   "end": 75.415,
+   "seg": 27
+  },
+  {
+   "w": "você",
+   "start": 75.415,
+   "end": 75.695,
+   "seg": 27
+  },
+  {
+   "w": "vê",
+   "start": 75.695,
+   "end": 75.835,
+   "seg": 27
+  },
+  {
+   "w": "pela",
+   "start": 75.835,
+   "end": 76.135,
+   "seg": 27
+  },
+  {
+   "w": "janela.",
+   "start": 76.135,
+   "end": 76.5,
+   "seg": 27
+  },
+  {
+   "w": "E",
+   "start": 76.75,
+   "end": 76.865,
+   "seg": 28
+  },
+  {
+   "w": "é",
+   "start": 76.865,
+   "end": 76.985,
+   "seg": 28
+  },
+  {
+   "w": "justamente",
+   "start": 76.985,
+   "end": 77.515,
+   "seg": 28
+  },
+  {
+   "w": "isso",
+   "start": 77.515,
+   "end": 77.745,
+   "seg": 28
+  },
+  {
+   "w": "que",
+   "start": 77.745,
+   "end": 77.895,
+   "seg": 28
+  },
+  {
+   "w": "torna",
+   "start": 77.895,
+   "end": 78.085,
+   "seg": 28
+  },
+  {
+   "w": "o",
+   "start": 78.085,
+   "end": 78.185,
+   "seg": 28
+  },
+  {
+   "w": "El",
+   "start": 78.185,
+   "end": 78.365,
+   "seg": 28
+  },
+  {
+   "w": "Niño",
+   "start": 78.365,
+   "end": 78.645,
+   "seg": 28
+  },
+  {
+   "w": "tão",
+   "start": 78.645,
+   "end": 78.795,
+   "seg": 28
+  },
+  {
+   "w": "impressionante:",
+   "start": 78.795,
+   "end": 79.47,
+   "seg": 28
+  },
+  {
+   "w": "suas",
+   "start": 79.66,
+   "end": 79.815,
+   "seg": 29
+  },
+  {
+   "w": "consequências",
+   "start": 79.815,
+   "end": 80.325,
+   "seg": 29
+  },
+  {
+   "w": "podem",
+   "start": 80.325,
+   "end": 80.585,
+   "seg": 29
+  },
+  {
+   "w": "aparecer",
+   "start": 80.585,
+   "end": 81.175,
+   "seg": 29
+  },
+  {
+   "w": "a",
+   "start": 81.175,
+   "end": 81.275,
+   "seg": 29
+  },
+  {
+   "w": "milhares",
+   "start": 81.275,
+   "end": 81.695,
+   "seg": 29
+  },
+  {
+   "w": "de",
+   "start": 81.695,
+   "end": 81.815,
+   "seg": 29
+  },
+  {
+   "w": "quilômetros",
+   "start": 81.815,
+   "end": 82.305,
+   "seg": 29
+  },
+  {
+   "w": "de",
+   "start": 82.305,
+   "end": 82.445,
+   "seg": 29
+  },
+  {
+   "w": "onde",
+   "start": 82.445,
+   "end": 82.755,
+   "seg": 29
+  },
+  {
+   "w": "tudo",
+   "start": 82.755,
+   "end": 82.935,
+   "seg": 29
+  },
+  {
+   "w": "começou.",
+   "start": 82.935,
+   "end": 83.35,
+   "seg": 29
+  }
+ ]
+}

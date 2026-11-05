@@ -1,0 +1,3710 @@
+{
+ "method": "asr-anchored (whisper windows) + syllables",
+ "duration": 151.995,
+ "speech_start": 0.0,
+ "speech_end": 151.91,
+ "silence_threshold_db": -34.5,
+ "pauses": [
+  {
+   "start": 4.63,
+   "end": 4.96
+  },
+  {
+   "start": 7.37,
+   "end": 7.81
+  },
+  {
+   "start": 10.11,
+   "end": 10.25
+  },
+  {
+   "start": 12.52,
+   "end": 12.64
+  },
+  {
+   "start": 16.01,
+   "end": 16.37
+  },
+  {
+   "start": 18.69,
+   "end": 18.91
+  },
+  {
+   "start": 19.64,
+   "end": 19.76
+  },
+  {
+   "start": 21.84,
+   "end": 22.01
+  },
+  {
+   "start": 24.22,
+   "end": 24.52
+  },
+  {
+   "start": 25.03,
+   "end": 25.17
+  },
+  {
+   "start": 26.41,
+   "end": 26.53
+  },
+  {
+   "start": 30.63,
+   "end": 30.81
+  },
+  {
+   "start": 32.77,
+   "end": 32.91
+  },
+  {
+   "start": 34.48,
+   "end": 34.65
+  },
+  {
+   "start": 35.92,
+   "end": 36.11
+  },
+  {
+   "start": 36.61,
+   "end": 36.75
+  },
+  {
+   "start": 38.35,
+   "end": 38.47
+  },
+  {
+   "start": 39.66,
+   "end": 39.83
+  },
+  {
+   "start": 40.99,
+   "end": 41.11
+  },
+  {
+   "start": 44.07,
+   "end": 44.56
+  },
+  {
+   "start": 48.02,
+   "end": 48.14
+  },
+  {
+   "start": 49.06,
+   "end": 49.19
+  },
+  {
+   "start": 49.22,
+   "end": 49.39
+  },
+  {
+   "start": 52.0,
+   "end": 52.18
+  },
+  {
+   "start": 53.24,
+   "end": 53.36
+  },
+  {
+   "start": 55.65,
+   "end": 55.79
+  },
+  {
+   "start": 56.53,
+   "end": 56.81
+  },
+  {
+   "start": 57.17,
+   "end": 57.37
+  },
+  {
+   "start": 58.3,
+   "end": 58.61
+  },
+  {
+   "start": 60.67,
+   "end": 60.95
+  },
+  {
+   "start": 62.92,
+   "end": 63.04
+  },
+  {
+   "start": 69.08,
+   "end": 69.66
+  },
+  {
+   "start": 71.83,
+   "end": 72.17
+  },
+  {
+   "start": 77.62,
+   "end": 77.96
+  },
+  {
+   "start": 79.34,
+   "end": 79.46
+  },
+  {
+   "start": 81.68,
+   "end": 82.07
+  },
+  {
+   "start": 84.99,
+   "end": 85.22
+  },
+  {
+   "start": 88.03,
+   "end": 88.38
+  },
+  {
+   "start": 91.39,
+   "end": 91.75
+  },
+  {
+   "start": 92.3,
+   "end": 92.42
+  },
+  {
+   "start": 94.17,
+   "end": 94.34
+  },
+  {
+   "start": 94.64,
+   "end": 94.89
+  },
+  {
+   "start": 97.47,
+   "end": 97.59
+  },
+  {
+   "start": 99.7,
+   "end": 99.91
+  },
+  {
+   "start": 100.94,
+   "end": 101.06
+  },
+  {
+   "start": 103.32,
+   "end": 103.68
+  },
+  {
+   "start": 104.69,
+   "end": 105.1
+  },
+  {
+   "start": 106.01,
+   "end": 106.13
+  },
+  {
+   "start": 107.43,
+   "end": 107.6
+  },
+  {
+   "start": 109.54,
+   "end": 109.87
+  },
+  {
+   "start": 112.29,
+   "end": 112.47
+  },
+  {
+   "start": 114.3,
+   "end": 114.47
+  },
+  {
+   "start": 115.69,
+   "end": 115.81
+  },
+  {
+   "start": 115.89,
+   "end": 116.16
+  },
+  {
+   "start": 118.75,
+   "end": 119.01
+  },
+  {
+   "start": 120.02,
+   "end": 120.2
+  },
+  {
+   "start": 120.89,
+   "end": 121.06
+  },
+  {
+   "start": 122.88,
+   "end": 123.05
+  },
+  {
+   "start": 125.86,
+   "end": 126.32
+  },
+  {
+   "start": 130.53,
+   "end": 130.66
+  },
+  {
+   "start": 133.12,
+   "end": 133.32
+  },
+  {
+   "start": 134.0,
+   "end": 134.12
+  },
+  {
+   "start": 134.31,
+   "end": 134.68
+  },
+  {
+   "start": 136.22,
+   "end": 136.41
+  },
+  {
+   "start": 137.48,
+   "end": 137.67
+  },
+  {
+   "start": 139.01,
+   "end": 139.24
+  },
+  {
+   "start": 141.07,
+   "end": 141.21
+  },
+  {
+   "start": 142.24,
+   "end": 142.36
+  },
+  {
+   "start": 143.48,
+   "end": 143.61
+  },
+  {
+   "start": 147.59,
+   "end": 147.83
+  },
+  {
+   "start": 148.13,
+   "end": 148.3
+  },
+  {
+   "start": 150.05,
+   "end": 150.41
+  }
+ ],
+ "segments": [
+  {
+   "i": 0,
+   "text": "Você aceitaria 1 milhão de dólares pra passar uma noite em uma casa abandonada?",
+   "start": -0.784,
+   "end": 4.9,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 1,
+   "text": "Foi exatamente essa proposta que Gabriel recebeu depois de se inscrever em um desafio na internet.",
+   "start": 4.9,
+   "end": 10.15,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 2,
+   "text": "Ele estava desempregado,",
+   "start": 10.15,
+   "end": 11.65,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 3,
+   "text": "cheio de dívidas e não pensou duas vezes antes de aceitar.",
+   "start": 11.65,
+   "end": 14.769,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 4,
+   "text": "Mas havia uma condição:",
+   "start": 14.769,
+   "end": 16.155,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 5,
+   "text": "precisava entrar na casa às 22 horas,",
+   "start": 16.155,
+   "end": 18.668,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 6,
+   "text": "permanecer lá até as 6 da manhã e seguir três regras.",
+   "start": 18.668,
+   "end": 21.819,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 7,
+   "text": "A primeira era não sair por nenhum motivo.",
+   "start": 21.819,
+   "end": 24.15,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 8,
+   "text": "A segunda era não abrir a porta do porão.",
+   "start": 24.15,
+   "end": 26.493,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 9,
+   "text": "E a terceira era nunca responder se alguém chamasse seu nome durante a madrugada.",
+   "start": 26.493,
+   "end": 30.881,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 10,
+   "text": "Gabriel achou as regras exageradas,",
+   "start": 30.881,
+   "end": 32.74,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 11,
+   "text": "mas,",
+   "start": 32.74,
+   "end": 32.973,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 12,
+   "text": "por um milhão de dólares,",
+   "start": 32.973,
+   "end": 34.235,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 13,
+   "text": "não estava disposto a desistir.",
+   "start": 34.235,
+   "end": 36.15,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 14,
+   "text": "Quando chegou,",
+   "start": 36.15,
+   "end": 36.766,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 15,
+   "text": "encontrou uma construção enorme,",
+   "start": 36.766,
+   "end": 38.615,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 16,
+   "text": "cercada por árvores,",
+   "start": 38.615,
+   "end": 39.693,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 17,
+   "text": "com janelas quebradas,",
+   "start": 39.693,
+   "end": 41.086,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 18,
+   "text": "paredes descascadas e móveis cobertos por lençóis.",
+   "start": 41.086,
+   "end": 44.006,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 19,
+   "text": "Havia câmeras espalhadas pelos cômodos e um envelope sobre a mesa com a promessa de pagamento.",
+   "start": 44.006,
+   "end": 49.199,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 20,
+   "text": "Antes de ir embora,",
+   "start": 49.199,
+   "end": 50.363,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 21,
+   "text": "o organizador entregou uma última coisa:",
+   "start": 50.363,
+   "end": 52.15,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 22,
+   "text": "um rádio comunicador.",
+   "start": 52.15,
+   "end": 53.35,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 23,
+   "text": "“Se acontecer alguma coisa,",
+   "start": 53.35,
+   "end": 54.942,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 24,
+   "text": "não tente sair.",
+   "start": 54.942,
+   "end": 55.733,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 25,
+   "text": "Apenas nos chame”,",
+   "start": 55.733,
+   "end": 56.683,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 26,
+   "text": "disse ele.",
+   "start": 56.683,
+   "end": 57.317,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 27,
+   "text": "Às 22 horas,",
+   "start": 57.317,
+   "end": 58.414,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 28,
+   "text": "a porta foi trancada e Gabriel ficou sozinho.",
+   "start": 58.414,
+   "end": 60.65,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 29,
+   "text": "Nas primeiras horas,",
+   "start": 60.65,
+   "end": 61.55,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 30,
+   "text": "tudo parecia tranquilo.",
+   "start": 61.55,
+   "end": 62.826,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 31,
+   "text": "Ele até começou a gravar vídeos comemorando o dinheiro que receberia e imaginando como sua vida mudaria depois daquela noite.",
+   "start": 62.826,
+   "end": 69.628,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 32,
+   "text": "Mas,",
+   "start": 69.628,
+   "end": 69.839,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 33,
+   "text": "exatamente às 02:13,",
+   "start": 69.839,
+   "end": 71.959,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 34,
+   "text": "ouviu três batidas fortes vindas do porão.",
+   "start": 71.959,
+   "end": 74.43,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 35,
+   "text": "Lembrou da segunda regra e tentou ignorar.",
+   "start": 74.43,
+   "end": 76.71,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 36,
+   "text": "Alguns minutos depois,",
+   "start": 76.71,
+   "end": 77.874,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 37,
+   "text": "ouviu passos no andar de cima,",
+   "start": 77.874,
+   "end": 79.428,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 38,
+   "text": "mesmo sabendo que a casa só tinha um pavimento.",
+   "start": 79.428,
+   "end": 81.818,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 39,
+   "text": "Pegou a lanterna e iluminou o corredor,",
+   "start": 81.818,
+   "end": 84.15,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 40,
+   "text": "mas não encontrou ninguém.",
+   "start": 84.15,
+   "end": 85.271,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 41,
+   "text": "Então uma voz feminina chamou seu nome lá de baixo.",
+   "start": 85.271,
+   "end": 88.096,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 42,
+   "text": "Gabriel pegou o rádio e perguntou se aquilo fazia parte do desafio.",
+   "start": 88.096,
+   "end": 91.412,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 43,
+   "text": "Do outro lado,",
+   "start": 91.412,
+   "end": 92.321,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 44,
+   "text": "o organizador respondeu imediatamente:",
+   "start": 92.321,
+   "end": 94.303,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 45,
+   "text": "“Gabriel,",
+   "start": 94.303,
+   "end": 94.557,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 46,
+   "text": "escute com atenção.",
+   "start": 94.557,
+   "end": 95.612,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 47,
+   "text": "Nós estamos vendo você pelas câmeras.",
+   "start": 95.612,
+   "end": 97.512,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 48,
+   "text": "Não existe ninguém nessa casa além de você.” Ele tentou se acalmar,",
+   "start": 97.512,
+   "end": 101.244,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 49,
+   "text": "mas a voz voltou a chamar,",
+   "start": 101.244,
+   "end": 102.639,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 50,
+   "text": "dessa vez dizendo:",
+   "start": 102.639,
+   "end": 103.686,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 51,
+   "text": "“Gabriel,",
+   "start": 103.686,
+   "end": 104.059,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 52,
+   "text": "por favor…",
+   "start": 104.059,
+   "end": 104.547,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 53,
+   "text": "eles estão mentindo.",
+   "start": 104.547,
+   "end": 105.923,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 54,
+   "text": "Você precisa me tirar daqui.” Assustado,",
+   "start": 105.923,
+   "end": 108.05,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 55,
+   "text": "ele se aproximou da porta do porão e percebeu que havia marcas de unhas na madeira,",
+   "start": 108.05,
+   "end": 112.221,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 56,
+   "text": "como se alguém tivesse tentado sair dali.",
+   "start": 112.221,
+   "end": 114.282,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 57,
+   "text": "Então o rádio chiou novamente,",
+   "start": 114.282,
+   "end": 115.957,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 58,
+   "text": "mas dessa vez a voz do organizador parecia desesperada:",
+   "start": 115.957,
+   "end": 118.845,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 59,
+   "text": "“Não abra o porão.",
+   "start": 118.845,
+   "end": 119.957,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 60,
+   "text": "E,",
+   "start": 119.957,
+   "end": 120.096,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 61,
+   "text": "principalmente,",
+   "start": 120.096,
+   "end": 120.791,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 62,
+   "text": "não acredite em quem está falando com você.” Gabriel perguntou o que estava acontecendo,",
+   "start": 120.791,
+   "end": 125.305,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 63,
+   "text": "mas ninguém respondeu.",
+   "start": 125.305,
+   "end": 126.15,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 64,
+   "text": "Foi quando percebeu algo estranho nas câmeras:",
+   "start": 126.15,
+   "end": 128.182,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 65,
+   "text": "uma delas mostrava o corredor atrás dele,",
+   "start": 128.182,
+   "end": 130.15,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 66,
+   "text": "mas havia uma pessoa parada exatamente onde ele estava.",
+   "start": 130.15,
+   "end": 133.324,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 67,
+   "text": "A imagem estava escura,",
+   "start": 133.324,
+   "end": 134.542,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 68,
+   "text": "porém o rosto era idêntico ao seu.",
+   "start": 134.542,
+   "end": 136.254,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 69,
+   "text": "Antes que pudesse entender,",
+   "start": 136.254,
+   "end": 137.285,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 70,
+   "text": "alguém bateu na porta de entrada.",
+   "start": 137.285,
+   "end": 138.87,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 71,
+   "text": "Uma voz igual à dele disse:",
+   "start": 138.87,
+   "end": 140.166,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 72,
+   "text": "“Pode abrir.",
+   "start": 140.166,
+   "end": 140.684,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 73,
+   "text": "Eu já terminei minha noite.” Gabriel olhou para o relógio.",
+   "start": 140.684,
+   "end": 143.87,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 74,
+   "text": "Eram exatamente 03:33.",
+   "start": 143.87,
+   "end": 144.858,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 75,
+   "text": "E então o rádio transmitiu uma última mensagem:",
+   "start": 144.858,
+   "end": 147.859,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 76,
+   "text": "“Gabriel,",
+   "start": 147.859,
+   "end": 148.15,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 77,
+   "text": "encontramos o corpo do participante anterior.",
+   "start": 148.15,
+   "end": 150.189,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 78,
+   "text": "Mas ele está sentado na sua cadeira.”",
+   "start": 150.189,
+   "end": 151.963,
+   "anchored_on_pause": null
+  }
+ ],
+ "words": [
+  {
+   "w": "Você",
+   "start": -0.784,
+   "end": -0.384,
+   "seg": 0
+  },
+  {
+   "w": "aceitaria",
+   "start": -0.384,
+   "end": 0.416,
+   "seg": 0
+  },
+  {
+   "w": "1",
+   "start": 0.416,
+   "end": 0.816,
+   "seg": 0
+  },
+  {
+   "w": "milhão",
+   "start": 0.816,
+   "end": 1.416,
+   "seg": 0
+  },
+  {
+   "w": "de",
+   "start": 1.416,
+   "end": 1.616,
+   "seg": 0
+  },
+  {
+   "w": "dólares",
+   "start": 1.616,
+   "end": 2.216,
+   "seg": 0
+  },
+  {
+   "w": "pra",
+   "start": 2.216,
+   "end": 2.416,
+   "seg": 0
+  },
+  {
+   "w": "passar",
+   "start": 2.416,
+   "end": 2.709,
+   "seg": 0
+  },
+  {
+   "w": "uma",
+   "start": 2.709,
+   "end": 3.002,
+   "seg": 0
+  },
+  {
+   "w": "noite",
+   "start": 3.002,
+   "end": 3.295,
+   "seg": 0
+  },
+  {
+   "w": "em",
+   "start": 3.295,
+   "end": 3.442,
+   "seg": 0
+  },
+  {
+   "w": "uma",
+   "start": 3.442,
+   "end": 3.735,
+   "seg": 0
+  },
+  {
+   "w": "casa",
+   "start": 3.735,
+   "end": 4.15,
+   "seg": 0
+  },
+  {
+   "w": "abandonada?",
+   "start": 4.15,
+   "end": 4.9,
+   "seg": 0
+  },
+  {
+   "w": "Foi",
+   "start": 4.9,
+   "end": 5.05,
+   "seg": 1
+  },
+  {
+   "w": "exatamente",
+   "start": 5.05,
+   "end": 5.8,
+   "seg": 1
+  },
+  {
+   "w": "essa",
+   "start": 5.8,
+   "end": 6.15,
+   "seg": 1
+  },
+  {
+   "w": "proposta",
+   "start": 6.15,
+   "end": 6.612,
+   "seg": 1
+  },
+  {
+   "w": "que",
+   "start": 6.612,
+   "end": 6.766,
+   "seg": 1
+  },
+  {
+   "w": "Gabriel",
+   "start": 6.766,
+   "end": 7.074,
+   "seg": 1
+  },
+  {
+   "w": "recebeu",
+   "start": 7.074,
+   "end": 7.536,
+   "seg": 1
+  },
+  {
+   "w": "depois",
+   "start": 7.536,
+   "end": 7.845,
+   "seg": 1
+  },
+  {
+   "w": "de",
+   "start": 7.845,
+   "end": 7.999,
+   "seg": 1
+  },
+  {
+   "w": "se",
+   "start": 7.999,
+   "end": 8.153,
+   "seg": 1
+  },
+  {
+   "w": "inscrever",
+   "start": 8.153,
+   "end": 8.615,
+   "seg": 1
+  },
+  {
+   "w": "em",
+   "start": 8.615,
+   "end": 8.769,
+   "seg": 1
+  },
+  {
+   "w": "um",
+   "start": 8.769,
+   "end": 8.923,
+   "seg": 1
+  },
+  {
+   "w": "desafio",
+   "start": 8.923,
+   "end": 9.385,
+   "seg": 1
+  },
+  {
+   "w": "na",
+   "start": 9.385,
+   "end": 9.539,
+   "seg": 1
+  },
+  {
+   "w": "internet.",
+   "start": 9.539,
+   "end": 10.15,
+   "seg": 1
+  },
+  {
+   "w": "Ele",
+   "start": 10.15,
+   "end": 10.45,
+   "seg": 2
+  },
+  {
+   "w": "estava",
+   "start": 10.45,
+   "end": 10.9,
+   "seg": 2
+  },
+  {
+   "w": "desempregado,",
+   "start": 10.9,
+   "end": 11.65,
+   "seg": 2
+  },
+  {
+   "w": "cheio",
+   "start": 11.65,
+   "end": 11.8,
+   "seg": 3
+  },
+  {
+   "w": "de",
+   "start": 11.8,
+   "end": 12.05,
+   "seg": 3
+  },
+  {
+   "w": "dívidas",
+   "start": 12.05,
+   "end": 12.5,
+   "seg": 3
+  },
+  {
+   "w": "e",
+   "start": 12.5,
+   "end": 12.65,
+   "seg": 3
+  },
+  {
+   "w": "não",
+   "start": 12.65,
+   "end": 12.95,
+   "seg": 3
+  },
+  {
+   "w": "pensou",
+   "start": 12.95,
+   "end": 13.316,
+   "seg": 3
+  },
+  {
+   "w": "duas",
+   "start": 13.316,
+   "end": 13.4,
+   "seg": 3
+  },
+  {
+   "w": "vezes",
+   "start": 13.4,
+   "end": 13.845,
+   "seg": 3
+  },
+  {
+   "w": "antes",
+   "start": 13.845,
+   "end": 14.153,
+   "seg": 3
+  },
+  {
+   "w": "de",
+   "start": 14.153,
+   "end": 14.307,
+   "seg": 3
+  },
+  {
+   "w": "aceitar.",
+   "start": 14.307,
+   "end": 14.769,
+   "seg": 3
+  },
+  {
+   "w": "Mas",
+   "start": 14.769,
+   "end": 14.923,
+   "seg": 4
+  },
+  {
+   "w": "havia",
+   "start": 14.923,
+   "end": 15.231,
+   "seg": 4
+  },
+  {
+   "w": "uma",
+   "start": 15.231,
+   "end": 15.539,
+   "seg": 4
+  },
+  {
+   "w": "condição:",
+   "start": 15.539,
+   "end": 16.155,
+   "seg": 4
+  },
+  {
+   "w": "precisava",
+   "start": 16.155,
+   "end": 16.821,
+   "seg": 5
+  },
+  {
+   "w": "entrar",
+   "start": 16.821,
+   "end": 17.156,
+   "seg": 5
+  },
+  {
+   "w": "na",
+   "start": 17.156,
+   "end": 17.324,
+   "seg": 5
+  },
+  {
+   "w": "casa",
+   "start": 17.324,
+   "end": 17.659,
+   "seg": 5
+  },
+  {
+   "w": "às",
+   "start": 17.659,
+   "end": 17.914,
+   "seg": 5
+  },
+  {
+   "w": "22",
+   "start": 17.914,
+   "end": 18.329,
+   "seg": 5
+  },
+  {
+   "w": "horas,",
+   "start": 18.329,
+   "end": 18.668,
+   "seg": 5
+  },
+  {
+   "w": "permanecer",
+   "start": 18.668,
+   "end": 19.359,
+   "seg": 6
+  },
+  {
+   "w": "lá",
+   "start": 19.359,
+   "end": 19.532,
+   "seg": 6
+  },
+  {
+   "w": "até",
+   "start": 19.532,
+   "end": 19.858,
+   "seg": 6
+  },
+  {
+   "w": "as",
+   "start": 19.858,
+   "end": 20.078,
+   "seg": 6
+  },
+  {
+   "w": "6",
+   "start": 20.078,
+   "end": 20.341,
+   "seg": 6
+  },
+  {
+   "w": "da",
+   "start": 20.341,
+   "end": 20.509,
+   "seg": 6
+  },
+  {
+   "w": "manhã",
+   "start": 20.509,
+   "end": 20.844,
+   "seg": 6
+  },
+  {
+   "w": "e",
+   "start": 20.844,
+   "end": 20.963,
+   "seg": 6
+  },
+  {
+   "w": "seguir",
+   "start": 20.963,
+   "end": 21.303,
+   "seg": 6
+  },
+  {
+   "w": "três",
+   "start": 21.303,
+   "end": 21.515,
+   "seg": 6
+  },
+  {
+   "w": "regras.",
+   "start": 21.515,
+   "end": 21.819,
+   "seg": 6
+  },
+  {
+   "w": "A",
+   "start": 21.819,
+   "end": 22.002,
+   "seg": 7
+  },
+  {
+   "w": "primeira",
+   "start": 22.002,
+   "end": 22.468,
+   "seg": 7
+  },
+  {
+   "w": "era",
+   "start": 22.468,
+   "end": 22.814,
+   "seg": 7
+  },
+  {
+   "w": "não",
+   "start": 22.814,
+   "end": 23.159,
+   "seg": 7
+  },
+  {
+   "w": "sair",
+   "start": 23.159,
+   "end": 23.332,
+   "seg": 7
+  },
+  {
+   "w": "por",
+   "start": 23.332,
+   "end": 23.505,
+   "seg": 7
+  },
+  {
+   "w": "nenhum",
+   "start": 23.505,
+   "end": 23.674,
+   "seg": 7
+  },
+  {
+   "w": "motivo.",
+   "start": 23.674,
+   "end": 24.15,
+   "seg": 7
+  },
+  {
+   "w": "A",
+   "start": 24.15,
+   "end": 24.286,
+   "seg": 8
+  },
+  {
+   "w": "segunda",
+   "start": 24.286,
+   "end": 24.693,
+   "seg": 8
+  },
+  {
+   "w": "era",
+   "start": 24.693,
+   "end": 24.964,
+   "seg": 8
+  },
+  {
+   "w": "não",
+   "start": 24.964,
+   "end": 25.236,
+   "seg": 8
+  },
+  {
+   "w": "abrir",
+   "start": 25.236,
+   "end": 25.507,
+   "seg": 8
+  },
+  {
+   "w": "a",
+   "start": 25.507,
+   "end": 25.643,
+   "seg": 8
+  },
+  {
+   "w": "porta",
+   "start": 25.643,
+   "end": 25.95,
+   "seg": 8
+  },
+  {
+   "w": "do",
+   "start": 25.95,
+   "end": 26.086,
+   "seg": 8
+  },
+  {
+   "w": "porão.",
+   "start": 26.086,
+   "end": 26.493,
+   "seg": 8
+  },
+  {
+   "w": "E",
+   "start": 26.493,
+   "end": 26.629,
+   "seg": 9
+  },
+  {
+   "w": "a",
+   "start": 26.629,
+   "end": 26.764,
+   "seg": 9
+  },
+  {
+   "w": "terceira",
+   "start": 26.764,
+   "end": 27.171,
+   "seg": 9
+  },
+  {
+   "w": "era",
+   "start": 27.171,
+   "end": 27.443,
+   "seg": 9
+  },
+  {
+   "w": "nunca",
+   "start": 27.443,
+   "end": 27.957,
+   "seg": 9
+  },
+  {
+   "w": "responder",
+   "start": 27.957,
+   "end": 28.374,
+   "seg": 9
+  },
+  {
+   "w": "se",
+   "start": 28.374,
+   "end": 28.513,
+   "seg": 9
+  },
+  {
+   "w": "alguém",
+   "start": 28.513,
+   "end": 28.791,
+   "seg": 9
+  },
+  {
+   "w": "chamasse",
+   "start": 28.791,
+   "end": 29.209,
+   "seg": 9
+  },
+  {
+   "w": "seu",
+   "start": 29.209,
+   "end": 29.348,
+   "seg": 9
+  },
+  {
+   "w": "nome",
+   "start": 29.348,
+   "end": 29.626,
+   "seg": 9
+  },
+  {
+   "w": "durante",
+   "start": 29.626,
+   "end": 30.096,
+   "seg": 9
+  },
+  {
+   "w": "a",
+   "start": 30.096,
+   "end": 30.296,
+   "seg": 9
+  },
+  {
+   "w": "madrugada.",
+   "start": 30.296,
+   "end": 30.881,
+   "seg": 9
+  },
+  {
+   "w": "Gabriel",
+   "start": 30.881,
+   "end": 31.173,
+   "seg": 10
+  },
+  {
+   "w": "achou",
+   "start": 31.173,
+   "end": 31.562,
+   "seg": 10
+  },
+  {
+   "w": "as",
+   "start": 31.562,
+   "end": 31.612,
+   "seg": 10
+  },
+  {
+   "w": "regras",
+   "start": 31.612,
+   "end": 32.096,
+   "seg": 10
+  },
+  {
+   "w": "exageradas,",
+   "start": 32.096,
+   "end": 32.74,
+   "seg": 10
+  },
+  {
+   "w": "mas,",
+   "start": 32.74,
+   "end": 32.973,
+   "seg": 11
+  },
+  {
+   "w": "por",
+   "start": 32.973,
+   "end": 33.119,
+   "seg": 12
+  },
+  {
+   "w": "um",
+   "start": 33.119,
+   "end": 33.262,
+   "seg": 12
+  },
+  {
+   "w": "milhão",
+   "start": 33.262,
+   "end": 33.679,
+   "seg": 12
+  },
+  {
+   "w": "de",
+   "start": 33.679,
+   "end": 33.818,
+   "seg": 12
+  },
+  {
+   "w": "dólares,",
+   "start": 33.818,
+   "end": 34.235,
+   "seg": 12
+  },
+  {
+   "w": "não",
+   "start": 34.235,
+   "end": 34.513,
+   "seg": 13
+  },
+  {
+   "w": "estava",
+   "start": 34.513,
+   "end": 34.93,
+   "seg": 13
+  },
+  {
+   "w": "disposto",
+   "start": 34.93,
+   "end": 35.348,
+   "seg": 13
+  },
+  {
+   "w": "a",
+   "start": 35.348,
+   "end": 35.487,
+   "seg": 13
+  },
+  {
+   "w": "desistir.",
+   "start": 35.487,
+   "end": 36.15,
+   "seg": 13
+  },
+  {
+   "w": "Quando",
+   "start": 36.15,
+   "end": 36.458,
+   "seg": 14
+  },
+  {
+   "w": "chegou,",
+   "start": 36.458,
+   "end": 36.766,
+   "seg": 14
+  },
+  {
+   "w": "encontrou",
+   "start": 36.766,
+   "end": 37.209,
+   "seg": 15
+  },
+  {
+   "w": "uma",
+   "start": 37.209,
+   "end": 37.487,
+   "seg": 15
+  },
+  {
+   "w": "construção",
+   "start": 37.487,
+   "end": 38.15,
+   "seg": 15
+  },
+  {
+   "w": "enorme,",
+   "start": 38.15,
+   "end": 38.615,
+   "seg": 15
+  },
+  {
+   "w": "cercada",
+   "start": 38.615,
+   "end": 39.077,
+   "seg": 16
+  },
+  {
+   "w": "por",
+   "start": 39.077,
+   "end": 39.231,
+   "seg": 16
+  },
+  {
+   "w": "árvores,",
+   "start": 39.231,
+   "end": 39.693,
+   "seg": 16
+  },
+  {
+   "w": "com",
+   "start": 39.693,
+   "end": 39.949,
+   "seg": 17
+  },
+  {
+   "w": "janelas",
+   "start": 39.949,
+   "end": 40.568,
+   "seg": 17
+  },
+  {
+   "w": "quebradas,",
+   "start": 40.568,
+   "end": 41.086,
+   "seg": 17
+  },
+  {
+   "w": "paredes",
+   "start": 41.086,
+   "end": 41.716,
+   "seg": 18
+  },
+  {
+   "w": "descascadas",
+   "start": 41.716,
+   "end": 42.223,
+   "seg": 18
+  },
+  {
+   "w": "e",
+   "start": 42.223,
+   "end": 42.468,
+   "seg": 18
+  },
+  {
+   "w": "móveis",
+   "start": 42.468,
+   "end": 42.814,
+   "seg": 18
+  },
+  {
+   "w": "cobertos",
+   "start": 42.814,
+   "end": 43.332,
+   "seg": 18
+  },
+  {
+   "w": "por",
+   "start": 43.332,
+   "end": 43.505,
+   "seg": 18
+  },
+  {
+   "w": "lençóis.",
+   "start": 43.505,
+   "end": 44.006,
+   "seg": 18
+  },
+  {
+   "w": "Havia",
+   "start": 44.006,
+   "end": 44.341,
+   "seg": 19
+  },
+  {
+   "w": "câmeras",
+   "start": 44.341,
+   "end": 44.844,
+   "seg": 19
+  },
+  {
+   "w": "espalhadas",
+   "start": 44.844,
+   "end": 45.515,
+   "seg": 19
+  },
+  {
+   "w": "pelos",
+   "start": 45.515,
+   "end": 45.941,
+   "seg": 19
+  },
+  {
+   "w": "cômodos",
+   "start": 45.941,
+   "end": 46.43,
+   "seg": 19
+  },
+  {
+   "w": "e",
+   "start": 46.43,
+   "end": 46.593,
+   "seg": 19
+  },
+  {
+   "w": "um",
+   "start": 46.593,
+   "end": 46.756,
+   "seg": 19
+  },
+  {
+   "w": "envelope",
+   "start": 46.756,
+   "end": 47.241,
+   "seg": 19
+  },
+  {
+   "w": "sobre",
+   "start": 47.241,
+   "end": 47.484,
+   "seg": 19
+  },
+  {
+   "w": "a",
+   "start": 47.484,
+   "end": 47.605,
+   "seg": 19
+  },
+  {
+   "w": "mesa",
+   "start": 47.605,
+   "end": 48.15,
+   "seg": 19
+  },
+  {
+   "w": "com",
+   "start": 48.15,
+   "end": 48.269,
+   "seg": 19
+  },
+  {
+   "w": "a",
+   "start": 48.269,
+   "end": 48.387,
+   "seg": 19
+  },
+  {
+   "w": "promessa",
+   "start": 48.387,
+   "end": 48.599,
+   "seg": 19
+  },
+  {
+   "w": "de",
+   "start": 48.599,
+   "end": 48.862,
+   "seg": 19
+  },
+  {
+   "w": "pagamento.",
+   "start": 48.862,
+   "end": 49.199,
+   "seg": 19
+  },
+  {
+   "w": "Antes",
+   "start": 49.199,
+   "end": 49.439,
+   "seg": 20
+  },
+  {
+   "w": "de",
+   "start": 49.439,
+   "end": 49.559,
+   "seg": 20
+  },
+  {
+   "w": "ir",
+   "start": 49.559,
+   "end": 49.679,
+   "seg": 20
+  },
+  {
+   "w": "embora,",
+   "start": 49.679,
+   "end": 50.363,
+   "seg": 20
+  },
+  {
+   "w": "o",
+   "start": 50.363,
+   "end": 50.449,
+   "seg": 21
+  },
+  {
+   "w": "organizador",
+   "start": 50.449,
+   "end": 50.881,
+   "seg": 21
+  },
+  {
+   "w": "entregou",
+   "start": 50.881,
+   "end": 51.237,
+   "seg": 21
+  },
+  {
+   "w": "uma",
+   "start": 51.237,
+   "end": 51.475,
+   "seg": 21
+  },
+  {
+   "w": "última",
+   "start": 51.475,
+   "end": 51.831,
+   "seg": 21
+  },
+  {
+   "w": "coisa:",
+   "start": 51.831,
+   "end": 52.15,
+   "seg": 21
+  },
+  {
+   "w": "um",
+   "start": 52.15,
+   "end": 52.3,
+   "seg": 22
+  },
+  {
+   "w": "rádio",
+   "start": 52.3,
+   "end": 52.6,
+   "seg": 22
+  },
+  {
+   "w": "comunicador.",
+   "start": 52.6,
+   "end": 53.35,
+   "seg": 22
+  },
+  {
+   "w": "“Se",
+   "start": 53.35,
+   "end": 53.5,
+   "seg": 23
+  },
+  {
+   "w": "acontecer",
+   "start": 53.5,
+   "end": 54.15,
+   "seg": 23
+  },
+  {
+   "w": "alguma",
+   "start": 54.15,
+   "end": 54.625,
+   "seg": 23
+  },
+  {
+   "w": "coisa,",
+   "start": 54.625,
+   "end": 54.942,
+   "seg": 23
+  },
+  {
+   "w": "não",
+   "start": 54.942,
+   "end": 55.351,
+   "seg": 24
+  },
+  {
+   "w": "tente",
+   "start": 55.351,
+   "end": 55.575,
+   "seg": 24
+  },
+  {
+   "w": "sair.",
+   "start": 55.575,
+   "end": 55.733,
+   "seg": 24
+  },
+  {
+   "w": "Apenas",
+   "start": 55.733,
+   "end": 56.208,
+   "seg": 25
+  },
+  {
+   "w": "nos",
+   "start": 56.208,
+   "end": 56.367,
+   "seg": 25
+  },
+  {
+   "w": "chame”,",
+   "start": 56.367,
+   "end": 56.683,
+   "seg": 25
+  },
+  {
+   "w": "disse",
+   "start": 56.683,
+   "end": 57.0,
+   "seg": 26
+  },
+  {
+   "w": "ele.",
+   "start": 57.0,
+   "end": 57.317,
+   "seg": 26
+  },
+  {
+   "w": "Às",
+   "start": 57.317,
+   "end": 57.475,
+   "seg": 27
+  },
+  {
+   "w": "22",
+   "start": 57.475,
+   "end": 58.025,
+   "seg": 27
+  },
+  {
+   "w": "horas,",
+   "start": 58.025,
+   "end": 58.414,
+   "seg": 27
+  },
+  {
+   "w": "a",
+   "start": 58.414,
+   "end": 58.55,
+   "seg": 28
+  },
+  {
+   "w": "porta",
+   "start": 58.55,
+   "end": 58.845,
+   "seg": 28
+  },
+  {
+   "w": "foi",
+   "start": 58.845,
+   "end": 58.984,
+   "seg": 28
+  },
+  {
+   "w": "trancada",
+   "start": 58.984,
+   "end": 59.401,
+   "seg": 28
+  },
+  {
+   "w": "e",
+   "start": 59.401,
+   "end": 59.54,
+   "seg": 28
+  },
+  {
+   "w": "Gabriel",
+   "start": 59.54,
+   "end": 59.9,
+   "seg": 28
+  },
+  {
+   "w": "ficou",
+   "start": 59.9,
+   "end": 60.2,
+   "seg": 28
+  },
+  {
+   "w": "sozinho.",
+   "start": 60.2,
+   "end": 60.65,
+   "seg": 28
+  },
+  {
+   "w": "Nas",
+   "start": 60.65,
+   "end": 60.8,
+   "seg": 29
+  },
+  {
+   "w": "primeiras",
+   "start": 60.8,
+   "end": 61.25,
+   "seg": 29
+  },
+  {
+   "w": "horas,",
+   "start": 61.25,
+   "end": 61.55,
+   "seg": 29
+  },
+  {
+   "w": "tudo",
+   "start": 61.55,
+   "end": 62.128,
+   "seg": 30
+  },
+  {
+   "w": "parecia",
+   "start": 62.128,
+   "end": 62.477,
+   "seg": 30
+  },
+  {
+   "w": "tranquilo.",
+   "start": 62.477,
+   "end": 62.826,
+   "seg": 30
+  },
+  {
+   "w": "Ele",
+   "start": 62.826,
+   "end": 63.058,
+   "seg": 31
+  },
+  {
+   "w": "até",
+   "start": 63.058,
+   "end": 63.291,
+   "seg": 31
+  },
+  {
+   "w": "começou",
+   "start": 63.291,
+   "end": 63.64,
+   "seg": 31
+  },
+  {
+   "w": "a",
+   "start": 63.64,
+   "end": 63.756,
+   "seg": 31
+  },
+  {
+   "w": "gravar",
+   "start": 63.756,
+   "end": 64.09,
+   "seg": 31
+  },
+  {
+   "w": "vídeos",
+   "start": 64.09,
+   "end": 64.454,
+   "seg": 31
+  },
+  {
+   "w": "comemorando",
+   "start": 64.454,
+   "end": 65.061,
+   "seg": 31
+  },
+  {
+   "w": "o",
+   "start": 65.061,
+   "end": 65.182,
+   "seg": 31
+  },
+  {
+   "w": "dinheiro",
+   "start": 65.182,
+   "end": 65.546,
+   "seg": 31
+  },
+  {
+   "w": "que",
+   "start": 65.546,
+   "end": 65.994,
+   "seg": 31
+  },
+  {
+   "w": "receberia",
+   "start": 65.994,
+   "end": 66.152,
+   "seg": 31
+  },
+  {
+   "w": "e",
+   "start": 66.152,
+   "end": 66.313,
+   "seg": 31
+  },
+  {
+   "w": "imaginando",
+   "start": 66.313,
+   "end": 67.127,
+   "seg": 31
+  },
+  {
+   "w": "como",
+   "start": 67.127,
+   "end": 67.453,
+   "seg": 31
+  },
+  {
+   "w": "sua",
+   "start": 67.453,
+   "end": 67.616,
+   "seg": 31
+  },
+  {
+   "w": "vida",
+   "start": 67.616,
+   "end": 68.149,
+   "seg": 31
+  },
+  {
+   "w": "mudaria",
+   "start": 68.149,
+   "end": 68.43,
+   "seg": 31
+  },
+  {
+   "w": "depois",
+   "start": 68.43,
+   "end": 68.756,
+   "seg": 31
+  },
+  {
+   "w": "daquela",
+   "start": 68.756,
+   "end": 69.244,
+   "seg": 31
+  },
+  {
+   "w": "noite.",
+   "start": 69.244,
+   "end": 69.628,
+   "seg": 31
+  },
+  {
+   "w": "Mas,",
+   "start": 69.628,
+   "end": 69.839,
+   "seg": 32
+  },
+  {
+   "w": "exatamente",
+   "start": 69.839,
+   "end": 70.894,
+   "seg": 33
+  },
+  {
+   "w": "às",
+   "start": 70.894,
+   "end": 71.046,
+   "seg": 33
+  },
+  {
+   "w": "02:13,",
+   "start": 71.046,
+   "end": 71.959,
+   "seg": 33
+  },
+  {
+   "w": "ouviu",
+   "start": 71.959,
+   "end": 72.263,
+   "seg": 34
+  },
+  {
+   "w": "três",
+   "start": 72.263,
+   "end": 72.372,
+   "seg": 34
+  },
+  {
+   "w": "batidas",
+   "start": 72.372,
+   "end": 73.006,
+   "seg": 34
+  },
+  {
+   "w": "fortes",
+   "start": 73.006,
+   "end": 73.321,
+   "seg": 34
+  },
+  {
+   "w": "vindas",
+   "start": 73.321,
+   "end": 73.779,
+   "seg": 34
+  },
+  {
+   "w": "do",
+   "start": 73.779,
+   "end": 73.941,
+   "seg": 34
+  },
+  {
+   "w": "porão.",
+   "start": 73.941,
+   "end": 74.43,
+   "seg": 34
+  },
+  {
+   "w": "Lembrou",
+   "start": 74.43,
+   "end": 74.756,
+   "seg": 35
+  },
+  {
+   "w": "da",
+   "start": 74.756,
+   "end": 74.919,
+   "seg": 35
+  },
+  {
+   "w": "segunda",
+   "start": 74.919,
+   "end": 75.47,
+   "seg": 35
+  },
+  {
+   "w": "regra",
+   "start": 75.47,
+   "end": 75.733,
+   "seg": 35
+  },
+  {
+   "w": "e",
+   "start": 75.733,
+   "end": 75.957,
+   "seg": 35
+  },
+  {
+   "w": "tentou",
+   "start": 75.957,
+   "end": 76.235,
+   "seg": 35
+  },
+  {
+   "w": "ignorar.",
+   "start": 76.235,
+   "end": 76.71,
+   "seg": 35
+  },
+  {
+   "w": "Alguns",
+   "start": 76.71,
+   "end": 77.036,
+   "seg": 36
+  },
+  {
+   "w": "minutos",
+   "start": 77.036,
+   "end": 77.524,
+   "seg": 36
+  },
+  {
+   "w": "depois,",
+   "start": 77.524,
+   "end": 77.874,
+   "seg": 36
+  },
+  {
+   "w": "ouviu",
+   "start": 77.874,
+   "end": 78.223,
+   "seg": 37
+  },
+  {
+   "w": "passos",
+   "start": 78.223,
+   "end": 78.573,
+   "seg": 37
+  },
+  {
+   "w": "no",
+   "start": 78.573,
+   "end": 78.715,
+   "seg": 37
+  },
+  {
+   "w": "andar",
+   "start": 78.715,
+   "end": 79.0,
+   "seg": 37
+  },
+  {
+   "w": "de",
+   "start": 79.0,
+   "end": 79.143,
+   "seg": 37
+  },
+  {
+   "w": "cima,",
+   "start": 79.143,
+   "end": 79.428,
+   "seg": 37
+  },
+  {
+   "w": "mesmo",
+   "start": 79.428,
+   "end": 79.713,
+   "seg": 38
+  },
+  {
+   "w": "sabendo",
+   "start": 79.713,
+   "end": 80.15,
+   "seg": 38
+  },
+  {
+   "w": "que",
+   "start": 80.15,
+   "end": 80.289,
+   "seg": 38
+  },
+  {
+   "w": "a",
+   "start": 80.289,
+   "end": 80.428,
+   "seg": 38
+  },
+  {
+   "w": "casa",
+   "start": 80.428,
+   "end": 80.71,
+   "seg": 38
+  },
+  {
+   "w": "só",
+   "start": 80.71,
+   "end": 80.853,
+   "seg": 38
+  },
+  {
+   "w": "tinha",
+   "start": 80.853,
+   "end": 81.136,
+   "seg": 38
+  },
+  {
+   "w": "um",
+   "start": 81.136,
+   "end": 81.271,
+   "seg": 38
+  },
+  {
+   "w": "pavimento.",
+   "start": 81.271,
+   "end": 81.818,
+   "seg": 38
+  },
+  {
+   "w": "Pegou",
+   "start": 81.818,
+   "end": 82.096,
+   "seg": 39
+  },
+  {
+   "w": "a",
+   "start": 82.096,
+   "end": 82.235,
+   "seg": 39
+  },
+  {
+   "w": "lanterna",
+   "start": 82.235,
+   "end": 82.652,
+   "seg": 39
+  },
+  {
+   "w": "e",
+   "start": 82.652,
+   "end": 82.791,
+   "seg": 39
+  },
+  {
+   "w": "iluminou",
+   "start": 82.791,
+   "end": 83.348,
+   "seg": 39
+  },
+  {
+   "w": "o",
+   "start": 83.348,
+   "end": 83.487,
+   "seg": 39
+  },
+  {
+   "w": "corredor,",
+   "start": 83.487,
+   "end": 84.15,
+   "seg": 39
+  },
+  {
+   "w": "mas",
+   "start": 84.15,
+   "end": 84.296,
+   "seg": 40
+  },
+  {
+   "w": "não",
+   "start": 84.296,
+   "end": 84.588,
+   "seg": 40
+  },
+  {
+   "w": "encontrou",
+   "start": 84.588,
+   "end": 85.0,
+   "seg": 40
+  },
+  {
+   "w": "ninguém.",
+   "start": 85.0,
+   "end": 85.271,
+   "seg": 40
+  },
+  {
+   "w": "Então",
+   "start": 85.271,
+   "end": 85.679,
+   "seg": 41
+  },
+  {
+   "w": "uma",
+   "start": 85.679,
+   "end": 85.95,
+   "seg": 41
+  },
+  {
+   "w": "voz",
+   "start": 85.95,
+   "end": 86.15,
+   "seg": 41
+  },
+  {
+   "w": "feminina",
+   "start": 86.15,
+   "end": 86.735,
+   "seg": 41
+  },
+  {
+   "w": "chamou",
+   "start": 86.735,
+   "end": 87.027,
+   "seg": 41
+  },
+  {
+   "w": "seu",
+   "start": 87.027,
+   "end": 87.173,
+   "seg": 41
+  },
+  {
+   "w": "nome",
+   "start": 87.173,
+   "end": 87.465,
+   "seg": 41
+  },
+  {
+   "w": "lá",
+   "start": 87.465,
+   "end": 87.55,
+   "seg": 41
+  },
+  {
+   "w": "de",
+   "start": 87.55,
+   "end": 87.691,
+   "seg": 41
+  },
+  {
+   "w": "baixo.",
+   "start": 87.691,
+   "end": 88.096,
+   "seg": 41
+  },
+  {
+   "w": "Gabriel",
+   "start": 88.096,
+   "end": 88.388,
+   "seg": 42
+  },
+  {
+   "w": "pegou",
+   "start": 88.388,
+   "end": 88.68,
+   "seg": 42
+  },
+  {
+   "w": "o",
+   "start": 88.68,
+   "end": 88.813,
+   "seg": 42
+  },
+  {
+   "w": "rádio",
+   "start": 88.813,
+   "end": 89.078,
+   "seg": 42
+  },
+  {
+   "w": "e",
+   "start": 89.078,
+   "end": 89.219,
+   "seg": 42
+  },
+  {
+   "w": "perguntou",
+   "start": 89.219,
+   "end": 89.658,
+   "seg": 42
+  },
+  {
+   "w": "se",
+   "start": 89.658,
+   "end": 89.804,
+   "seg": 42
+  },
+  {
+   "w": "aquilo",
+   "start": 89.804,
+   "end": 90.242,
+   "seg": 42
+  },
+  {
+   "w": "fazia",
+   "start": 90.242,
+   "end": 90.535,
+   "seg": 42
+  },
+  {
+   "w": "parte",
+   "start": 90.535,
+   "end": 90.827,
+   "seg": 42
+  },
+  {
+   "w": "do",
+   "start": 90.827,
+   "end": 90.973,
+   "seg": 42
+  },
+  {
+   "w": "desafio.",
+   "start": 90.973,
+   "end": 91.412,
+   "seg": 42
+  },
+  {
+   "w": "Do",
+   "start": 91.412,
+   "end": 91.558,
+   "seg": 43
+  },
+  {
+   "w": "outro",
+   "start": 91.558,
+   "end": 92.05,
+   "seg": 43
+  },
+  {
+   "w": "lado,",
+   "start": 92.05,
+   "end": 92.321,
+   "seg": 43
+  },
+  {
+   "w": "o",
+   "start": 92.321,
+   "end": 92.457,
+   "seg": 44
+  },
+  {
+   "w": "organizador",
+   "start": 92.457,
+   "end": 93.136,
+   "seg": 44
+  },
+  {
+   "w": "respondeu",
+   "start": 93.136,
+   "end": 93.543,
+   "seg": 44
+  },
+  {
+   "w": "imediatamente:",
+   "start": 93.543,
+   "end": 94.303,
+   "seg": 44
+  },
+  {
+   "w": "“Gabriel,",
+   "start": 94.303,
+   "end": 94.557,
+   "seg": 45
+  },
+  {
+   "w": "escute",
+   "start": 94.557,
+   "end": 94.937,
+   "seg": 46
+  },
+  {
+   "w": "com",
+   "start": 94.937,
+   "end": 95.063,
+   "seg": 46
+  },
+  {
+   "w": "atenção.",
+   "start": 95.063,
+   "end": 95.612,
+   "seg": 46
+  },
+  {
+   "w": "Nós",
+   "start": 95.612,
+   "end": 95.758,
+   "seg": 47
+  },
+  {
+   "w": "estamos",
+   "start": 95.758,
+   "end": 96.196,
+   "seg": 47
+  },
+  {
+   "w": "vendo",
+   "start": 96.196,
+   "end": 96.488,
+   "seg": 47
+  },
+  {
+   "w": "você",
+   "start": 96.488,
+   "end": 96.781,
+   "seg": 47
+  },
+  {
+   "w": "pelas",
+   "start": 96.781,
+   "end": 97.073,
+   "seg": 47
+  },
+  {
+   "w": "câmeras.",
+   "start": 97.073,
+   "end": 97.512,
+   "seg": 47
+  },
+  {
+   "w": "Não",
+   "start": 97.512,
+   "end": 97.804,
+   "seg": 48
+  },
+  {
+   "w": "existe",
+   "start": 97.804,
+   "end": 98.242,
+   "seg": 48
+  },
+  {
+   "w": "ninguém",
+   "start": 98.242,
+   "end": 98.535,
+   "seg": 48
+  },
+  {
+   "w": "nessa",
+   "start": 98.535,
+   "end": 98.827,
+   "seg": 48
+  },
+  {
+   "w": "casa",
+   "start": 98.827,
+   "end": 99.127,
+   "seg": 48
+  },
+  {
+   "w": "além",
+   "start": 99.127,
+   "end": 99.453,
+   "seg": 48
+  },
+  {
+   "w": "de",
+   "start": 99.453,
+   "end": 99.616,
+   "seg": 48
+  },
+  {
+   "w": "você.”",
+   "start": 99.616,
+   "end": 99.95,
+   "seg": 48
+  },
+  {
+   "w": "Ele",
+   "start": 99.95,
+   "end": 100.267,
+   "seg": 48
+  },
+  {
+   "w": "tentou",
+   "start": 100.267,
+   "end": 100.593,
+   "seg": 48
+  },
+  {
+   "w": "se",
+   "start": 100.593,
+   "end": 100.756,
+   "seg": 48
+  },
+  {
+   "w": "acalmar,",
+   "start": 100.756,
+   "end": 101.244,
+   "seg": 48
+  },
+  {
+   "w": "mas",
+   "start": 101.244,
+   "end": 101.511,
+   "seg": 49
+  },
+  {
+   "w": "a",
+   "start": 101.511,
+   "end": 101.57,
+   "seg": 49
+  },
+  {
+   "w": "voz",
+   "start": 101.57,
+   "end": 101.733,
+   "seg": 49
+  },
+  {
+   "w": "voltou",
+   "start": 101.733,
+   "end": 102.059,
+   "seg": 49
+  },
+  {
+   "w": "a",
+   "start": 102.059,
+   "end": 102.326,
+   "seg": 49
+  },
+  {
+   "w": "chamar,",
+   "start": 102.326,
+   "end": 102.639,
+   "seg": 49
+  },
+  {
+   "w": "dessa",
+   "start": 102.639,
+   "end": 102.964,
+   "seg": 50
+  },
+  {
+   "w": "vez",
+   "start": 102.964,
+   "end": 103.127,
+   "seg": 50
+  },
+  {
+   "w": "dizendo:",
+   "start": 103.127,
+   "end": 103.686,
+   "seg": 50
+  },
+  {
+   "w": "“Gabriel,",
+   "start": 103.686,
+   "end": 104.059,
+   "seg": 51
+  },
+  {
+   "w": "por",
+   "start": 104.059,
+   "end": 104.221,
+   "seg": 52
+  },
+  {
+   "w": "favor…",
+   "start": 104.221,
+   "end": 104.547,
+   "seg": 52
+  },
+  {
+   "w": "eles",
+   "start": 104.547,
+   "end": 104.873,
+   "seg": 53
+  },
+  {
+   "w": "estão",
+   "start": 104.873,
+   "end": 105.361,
+   "seg": 53
+  },
+  {
+   "w": "mentindo.",
+   "start": 105.361,
+   "end": 105.923,
+   "seg": 53
+  },
+  {
+   "w": "Você",
+   "start": 105.923,
+   "end": 106.177,
+   "seg": 54
+  },
+  {
+   "w": "precisa",
+   "start": 106.177,
+   "end": 106.557,
+   "seg": 54
+  },
+  {
+   "w": "me",
+   "start": 106.557,
+   "end": 106.71,
+   "seg": 54
+  },
+  {
+   "w": "tirar",
+   "start": 106.71,
+   "end": 107.036,
+   "seg": 54
+  },
+  {
+   "w": "daqui.”",
+   "start": 107.036,
+   "end": 107.349,
+   "seg": 54
+  },
+  {
+   "w": "Assustado,",
+   "start": 107.349,
+   "end": 108.05,
+   "seg": 54
+  },
+  {
+   "w": "ele",
+   "start": 108.05,
+   "end": 108.321,
+   "seg": 55
+  },
+  {
+   "w": "se",
+   "start": 108.321,
+   "end": 108.457,
+   "seg": 55
+  },
+  {
+   "w": "aproximou",
+   "start": 108.457,
+   "end": 109.0,
+   "seg": 55
+  },
+  {
+   "w": "da",
+   "start": 109.0,
+   "end": 109.136,
+   "seg": 55
+  },
+  {
+   "w": "porta",
+   "start": 109.136,
+   "end": 109.407,
+   "seg": 55
+  },
+  {
+   "w": "do",
+   "start": 109.407,
+   "end": 109.543,
+   "seg": 55
+  },
+  {
+   "w": "porão",
+   "start": 109.543,
+   "end": 109.95,
+   "seg": 55
+  },
+  {
+   "w": "e",
+   "start": 109.95,
+   "end": 110.15,
+   "seg": 55
+  },
+  {
+   "w": "percebeu",
+   "start": 110.15,
+   "end": 110.578,
+   "seg": 55
+  },
+  {
+   "w": "que",
+   "start": 110.578,
+   "end": 110.72,
+   "seg": 55
+  },
+  {
+   "w": "havia",
+   "start": 110.72,
+   "end": 111.0,
+   "seg": 55
+  },
+  {
+   "w": "marcas",
+   "start": 111.0,
+   "end": 111.271,
+   "seg": 55
+  },
+  {
+   "w": "de",
+   "start": 111.271,
+   "end": 111.407,
+   "seg": 55
+  },
+  {
+   "w": "unhas",
+   "start": 111.407,
+   "end": 111.679,
+   "seg": 55
+  },
+  {
+   "w": "na",
+   "start": 111.679,
+   "end": 111.837,
+   "seg": 55
+  },
+  {
+   "w": "madeira,",
+   "start": 111.837,
+   "end": 112.221,
+   "seg": 55
+  },
+  {
+   "w": "como",
+   "start": 112.221,
+   "end": 112.493,
+   "seg": 56
+  },
+  {
+   "w": "se",
+   "start": 112.493,
+   "end": 112.629,
+   "seg": 56
+  },
+  {
+   "w": "alguém",
+   "start": 112.629,
+   "end": 112.9,
+   "seg": 56
+  },
+  {
+   "w": "tivesse",
+   "start": 112.9,
+   "end": 113.307,
+   "seg": 56
+  },
+  {
+   "w": "tentado",
+   "start": 113.307,
+   "end": 113.718,
+   "seg": 56
+  },
+  {
+   "w": "sair",
+   "start": 113.718,
+   "end": 113.929,
+   "seg": 56
+  },
+  {
+   "w": "dali.",
+   "start": 113.929,
+   "end": 114.282,
+   "seg": 56
+  },
+  {
+   "w": "Então",
+   "start": 114.282,
+   "end": 114.71,
+   "seg": 57
+  },
+  {
+   "w": "o",
+   "start": 114.71,
+   "end": 114.853,
+   "seg": 57
+  },
+  {
+   "w": "rádio",
+   "start": 114.853,
+   "end": 115.138,
+   "seg": 57
+  },
+  {
+   "w": "chiou",
+   "start": 115.138,
+   "end": 115.28,
+   "seg": 57
+  },
+  {
+   "w": "novamente,",
+   "start": 115.28,
+   "end": 115.957,
+   "seg": 57
+  },
+  {
+   "w": "mas",
+   "start": 115.957,
+   "end": 116.096,
+   "seg": 58
+  },
+  {
+   "w": "dessa",
+   "start": 116.096,
+   "end": 116.374,
+   "seg": 58
+  },
+  {
+   "w": "vez",
+   "start": 116.374,
+   "end": 116.513,
+   "seg": 58
+  },
+  {
+   "w": "a",
+   "start": 116.513,
+   "end": 116.652,
+   "seg": 58
+  },
+  {
+   "w": "voz",
+   "start": 116.652,
+   "end": 116.791,
+   "seg": 58
+  },
+  {
+   "w": "do",
+   "start": 116.791,
+   "end": 116.93,
+   "seg": 58
+  },
+  {
+   "w": "organizador",
+   "start": 116.93,
+   "end": 117.626,
+   "seg": 58
+  },
+  {
+   "w": "parecia",
+   "start": 117.626,
+   "end": 118.15,
+   "seg": 58
+  },
+  {
+   "w": "desesperada:",
+   "start": 118.15,
+   "end": 118.845,
+   "seg": 58
+  },
+  {
+   "w": "“Não",
+   "start": 118.845,
+   "end": 119.123,
+   "seg": 59
+  },
+  {
+   "w": "abra",
+   "start": 119.123,
+   "end": 119.401,
+   "seg": 59
+  },
+  {
+   "w": "o",
+   "start": 119.401,
+   "end": 119.54,
+   "seg": 59
+  },
+  {
+   "w": "porão.",
+   "start": 119.54,
+   "end": 119.957,
+   "seg": 59
+  },
+  {
+   "w": "E,",
+   "start": 119.957,
+   "end": 120.096,
+   "seg": 60
+  },
+  {
+   "w": "principalmente,",
+   "start": 120.096,
+   "end": 120.791,
+   "seg": 61
+  },
+  {
+   "w": "não",
+   "start": 120.791,
+   "end": 121.07,
+   "seg": 62
+  },
+  {
+   "w": "acredite",
+   "start": 121.07,
+   "end": 121.626,
+   "seg": 62
+  },
+  {
+   "w": "em",
+   "start": 121.626,
+   "end": 121.765,
+   "seg": 62
+  },
+  {
+   "w": "quem",
+   "start": 121.765,
+   "end": 122.006,
+   "seg": 62
+  },
+  {
+   "w": "está",
+   "start": 122.006,
+   "end": 122.271,
+   "seg": 62
+  },
+  {
+   "w": "falando",
+   "start": 122.271,
+   "end": 122.669,
+   "seg": 62
+  },
+  {
+   "w": "com",
+   "start": 122.669,
+   "end": 122.801,
+   "seg": 62
+  },
+  {
+   "w": "você.”",
+   "start": 122.801,
+   "end": 123.066,
+   "seg": 62
+  },
+  {
+   "w": "Gabriel",
+   "start": 123.066,
+   "end": 123.331,
+   "seg": 62
+  },
+  {
+   "w": "perguntou",
+   "start": 123.331,
+   "end": 123.843,
+   "seg": 62
+  },
+  {
+   "w": "o",
+   "start": 123.843,
+   "end": 123.862,
+   "seg": 62
+  },
+  {
+   "w": "que",
+   "start": 123.862,
+   "end": 124.15,
+   "seg": 62
+  },
+  {
+   "w": "estava",
+   "start": 124.15,
+   "end": 124.567,
+   "seg": 62
+  },
+  {
+   "w": "acontecendo,",
+   "start": 124.567,
+   "end": 125.305,
+   "seg": 62
+  },
+  {
+   "w": "mas",
+   "start": 125.305,
+   "end": 125.401,
+   "seg": 63
+  },
+  {
+   "w": "ninguém",
+   "start": 125.401,
+   "end": 125.679,
+   "seg": 63
+  },
+  {
+   "w": "respondeu.",
+   "start": 125.679,
+   "end": 126.15,
+   "seg": 63
+  },
+  {
+   "w": "Foi",
+   "start": 126.15,
+   "end": 126.289,
+   "seg": 64
+  },
+  {
+   "w": "quando",
+   "start": 126.289,
+   "end": 126.567,
+   "seg": 64
+  },
+  {
+   "w": "percebeu",
+   "start": 126.567,
+   "end": 126.984,
+   "seg": 64
+  },
+  {
+   "w": "algo",
+   "start": 126.984,
+   "end": 127.262,
+   "seg": 64
+  },
+  {
+   "w": "estranho",
+   "start": 127.262,
+   "end": 127.679,
+   "seg": 64
+  },
+  {
+   "w": "nas",
+   "start": 127.679,
+   "end": 127.791,
+   "seg": 64
+  },
+  {
+   "w": "câmeras:",
+   "start": 127.791,
+   "end": 128.182,
+   "seg": 64
+  },
+  {
+   "w": "uma",
+   "start": 128.182,
+   "end": 128.46,
+   "seg": 65
+  },
+  {
+   "w": "delas",
+   "start": 128.46,
+   "end": 128.738,
+   "seg": 65
+  },
+  {
+   "w": "mostrava",
+   "start": 128.738,
+   "end": 129.155,
+   "seg": 65
+  },
+  {
+   "w": "o",
+   "start": 129.155,
+   "end": 129.224,
+   "seg": 65
+  },
+  {
+   "w": "corredor",
+   "start": 129.224,
+   "end": 129.61,
+   "seg": 65
+  },
+  {
+   "w": "atrás",
+   "start": 129.61,
+   "end": 129.868,
+   "seg": 65
+  },
+  {
+   "w": "dele,",
+   "start": 129.868,
+   "end": 130.15,
+   "seg": 65
+  },
+  {
+   "w": "mas",
+   "start": 130.15,
+   "end": 130.28,
+   "seg": 66
+  },
+  {
+   "w": "havia",
+   "start": 130.28,
+   "end": 130.539,
+   "seg": 66
+  },
+  {
+   "w": "uma",
+   "start": 130.539,
+   "end": 130.798,
+   "seg": 66
+  },
+  {
+   "w": "pessoa",
+   "start": 130.798,
+   "end": 131.186,
+   "seg": 66
+  },
+  {
+   "w": "parada",
+   "start": 131.186,
+   "end": 131.575,
+   "seg": 66
+  },
+  {
+   "w": "exatamente",
+   "start": 131.575,
+   "end": 132.223,
+   "seg": 66
+  },
+  {
+   "w": "onde",
+   "start": 132.223,
+   "end": 132.482,
+   "seg": 66
+  },
+  {
+   "w": "ele",
+   "start": 132.482,
+   "end": 132.741,
+   "seg": 66
+  },
+  {
+   "w": "estava.",
+   "start": 132.741,
+   "end": 133.324,
+   "seg": 66
+  },
+  {
+   "w": "A",
+   "start": 133.324,
+   "end": 133.405,
+   "seg": 67
+  },
+  {
+   "w": "imagem",
+   "start": 133.405,
+   "end": 133.648,
+   "seg": 67
+  },
+  {
+   "w": "estava",
+   "start": 133.648,
+   "end": 134.036,
+   "seg": 67
+  },
+  {
+   "w": "escura,",
+   "start": 134.036,
+   "end": 134.542,
+   "seg": 67
+  },
+  {
+   "w": "porém",
+   "start": 134.542,
+   "end": 134.684,
+   "seg": 68
+  },
+  {
+   "w": "o",
+   "start": 134.684,
+   "end": 134.814,
+   "seg": 68
+  },
+  {
+   "w": "rosto",
+   "start": 134.814,
+   "end": 135.073,
+   "seg": 68
+  },
+  {
+   "w": "era",
+   "start": 135.073,
+   "end": 135.332,
+   "seg": 68
+  },
+  {
+   "w": "idêntico",
+   "start": 135.332,
+   "end": 135.744,
+   "seg": 68
+  },
+  {
+   "w": "ao",
+   "start": 135.744,
+   "end": 136.14,
+   "seg": 68
+  },
+  {
+   "w": "seu.",
+   "start": 136.14,
+   "end": 136.254,
+   "seg": 68
+  },
+  {
+   "w": "Antes",
+   "start": 136.254,
+   "end": 136.482,
+   "seg": 69
+  },
+  {
+   "w": "que",
+   "start": 136.482,
+   "end": 136.596,
+   "seg": 69
+  },
+  {
+   "w": "pudesse",
+   "start": 136.596,
+   "end": 136.938,
+   "seg": 69
+  },
+  {
+   "w": "entender,",
+   "start": 136.938,
+   "end": 137.285,
+   "seg": 69
+  },
+  {
+   "w": "alguém",
+   "start": 137.285,
+   "end": 137.633,
+   "seg": 70
+  },
+  {
+   "w": "bateu",
+   "start": 137.633,
+   "end": 137.981,
+   "seg": 70
+  },
+  {
+   "w": "na",
+   "start": 137.981,
+   "end": 138.117,
+   "seg": 70
+  },
+  {
+   "w": "porta",
+   "start": 138.117,
+   "end": 138.389,
+   "seg": 70
+  },
+  {
+   "w": "de",
+   "start": 138.389,
+   "end": 138.525,
+   "seg": 70
+  },
+  {
+   "w": "entrada.",
+   "start": 138.525,
+   "end": 138.87,
+   "seg": 70
+  },
+  {
+   "w": "Uma",
+   "start": 138.87,
+   "end": 139.13,
+   "seg": 71
+  },
+  {
+   "w": "voz",
+   "start": 139.13,
+   "end": 139.259,
+   "seg": 71
+  },
+  {
+   "w": "igual",
+   "start": 139.259,
+   "end": 139.518,
+   "seg": 71
+  },
+  {
+   "w": "à",
+   "start": 139.518,
+   "end": 139.648,
+   "seg": 71
+  },
+  {
+   "w": "dele",
+   "start": 139.648,
+   "end": 139.907,
+   "seg": 71
+  },
+  {
+   "w": "disse:",
+   "start": 139.907,
+   "end": 140.166,
+   "seg": 71
+  },
+  {
+   "w": "“Pode",
+   "start": 140.166,
+   "end": 140.425,
+   "seg": 72
+  },
+  {
+   "w": "abrir.",
+   "start": 140.425,
+   "end": 140.684,
+   "seg": 72
+  },
+  {
+   "w": "Eu",
+   "start": 140.684,
+   "end": 140.814,
+   "seg": 73
+  },
+  {
+   "w": "já",
+   "start": 140.814,
+   "end": 140.943,
+   "seg": 73
+  },
+  {
+   "w": "terminei",
+   "start": 140.943,
+   "end": 141.892,
+   "seg": 73
+  },
+  {
+   "w": "minha",
+   "start": 141.892,
+   "end": 142.194,
+   "seg": 73
+  },
+  {
+   "w": "noite.”",
+   "start": 142.194,
+   "end": 142.331,
+   "seg": 73
+  },
+  {
+   "w": "Gabriel",
+   "start": 142.331,
+   "end": 142.468,
+   "seg": 73
+  },
+  {
+   "w": "olhou",
+   "start": 142.468,
+   "end": 142.814,
+   "seg": 73
+  },
+  {
+   "w": "para",
+   "start": 142.814,
+   "end": 143.082,
+   "seg": 73
+  },
+  {
+   "w": "o",
+   "start": 143.082,
+   "end": 143.332,
+   "seg": 73
+  },
+  {
+   "w": "relógio.",
+   "start": 143.332,
+   "end": 143.87,
+   "seg": 73
+  },
+  {
+   "w": "Eram",
+   "start": 143.87,
+   "end": 144.143,
+   "seg": 74
+  },
+  {
+   "w": "exatamente",
+   "start": 144.143,
+   "end": 144.468,
+   "seg": 74
+  },
+  {
+   "w": "03:33.",
+   "start": 144.468,
+   "end": 144.858,
+   "seg": 74
+  },
+  {
+   "w": "E",
+   "start": 144.858,
+   "end": 145.264,
+   "seg": 75
+  },
+  {
+   "w": "então",
+   "start": 145.264,
+   "end": 145.855,
+   "seg": 75
+  },
+  {
+   "w": "o",
+   "start": 145.855,
+   "end": 145.998,
+   "seg": 75
+  },
+  {
+   "w": "rádio",
+   "start": 145.998,
+   "end": 146.282,
+   "seg": 75
+  },
+  {
+   "w": "transmitiu",
+   "start": 146.282,
+   "end": 146.71,
+   "seg": 75
+  },
+  {
+   "w": "uma",
+   "start": 146.71,
+   "end": 146.995,
+   "seg": 75
+  },
+  {
+   "w": "última",
+   "start": 146.995,
+   "end": 147.423,
+   "seg": 75
+  },
+  {
+   "w": "mensagem:",
+   "start": 147.423,
+   "end": 147.859,
+   "seg": 75
+  },
+  {
+   "w": "“Gabriel,",
+   "start": 147.859,
+   "end": 148.15,
+   "seg": 76
+  },
+  {
+   "w": "encontramos",
+   "start": 148.15,
+   "end": 148.66,
+   "seg": 77
+  },
+  {
+   "w": "o",
+   "start": 148.66,
+   "end": 148.787,
+   "seg": 77
+  },
+  {
+   "w": "corpo",
+   "start": 148.787,
+   "end": 149.042,
+   "seg": 77
+  },
+  {
+   "w": "do",
+   "start": 149.042,
+   "end": 149.169,
+   "seg": 77
+  },
+  {
+   "w": "participante",
+   "start": 149.169,
+   "end": 149.806,
+   "seg": 77
+  },
+  {
+   "w": "anterior.",
+   "start": 149.806,
+   "end": 150.189,
+   "seg": 77
+  },
+  {
+   "w": "Mas",
+   "start": 150.189,
+   "end": 150.316,
+   "seg": 78
+  },
+  {
+   "w": "ele",
+   "start": 150.316,
+   "end": 150.571,
+   "seg": 78
+  },
+  {
+   "w": "está",
+   "start": 150.571,
+   "end": 150.826,
+   "seg": 78
+  },
+  {
+   "w": "sentado",
+   "start": 150.826,
+   "end": 151.208,
+   "seg": 78
+  },
+  {
+   "w": "na",
+   "start": 151.208,
+   "end": 151.335,
+   "seg": 78
+  },
+  {
+   "w": "sua",
+   "start": 151.335,
+   "end": 151.463,
+   "seg": 78
+  },
+  {
+   "w": "cadeira.”",
+   "start": 151.463,
+   "end": 151.963,
+   "seg": 78
+  }
+ ]
+}

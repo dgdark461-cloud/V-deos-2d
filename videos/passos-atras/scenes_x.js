@@ -5,7 +5,7 @@ function partX(c) {
   const SPD = (t, n = 9, col = '#fff') => { let s = ''; for (let i = 0; i < n; i++) { const y = 300 + hz(i, 3) * 1300, x = ((t * 1400 + hz(i, 4) * 1500) % 1700) - 300; s += R(x, y, 260 + hz(i, 5) * 200, 8, col, OP(0.55)); } return s; };
   const GRD = (t, sp) => R(-100, 1500, 1280, 500, '#e8c8a0') + [0, 1, 2, 3, 4, 5, 6, 7].map(i => R(((i * 260 - t * sp) % 2080 + 2080) % 2080 - 300, 1500, 8, 500, '#c8a878')).join('');
   /* 1 */
-  q(0, 5, { z0: 1, z1: 1, shk: 0.5 }, (t, lt, Pf, d) => { const u = ez(lt / d); const LY = STN(Pf, t); LY.push({ d: 0.8, svg: DAV(t, { eye: 1, sm: 0.4, lx: 0.1 + Math.sin(t * 2) * 0.1 }, 540, 900 + Math.sin(t * 6) * 6, 3.3) }); return PAR(srt(LY), { x: lp(-60, 60, u), dz: lp(0, 0.28, u) }); }, '#ffd08a');
+  q(0, 5, { z0: 1, z1: 1, shk: 0.5 }, (t, lt, Pf, d) => { const u = ez(lt / d); const LY = STN(Pf, t); LY.push({ d: 0.8, svg: DAV(t, { eye: 1, sm: 0.4, lx: 0.1 + Math.sin(t * 2) * 0.1 }, 540, 1020 + Math.sin(t * 6) * 6, 2.7) }); return PAR(srt(LY), { x: lp(-60, 60, u), dz: lp(0, 0.28, u) }); }, '#ffd08a');
   /* 2 */
   q(5, 10, { z0: 1, z1: 1.1, shk: 1.2 }, (t, lt, Pf, d) => { let s = BIG('#ffb870') + R(-100, 0, 1280, 1500, '#ff9a5a', OP(0.5)) + GRD(t, 900); for (let i = 0; i < 2; i++) { const ph = t * 11 + i * Math.PI, dx = Math.sin(ph) * 190, lift = Math.max(0, -Math.cos(ph)) * 110; s += R(430 + i * 220 + dx * 0.4 - 70, 0, 140, 1380 - lift, '#3a3f5a', 'rx="20"') + P(`M${f1(330 + i * 220 + dx)},${f1(1450 - lift)} Q${f1(420 + i * 220 + dx)},${f1(1290 - lift)} ${f1(560 + i * 220 + dx)},${f1(1350 - lift)} L${f1(600 + i * 220 + dx)},${f1(1480 - lift)}Z`, '#f4efe6', `stroke="${IN}" stroke-width="8" stroke-linejoin="round"`); } return s + SPD(t, 8); }, 0);
   /* 3 */

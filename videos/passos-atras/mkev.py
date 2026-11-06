@@ -1,0 +1,28 @@
+import json
+W=json.load(open('words.json'))['words']
+w=lambda i:W[i]['start']
+E=[]
+def ev(i,fx,g,off=0,**a): E.append({'t':round(max(0,w(i)+off),2),'fx':fx,'gain':g,'args':a})
+ev(0,'footsteps',0.14,0,steps=8,interval=0.5); ev(5,'whoosh',0.14); ev(10,'whoosh',0.12); ev(14,'chime',0.1,0.4)
+ev(20,'wood_knock',0.14,0.3); ev(20,'wood_knock',0.12,1.2); ev(28,'click',0.1); ev(32,'ticktock',0.18,0,ticks=12,interval=0.5)
+ev(40,'wood_knock',0.14); ev(40,'wood_knock',0.14,0.8); ev(43,'whoosh',0.14); ev(43,'footsteps',0.16,0,steps=8,interval=0.3)
+ev(47,'whoosh',0.12); ev(50,'footsteps',0.14,0,steps=8,interval=0.4); ev(55,'click',0.12,0.5); ev(60,'footsteps',0.2,0,steps=14,interval=0.24)
+ev(67,'impact',0.2); ev(72,'footsteps',0.12,0,steps=8,interval=0.5); ev(80,'heartbeat',0.2,0,beats=10,bpm=100)
+ev(89,'buzz_flicker',0.1); ev(89,'chime',0.15,0.3); ev(98,'click',0.14,2.2); ev(98,'shimmer',0.12)
+ev(106,'beep',0.1,0,dur=0.2,f=880); ev(106,'beep',0.1,0.6,dur=0.2,f=880); ev(106,'beep',0.1,1.2,dur=0.2,f=880); ev(106,'drone',0.1,0,dur=8)
+ev(116,'whoosh',0.16); ev(116,'impact',0.2,1.5); ev(124,'shimmer',0.14); ev(131,'chime',0.12); ev(131,'click',0.1,2.5)
+ev(138,'whoosh',0.1); ev(138,'click',0.12,2.0); ev(146,'click',0.12,2.0); ev(146,'click',0.12,4.0); ev(146,'chime',0.14,6.0)
+ev(156,'beep',0.1,0,dur=0.15,f=1200); ev(156,'beep',0.1,1.0,dur=0.15,f=1200); ev(156,'beep',0.1,2.0,dur=0.15,f=1200)
+ev(166,'shimmer',0.14); ev(178,'click',0.12); ev(178,'click',0.12,1.2); ev(178,'click',0.12,2.4)
+ev(188,'heartbeat',0.14,0,beats=8,bpm=90); ev(196,'impact',0.22); ev(202,'footsteps',0.12,0,steps=6,interval=0.6)
+ev(209,'click',0.12); ev(214,'creak',0.1); ev(214,'murmur',0.08,0,dur=4); ev(222,'whoosh',0.2); ev(227,'chime',0.18,0.8)
+ev(234,'whoosh',0.12); ev(234,'footsteps',0.16,0,steps=8,interval=0.3); ev(240,'beep',0.1,0,dur=0.1,f=1500); ev(240,'beep',0.1,0.8,dur=0.1,f=1500)
+ev(247,'footsteps',0.18,0,steps=10,interval=0.28); ev(253,'chime',0.2,0.4); ev(253,'shimmer',0.14,0.4)
+ev(262,'click',0.1); ev(270,'footsteps',0.14,0,steps=10,interval=0.4); ev(280,'heartbeat',0.12,0,beats=5,bpm=90)
+ev(285,'whoosh',0.12); ev(285,'click',0.1,3.0); ev(285,'click',0.1,6.0); ev(298,'click',0.1); ev(298,'click',0.1,1.5); ev(298,'click',0.1,3.0)
+ev(308,'click',0.12,1.0); ev(308,'chime',0.1,1.0); ev(318,'whoosh',0.12); ev(318,'shimmer',0.12)
+ev(327,'click',0.1,1.0); ev(337,'drone',0.12,0,dur=6); ev(337,'heartbeat',0.1,0,beats=6,bpm=70); ev(337,'chime',0.16,5.5)
+ev(347,'footsteps',0.12,0,steps=10,interval=0.45); ev(355,'click',0.1,1.0); ev(366,'footsteps',0.12,0,steps=8,interval=0.5)
+ev(366,'chime',0.16,3.6); ev(370,'shimmer',0.16,0); ev(372,'chime',0.18,0.4)
+json.dump({"music":{"root":65,"chord":[1,1.26,1.5],"level":0.12,"pulse":0.12,"fade_in":2.0,"fade_out":3.0},"duck":0.65,"sfx_scale":0.7,"sfx_duck":0.5,"events":sorted(E,key=lambda e:e['t'])},open('events.json','w'))
+print(len(E))

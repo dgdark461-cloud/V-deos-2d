@@ -1,5 +1,5 @@
 function partX(c) {
-  const q = QF(c), PK = '#ff7f9a', YL = '#ffd36a', GN = '#4cc24c', BLU = '#4a9ae8', RDD = '#ff4a5a';
+  const q = QF(c), PK = '#ff7f9a', YL = '#ffd36a', GN = '#4cc24c', BLU = '#4a9ae8', RDD = '#ff4a5a', IN = '#2a2230';
   const PB = (a, b, Pf, t) => BIG(a) + C(180, 300, 520, b, OP(0.55)) + C(940, 1500, 640, b, OP(0.45)) + glow(Pf, 'F', 540, 700, 800, 0.25);
   const PHB = (Pf, t, x, y, sc, o = {}) => PHN(Pf, t, x, y, sc, Object.assign({ bg: '#1d3a5a', rim: '#2a2230', on: 0.25 }, o));
   const rotg = (s, a, x, y) => G(s, `rotate(${f1(a)} ${x} ${y})`);

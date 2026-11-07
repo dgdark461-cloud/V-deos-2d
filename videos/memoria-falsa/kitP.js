@@ -22,14 +22,14 @@ const HEADP = (s, t, o = {}, view = 'f') => {
   if (hk === 'bob' || hk === 'buns') fr = P('M-128,-40 Q-100,-148 0,-142 Q100,-148 128,-40 Q50,-98 -20,-88 Q-80,-86 -128,-40Z', HC);
   if (hk === 'curls') fr = C(-62, -118, 36, HC) + C(0, -132, 40, HC) + C(62, -118, 36, HC);
   const ears = hk === 'bob' ? '' : C(-126, 12, 24, s.sk2) + C(126, 12, 24, s.sk2);
-  let head = back + ears + E(0, 0, 128, 122, s.skin);
+  let head = back + ears + E(0, 0, 128, 122, s.skin, 'stroke="#2a2230" stroke-opacity="0.5" stroke-width="5"');
   if (view === 'b') return G(head + (hk === 'bob' ? '' : C(0, -14, 124, HC)) + (hk === 'curls' || hk === 'buns' ? C(0, -14, 124, HC) : ''), `translate(${f1(jx)} 0)`);
   let f = E(-78, 48, 28, 18, '#ff7a6a', OP(0.35)) + E(78, 48, 28, 18, '#ff7a6a', OP(0.35)) + P('M-110,60 Q0,170 110,60 Q0,125 -110,60Z', s.sk2, OP(0.3));
   if (s.stub) f += P('M-102,36 Q0,196 102,36 Q60,104 0,108 Q-60,104 -102,36Z', '#3a2c26', OP(0.3));
   if (s.fr) f += [[-62, 34], [-46, 48], [-80, 46], [62, 34], [46, 48], [80, 46]].map(a => C(a[0], a[1], 4.5, '#b8582a')).join('');
   for (const i of [-1, 1]) {
     const ex = i * 50;
-    f += E(ex + lx, 5 + ly * 0.5, 15, 22 * e, '#1a1216') + C(ex + lx + 4, 5 + ly * 0.5 - 7 * e, 5, '#fff');
+    f += E(ex + lx, 5 + ly * 1.4, 15, 22 * e, '#1a1216') + C(ex + lx + 4, 5 + ly * 1.4 - 7 * e, 5, '#fff');
     f += P(`M${ex + i * 28},${f1(-40 - rs * 20 + wr * 6 - an * 6)} Q${ex},${f1(-62 - rs * 20)} ${ex - i * 28},${f1(-44 - rs * 20 - wr * 16 + an * 14)}`, 'none', `stroke="${HC === '#d8582a' ? '#b84418' : HC}" stroke-width="10" stroke-linecap="round"`);
   }
   f += C(0, 32, 6, s.sk2);
@@ -42,7 +42,7 @@ const HEADP = (s, t, o = {}, view = 'f') => {
 };
 const BUSTP = (s, t, o, x, y, sc) => {
   o = o || {};
-  let body = R(-32, 100, 64, 90, s.sk2, 'rx="24"') + P('M-232,540 Q-238,200 -100,168 L100,168 Q238,200 232,540Z', s.top) + P('M-62,168 L0,236 L62,168Z', s.sk2);
+  let body = R(-32, 100, 64, 90, s.sk2, 'rx="24"') + P('M-232,540 Q-238,200 -100,168 L100,168 Q238,200 232,540Z', s.top, 'stroke="#2a2230" stroke-opacity="0.5" stroke-width="5"') + P('M-62,168 L0,236 L62,168Z', s.sk2);
   if (s.st) body += [300, 370, 440].map(yy => R(-236, yy, 472, 22, s.top2, OP(0.55))).join('');
   if (s.hk === 'short') body += P('M-70,168 L0,236 L-96,230Z', s.top2) + P('M70,168 L0,236 L96,230Z', s.top2);
   const rim = o.rim ? P('M126,-90 Q154,0 122,80', 'none', `stroke="${o.rim}" stroke-width="10" stroke-linecap="round" opacity="0.6"`) : '';
@@ -59,7 +59,7 @@ const FIGP = (s, o, x, y, sc) => {
   const sy = hipY - 140, arm = i => { const p = ph + (i > 0 ? 0 : Math.PI), sw = walk ? Math.sin(p) * 0.7 : Math.sin(t * 1.5) * 0.08, sx = side ? 0 : i * (s.w * 0.55), AL = s.arm, up = (o.up === true || (o.up === 'r' && i > 0) || (o.up === 'l' && i < 0)) ? 1 : 0;
     const hx = side ? sx + Math.sin(sw) * AL : sx + i * 10 + Math.sin(sw) * 24 + (up ? i * 30 : 0), hy = up ? sy - AL * 0.9 : sy + AL + (side ? -Math.abs(Math.sin(sw)) * 26 : 0);
     return L(sx, sy, hx, hy, i > 0 ? s.top : s.top2, kid ? 40 : 48) + C(hx, hy + 12, kid ? 26 : 30, s.skin); };
-  const tw = side ? s.w * 0.72 : s.w, th = kid ? 220 : 240, torso = R(-tw / 2, hipY - 190, tw, th, s.top, `rx="${kid ? 60 : 72}"`) + (s.st ? [0, 1].map(k => R(-tw / 2 + 4, hipY - 150 + k * 60, tw - 8, 20, s.top2, OP(0.55))).join('') : '');
+  const tw = side ? s.w * 0.72 : s.w, th = kid ? 220 : 240, torso = R(-tw / 2, hipY - 190, tw, th, s.top, `rx="${kid ? 60 : 72}" stroke="#2a2230" stroke-opacity="0.5" stroke-width="5"`) + (s.st ? [0, 1].map(k => R(-tw / 2 + 4, hipY - 150 + k * 60, tw - 8, 20, s.top2, OP(0.55))).join('') : '');
   const hs = s.hs, headY = hipY - 195 - hs * 118, neck = R(-26, hipY - 215, 52, 50, s.sk2, 'rx="20"');
   const head = G(HEADP(s, t, o, view), `translate(0 ${f1(headY)}) scale(${hs})`);
   const lean = o.lean || 0;
@@ -119,3 +119,20 @@ const ROADL = (Pf, t, sp = 1) => { let hl = '', tr = ''; for (let i = 0; i < 5; 
   return [{ d: 0.05, svg: SKYE('day', 1000) + glow(Pf, 'F', 760, 520, 700, 0.5) + C(760, 480, 100, '#fff6c0') + NUV(((t * 8 + 200) % 1500) - 200, 300, 1.3, 0.8) + NUV(((t * 5 + 700) % 1500) - 200, 560, 1.0, 0.7) }, { d: 0.25, svg: hl + R(-200, 1060, 1600, 500, '#8ad07a') }, { d: 0.6, svg: tr }, { d: 0.9, svg: R(-100, 1400, 1300, 300, '#5a5a66') + ds + R(-100, 1700, 1300, 300, '#7ac86a') }]; };
 const PROJ = (x, y, sc, t) => G([0, 1].map(i => C(-60 + i * 110, -118, 56, '#3a3a4a') + [0, 1, 2].map(k => L(-60 + i * 110, -118, -60 + i * 110 + Math.cos(t * 5 + k * 2.09) * 44, -118 + Math.sin(t * 5 + k * 2.09) * 44, '#8a8a9a', 8)).join('')).join('') + R(-140, -70, 280, 150, '#5a5a6a', 'rx="16"') + R(140, -34, 60, 70, '#3a3a4a', 'rx="8"') + C(205, 0, 22, '#fff6c0') + L(-80, 80, -110, 170, '#3a3a4a', 14) + L(80, 80, 110, 170, '#3a3a4a', 14), `translate(${f1(x)} ${f1(y)}) scale(${sc})`);
 const EARX = (x, y, sc) => G(P('M-70,-120 Q-140,-60 -90,40 Q-60,110 -10,120 Q40,125 50,80 Q60,40 20,20 Q80,-20 70,-80 Q50,-150 -70,-120Z', '#e8b690') + P('M-40,-70 Q-90,-20 -50,40 Q-20,70 10,60', 'none', 'stroke="#c98f6a" stroke-width="12" stroke-linecap="round"'), `translate(${f1(x)} ${f1(y)}) scale(${sc})`);
+
+const BRAINH = (x, y, sc, t, o = {}) => {
+  const bob = Math.sin(t * 5 + (o.ph || 0)) * 6, bl = ((t * 0.6) % 2.7) < 0.1 ? 0.1 : 1, e = (o.eye == null ? 1 : o.eye) * bl, sm = o.sm == null ? 0.8 : o.sm, wr = o.worry || 0, a = o.arms || 'idle', PK1 = '#ff9ab8', PK2 = '#e8708f', OL = 'stroke="#2a2230" stroke-opacity="0.55" stroke-width="5"';
+  const sw = o.walk ? Math.sin(t * 8) : 0;
+  const hand = i => { const sx = i * 54, sy = 100; let hx, hy;
+    if (a === 'wave') { hx = i > 0 ? 150 + Math.sin(t * 10) * 18 : -90; hy = i > 0 ? -10 + Math.sin(t * 10) * 26 : 200; }
+    else if (a === 'up') { hx = i * (120 + Math.sin(t * 6) * 14); hy = -50 + Math.sin(t * 6 + i) * 20; }
+    else if (a === 'hold') { hx = i * 62; hy = 150; }
+    else if (a === 'point') { hx = i > 0 ? 200 : -90; hy = i > 0 ? 70 : 200; }
+    else { hx = i * 100 + sw * i * 16; hy = 195 + Math.sin(t * 3 + i) * 6; }
+    return P(`M${sx},${sy} Q${f1((sx + hx) / 2 + i * 22)},${f1((sy + hy) / 2 + 20)} ${f1(hx)},${f1(hy)}`, 'none', `stroke="${PK2}" stroke-width="26" stroke-linecap="round"`) + C(hx, hy, 19, '#ffc4d4', OL); };
+  const leg = i => { const l = o.walk ? Math.sin(t * 8 + (i > 0 ? Math.PI : 0)) * 36 : 0; return L(i * 30, 170, i * 36 + l, 255 - Math.max(0, -Math.cos(t * 8 + (i > 0 ? Math.PI : 0))) * (o.walk ? 18 : 0), PK2, 26) + E(i * 36 + l + 12, 262, 34, 15, '#fff', OL); };
+  const face = E(-40, 8, 24, 28 * Math.max(0.1, e), '#fff', OL) + E(40, 8, 24, 28 * Math.max(0.1, e), '#fff', OL) + C(-40 + (o.lx || 0) * 7, 10 + (o.ly || 0) * 6, 11, '#2a1a24') + C(40 + (o.lx || 0) * 7, 10 + (o.ly || 0) * 6, 11, '#2a1a24') + C(-36 + (o.lx || 0) * 7, 5, 4, '#fff') + C(44 + (o.lx || 0) * 7, 5, 4, '#fff') + P(`M-62,-30 Q-40,${f1(-48 - wr * 10)} -18,-30`, 'none', 'stroke="#7a2a44" stroke-width="7" stroke-linecap="round"') + P(`M18,-30 Q40,${f1(-48 - wr * 10)} 62,-30`, 'none', 'stroke="#7a2a44" stroke-width="7" stroke-linecap="round"') + P(`M-26,56 Q0,${f1(56 + sm * 34 - wr * 22)} 26,56`, 'none', 'stroke="#7a2a44" stroke-width="8" stroke-linecap="round"') + E(-74, 44, 16, 10, '#ff5a7a', OP(0.4)) + E(74, 44, 16, 10, '#ff5a7a', OP(0.4));
+  const folds = [['M-130,-20 Q-100,-60 -64,-44', -1], ['M-120,30 Q-96,10 -80,30', -1], ['M-30,-80 Q-50,-60 -34,-40', -1], ['M130,-20 Q100,-60 64,-44', 1], ['M120,30 Q96,10 80,30', 1], ['M30,-80 Q50,-60 34,-40', 1]].map(f => P(f[0], 'none', `stroke="${PK2}" stroke-width="7" stroke-linecap="round"`)).join('');
+  const item = o.item ? G(o.item, 'translate(0 150)') : '';
+  return G(leg(-1) + leg(1) + R(-52, 90, 104, 90, PK1, `rx="40" ${OL}`) + hand(-1) + E(-50, 0, 104, 92, PK1, OL) + E(50, 0, 104, 92, PK1, OL) + E(-70, -40, 40, 22, '#ffc4d4', OP(0.6)) + folds + face + hand(1) + item, `translate(${f1(x)} ${f1(y + bob)}) scale(${sc})`);
+};

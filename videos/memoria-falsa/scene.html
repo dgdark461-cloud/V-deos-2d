@@ -58,7 +58,7 @@
       const a = i === 0 ? 1 : H.prog(t, s.start, s.start + Math.max(s.fin, 0.001));
       html += `<g opacity="${a.toFixed(3)}">` + s.draw(t, t - s.start, 's' + (i + 1) + '_') + '</g>';
     }
-    svg.innerHTML = html + capDraw(t, M) + R(0, 0, 1080, 1920, '#000', OP(H.prog(t, M.end - 0.25, M.end)));
+    svg.innerHTML = '<g style="filter:contrast(1.15) saturate(1.12)">' + html + '</g>' + capDraw(t, M) + R(0, 0, 1080, 1920, '#000', OP(H.prog(t, M.end - 0.25, M.end)));
   };
   fetch('words.json').then(r => r.json()).then(j => document.fonts.load("100px 'Bebas Neue'").then(() => j)).then(j => { M = makeScenes(j.words, j.segments); M.words = j.words; M.caps = CAPCH(j.words); window.READY = true; });
 })();

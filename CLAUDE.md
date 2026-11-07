@@ -47,3 +47,10 @@ O usuário quer movimento menos "robótico", mesmo que demore mais. Em todo víd
 4. **Desfoque de movimento** nas cenas de ação/caminhada: `window.MB = t => 0..1` na página e `tools/render.py ... --mblur 4` (só renderiza sub-quadros onde MB(t) > 0).
 5. **Acabamento**: sombras no chão, luz de contorno, partículas, variação de luz.
 6. Antes de produzir o vídeo inteiro, mostrar ao usuário um teste curto do personagem andando.
+
+## Ritmo visual e movimento (regra permanente, pedido do usuário)
+
+1. **Nunca deixar o quadro parado.** Todo plano tem movimento contínuo (personagem andando/gesticulando, câmera, partículas, objetos entrando e saindo). Bustos sempre com respiração/oscilação.
+2. **Ilustrar cada palavra ou frase** da narração com uma ação própria na tela (cortes a cada 2–5 s), em vez de um personagem parado com balão de pensamento.
+3. **Evitar o clichê e a repetição:** não abrir com busto + balão; variar enquadramentos (corpo inteiro, objetos, carro, projetor, zoom em foto, montagem), e não repetir o mesmo tipo de plano em sequência.
+4. **Personagens totalmente novos a cada vídeo** (formato de cabeça, cabelo, traço e paleta diferentes dos vídeos anteriores).

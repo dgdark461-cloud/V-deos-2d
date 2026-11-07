@@ -1,0 +1,3053 @@
+{
+ "method": "asr-anchored (whisper windows) + syllables",
+ "duration": 122.734,
+ "speech_start": 0.0,
+ "speech_end": 122.65,
+ "silence_threshold_db": -33.7,
+ "pauses": [
+  {
+   "start": 3.08,
+   "end": 3.29
+  },
+  {
+   "start": 6.51,
+   "end": 6.75
+  },
+  {
+   "start": 7.72,
+   "end": 7.87
+  },
+  {
+   "start": 10.36,
+   "end": 10.5
+  },
+  {
+   "start": 12.38,
+   "end": 12.56
+  },
+  {
+   "start": 17.23,
+   "end": 17.4
+  },
+  {
+   "start": 20.32,
+   "end": 20.44
+  },
+  {
+   "start": 21.33,
+   "end": 21.51
+  },
+  {
+   "start": 23.61,
+   "end": 23.83
+  },
+  {
+   "start": 25.9,
+   "end": 26.06
+  },
+  {
+   "start": 26.79,
+   "end": 26.96
+  },
+  {
+   "start": 28.47,
+   "end": 28.67
+  },
+  {
+   "start": 30.11,
+   "end": 30.4
+  },
+  {
+   "start": 32.01,
+   "end": 32.19
+  },
+  {
+   "start": 33.18,
+   "end": 33.43
+  },
+  {
+   "start": 33.65,
+   "end": 33.77
+  },
+  {
+   "start": 34.46,
+   "end": 34.6
+  },
+  {
+   "start": 36.7,
+   "end": 37.16
+  },
+  {
+   "start": 38.67,
+   "end": 38.85
+  },
+  {
+   "start": 39.85,
+   "end": 40.02
+  },
+  {
+   "start": 41.22,
+   "end": 41.48
+  },
+  {
+   "start": 41.58,
+   "end": 41.71
+  },
+  {
+   "start": 41.91,
+   "end": 42.17
+  },
+  {
+   "start": 43.38,
+   "end": 43.68
+  },
+  {
+   "start": 44.96,
+   "end": 45.11
+  },
+  {
+   "start": 48.16,
+   "end": 48.29
+  },
+  {
+   "start": 52.45,
+   "end": 52.58
+  },
+  {
+   "start": 60.9,
+   "end": 61.06
+  },
+  {
+   "start": 61.11,
+   "end": 61.5
+  },
+  {
+   "start": 63.66,
+   "end": 63.78
+  },
+  {
+   "start": 66.6,
+   "end": 66.97
+  },
+  {
+   "start": 70.34,
+   "end": 70.49
+  },
+  {
+   "start": 70.99,
+   "end": 71.22
+  },
+  {
+   "start": 71.81,
+   "end": 71.94
+  },
+  {
+   "start": 77.94,
+   "end": 78.09
+  },
+  {
+   "start": 79.46,
+   "end": 79.63
+  },
+  {
+   "start": 80.49,
+   "end": 80.62
+  },
+  {
+   "start": 80.8,
+   "end": 81.14
+  },
+  {
+   "start": 83.51,
+   "end": 83.69
+  },
+  {
+   "start": 84.18,
+   "end": 84.38
+  },
+  {
+   "start": 86.87,
+   "end": 87.08
+  },
+  {
+   "start": 87.77,
+   "end": 87.96
+  },
+  {
+   "start": 88.63,
+   "end": 88.76
+  },
+  {
+   "start": 89.03,
+   "end": 89.2
+  },
+  {
+   "start": 93.9,
+   "end": 94.07
+  },
+  {
+   "start": 100.02,
+   "end": 100.33
+  },
+  {
+   "start": 104.25,
+   "end": 104.65
+  },
+  {
+   "start": 106.63,
+   "end": 106.79
+  },
+  {
+   "start": 109.65,
+   "end": 109.79
+  },
+  {
+   "start": 111.67,
+   "end": 111.83
+  },
+  {
+   "start": 112.48,
+   "end": 112.78
+  },
+  {
+   "start": 114.18,
+   "end": 114.3
+  },
+  {
+   "start": 114.65,
+   "end": 114.78
+  },
+  {
+   "start": 116.66,
+   "end": 116.96
+  },
+  {
+   "start": 119.95,
+   "end": 120.2
+  }
+ ],
+ "segments": [
+  {
+   "i": 0,
+   "text": "Seu cérebro pode criar lembranças de coisas que nunca aconteceram!",
+   "start": -0.5,
+   "end": 3.255,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 1,
+   "text": "E o mais assustador é que você pode jurar que viveu aquele momento,",
+   "start": 3.255,
+   "end": 6.857,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 2,
+   "text": "lembrar dos detalhes e até sentir saudade de algo que nunca existiu.",
+   "start": 6.857,
+   "end": 10.223,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 3,
+   "text": "Foi exatamente isso que aconteceu com Rafael.",
+   "start": 10.223,
+   "end": 12.522,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 4,
+   "text": "Desde pequeno,",
+   "start": 12.522,
+   "end": 13.162,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 5,
+   "text": "ele lembrava de uma viagem à praia com a família.",
+   "start": 13.162,
+   "end": 15.248,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 6,
+   "text": "Na memória dele,",
+   "start": 15.248,
+   "end": 16.318,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 7,
+   "text": "tinha uns cinco anos,",
+   "start": 16.318,
+   "end": 17.107,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 8,
+   "text": "estava construindo um castelo de areia enquanto o pai tirava fotos.",
+   "start": 17.107,
+   "end": 20.15,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 9,
+   "text": "Em determinado momento,",
+   "start": 20.15,
+   "end": 21.465,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 10,
+   "text": "uma onda maior veio e levou seu brinquedo.",
+   "start": 21.465,
+   "end": 23.508,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 11,
+   "text": "Ele começou a chorar,",
+   "start": 23.508,
+   "end": 24.85,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 12,
+   "text": "mas o pai correu até a água,",
+   "start": 24.85,
+   "end": 26.321,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 13,
+   "text": "pegou o brinquedo e voltou carregando Rafael no colo.",
+   "start": 26.321,
+   "end": 28.764,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 14,
+   "text": "Era uma lembrança tão viva que ele conseguia imaginar o cheiro do mar,",
+   "start": 28.764,
+   "end": 32.193,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 15,
+   "text": "o barulho das ondas e até a cor do guarda-sol.",
+   "start": 32.193,
+   "end": 34.55,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 16,
+   "text": "Anos depois,",
+   "start": 34.55,
+   "end": 35.15,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 17,
+   "text": "durante um almoço de família,",
+   "start": 35.15,
+   "end": 36.85,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 18,
+   "text": "Rafael resolveu contar essa história.",
+   "start": 36.85,
+   "end": 38.864,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 19,
+   "text": "Mas,",
+   "start": 38.864,
+   "end": 39.0,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 20,
+   "text": "assim que terminou,",
+   "start": 39.0,
+   "end": 40.15,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 21,
+   "text": "a mãe ficou olhando para ele,",
+   "start": 40.15,
+   "end": 41.741,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 22,
+   "text": "confusa.",
+   "start": 41.741,
+   "end": 42.15,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 23,
+   "text": "Então perguntou:",
+   "start": 42.15,
+   "end": 42.934,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 24,
+   "text": "\"Rafael,",
+   "start": 42.934,
+   "end": 43.331,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 25,
+   "text": "de que viagem você está falando?\"",
+   "start": 43.331,
+   "end": 44.683,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 26,
+   "text": "Ele respondeu que era aquela praia onde o pai tinha salvado seu brinquedo.",
+   "start": 44.683,
+   "end": 48.15,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 27,
+   "text": "O pai começou a rir e revelou algo que o deixou completamente sem reação:",
+   "start": 48.15,
+   "end": 51.923,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 28,
+   "text": "naquela época,",
+   "start": 51.923,
+   "end": 52.683,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 29,
+   "text": "a família nem tinha ido à praia.",
+   "start": 52.683,
+   "end": 54.15,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 30,
+   "text": "Na verdade,",
+   "start": 54.15,
+   "end": 54.735,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 31,
+   "text": "aquela viagem aconteceu dois anos antes de Rafael nascer.",
+   "start": 54.735,
+   "end": 57.658,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 32,
+   "text": "Ele ficou convencido de que os pais estavam confundindo as datas,",
+   "start": 57.658,
+   "end": 61.1,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 33,
+   "text": "até que a irmã mostrou uma fotografia antiga.",
+   "start": 61.1,
+   "end": 63.475,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 34,
+   "text": "Na imagem,",
+   "start": 63.475,
+   "end": 64.05,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 35,
+   "text": "o pai aparecia exatamente como Rafael lembrava,",
+   "start": 64.05,
+   "end": 66.741,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 36,
+   "text": "segurando uma criança no colo,",
+   "start": 66.741,
+   "end": 68.166,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 37,
+   "text": "perto de um guarda-sol.",
+   "start": 68.166,
+   "end": 69.078,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 38,
+   "text": "Só que aquela criança não era ele.",
+   "start": 69.078,
+   "end": 70.964,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 39,
+   "text": "Era seu primo,",
+   "start": 70.964,
+   "end": 71.643,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 40,
+   "text": "que tinha a mesma idade que Rafael imaginava ter naquela lembrança.",
+   "start": 71.643,
+   "end": 75.057,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 41,
+   "text": "De repente,",
+   "start": 75.057,
+   "end": 75.579,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 42,
+   "text": "tudo começou a fazer sentido.",
+   "start": 75.579,
+   "end": 77.202,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 43,
+   "text": "Durante anos,",
+   "start": 77.202,
+   "end": 77.923,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 44,
+   "text": "Rafael tinha ouvido aquela história,",
+   "start": 77.923,
+   "end": 79.697,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 45,
+   "text": "visto aquela fotografia e imaginado como teria sido estar naquele lugar.",
+   "start": 79.697,
+   "end": 83.782,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 46,
+   "text": "Com o tempo,",
+   "start": 83.782,
+   "end": 84.321,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 47,
+   "text": "seu cérebro misturou as imagens,",
+   "start": 84.321,
+   "end": 86.05,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 48,
+   "text": "os relatos e a imaginação,",
+   "start": 86.05,
+   "end": 87.86,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 49,
+   "text": "até transformar tudo em uma lembrança pessoal.",
+   "start": 87.86,
+   "end": 90.172,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 50,
+   "text": "E isso pode acontecer porque nossa memória não funciona como uma câmera que grava tudo perfeitamente.",
+   "start": 90.172,
+   "end": 95.575,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 51,
+   "text": "Cada vez que você recorda um acontecimento,",
+   "start": 95.575,
+   "end": 98.003,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 52,
+   "text": "seu cérebro reconstrói aquela experiência,",
+   "start": 98.003,
+   "end": 100.145,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 53,
+   "text": "e informações de outras fontes podem acabar entrando nessa reconstrução.",
+   "start": 100.145,
+   "end": 104.15,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 54,
+   "text": "Por isso,",
+   "start": 104.15,
+   "end": 104.588,
+   "anchored_on_pause": false
+  },
+  {
+   "i": 55,
+   "text": "uma história que alguém contou,",
+   "start": 104.588,
+   "end": 106.05,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 56,
+   "text": "uma fotografia ou até uma cena que você imaginou muitas vezes pode parecer algo que realmente viveu.",
+   "start": 106.05,
+   "end": 111.83,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 57,
+   "text": "E agora pense:",
+   "start": 111.83,
+   "end": 112.926,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 58,
+   "text": "quantas lembranças da sua infância você tem certeza de que aconteceram,",
+   "start": 112.926,
+   "end": 116.919,
+   "anchored_on_pause": true
+  },
+  {
+   "i": 59,
+   "text": "mas talvez sejam apenas histórias que ouviu tantas vezes que seu cérebro acabou transformando em memórias?",
+   "start": 116.919,
+   "end": 122.6,
+   "anchored_on_pause": null
+  }
+ ],
+ "words": [
+  {
+   "w": "Seu",
+   "start": -0.5,
+   "end": -0.3,
+   "seg": 0
+  },
+  {
+   "w": "cérebro",
+   "start": -0.3,
+   "end": 0.3,
+   "seg": 0
+  },
+  {
+   "w": "pode",
+   "start": 0.3,
+   "end": 0.7,
+   "seg": 0
+  },
+  {
+   "w": "criar",
+   "start": 0.7,
+   "end": 0.9,
+   "seg": 0
+  },
+  {
+   "w": "lembranças",
+   "start": 0.9,
+   "end": 1.5,
+   "seg": 0
+  },
+  {
+   "w": "de",
+   "start": 1.5,
+   "end": 1.7,
+   "seg": 0
+  },
+  {
+   "w": "coisas",
+   "start": 1.7,
+   "end": 2.1,
+   "seg": 0
+  },
+  {
+   "w": "que",
+   "start": 2.1,
+   "end": 2.244,
+   "seg": 0
+  },
+  {
+   "w": "nunca",
+   "start": 2.244,
+   "end": 2.533,
+   "seg": 0
+  },
+  {
+   "w": "aconteceram!",
+   "start": 2.533,
+   "end": 3.255,
+   "seg": 0
+  },
+  {
+   "w": "E",
+   "start": 3.255,
+   "end": 3.399,
+   "seg": 1
+  },
+  {
+   "w": "o",
+   "start": 3.399,
+   "end": 3.543,
+   "seg": 1
+  },
+  {
+   "w": "mais",
+   "start": 3.543,
+   "end": 3.688,
+   "seg": 1
+  },
+  {
+   "w": "assustador",
+   "start": 3.688,
+   "end": 4.242,
+   "seg": 1
+  },
+  {
+   "w": "é",
+   "start": 4.242,
+   "end": 4.388,
+   "seg": 1
+  },
+  {
+   "w": "que",
+   "start": 4.388,
+   "end": 4.535,
+   "seg": 1
+  },
+  {
+   "w": "você",
+   "start": 4.535,
+   "end": 4.827,
+   "seg": 1
+  },
+  {
+   "w": "pode",
+   "start": 4.827,
+   "end": 5.119,
+   "seg": 1
+  },
+  {
+   "w": "jurar",
+   "start": 5.119,
+   "end": 5.412,
+   "seg": 1
+  },
+  {
+   "w": "que",
+   "start": 5.412,
+   "end": 5.558,
+   "seg": 1
+  },
+  {
+   "w": "viveu",
+   "start": 5.558,
+   "end": 5.855,
+   "seg": 1
+  },
+  {
+   "w": "aquele",
+   "start": 5.855,
+   "end": 6.307,
+   "seg": 1
+  },
+  {
+   "w": "momento,",
+   "start": 6.307,
+   "end": 6.857,
+   "seg": 1
+  },
+  {
+   "w": "lembrar",
+   "start": 6.857,
+   "end": 7.077,
+   "seg": 2
+  },
+  {
+   "w": "dos",
+   "start": 7.077,
+   "end": 7.231,
+   "seg": 2
+  },
+  {
+   "w": "detalhes",
+   "start": 7.231,
+   "end": 7.693,
+   "seg": 2
+  },
+  {
+   "w": "e",
+   "start": 7.693,
+   "end": 7.873,
+   "seg": 2
+  },
+  {
+   "w": "até",
+   "start": 7.873,
+   "end": 8.155,
+   "seg": 2
+  },
+  {
+   "w": "sentir",
+   "start": 8.155,
+   "end": 8.464,
+   "seg": 2
+  },
+  {
+   "w": "saudade",
+   "start": 8.464,
+   "end": 8.926,
+   "seg": 2
+  },
+  {
+   "w": "de",
+   "start": 8.926,
+   "end": 9.08,
+   "seg": 2
+  },
+  {
+   "w": "algo",
+   "start": 9.08,
+   "end": 9.388,
+   "seg": 2
+  },
+  {
+   "w": "que",
+   "start": 9.388,
+   "end": 9.542,
+   "seg": 2
+  },
+  {
+   "w": "nunca",
+   "start": 9.542,
+   "end": 9.834,
+   "seg": 2
+  },
+  {
+   "w": "existiu.",
+   "start": 9.834,
+   "end": 10.223,
+   "seg": 2
+  },
+  {
+   "w": "Foi",
+   "start": 10.223,
+   "end": 10.352,
+   "seg": 3
+  },
+  {
+   "w": "exatamente",
+   "start": 10.352,
+   "end": 11.0,
+   "seg": 3
+  },
+  {
+   "w": "isso",
+   "start": 11.0,
+   "end": 11.259,
+   "seg": 3
+  },
+  {
+   "w": "que",
+   "start": 11.259,
+   "end": 11.389,
+   "seg": 3
+  },
+  {
+   "w": "aconteceu",
+   "start": 11.389,
+   "end": 11.907,
+   "seg": 3
+  },
+  {
+   "w": "com",
+   "start": 11.907,
+   "end": 12.15,
+   "seg": 3
+  },
+  {
+   "w": "Rafael.",
+   "start": 12.15,
+   "end": 12.522,
+   "seg": 3
+  },
+  {
+   "w": "Desde",
+   "start": 12.522,
+   "end": 12.77,
+   "seg": 4
+  },
+  {
+   "w": "pequeno,",
+   "start": 12.77,
+   "end": 13.162,
+   "seg": 4
+  },
+  {
+   "w": "ele",
+   "start": 13.162,
+   "end": 13.389,
+   "seg": 5
+  },
+  {
+   "w": "lembrava",
+   "start": 13.389,
+   "end": 13.761,
+   "seg": 5
+  },
+  {
+   "w": "de",
+   "start": 13.761,
+   "end": 13.91,
+   "seg": 5
+  },
+  {
+   "w": "uma",
+   "start": 13.91,
+   "end": 14.152,
+   "seg": 5
+  },
+  {
+   "w": "viagem",
+   "start": 14.152,
+   "end": 14.388,
+   "seg": 5
+  },
+  {
+   "w": "à",
+   "start": 14.388,
+   "end": 14.516,
+   "seg": 5
+  },
+  {
+   "w": "praia",
+   "start": 14.516,
+   "end": 14.637,
+   "seg": 5
+  },
+  {
+   "w": "com",
+   "start": 14.637,
+   "end": 14.759,
+   "seg": 5
+  },
+  {
+   "w": "a",
+   "start": 14.759,
+   "end": 14.88,
+   "seg": 5
+  },
+  {
+   "w": "família.",
+   "start": 14.88,
+   "end": 15.248,
+   "seg": 5
+  },
+  {
+   "w": "Na",
+   "start": 15.248,
+   "end": 15.372,
+   "seg": 6
+  },
+  {
+   "w": "memória",
+   "start": 15.372,
+   "end": 15.897,
+   "seg": 6
+  },
+  {
+   "w": "dele,",
+   "start": 15.897,
+   "end": 16.318,
+   "seg": 6
+  },
+  {
+   "w": "tinha",
+   "start": 16.318,
+   "end": 16.566,
+   "seg": 7
+  },
+  {
+   "w": "uns",
+   "start": 16.566,
+   "end": 16.663,
+   "seg": 7
+  },
+  {
+   "w": "cinco",
+   "start": 16.663,
+   "end": 16.859,
+   "seg": 7
+  },
+  {
+   "w": "anos,",
+   "start": 16.859,
+   "end": 17.107,
+   "seg": 7
+  },
+  {
+   "w": "estava",
+   "start": 17.107,
+   "end": 17.478,
+   "seg": 8
+  },
+  {
+   "w": "construindo",
+   "start": 17.478,
+   "end": 18.009,
+   "seg": 8
+  },
+  {
+   "w": "um",
+   "start": 18.009,
+   "end": 18.133,
+   "seg": 8
+  },
+  {
+   "w": "castelo",
+   "start": 18.133,
+   "end": 18.417,
+   "seg": 8
+  },
+  {
+   "w": "de",
+   "start": 18.417,
+   "end": 18.628,
+   "seg": 8
+  },
+  {
+   "w": "areia",
+   "start": 18.628,
+   "end": 18.876,
+   "seg": 8
+  },
+  {
+   "w": "enquanto",
+   "start": 18.876,
+   "end": 19.43,
+   "seg": 8
+  },
+  {
+   "w": "o",
+   "start": 19.43,
+   "end": 19.463,
+   "seg": 8
+  },
+  {
+   "w": "pai",
+   "start": 19.463,
+   "end": 19.496,
+   "seg": 8
+  },
+  {
+   "w": "tirava",
+   "start": 19.496,
+   "end": 20.105,
+   "seg": 8
+  },
+  {
+   "w": "fotos.",
+   "start": 20.105,
+   "end": 20.15,
+   "seg": 8
+  },
+  {
+   "w": "Em",
+   "start": 20.15,
+   "end": 20.296,
+   "seg": 9
+  },
+  {
+   "w": "determinado",
+   "start": 20.296,
+   "end": 21.027,
+   "seg": 9
+  },
+  {
+   "w": "momento,",
+   "start": 21.027,
+   "end": 21.465,
+   "seg": 9
+  },
+  {
+   "w": "uma",
+   "start": 21.465,
+   "end": 21.758,
+   "seg": 10
+  },
+  {
+   "w": "onda",
+   "start": 21.758,
+   "end": 22.3,
+   "seg": 10
+  },
+  {
+   "w": "maior",
+   "start": 22.3,
+   "end": 22.45,
+   "seg": 10
+  },
+  {
+   "w": "veio",
+   "start": 22.45,
+   "end": 22.6,
+   "seg": 10
+  },
+  {
+   "w": "e",
+   "start": 22.6,
+   "end": 22.75,
+   "seg": 10
+  },
+  {
+   "w": "levou",
+   "start": 22.75,
+   "end": 23.05,
+   "seg": 10
+  },
+  {
+   "w": "seu",
+   "start": 23.05,
+   "end": 23.2,
+   "seg": 10
+  },
+  {
+   "w": "brinquedo.",
+   "start": 23.2,
+   "end": 23.508,
+   "seg": 10
+  },
+  {
+   "w": "Ele",
+   "start": 23.508,
+   "end": 23.95,
+   "seg": 11
+  },
+  {
+   "w": "começou",
+   "start": 23.95,
+   "end": 24.4,
+   "seg": 11
+  },
+  {
+   "w": "a",
+   "start": 24.4,
+   "end": 24.55,
+   "seg": 11
+  },
+  {
+   "w": "chorar,",
+   "start": 24.55,
+   "end": 24.85,
+   "seg": 11
+  },
+  {
+   "w": "mas",
+   "start": 24.85,
+   "end": 25.0,
+   "seg": 12
+  },
+  {
+   "w": "o",
+   "start": 25.0,
+   "end": 25.15,
+   "seg": 12
+  },
+  {
+   "w": "pai",
+   "start": 25.15,
+   "end": 25.3,
+   "seg": 12
+  },
+  {
+   "w": "correu",
+   "start": 25.3,
+   "end": 25.6,
+   "seg": 12
+  },
+  {
+   "w": "até",
+   "start": 25.6,
+   "end": 25.914,
+   "seg": 12
+  },
+  {
+   "w": "a",
+   "start": 25.914,
+   "end": 26.05,
+   "seg": 12
+  },
+  {
+   "w": "água,",
+   "start": 26.05,
+   "end": 26.321,
+   "seg": 12
+  },
+  {
+   "w": "pegou",
+   "start": 26.321,
+   "end": 26.593,
+   "seg": 13
+  },
+  {
+   "w": "o",
+   "start": 26.593,
+   "end": 26.729,
+   "seg": 13
+  },
+  {
+   "w": "brinquedo",
+   "start": 26.729,
+   "end": 27.136,
+   "seg": 13
+  },
+  {
+   "w": "e",
+   "start": 27.136,
+   "end": 27.271,
+   "seg": 13
+  },
+  {
+   "w": "voltou",
+   "start": 27.271,
+   "end": 27.404,
+   "seg": 13
+  },
+  {
+   "w": "carregando",
+   "start": 27.404,
+   "end": 27.985,
+   "seg": 13
+  },
+  {
+   "w": "Rafael",
+   "start": 27.985,
+   "end": 28.375,
+   "seg": 13
+  },
+  {
+   "w": "no",
+   "start": 28.375,
+   "end": 28.505,
+   "seg": 13
+  },
+  {
+   "w": "colo.",
+   "start": 28.505,
+   "end": 28.764,
+   "seg": 13
+  },
+  {
+   "w": "Era",
+   "start": 28.764,
+   "end": 29.024,
+   "seg": 14
+  },
+  {
+   "w": "uma",
+   "start": 29.024,
+   "end": 29.283,
+   "seg": 14
+  },
+  {
+   "w": "lembrança",
+   "start": 29.283,
+   "end": 29.621,
+   "seg": 14
+  },
+  {
+   "w": "tão",
+   "start": 29.621,
+   "end": 29.846,
+   "seg": 14
+  },
+  {
+   "w": "viva",
+   "start": 29.846,
+   "end": 30.071,
+   "seg": 14
+  },
+  {
+   "w": "que",
+   "start": 30.071,
+   "end": 30.202,
+   "seg": 14
+  },
+  {
+   "w": "ele",
+   "start": 30.202,
+   "end": 30.465,
+   "seg": 14
+  },
+  {
+   "w": "conseguia",
+   "start": 30.465,
+   "end": 30.859,
+   "seg": 14
+  },
+  {
+   "w": "imaginar",
+   "start": 30.859,
+   "end": 31.385,
+   "seg": 14
+  },
+  {
+   "w": "o",
+   "start": 31.385,
+   "end": 31.517,
+   "seg": 14
+  },
+  {
+   "w": "cheiro",
+   "start": 31.517,
+   "end": 31.78,
+   "seg": 14
+  },
+  {
+   "w": "do",
+   "start": 31.78,
+   "end": 31.911,
+   "seg": 14
+  },
+  {
+   "w": "mar,",
+   "start": 31.911,
+   "end": 32.193,
+   "seg": 14
+  },
+  {
+   "w": "o",
+   "start": 32.193,
+   "end": 32.337,
+   "seg": 15
+  },
+  {
+   "w": "barulho",
+   "start": 32.337,
+   "end": 32.771,
+   "seg": 15
+  },
+  {
+   "w": "das",
+   "start": 32.771,
+   "end": 32.915,
+   "seg": 15
+  },
+  {
+   "w": "ondas",
+   "start": 32.915,
+   "end": 33.2,
+   "seg": 15
+  },
+  {
+   "w": "e",
+   "start": 33.2,
+   "end": 33.348,
+   "seg": 15
+  },
+  {
+   "w": "até",
+   "start": 33.348,
+   "end": 33.626,
+   "seg": 15
+  },
+  {
+   "w": "a",
+   "start": 33.626,
+   "end": 33.765,
+   "seg": 15
+  },
+  {
+   "w": "cor",
+   "start": 33.765,
+   "end": 33.904,
+   "seg": 15
+  },
+  {
+   "w": "do",
+   "start": 33.904,
+   "end": 34.1,
+   "seg": 15
+  },
+  {
+   "w": "guarda-sol.",
+   "start": 34.1,
+   "end": 34.55,
+   "seg": 15
+  },
+  {
+   "w": "Anos",
+   "start": 34.55,
+   "end": 34.85,
+   "seg": 16
+  },
+  {
+   "w": "depois,",
+   "start": 34.85,
+   "end": 35.15,
+   "seg": 16
+  },
+  {
+   "w": "durante",
+   "start": 35.15,
+   "end": 35.625,
+   "seg": 17
+  },
+  {
+   "w": "um",
+   "start": 35.625,
+   "end": 35.8,
+   "seg": 17
+  },
+  {
+   "w": "almoço",
+   "start": 35.8,
+   "end": 36.25,
+   "seg": 17
+  },
+  {
+   "w": "de",
+   "start": 36.25,
+   "end": 36.4,
+   "seg": 17
+  },
+  {
+   "w": "família,",
+   "start": 36.4,
+   "end": 36.85,
+   "seg": 17
+  },
+  {
+   "w": "Rafael",
+   "start": 36.85,
+   "end": 37.3,
+   "seg": 18
+  },
+  {
+   "w": "resolveu",
+   "start": 37.3,
+   "end": 37.914,
+   "seg": 18
+  },
+  {
+   "w": "contar",
+   "start": 37.914,
+   "end": 38.186,
+   "seg": 18
+  },
+  {
+   "w": "essa",
+   "start": 38.186,
+   "end": 38.457,
+   "seg": 18
+  },
+  {
+   "w": "história.",
+   "start": 38.457,
+   "end": 38.864,
+   "seg": 18
+  },
+  {
+   "w": "Mas,",
+   "start": 38.864,
+   "end": 39.0,
+   "seg": 19
+  },
+  {
+   "w": "assim",
+   "start": 39.0,
+   "end": 39.271,
+   "seg": 20
+  },
+  {
+   "w": "que",
+   "start": 39.271,
+   "end": 39.407,
+   "seg": 20
+  },
+  {
+   "w": "terminou,",
+   "start": 39.407,
+   "end": 40.15,
+   "seg": 20
+  },
+  {
+   "w": "a",
+   "start": 40.15,
+   "end": 40.283,
+   "seg": 21
+  },
+  {
+   "w": "mãe",
+   "start": 40.283,
+   "end": 40.548,
+   "seg": 21
+  },
+  {
+   "w": "ficou",
+   "start": 40.548,
+   "end": 40.813,
+   "seg": 21
+  },
+  {
+   "w": "olhando",
+   "start": 40.813,
+   "end": 41.21,
+   "seg": 21
+  },
+  {
+   "w": "para",
+   "start": 41.21,
+   "end": 41.476,
+   "seg": 21
+  },
+  {
+   "w": "ele,",
+   "start": 41.476,
+   "end": 41.741,
+   "seg": 21
+  },
+  {
+   "w": "confusa.",
+   "start": 41.741,
+   "end": 42.15,
+   "seg": 22
+  },
+  {
+   "w": "Então",
+   "start": 42.15,
+   "end": 42.536,
+   "seg": 23
+  },
+  {
+   "w": "perguntou:",
+   "start": 42.536,
+   "end": 42.934,
+   "seg": 23
+  },
+  {
+   "w": "\"Rafael,",
+   "start": 42.934,
+   "end": 43.331,
+   "seg": 24
+  },
+  {
+   "w": "de",
+   "start": 43.331,
+   "end": 43.464,
+   "seg": 25
+  },
+  {
+   "w": "que",
+   "start": 43.464,
+   "end": 43.57,
+   "seg": 25
+  },
+  {
+   "w": "viagem",
+   "start": 43.57,
+   "end": 43.829,
+   "seg": 25
+  },
+  {
+   "w": "você",
+   "start": 43.829,
+   "end": 44.088,
+   "seg": 25
+  },
+  {
+   "w": "está",
+   "start": 44.088,
+   "end": 44.348,
+   "seg": 25
+  },
+  {
+   "w": "falando?\"",
+   "start": 44.348,
+   "end": 44.683,
+   "seg": 25
+  },
+  {
+   "w": "Ele",
+   "start": 44.683,
+   "end": 44.937,
+   "seg": 26
+  },
+  {
+   "w": "respondeu",
+   "start": 44.937,
+   "end": 45.317,
+   "seg": 26
+  },
+  {
+   "w": "que",
+   "start": 45.317,
+   "end": 45.443,
+   "seg": 26
+  },
+  {
+   "w": "era",
+   "start": 45.443,
+   "end": 45.697,
+   "seg": 26
+  },
+  {
+   "w": "aquela",
+   "start": 45.697,
+   "end": 46.077,
+   "seg": 26
+  },
+  {
+   "w": "praia",
+   "start": 46.077,
+   "end": 46.203,
+   "seg": 26
+  },
+  {
+   "w": "onde",
+   "start": 46.203,
+   "end": 46.353,
+   "seg": 26
+  },
+  {
+   "w": "o",
+   "start": 46.353,
+   "end": 46.583,
+   "seg": 26
+  },
+  {
+   "w": "pai",
+   "start": 46.583,
+   "end": 46.71,
+   "seg": 26
+  },
+  {
+   "w": "tinha",
+   "start": 46.71,
+   "end": 46.963,
+   "seg": 26
+  },
+  {
+   "w": "salvado",
+   "start": 46.963,
+   "end": 47.343,
+   "seg": 26
+  },
+  {
+   "w": "seu",
+   "start": 47.343,
+   "end": 47.47,
+   "seg": 26
+  },
+  {
+   "w": "brinquedo.",
+   "start": 47.47,
+   "end": 48.15,
+   "seg": 26
+  },
+  {
+   "w": "O",
+   "start": 48.15,
+   "end": 48.28,
+   "seg": 27
+  },
+  {
+   "w": "pai",
+   "start": 48.28,
+   "end": 48.409,
+   "seg": 27
+  },
+  {
+   "w": "começou",
+   "start": 48.409,
+   "end": 48.798,
+   "seg": 27
+  },
+  {
+   "w": "a",
+   "start": 48.798,
+   "end": 48.927,
+   "seg": 27
+  },
+  {
+   "w": "rir",
+   "start": 48.927,
+   "end": 49.057,
+   "seg": 27
+  },
+  {
+   "w": "e",
+   "start": 49.057,
+   "end": 49.186,
+   "seg": 27
+  },
+  {
+   "w": "revelou",
+   "start": 49.186,
+   "end": 49.575,
+   "seg": 27
+  },
+  {
+   "w": "algo",
+   "start": 49.575,
+   "end": 50.036,
+   "seg": 27
+  },
+  {
+   "w": "que",
+   "start": 50.036,
+   "end": 50.166,
+   "seg": 27
+  },
+  {
+   "w": "o",
+   "start": 50.166,
+   "end": 50.295,
+   "seg": 27
+  },
+  {
+   "w": "deixou",
+   "start": 50.295,
+   "end": 50.555,
+   "seg": 27
+  },
+  {
+   "w": "completamente",
+   "start": 50.555,
+   "end": 51.202,
+   "seg": 27
+  },
+  {
+   "w": "sem",
+   "start": 51.202,
+   "end": 51.332,
+   "seg": 27
+  },
+  {
+   "w": "reação:",
+   "start": 51.332,
+   "end": 51.923,
+   "seg": 27
+  },
+  {
+   "w": "naquela",
+   "start": 51.923,
+   "end": 52.303,
+   "seg": 28
+  },
+  {
+   "w": "época,",
+   "start": 52.303,
+   "end": 52.683,
+   "seg": 28
+  },
+  {
+   "w": "a",
+   "start": 52.683,
+   "end": 52.81,
+   "seg": 29
+  },
+  {
+   "w": "família",
+   "start": 52.81,
+   "end": 53.19,
+   "seg": 29
+  },
+  {
+   "w": "nem",
+   "start": 53.19,
+   "end": 53.317,
+   "seg": 29
+  },
+  {
+   "w": "tinha",
+   "start": 53.317,
+   "end": 53.57,
+   "seg": 29
+  },
+  {
+   "w": "ido",
+   "start": 53.57,
+   "end": 53.823,
+   "seg": 29
+  },
+  {
+   "w": "à",
+   "start": 53.823,
+   "end": 53.95,
+   "seg": 29
+  },
+  {
+   "w": "praia.",
+   "start": 53.95,
+   "end": 54.15,
+   "seg": 29
+  },
+  {
+   "w": "Na",
+   "start": 54.15,
+   "end": 54.296,
+   "seg": 30
+  },
+  {
+   "w": "verdade,",
+   "start": 54.296,
+   "end": 54.735,
+   "seg": 30
+  },
+  {
+   "w": "aquela",
+   "start": 54.735,
+   "end": 55.173,
+   "seg": 31
+  },
+  {
+   "w": "viagem",
+   "start": 55.173,
+   "end": 55.465,
+   "seg": 31
+  },
+  {
+   "w": "aconteceu",
+   "start": 55.465,
+   "end": 56.185,
+   "seg": 31
+  },
+  {
+   "w": "dois",
+   "start": 56.185,
+   "end": 56.196,
+   "seg": 31
+  },
+  {
+   "w": "anos",
+   "start": 56.196,
+   "end": 56.488,
+   "seg": 31
+  },
+  {
+   "w": "antes",
+   "start": 56.488,
+   "end": 56.781,
+   "seg": 31
+  },
+  {
+   "w": "de",
+   "start": 56.781,
+   "end": 56.927,
+   "seg": 31
+  },
+  {
+   "w": "Rafael",
+   "start": 56.927,
+   "end": 57.365,
+   "seg": 31
+  },
+  {
+   "w": "nascer.",
+   "start": 57.365,
+   "end": 57.658,
+   "seg": 31
+  },
+  {
+   "w": "Ele",
+   "start": 57.658,
+   "end": 57.95,
+   "seg": 32
+  },
+  {
+   "w": "ficou",
+   "start": 57.95,
+   "end": 58.25,
+   "seg": 32
+  },
+  {
+   "w": "convencido",
+   "start": 58.25,
+   "end": 58.85,
+   "seg": 32
+  },
+  {
+   "w": "de",
+   "start": 58.85,
+   "end": 59.0,
+   "seg": 32
+  },
+  {
+   "w": "que",
+   "start": 59.0,
+   "end": 59.15,
+   "seg": 32
+  },
+  {
+   "w": "os",
+   "start": 59.15,
+   "end": 59.3,
+   "seg": 32
+  },
+  {
+   "w": "pais",
+   "start": 59.3,
+   "end": 59.45,
+   "seg": 32
+  },
+  {
+   "w": "estavam",
+   "start": 59.45,
+   "end": 60.15,
+   "seg": 32
+  },
+  {
+   "w": "confundindo",
+   "start": 60.15,
+   "end": 60.693,
+   "seg": 32
+  },
+  {
+   "w": "as",
+   "start": 60.693,
+   "end": 60.829,
+   "seg": 32
+  },
+  {
+   "w": "datas,",
+   "start": 60.829,
+   "end": 61.1,
+   "seg": 32
+  },
+  {
+   "w": "até",
+   "start": 61.1,
+   "end": 61.371,
+   "seg": 33
+  },
+  {
+   "w": "que",
+   "start": 61.371,
+   "end": 61.507,
+   "seg": 33
+  },
+  {
+   "w": "a",
+   "start": 61.507,
+   "end": 61.643,
+   "seg": 33
+  },
+  {
+   "w": "irmã",
+   "start": 61.643,
+   "end": 62.15,
+   "seg": 33
+  },
+  {
+   "w": "mostrou",
+   "start": 62.15,
+   "end": 62.403,
+   "seg": 33
+  },
+  {
+   "w": "uma",
+   "start": 62.403,
+   "end": 62.657,
+   "seg": 33
+  },
+  {
+   "w": "fotografia",
+   "start": 62.657,
+   "end": 63.163,
+   "seg": 33
+  },
+  {
+   "w": "antiga.",
+   "start": 63.163,
+   "end": 63.475,
+   "seg": 33
+  },
+  {
+   "w": "Na",
+   "start": 63.475,
+   "end": 63.606,
+   "seg": 34
+  },
+  {
+   "w": "imagem,",
+   "start": 63.606,
+   "end": 64.05,
+   "seg": 34
+  },
+  {
+   "w": "o",
+   "start": 64.05,
+   "end": 64.177,
+   "seg": 35
+  },
+  {
+   "w": "pai",
+   "start": 64.177,
+   "end": 64.303,
+   "seg": 35
+  },
+  {
+   "w": "aparecia",
+   "start": 64.303,
+   "end": 64.81,
+   "seg": 35
+  },
+  {
+   "w": "exatamente",
+   "start": 64.81,
+   "end": 65.443,
+   "seg": 35
+  },
+  {
+   "w": "como",
+   "start": 65.443,
+   "end": 65.964,
+   "seg": 35
+  },
+  {
+   "w": "Rafael",
+   "start": 65.964,
+   "end": 66.352,
+   "seg": 35
+  },
+  {
+   "w": "lembrava,",
+   "start": 66.352,
+   "end": 66.741,
+   "seg": 35
+  },
+  {
+   "w": "segurando",
+   "start": 66.741,
+   "end": 67.259,
+   "seg": 36
+  },
+  {
+   "w": "uma",
+   "start": 67.259,
+   "end": 67.518,
+   "seg": 36
+  },
+  {
+   "w": "criança",
+   "start": 67.518,
+   "end": 67.777,
+   "seg": 36
+  },
+  {
+   "w": "no",
+   "start": 67.777,
+   "end": 68.023,
+   "seg": 36
+  },
+  {
+   "w": "colo,",
+   "start": 68.023,
+   "end": 68.166,
+   "seg": 36
+  },
+  {
+   "w": "perto",
+   "start": 68.166,
+   "end": 68.425,
+   "seg": 37
+  },
+  {
+   "w": "de",
+   "start": 68.425,
+   "end": 68.555,
+   "seg": 37
+  },
+  {
+   "w": "um",
+   "start": 68.555,
+   "end": 68.685,
+   "seg": 37
+  },
+  {
+   "w": "guarda-sol.",
+   "start": 68.685,
+   "end": 69.078,
+   "seg": 37
+  },
+  {
+   "w": "Só",
+   "start": 69.078,
+   "end": 69.21,
+   "seg": 38
+  },
+  {
+   "w": "que",
+   "start": 69.21,
+   "end": 69.343,
+   "seg": 38
+  },
+  {
+   "w": "aquela",
+   "start": 69.343,
+   "end": 69.867,
+   "seg": 38
+  },
+  {
+   "w": "criança",
+   "start": 69.867,
+   "end": 70.15,
+   "seg": 38
+  },
+  {
+   "w": "não",
+   "start": 70.15,
+   "end": 70.421,
+   "seg": 38
+  },
+  {
+   "w": "era",
+   "start": 70.421,
+   "end": 70.693,
+   "seg": 38
+  },
+  {
+   "w": "ele.",
+   "start": 70.693,
+   "end": 70.964,
+   "seg": 38
+  },
+  {
+   "w": "Era",
+   "start": 70.964,
+   "end": 71.236,
+   "seg": 39
+  },
+  {
+   "w": "seu",
+   "start": 71.236,
+   "end": 71.371,
+   "seg": 39
+  },
+  {
+   "w": "primo,",
+   "start": 71.371,
+   "end": 71.643,
+   "seg": 39
+  },
+  {
+   "w": "que",
+   "start": 71.643,
+   "end": 71.779,
+   "seg": 40
+  },
+  {
+   "w": "tinha",
+   "start": 71.779,
+   "end": 72.05,
+   "seg": 40
+  },
+  {
+   "w": "a",
+   "start": 72.05,
+   "end": 72.186,
+   "seg": 40
+  },
+  {
+   "w": "mesma",
+   "start": 72.186,
+   "end": 72.457,
+   "seg": 40
+  },
+  {
+   "w": "idade",
+   "start": 72.457,
+   "end": 72.864,
+   "seg": 40
+  },
+  {
+   "w": "que",
+   "start": 72.864,
+   "end": 73.0,
+   "seg": 40
+  },
+  {
+   "w": "Rafael",
+   "start": 73.0,
+   "end": 73.407,
+   "seg": 40
+  },
+  {
+   "w": "imaginava",
+   "start": 73.407,
+   "end": 74.15,
+   "seg": 40
+  },
+  {
+   "w": "ter",
+   "start": 74.15,
+   "end": 74.28,
+   "seg": 40
+  },
+  {
+   "w": "naquela",
+   "start": 74.28,
+   "end": 74.668,
+   "seg": 40
+  },
+  {
+   "w": "lembrança.",
+   "start": 74.668,
+   "end": 75.057,
+   "seg": 40
+  },
+  {
+   "w": "De",
+   "start": 75.057,
+   "end": 75.186,
+   "seg": 41
+  },
+  {
+   "w": "repente,",
+   "start": 75.186,
+   "end": 75.579,
+   "seg": 41
+  },
+  {
+   "w": "tudo",
+   "start": 75.579,
+   "end": 76.036,
+   "seg": 42
+  },
+  {
+   "w": "começou",
+   "start": 76.036,
+   "end": 76.425,
+   "seg": 42
+  },
+  {
+   "w": "a",
+   "start": 76.425,
+   "end": 76.555,
+   "seg": 42
+  },
+  {
+   "w": "fazer",
+   "start": 76.555,
+   "end": 76.814,
+   "seg": 42
+  },
+  {
+   "w": "sentido.",
+   "start": 76.814,
+   "end": 77.202,
+   "seg": 42
+  },
+  {
+   "w": "Durante",
+   "start": 77.202,
+   "end": 77.591,
+   "seg": 43
+  },
+  {
+   "w": "anos,",
+   "start": 77.591,
+   "end": 77.923,
+   "seg": 43
+  },
+  {
+   "w": "Rafael",
+   "start": 77.923,
+   "end": 78.303,
+   "seg": 44
+  },
+  {
+   "w": "tinha",
+   "start": 78.303,
+   "end": 78.557,
+   "seg": 44
+  },
+  {
+   "w": "ouvido",
+   "start": 78.557,
+   "end": 78.937,
+   "seg": 44
+  },
+  {
+   "w": "aquela",
+   "start": 78.937,
+   "end": 79.317,
+   "seg": 44
+  },
+  {
+   "w": "história,",
+   "start": 79.317,
+   "end": 79.697,
+   "seg": 44
+  },
+  {
+   "w": "visto",
+   "start": 79.697,
+   "end": 80.15,
+   "seg": 45
+  },
+  {
+   "w": "aquela",
+   "start": 80.15,
+   "end": 80.567,
+   "seg": 45
+  },
+  {
+   "w": "fotografia",
+   "start": 80.567,
+   "end": 81.123,
+   "seg": 45
+  },
+  {
+   "w": "e",
+   "start": 81.123,
+   "end": 81.262,
+   "seg": 45
+  },
+  {
+   "w": "imaginado",
+   "start": 81.262,
+   "end": 81.957,
+   "seg": 45
+  },
+  {
+   "w": "como",
+   "start": 81.957,
+   "end": 82.235,
+   "seg": 45
+  },
+  {
+   "w": "teria",
+   "start": 82.235,
+   "end": 82.513,
+   "seg": 45
+  },
+  {
+   "w": "sido",
+   "start": 82.513,
+   "end": 82.791,
+   "seg": 45
+  },
+  {
+   "w": "estar",
+   "start": 82.791,
+   "end": 83.07,
+   "seg": 45
+  },
+  {
+   "w": "naquele",
+   "start": 83.07,
+   "end": 83.5,
+   "seg": 45
+  },
+  {
+   "w": "lugar.",
+   "start": 83.5,
+   "end": 83.782,
+   "seg": 45
+  },
+  {
+   "w": "Com",
+   "start": 83.782,
+   "end": 83.927,
+   "seg": 46
+  },
+  {
+   "w": "o",
+   "start": 83.927,
+   "end": 84.071,
+   "seg": 46
+  },
+  {
+   "w": "tempo,",
+   "start": 84.071,
+   "end": 84.321,
+   "seg": 46
+  },
+  {
+   "w": "seu",
+   "start": 84.321,
+   "end": 84.46,
+   "seg": 47
+  },
+  {
+   "w": "cérebro",
+   "start": 84.46,
+   "end": 84.877,
+   "seg": 47
+  },
+  {
+   "w": "misturou",
+   "start": 84.877,
+   "end": 85.294,
+   "seg": 47
+  },
+  {
+   "w": "as",
+   "start": 85.294,
+   "end": 85.433,
+   "seg": 47
+  },
+  {
+   "w": "imagens,",
+   "start": 85.433,
+   "end": 86.05,
+   "seg": 47
+  },
+  {
+   "w": "os",
+   "start": 86.05,
+   "end": 86.2,
+   "seg": 48
+  },
+  {
+   "w": "relatos",
+   "start": 86.2,
+   "end": 86.65,
+   "seg": 48
+  },
+  {
+   "w": "e",
+   "start": 86.65,
+   "end": 86.742,
+   "seg": 48
+  },
+  {
+   "w": "a",
+   "start": 86.742,
+   "end": 86.95,
+   "seg": 48
+  },
+  {
+   "w": "imaginação,",
+   "start": 86.95,
+   "end": 87.86,
+   "seg": 48
+  },
+  {
+   "w": "até",
+   "start": 87.86,
+   "end": 88.145,
+   "seg": 49
+  },
+  {
+   "w": "transformar",
+   "start": 88.145,
+   "end": 88.583,
+   "seg": 49
+  },
+  {
+   "w": "tudo",
+   "start": 88.583,
+   "end": 88.9,
+   "seg": 49
+  },
+  {
+   "w": "em",
+   "start": 88.9,
+   "end": 89.058,
+   "seg": 49
+  },
+  {
+   "w": "uma",
+   "start": 89.058,
+   "end": 89.375,
+   "seg": 49
+  },
+  {
+   "w": "lembrança",
+   "start": 89.375,
+   "end": 89.873,
+   "seg": 49
+  },
+  {
+   "w": "pessoal.",
+   "start": 89.873,
+   "end": 90.172,
+   "seg": 49
+  },
+  {
+   "w": "E",
+   "start": 90.172,
+   "end": 90.271,
+   "seg": 50
+  },
+  {
+   "w": "isso",
+   "start": 90.271,
+   "end": 90.536,
+   "seg": 50
+  },
+  {
+   "w": "pode",
+   "start": 90.536,
+   "end": 90.801,
+   "seg": 50
+  },
+  {
+   "w": "acontecer",
+   "start": 90.801,
+   "end": 91.331,
+   "seg": 50
+  },
+  {
+   "w": "porque",
+   "start": 91.331,
+   "end": 91.597,
+   "seg": 50
+  },
+  {
+   "w": "nossa",
+   "start": 91.597,
+   "end": 92.093,
+   "seg": 50
+  },
+  {
+   "w": "memória",
+   "start": 92.093,
+   "end": 92.482,
+   "seg": 50
+  },
+  {
+   "w": "não",
+   "start": 92.482,
+   "end": 92.741,
+   "seg": 50
+  },
+  {
+   "w": "funciona",
+   "start": 92.741,
+   "end": 93.13,
+   "seg": 50
+  },
+  {
+   "w": "como",
+   "start": 93.13,
+   "end": 93.389,
+   "seg": 50
+  },
+  {
+   "w": "uma",
+   "start": 93.389,
+   "end": 93.648,
+   "seg": 50
+  },
+  {
+   "w": "câmera",
+   "start": 93.648,
+   "end": 94.15,
+   "seg": 50
+  },
+  {
+   "w": "que",
+   "start": 94.15,
+   "end": 94.293,
+   "seg": 50
+  },
+  {
+   "w": "grava",
+   "start": 94.293,
+   "end": 94.578,
+   "seg": 50
+  },
+  {
+   "w": "tudo",
+   "start": 94.578,
+   "end": 94.863,
+   "seg": 50
+  },
+  {
+   "w": "perfeitamente.",
+   "start": 94.863,
+   "end": 95.575,
+   "seg": 50
+  },
+  {
+   "w": "Cada",
+   "start": 95.575,
+   "end": 95.86,
+   "seg": 51
+  },
+  {
+   "w": "vez",
+   "start": 95.86,
+   "end": 96.023,
+   "seg": 51
+  },
+  {
+   "w": "que",
+   "start": 96.023,
+   "end": 96.182,
+   "seg": 51
+  },
+  {
+   "w": "você",
+   "start": 96.182,
+   "end": 96.46,
+   "seg": 51
+  },
+  {
+   "w": "recorda",
+   "start": 96.46,
+   "end": 96.877,
+   "seg": 51
+  },
+  {
+   "w": "um",
+   "start": 96.877,
+   "end": 97.016,
+   "seg": 51
+  },
+  {
+   "w": "acontecimento,",
+   "start": 97.016,
+   "end": 98.003,
+   "seg": 51
+  },
+  {
+   "w": "seu",
+   "start": 98.003,
+   "end": 98.145,
+   "seg": 52
+  },
+  {
+   "w": "cérebro",
+   "start": 98.145,
+   "end": 98.573,
+   "seg": 52
+  },
+  {
+   "w": "reconstrói",
+   "start": 98.573,
+   "end": 99.0,
+   "seg": 52
+  },
+  {
+   "w": "aquela",
+   "start": 99.0,
+   "end": 99.428,
+   "seg": 52
+  },
+  {
+   "w": "experiência,",
+   "start": 99.428,
+   "end": 100.145,
+   "seg": 52
+  },
+  {
+   "w": "e",
+   "start": 100.145,
+   "end": 100.288,
+   "seg": 53
+  },
+  {
+   "w": "informações",
+   "start": 100.288,
+   "end": 101.0,
+   "seg": 53
+  },
+  {
+   "w": "de",
+   "start": 101.0,
+   "end": 101.143,
+   "seg": 53
+  },
+  {
+   "w": "outras",
+   "start": 101.143,
+   "end": 101.428,
+   "seg": 53
+  },
+  {
+   "w": "fontes",
+   "start": 101.428,
+   "end": 101.735,
+   "seg": 53
+  },
+  {
+   "w": "podem",
+   "start": 101.735,
+   "end": 102.024,
+   "seg": 53
+  },
+  {
+   "w": "acabar",
+   "start": 102.024,
+   "end": 102.488,
+   "seg": 53
+  },
+  {
+   "w": "entrando",
+   "start": 102.488,
+   "end": 102.927,
+   "seg": 53
+  },
+  {
+   "w": "nessa",
+   "start": 102.927,
+   "end": 103.219,
+   "seg": 53
+  },
+  {
+   "w": "reconstrução.",
+   "start": 103.219,
+   "end": 104.15,
+   "seg": 53
+  },
+  {
+   "w": "Por",
+   "start": 104.15,
+   "end": 104.296,
+   "seg": 54
+  },
+  {
+   "w": "isso,",
+   "start": 104.296,
+   "end": 104.588,
+   "seg": 54
+  },
+  {
+   "w": "uma",
+   "start": 104.588,
+   "end": 104.881,
+   "seg": 55
+  },
+  {
+   "w": "história",
+   "start": 104.881,
+   "end": 105.319,
+   "seg": 55
+  },
+  {
+   "w": "que",
+   "start": 105.319,
+   "end": 105.465,
+   "seg": 55
+  },
+  {
+   "w": "alguém",
+   "start": 105.465,
+   "end": 105.758,
+   "seg": 55
+  },
+  {
+   "w": "contou,",
+   "start": 105.758,
+   "end": 106.05,
+   "seg": 55
+  },
+  {
+   "w": "uma",
+   "start": 106.05,
+   "end": 106.342,
+   "seg": 56
+  },
+  {
+   "w": "fotografia",
+   "start": 106.342,
+   "end": 106.927,
+   "seg": 56
+  },
+  {
+   "w": "ou",
+   "start": 106.927,
+   "end": 107.073,
+   "seg": 56
+  },
+  {
+   "w": "até",
+   "start": 107.073,
+   "end": 107.365,
+   "seg": 56
+  },
+  {
+   "w": "uma",
+   "start": 107.365,
+   "end": 107.658,
+   "seg": 56
+  },
+  {
+   "w": "cena",
+   "start": 107.658,
+   "end": 108.1,
+   "seg": 56
+  },
+  {
+   "w": "que",
+   "start": 108.1,
+   "end": 108.25,
+   "seg": 56
+  },
+  {
+   "w": "você",
+   "start": 108.25,
+   "end": 108.55,
+   "seg": 56
+  },
+  {
+   "w": "imaginou",
+   "start": 108.55,
+   "end": 109.15,
+   "seg": 56
+  },
+  {
+   "w": "muitas",
+   "start": 109.15,
+   "end": 109.45,
+   "seg": 56
+  },
+  {
+   "w": "vezes",
+   "start": 109.45,
+   "end": 109.75,
+   "seg": 56
+  },
+  {
+   "w": "pode",
+   "start": 109.75,
+   "end": 110.101,
+   "seg": 56
+  },
+  {
+   "w": "parecer",
+   "start": 110.101,
+   "end": 110.5,
+   "seg": 56
+  },
+  {
+   "w": "algo",
+   "start": 110.5,
+   "end": 110.8,
+   "seg": 56
+  },
+  {
+   "w": "que",
+   "start": 110.8,
+   "end": 110.95,
+   "seg": 56
+  },
+  {
+   "w": "realmente",
+   "start": 110.95,
+   "end": 111.55,
+   "seg": 56
+  },
+  {
+   "w": "viveu.",
+   "start": 111.55,
+   "end": 111.83,
+   "seg": 56
+  },
+  {
+   "w": "E",
+   "start": 111.83,
+   "end": 112.15,
+   "seg": 57
+  },
+  {
+   "w": "agora",
+   "start": 112.15,
+   "end": 112.618,
+   "seg": 57
+  },
+  {
+   "w": "pense:",
+   "start": 112.618,
+   "end": 112.926,
+   "seg": 57
+  },
+  {
+   "w": "quantas",
+   "start": 112.926,
+   "end": 113.234,
+   "seg": 58
+  },
+  {
+   "w": "lembranças",
+   "start": 113.234,
+   "end": 113.618,
+   "seg": 58
+  },
+  {
+   "w": "da",
+   "start": 113.618,
+   "end": 113.892,
+   "seg": 58
+  },
+  {
+   "w": "sua",
+   "start": 113.892,
+   "end": 114.05,
+   "seg": 58
+  },
+  {
+   "w": "infância",
+   "start": 114.05,
+   "end": 114.525,
+   "seg": 58
+  },
+  {
+   "w": "você",
+   "start": 114.525,
+   "end": 114.842,
+   "seg": 58
+  },
+  {
+   "w": "tem",
+   "start": 114.842,
+   "end": 115.0,
+   "seg": 58
+  },
+  {
+   "w": "certeza",
+   "start": 115.0,
+   "end": 115.475,
+   "seg": 58
+  },
+  {
+   "w": "de",
+   "start": 115.475,
+   "end": 115.633,
+   "seg": 58
+  },
+  {
+   "w": "que",
+   "start": 115.633,
+   "end": 116.104,
+   "seg": 58
+  },
+  {
+   "w": "aconteceram,",
+   "start": 116.104,
+   "end": 116.919,
+   "seg": 58
+  },
+  {
+   "w": "mas",
+   "start": 116.919,
+   "end": 117.081,
+   "seg": 59
+  },
+  {
+   "w": "talvez",
+   "start": 117.081,
+   "end": 117.43,
+   "seg": 59
+  },
+  {
+   "w": "sejam",
+   "start": 117.43,
+   "end": 117.756,
+   "seg": 59
+  },
+  {
+   "w": "apenas",
+   "start": 117.756,
+   "end": 118.221,
+   "seg": 59
+  },
+  {
+   "w": "histórias",
+   "start": 118.221,
+   "end": 118.71,
+   "seg": 59
+  },
+  {
+   "w": "que",
+   "start": 118.71,
+   "end": 118.873,
+   "seg": 59
+  },
+  {
+   "w": "ouviu",
+   "start": 118.873,
+   "end": 119.199,
+   "seg": 59
+  },
+  {
+   "w": "tantas",
+   "start": 119.199,
+   "end": 119.524,
+   "seg": 59
+  },
+  {
+   "w": "vezes",
+   "start": 119.524,
+   "end": 119.896,
+   "seg": 59
+  },
+  {
+   "w": "que",
+   "start": 119.896,
+   "end": 120.059,
+   "seg": 59
+  },
+  {
+   "w": "seu",
+   "start": 120.059,
+   "end": 120.221,
+   "seg": 59
+  },
+  {
+   "w": "cérebro",
+   "start": 120.221,
+   "end": 120.71,
+   "seg": 59
+  },
+  {
+   "w": "acabou",
+   "start": 120.71,
+   "end": 121.22,
+   "seg": 59
+  },
+  {
+   "w": "transformando",
+   "start": 121.22,
+   "end": 121.939,
+   "seg": 59
+  },
+  {
+   "w": "em",
+   "start": 121.939,
+   "end": 122.1,
+   "seg": 59
+  },
+  {
+   "w": "memórias?",
+   "start": 122.1,
+   "end": 122.6,
+   "seg": 59
+  }
+ ]
+}

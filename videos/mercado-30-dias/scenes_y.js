@@ -1,1 +1,40 @@
-function partY(c){}
+function partY(c) {
+  const q = QF(c), S = (k, cam, fn, pf, ex) => Z(q, k, cam, fn, pf, ex), RD = '#ff2f4a', G1 = GRNB;
+  const PHRASE = (Pf, t) => ROOFR(Pf, t, {}) + R(-100, 1000, 1280, 1100, '#2a2a30');
+  S(36, 'dn', (t, lt, Pf) => PHRASE(Pf, t) + PRT('reach', 300, 1500, 900, { bob: t * 2 }) + CESTAR(780, lp(1000, 1500, lt / 1.4), 1.2, t), 0);
+  S(37, 'in', (t, lt, Pf) => G1(Pf, '#14100a', '#2a2214') + CESTAR(540, 1500, 2.4, t) + [0, 1, 2].map(i => ZOP(YBOT(220 + i * 300, 700, 1.0, t, '#3a6ac8'), ez((lt - 0.4 - i * 0.2) / 0.1))).join(''), 0);
+  S(38, 'hold', (t, lt, Pf) => G1(Pf, '#14100a', '#2a2214') + CESTAR(540, 1500, 2.4, t) + YBOT(380, 760, 1.5, t) + G(R(-100, -130, 200, 260, '#f0f0e8', `rx="6" stroke="${INKR}" stroke-width="6"`) + L(-70, -60, 70, -60, '#666', 6) + L(-70, -20, 70, -20, '#666', 6) + TXE('NOTÍCIAS', 0, 80, 40, 9, INKR), 'translate(720 760) rotate(-6)'), 0);
+  S(39, 'out', (t, lt, Pf) => YSTREET(Pf, t, {}) + YHUD('DIA 18', lt, 600) + [...Array(6).keys()].map(i => MTR(120 + i * 170, 1720 - (i % 2) * 40, 0.55, t, { sp: i % 3 ? 'homem' : 'menina', bust: 1, cap: ['#2a5a8a', '#8a4a2a', '#5a5a22'][i % 3] })).join(''), 0);
+  S(40, 'up', (t, lt, Pf, d) => PHRASE(Pf, t) + CESTAR(540, lp(1900, 1300, lt / d), 1.6, t) + G(R(-60, -40, 120, 80, '#f0e8c8', `stroke="${INKR}" stroke-width="5"`), `translate(540 ${f1(lp(1750, 1150, lt / d))})`), 0);
+  S(41, 'in', (t, lt, Pf) => G1(Pf, '#14100a', '#2a2214') + BILHR(t, lt), 0);
+  S(42, 'in', (t, lt, Pf, d) => YSTREET(Pf, t, {}) + CAMN(540, 1500, lp(0.4, 1.4, ez(lt / d)), t, { dir: -1 }), '#fff2c0', { shk: 1 });
+  S(43, 'slam', (t, lt, Pf) => G1(Pf, '#1a0a0a', '#3a1414') + MTR(540, 1150, 2.1, t, { sp: 'homem', bust: 1, eye: 0.8, worry: 0.7, sm: 0.3, cap: '#2a5a8a' }) + SHOUT('TUDO', 540, 330, 260, lt - 0.7, '#ff4a4a'), RD);
+  S(44, 'dn', (t, lt, Pf, d) => YSTAIRS(t) + PRT('backwalk', lp(900, 300, lt / d), lp(1000, 1800, lt / d), lp(700, 1100, lt / d), { bob: t * 9 }), 0);
+  S(45, 'in', (t, lt, Pf) => YSTAIRS(t) + MTR(430, 1240, 1.6, t, { sp: 'menina', bust: 1, eye: 1.1 }) + DOGR(760, 1500, 0.9, t, { pose: 'stand', col: '#9a7a5a', c2: '#d8c0a0', dir: -1 }), 0);
+  S(46, 'hold', (t, lt, Pf) => G1(Pf, '#14181a', '#2a3438') + MTR(480, 1180, 1.9, t, { sp: 'menina', bust: 1, eye: 1.15, worry: 0.5 }) + YPROB(4, lt), RD);
+  S(47, 'l', (t, lt, Pf) => MKTF(Pf, t, { shutter: 1 }) + [0, 1, 2, 3, 4].map(i => MTR(130 + i * 200, 1500, 0.6, t, { sp: 'homem', bust: 1, cap: ['#2a5a8a', '#8a4a2a', '#5a5a22', '#222', '#6a2a2a'][i] })).join('') + P('M0,1380 Q540,1470 1080,1380', 'none', 'stroke="#9aa0a8" stroke-width="14" stroke-dasharray="26 10"'), 0);
+  S(48, 'in', (t, lt, Pf) => MKTF(Pf, t, { shutter: 1 }) + CAMN(760, 1700, 0.9, t, { chain: 1 }) + P('M650,1620 L400,1250', 'none', 'stroke="#9aa0a8" stroke-width="12" stroke-dasharray="26 10"'), '#fff', { shk: 3 });
+  S(49, 'fast', (t, lt, Pf) => MKTI(Pf, t, { flick: 1 }) + CRWD(t, 30, 1300, 1800, { sc: 1.3 }), RD, { shk: 3 });
+  S(50, 'hold', (t, lt, Pf) => G1(Pf, '#0a1418', '#1a3038') + PRT('face1', 540, 1000, 1200, { ay: 0.5, bob: t * 2 }) + [0, 1, 2].map(i => TXE('?', 160 + i * 380, 360 + (i % 2) * 120, 220, lt - i * 0.2, '#9ad8ff')).join(''), 0);
+  S(51, 'in', (t, lt, Pf) => ZDOOR2(Pf, t) + [0, 1, 2, 3, 4].map(i => ZOP(MTR(150 + i * 195, 1650, 0.5, t, { sp: 'homem', bust: 1, cap: ['#2a5a8a', '#8a4a2a', '#5a5a22', '#222', '#6a2a2a'][i] }), 1)).join(''), 0);
+  S(52, 'in', (t, lt, Pf) => G1(Pf, '#0a1418', '#1a3038') + PRT('face2', 540, 1000, 1200, { ay: 0.5, bob: t * 2 }), '#9ad8ff');
+  S(53, 'up', (t, lt, Pf, d) => MKTF(Pf, t, { shutter: 1 - ez(lt / (d * 0.8)), crowd: 8 }) + PRT('full', 940, 1900, 800, { bob: t * 2 }), 0, { shk: 2 });
+  S(54, 'in', (t, lt, Pf) => YBREAK(t, lt) + PRT('reach', 200, 1700, 900, { bob: t * 3 }) + LETR(Pf, 800, 300, 0.5, t, lt > 0.5), '#fff', { shk: 2 });
+  S(55, 'fast', (t, lt, Pf) => GRNB(Pf, '#2a0808', '#4a1010') + LETR(Pf, 540, 960, 1.8, t, 1), RD, { shk: 2 });
+  S(56, 'up', (t, lt, Pf) => YSTREET(Pf, t, {}) + glow(Pf, 'R', 540, 600, 1000, 0.3) + CRWD(t, 40, 1250, 1850, { sc: 1.2 }), RD);
+  S(57, 'l', (t, lt, Pf) => MKTI(Pf, t, {}) + CAMN(300, 1400, 0.8, t, {}) + ZMB(700, 1700, 1.3, t, {}) + G(CESTAR(0, 0, 0.5, t), 'translate(700 1450)'), 0);
+  S(58, 'r', (t, lt, Pf, d) => YSTREET(Pf, t, {}) + CAMN(lp(200, 1300, ez(lt / d)), 1650, 0.9, t, { chain: 1, dir: 1 }) + CRWD(t, 10, 1500, 1800, { sc: 1.0 }), '#fff2c0', { shk: 2 });
+  S(59, 'dn', (t, lt, Pf, d) => R(-100, -100, 1280, 2200, '#16181c') + R(-100, 1100, 1280, 1000, '#1c2024') + P(`M0,1300 Q${f1(lp(200, 900, lt / d))},1200 ${f1(lp(400, 1200, lt / d))},1320`, 'none', 'stroke="#9aa0a8" stroke-width="18" stroke-dasharray="30 12"') + SPARK(t, lp(300, 900, lt / d), 1300, 16, 300, '#ffd890'), 0, { shk: 2 });
+  S(60, 'in', (t, lt, Pf) => GRNB(Pf, '#050a14', '#0a1a30') + RING(t, 540, 960, '#fff', 4, 800, 6) + CAMN(860, 1400, 0.5, t, {}), 0);
+  S(61, 'r', (t, lt, Pf, d) => YSTREET(Pf, t, {}) + CRWD(t, 40, 1300, 1800, { sc: 1.0, drift: 40 }) + YHUD('DIA 30', lt, 560), 0);
+  S(62, 'in', (t, lt, Pf) => MKTI(Pf, t, {}) + SHOUT('LATAS: 1000+', 540, 460, 150, lt, '#ffd040') + [...Array(24).keys()].map(i => CANR(60 + (i % 8) * 130, 1200 + Math.floor(i / 8) * 130, 1.2, ['#e8c030', '#c8342a', '#2a8a4a', '#3a6ac8'][i % 4])).join(''), 0);
+  S(63, 'out', (t, lt, Pf) => PHRASE(Pf, t) + PRT('full', 260, 1800, 1000, { bob: t * 2 }) + MTR(620, 1700, 0.8, t, { sp: 'menina', bust: 1 }) + DOGR(850, 1760, 0.6, t, { pose: 'stand', col: '#9a7a5a', c2: '#d8c0a0', dir: -1 }) + SHOUT('2 PESSOAS · 1 CÃO', 540, 380, 120, lt, '#fff'), 0);
+  S(64, 'in', (t, lt, Pf) => MKTI(Pf, t, { dark: 0.6 }) + PRT('walk', 540, 1750, 1000, { bob: t * 9 }), 0);
+  S(65, 'rot', (t, lt, Pf) => G1(Pf, '#14100a', '#2a2214') + YCAL(20, lt > 0.5, t), RD);
+  S(66, 'in', (t, lt, Pf) => YSKYDAWN(Pf, t, 0.7) + CLOCKQ(540, 1000, 2.3, '05:58', t), 0);
+  S(67, 'rot2', (t, lt, Pf) => ZDOOR2(Pf, t) + SHOUT('TOC TOC TOC', 540, 600, 190, lt % 0.5, '#fff'), '#fff', { shk: 3 });
+  S(68, 'in', (t, lt, Pf) => G1(Pf, '#2a3a5a', '#e8863a') + glow(Pf, 'A', 540, 700, 900, 0.5) + MTR(540, 1280, 2.0, t, { sp: 'martaz', bust: 1, eye: 1.1, open: 0.2 }), '#ffd890');
+  S(69, 'hold', (t, lt, Pf) => G1(Pf, '#1a0808', '#3a1010') + G(R(-260, -130, 520, 260, '#f0f0e8', `rx="14" stroke="${INKR}" stroke-width="10"`) + TXE('MARTA', 0, -10, 120, 9, INKR) + TXE('22 ANOS', 0, 90, 90, 9, '#c8342a'), 'translate(540 960) rotate(-4)'), 0);
+  S(70, 'in', (t, lt, Pf, d) => G1(Pf, '#2a3a5a', '#e8863a') + glow(Pf, 'A', 540, 900, 900, 0.4) + PRT('face2', 380, 1000, 1000, { ay: 0.5, bob: t * 2 }) + MTR(850, 1500, 1.0, t, { sp: 'martaz', bust: 1 }) + (lt > d - 0.3 ? DIMM(1, '#000') : ''), 0);
+}
+const ZDOOR2 = (Pf, t) => R(-100, -100, 1280, 2200, '#2a3032') + R(220, 380, 640, 1200, '#5a6068', `stroke="${INKR}" stroke-width="14"`) + [0, 1, 2, 3, 4, 5, 6].map(i => L(220, 380 + i * 170, 860, 380 + i * 170, '#3a4046', 6)).join('') + R(760, 960, 40, 120, '#9aa0a8', `rx="8" stroke="${INKR}" stroke-width="6"`);
